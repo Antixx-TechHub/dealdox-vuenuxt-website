@@ -597,9 +597,10 @@ textarea.form-control {
 
 /*page-title*/
 .page-title-area {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background-image: url(../../assets/images/more-home/banner/banner-bg.jpg);
   padding-bottom: 100px;
   padding-top: 180px;
 }

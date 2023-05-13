@@ -28,8 +28,7 @@ export default {
         Navbar,
         PageTitle,
         BlogDetails,
-        FreeTrial,
-        FooterStyleOne,
+        DealDoxFooter,
     },
 
     data(){
