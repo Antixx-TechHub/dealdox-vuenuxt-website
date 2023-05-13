@@ -6,14 +6,14 @@
                     </span>Solutions</h1>
             </div>
             <div class="screenshots-swiper-slides">
-                <carousel :autoplay="5000" :settings='settings' :breakpoints='breakpoints' :wrap-around="true">
-                    <!-- <slide v-for="slide in carouselItems" :key="slide.id">
+                <!-- <carousel :autoplay="5000" :settings='settings' :breakpoints='breakpoints' :wrap-around="true">
+                    <slide v-for="slide in carouselItems" :key="slide.id">
                         <div class="swiper-slide">
                             <img :src="slide.image" alt="screenshots">
                         </div>
-                    </slide> -->
+                    </slide>
 
-                    <!-- <template #addons>
+                   <template #addons>
                         <navigation>
                             <template #next>
                                 <i class='ri-arrow-right-s-line'></i>
@@ -22,8 +22,8 @@
                                 <i class='ri-arrow-left-s-line'></i>
                             </template>
                         </navigation>
-                    </template> -->
-                </carousel>
+                    </template>
+                </carousel> -->
             </div>
         </div>
     </div>

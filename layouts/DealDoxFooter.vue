@@ -11,16 +11,16 @@
                             designed for IT services.</p>
                         <ul class="social-links">
                             <li>
-                                <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                                <a href="/" target="_blank"><i class="ri-facebook-fill"></i></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                <a href="/" target="_blank"><i class="ri-instagram-fill"></i></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                                <a href="/" target="_blank"><i class="ri-linkedin-fill"></i></a>
                             </li>
                             <li>
-                                <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                <a href="/" target="_blank"><i class="ri-twitter-fill"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -30,19 +30,16 @@
                         <h3>Features</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/">CPQ</router-link>
+                                <router-link to="/cpq">CPQ</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Integrations</router-link>
+                                <router-link to="/cpq-integration">Integrations</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Swift Quotes</router-link>
+                                <router-link to="/automated-quotes-generation">Swift Quotes</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Simplified Deals</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/">Quick Approvals</router-link>
+                                <router-link to="/lightning-fast-quote-approvals">Quick Approvals</router-link>
                             </li>
                         </ul>
                     </div>
@@ -52,13 +49,13 @@
                         <h3>Integrations</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/">Salesforce</router-link>
+                                <router-link to="/coming-soon">Salesforce</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Hubspot</router-link>
+                                <router-link to="/coming-soon">Hubspot</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Freshworks</router-link>
+                                <router-link to="/coming-soon">Freshworks</router-link>
                             </li>
                         </ul>
                     </div>
@@ -68,16 +65,16 @@
                         <h3>Company</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/">About Us</router-link>
+                                <router-link to="/about-us">About Us</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Collaborators</router-link>
+                                <router-link to="/coming-soon">Collaborators</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Contact us</router-link>
+                                <router-link to="/contact-us">Contact us</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Glossary</router-link>
+                                <router-link to="/coming-soon">Glossary</router-link>
                             </li>
                         </ul>
                     </div>
@@ -87,13 +84,10 @@
                         <h3>Resources</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/">Blog</router-link>
+                                <router-link to="/blogs">Blog</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Success</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/">Stories</router-link>
+                                <router-link to="/coming-soon">Success Stories</router-link>
                             </li>
                         </ul>
                     </div>
@@ -140,7 +134,7 @@
 
 <script>
 export default {
-    name: 'FooterStyleFour',
+    name: 'DealDoxFooter',
 
 }
 </script>

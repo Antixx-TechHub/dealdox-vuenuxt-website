@@ -18,7 +18,7 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="toggle nav-link">Home</a>
+                            <li class="nav-item"><a href="/" class="toggle nav-link">Home</a>
                                 <!-- <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <router-link to="/" class="nav-link">Home Demo - 1</router-link>
@@ -201,7 +201,7 @@
                             </li> -->
 
                             <li class="nav-item">
-                                <router-link to="/" class="nav-link">Request a demo</router-link>
+                                <router-link to="/coming-soon" class="nav-link">Request a demo</router-link>
                             </li>
                         </ul>
                     </div>
