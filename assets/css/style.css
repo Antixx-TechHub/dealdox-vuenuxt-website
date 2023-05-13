@@ -4621,6 +4621,7 @@ New Demo CSS
 
 .footer-wrap-area .single-footer-widget .links-list li a {
   color: var(--whiteColor);
+  text-decoration: none;
 }
 
 .footer-wrap-area .single-footer-widget .links-list li a:hover {

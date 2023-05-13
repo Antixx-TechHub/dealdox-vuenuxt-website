@@ -223,7 +223,8 @@
 .single-footer-widget .social-links li a {
   width: 35px;
   height: 35px;
-  background: var(--whiteColor);
+  background: var(--blackColor);
+  border: 1px solid #ced4da;
   color: var(--paragraphColor);
   position: relative;
   border-radius: 50%;
@@ -231,6 +232,7 @@
   display: block;
   font-size: 16px;
   z-index: 1;
+  text-decoration: none;
 }
 
 .single-footer-widget .social-links li a::before {
