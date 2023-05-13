@@ -87,7 +87,7 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Resources</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/blog-grid" class="nav-link">Blogs</router-link>
+                                        <router-link to="/blogs" class="nav-link">Blogs</router-link>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/coming-soon" class="nav-link">Case Studies</router-link>

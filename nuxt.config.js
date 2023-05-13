@@ -44,8 +44,8 @@ export default {
     '~/assets/css/bootstrap.min.css',
     '~/assets/css/pages-css/profile-authentication.css',
     '~/assets/css/pages-css/profile-authentication.scss',
-
-
+    '~/assets/css/pages-css/blog-details.css',
+    '~/assets/css/pages-css/blog-details.scss',
 
   ],
 
