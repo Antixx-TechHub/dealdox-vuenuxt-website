@@ -46,6 +46,7 @@ export default {
     '~/assets/css/pages-css/profile-authentication.scss',
     '~/assets/css/pages-css/blog-details.css',
     '~/assets/css/pages-css/blog-details.scss',
+    '~/assets/custom.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
