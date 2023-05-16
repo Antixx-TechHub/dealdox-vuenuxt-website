@@ -12,15 +12,15 @@
                         <h2>Sign In</h2>
                         <form>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Username or email">
+                                <input type="text" class="form-control" required placeholder="Username or email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" required placeholder="Password">
                             </div>
                             <div class="row align-items-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6 remember-me-wrap">
                                     <p>
-                                        <input type="checkbox" id="test">
+                                        <input type="checkbox" required id="test">
                                         <label for="test">Remember me</label>
                                     </p>
                                 </div>
