@@ -35,7 +35,7 @@ export default {
             { hid: 'keywords', name: 'keywords', content: '' }
        
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.antixxtechhub.com/blogs' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: '' }
         ],
     },
 };
