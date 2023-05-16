@@ -96,7 +96,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Reduction in document management</h3>
+                        <h3>Reduction in document <br>management</h3>
                         <p>Time spent on document management has moderately decreased for our customers. DealDox automates the presales process, allowing the sales team to concentrate on selling while spending less time on other tasks. Additionally, users can create SOWs with no risk and 100% accuracy.</p>
                     </div>
                 </div>

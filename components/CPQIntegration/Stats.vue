@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title-pages">
                 <h2>Bridge the gap between CRM and ERP.</h2>
-                <p>DealDox streamlines service contracting for IT providers, increasing profit margins while reducing effort and risk. Our AI-enabled quoting solution ensures fast and accurate statements of work with necessary approvals.</p>
+                <p>DealDox streamlines service contracting for IT providers, increasing profit margins while reducing effort and risk. Our AI- <br> enabled quoting solution ensures fast and accurate statements of work with necessary approvals.</p>
                 </div>
                 <div class="stats-map text-center">
                 <img src="../../assets/images/cpq-integration/crm-and-erp.png" alt="cpq">

@@ -15,9 +15,9 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Swift and Automated <br>Approvals</h3>
-                        <p>Auto-quotation's ability to preprogram your business rules makes it simple to way through the
-                            smart and automated agreement of the deal</p>
+                        <h3>Routing Capabilities</h3>
+                        <p>Are you concerned that the quote would need single or multiple levels of authorization? Or, how and in what order should the authorities be notified? Dealdox provides a quick solution to all of your quote approval concerns. It allows you to nudge every approver who is in charge of reviewing and approving according to your routing rules.
+                        </p>
                     </div>
                 </div>
             </div>

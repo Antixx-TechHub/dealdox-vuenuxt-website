@@ -2,8 +2,9 @@
     <div class="features-area ptb-75 bg-white">
         <div class="container">
             <div class="section-title">
-                <h2>Stay Ahead of the Competition with DealDox Integration</h2>
+                <h3>Stay Ahead of the Competition with <br>DealDox Integration</h3>
             </div>
+            <br>
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">

@@ -5,6 +5,10 @@
                 <h1>Transform Your Sales Process with Our <span class="sub-title-pages">Integrated Automated Quoting
                     </span>Solutions</h1>
             </div>
+            <div class="stats-map text-center">
+                <img src="../../assets/images/cpq/transform_sales.png" alt="cpq">
+            </div>
+
             <div class="screenshots-swiper-slides">
                 <!-- <carousel :autoplay="5000" :settings='settings' :breakpoints='breakpoints' :wrap-around="true">
                     <slide v-for="slide in carouselItems" :key="slide.id">
