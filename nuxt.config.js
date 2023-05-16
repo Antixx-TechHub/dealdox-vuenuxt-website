@@ -75,13 +75,12 @@ export default {
     baseURL: 'https://cms.antixxtechhub.in/api',
   },
 
-  strapi: {
-    // url: 'http://localhost:1337/api',
-    url: 'https://cms.antixxtechhub.in/api/',
-    entities: [
-      
-    ]
-  },
+  // strapi: {
+  //   // url: 'http://localhost:1337/api',
+  //   url: 'https://cms.antixxtechhub.in/api/',
+  //   entities: [
+  //   ]
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
