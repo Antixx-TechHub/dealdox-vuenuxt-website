@@ -16,7 +16,7 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'
-    }
+      }
     ]
   },
 
@@ -66,21 +66,30 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/strapi',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: 'https://cms.antixxtechhub.in/api',
+  },
+
+  strapi: {
+    // url: 'http://localhost:1337/api',
+    url: 'https://cms.antixxtechhub.in/api/',
+    entities: [
+      
+    ]
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: null,
-        loaders: {
-            vue: {
-                prettify: false
-            }
-        }
+    loaders: {
+      vue: {
+        prettify: false
+      }
+    }
   }
 }
