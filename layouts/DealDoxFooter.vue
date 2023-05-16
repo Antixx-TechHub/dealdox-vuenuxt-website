@@ -89,6 +89,9 @@
                             <li>
                                 <router-link to="/coming-soon">Success Stories</router-link>
                             </li>
+                            <li>
+                                <router-link to="/privacy-policy">Privacy Policy</router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
