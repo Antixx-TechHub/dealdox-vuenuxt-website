@@ -109,6 +109,7 @@
                                 <router-link to="/">Call us - 999999999</router-link>
                             </li>
                         </ul>
+
                         <!-- <p>Best solution for your it startup business, consecteturadipiscing elit.</p>
                         <form class="newsletter-form" data-toggle="validator">
                             <input type="text" class="input-newsletter" placeholder="Your Email" name="EMAIL">
@@ -119,18 +120,20 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="copyright-area">
+            <div class="copyright-area">
                 <div class="row col-lg-12 col-md-6 col-sm-6">
                     <div className="col-lg-6 col-md-6">
-                        <p>Copyright {{ currentYear }} <strong>All right reserved @2023, </strong><a
-                                href="https://dealdox.io/" target="_blank">DealDocx</a></p>
+                        <p class="text-left">Copyright <strong>All right reserved @2023, </strong><a
+                                href="https://dealdox.io/" target="_blank">DealDocx</a>
+                        </p>
                     </div>
 
-                    <div className="col-lg-6 col-md-6">
-                        <p><router-link to="/terms-conditions">Terms & conditions</router-link> | <router-link to="/privacy-policy">Privacy Policy</router-link></p>
+                    <div className="col-lg-6 col-md-6 col-sm-6 ">
+                        <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> |
+                            <router-link to="/privacy-policy">Privacy Policy</router-link></p>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>
