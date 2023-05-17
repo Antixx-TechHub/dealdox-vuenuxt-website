@@ -7,10 +7,11 @@
                 <p>At DealDox, we are a team of trustworthy professionals passionate about pre-sales <br> automation and
                     assisting businesses to grow.</p>
             </div>
-            <div class="stats-map text-center">
+            
+        </div>
+        <div class="stats-map text-center">
                 <img src="../../assets/images/About-US/meet-the-stellar.png" alt="cpq">
             </div>
-        </div>
     </div>
 </template>
 

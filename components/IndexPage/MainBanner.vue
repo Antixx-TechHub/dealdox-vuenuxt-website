@@ -6,12 +6,43 @@
                     <h2>Experience Unbeatable Sales <br>Efficiency with DealDocx NOW!</h2>
                     <p>Are you still using spreadsheets? Toss it! and start using DealDox now <br>generate AI-Enabled quotes
                         with just few clicks</p>
+<<<<<<< HEAD
                     <router-link to="/sign-in" class="default-btn">Boost Your Sales Now</router-link>
                     <div class="section-title-button">
                         <p>It’s completely FREE to start</p>
                         <img src="../../assets/images/HomePage/home-banner.png" alt="border">
                     </div>
                 </div>
+=======
+                    <router-link to="/" class="default-btn">Boost Your Sales Now</router-link>
+                    <div class="section-title-button">
+                        <p>It’s completely FREE to start</p>
+                    </div>
+                </div>
+                <div class="stats-map text-center">
+                    <img src="../../assets/images/cpq/transform_sales.png" alt="cpq">
+                </div>
+                <!-- <div class="screenshots-swiper-slides">
+                    <carousel :autoplay="5000" :settings='settings' :breakpoints='breakpoints' :wrap-around="true">
+                        <slide v-for="slide in carouselItems" :key="slide.id">
+                            <div class="swiper-slide">
+                                <img :src="slide.image" alt="screenshots">
+                            </div>
+                        </slide>
+
+                        <template #addons>
+                            <navigation>
+                                <template #next>
+                                    <i class='ri-arrow-right-s-line'></i>
+                                </template>
+                                <template #prev>
+                                    <i class='ri-arrow-left-s-line'></i>
+                                </template>
+                            </navigation>
+                        </template>
+                    </carousel>
+                </div> -->
+>>>>>>> e28d3d5c9ce312005e3462ed43cb5e9da5f70c9b
             </div>
         </div>
         <div class="divider"></div>
