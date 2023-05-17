@@ -6,14 +6,6 @@
                     <h2>Experience Unbeatable Sales <br>Efficiency with DealDocx NOW!</h2>
                     <p>Are you still using spreadsheets? Toss it! and start using DealDox now <br>generate AI-Enabled quotes
                         with just few clicks</p>
-<<<<<<< HEAD
-                    <router-link to="/sign-in" class="default-btn">Boost Your Sales Now</router-link>
-                    <div class="section-title-button">
-                        <p>It’s completely FREE to start</p>
-                        <img src="../../assets/images/HomePage/home-banner.png" alt="border">
-                    </div>
-                </div>
-=======
                     <router-link to="/" class="default-btn">Boost Your Sales Now</router-link>
                     <div class="section-title-button">
                         <p>It’s completely FREE to start</p>
@@ -42,7 +34,6 @@
                         </template>
                     </carousel>
                 </div> -->
->>>>>>> e28d3d5c9ce312005e3462ed43cb5e9da5f70c9b
             </div>
         </div>
         <div class="divider"></div>
