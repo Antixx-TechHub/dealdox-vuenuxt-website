@@ -26,7 +26,7 @@
 
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/contact" class="default-btn">Start Using for Free</router-link>
+                            <router-link to="/" class="default-btn">Start Using for Free</router-link>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
 
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/contact" class="default-btn">Purchase Plan</router-link>
+                            <router-link to="/" class="default-btn">Purchase Plan</router-link>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                             <li><i class="ri-check-line"></i> Online forms</li>
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/contact" class="default-btn">Request a Quote</router-link>
+                            <router-link to="/" class="default-btn">Request a Quote</router-link>
                         </div>
                     </div>
                 </div>
