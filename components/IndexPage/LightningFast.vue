@@ -31,7 +31,7 @@
                             <h2>Save more with <br><span class="sub-title">Swift Quotes</span></h2>
                             <p>DealDocx makes it simple to connect to all <br>the major CRMs.</p>
                             <div class="btn-box">
-                                <router-link to="/app-download" class="default-btn">Know more</router-link>
+                                <router-link to="/" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>
