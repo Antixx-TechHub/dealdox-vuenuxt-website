@@ -474,6 +474,31 @@ Features Area CSS
 color: #393939;
 }
 
+.single-features-items {
+  background-color: #fff;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  padding: 70px 70px 70px 40px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  border-style: solid;
+  border-color: rgba(228, 233, 250, 1);
+  
+
+}
+
+/*    */
+
+.single-features-items h6 {
+  
+  color: rgb(14, 14, 237);
+  text-align: center;
+  
+
+}
+
 .single-features-item::before {
   content: '';
   position: absolute;
