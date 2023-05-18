@@ -1,8 +1,7 @@
 <template>
-    <div class="team-area pt-100 pb-75">
+    <div class="team-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title"></span>
                 <h2>Meet our People</h2>
             </div>
             <div class="row justify-content-center">
@@ -13,7 +12,7 @@
                         </div>
                         <div class="content">
                             <h3>Halima Sadiya AP</h3>
-                            <span >Founder & CEO</span>
+                            <span>Founder & CEO</span>
                             <p>“Our team includes experienced <br>developers and architects”</p>
                         </div>
                         <ul class="social-links">

@@ -397,7 +397,7 @@ Features Area CSS
 }
 
 .single-features-item {
-  background-color: #FBFBFB;
+  background-color: #F6F8FA;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   padding: 70px 50px 50px 80px;

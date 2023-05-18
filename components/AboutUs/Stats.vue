@@ -1,17 +1,15 @@
 <template>
-    <div class="stats-area bg-FAFAFA ptb-100">
+    <div class="stats-area bg-FAFAFA pt-100">
         <div class="container">
-            <div class="section-title-pages">
-                <br>
-                <h1>Meet the Stellar Lineup of <br> Professionals on Our Team!</h1>
-                <p>At DealDox, we are a team of trustworthy professionals passionate about pre-sales <br> automation and
+            <div class="section-title pt-70">
+                <h2>Meet the Stellar Lineup of <br> Professionals on Our Team!</h2>
+                <p>At DealDox, we are a team of trustworthy professionals passionate about pre-sales automation and
                     assisting businesses to grow.</p>
             </div>
-            
         </div>
         <div class="stats-map text-center">
-                <img src="../../assets/images/About-US/meet-the-stellar.png" alt="cpq">
-            </div>
+            <img src="../../assets/images/About-US/meet-the-stellar.png" alt="cpq">
+        </div>
     </div>
 </template>
 

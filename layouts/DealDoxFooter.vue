@@ -124,16 +124,14 @@
                 </div>
             </div>
             <div class="copyright-area">
-                <div class="row col-lg-12 col-md-6 col-sm-6">
-                    <div className="col-lg-6 col-md-6">
-                        <p class="text-left">Copyright <strong>All right reserved @2023, </strong><a
-                                href="https://dealdox.io/" target="_blank">DealDocx</a>
-                        </p>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <p>Copyright {{ currentYear }} <strong>All right reserved @2023, </strong><a
+                                href="https://dealdox.io/" target="_blank">DealDocx</a></p>
                     </div>
-
-                    <div className="col-lg-6 col-md-6 col-sm-6 ">
-                        <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> |
-                            <router-link to="/privacy-policy">Privacy Policy</router-link></p>
+                    <div class="col-lg-6 col-sm-6">
+                        <p><router-link to="/terms-conditions">Terms & conditions</router-link> | <router-link
+                                to="/privacy-policy">Privacy Policy</router-link></p>
                     </div>
                 </div>
             </div>

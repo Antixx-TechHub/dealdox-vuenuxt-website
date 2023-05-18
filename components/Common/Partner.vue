@@ -1,5 +1,5 @@
 <template>
-    <div class="partner-area ptb-100">
+    <div class="partner-area pt-70">
         <div class="container">
             <div class="partner-title">
                 Trusted by Industry Leaders
