@@ -1,9 +1,9 @@
 <template>
-    <div class="new-free-trial-area bg-white pb-75">
+    <div class="new-free-trial-area bg-FAFAFA ptb-75">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
-                    <div class="features-item-free-quotes with-border bg-grey">
+                    <div class="features-item-free-quotes with-border bg-white">
                         <h3>DealDox's AI-enabled quoting platform can integrate <br>with most applications via API, streamlining your sales <br>process and saving you time?</h3>
                         <router-link to="/" class="default-btn">Get your free quotes now!</router-link>
                     </div>
