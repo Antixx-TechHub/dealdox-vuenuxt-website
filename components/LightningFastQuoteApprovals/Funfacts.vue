@@ -1,10 +1,6 @@
 <template>
-    <div class="about-area ptb-100">
+    <div class="about-area bg-FAFAFA ptb-75">
         <div class="container">
-            <div class="section-title">
-                <h2>You know what you're doing when you describe it as a process.</h2>
-                <p>Initiate a citation and set it forth for getting content; Dealdox will take care of the rest.</p>
-            </div>
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border bg-FAFAFA">

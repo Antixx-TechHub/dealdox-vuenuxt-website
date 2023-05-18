@@ -1,18 +1,22 @@
 <template>
-    <div class="stats-area-pages bg-white ptb-100">
+    <div class="stats-area-pages bg-white ptb-75">
         <div class="container">
-            <div class="section-title-pages">
-            <h1><span class="sub-title-pages">Effortless Automation: </span>DealDocx let's you Preprogram<br> All of These and More</h1>
-            </div>
-            <div class="stats-map text-center">
-                <img src="../../assets/images/screenshots/screen6.jpg" alt="cpq">
+            <div class="section-title-pages-full">
+                <div class="new-app-main-banner-wrap-content-full">
+                    <h2><span class="sub-title">Effortless Automation:</span> DealDocx let's you </h2>
+                    <h2>Preprogram All of These and More</h2>
+                </div>
+                <div class="stats-map text-center">
+                    <img src="../../assets/images/lightning-fast-quote-approvals/effortless-automation.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
-    name: 'Stats'
+    name: 'Stats',
 }
 </script>
