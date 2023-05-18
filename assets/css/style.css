@@ -1094,6 +1094,7 @@ New Demo CSS
 ======================================================*/
 .section-title.title-with-bg-text {
   position: relative;
+  max-width: 1200px;
 }
 
 .section-title.title-with-bg-text .big-title {
@@ -1585,6 +1586,211 @@ New Demo CSS
   z-index: -1;
 }
 
+.section-title-pages-full {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.new-app-main-banner-wrap-content-full {
+  max-width: 1366px;
+  text-align: center;
+}
+
+.new-app-main-banner-wrap-content-full .sub-title {
+  font-size: 40px;
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.new-app-main-banner-wrap-content-full h2 {
+  color: var(--blackColor);
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.new-app-main-banner-wrap-content-full p {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  padding-right: 150px;
+  /* or 28px */
+  color: #8E8E8E;
+}
+
+.new-app-main-banner-wrap-content-full .user-info {
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.new-app-main-banner-wrap-content-full .user-info li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: -20px;
+}
+
+.new-app-main-banner-wrap-content-full .user-info li img {
+  max-width: 50px;
+  border: 4px solid var(--whiteColor);
+  border-radius: 50px;
+}
+
+.new-app-main-banner-wrap-content-full .user-info li.title {
+  margin-left: 30px;
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: 500;
+  vertical-align: middle;
+  color: var(--blackColor);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box {
+  margin-top: 30px;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border-radius: 50px;
+  margin-right: 15px;
+  display: inline-block;
+  color: var(--whiteColor);
+  background: var(--gradientColor);
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-left: 65px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn span {
+  display: block;
+  margin-top: 5px;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 15.5px;
+  font-weight: 500;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn img {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  z-index: -1;
+  background: var(--mainColor);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  color: var(--whiteColor);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .applestore-btn:hover span {
+  color: var(--whiteColor);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border-radius: 50px;
+  display: inline-block;
+  color: var(--whiteColor);
+  background: var(--blackColor);
+  -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-left: 70px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn span {
+  display: block;
+  margin-top: 5px;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 15.5px;
+  font-weight: 500;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn img {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 30px;
+  top: 50%;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  z-index: -1;
+  background: var(--gradientColor);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  color: var(--whiteColor);
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.new-app-main-banner-wrap-content-full .app-btn-box .playstore-btn:hover span {
+  color: var(--whiteColor);
+}
+
 .new-app-main-banner-wrap-area {
   background-color: #F6F9FB;
   position: relative;
@@ -1593,13 +1799,8 @@ New Demo CSS
   padding-top: 50px;
 }
 
-.new-app-main-banner-wrap-content {
-  max-width: 635px;
-  margin-left: auto;
-}
-
 .new-app-main-banner-wrap-content .sub-title {
-  font-size: 45px;
+  font-size: 50px;
   display: inline-block;
   background: var(--gradientColor);
   -webkit-background-clip: text;
@@ -1610,7 +1811,7 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content h1 {
   color: var(--blackColor);
-  font-size: 45px;
+  font-size: 50px;
   line-height: 1.1;
   margin-bottom: 10px;
 }
@@ -2351,7 +2552,7 @@ New Demo CSS
 
 /* Key Features Area CSS */
 .key-features-area {
-  background-image: url(../../assets/images/more-home/features/features-bg.jpg);
+  background-color: #FAFAFA;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2368,8 +2569,10 @@ New Demo CSS
 .key-features-card {
   text-align: center;
   padding: 30px 40px;
-  border: 1px solid var(--whiteColor);
+  border: 4px solid #E4E9FA;
+  background-color: #ffffff;
   margin-bottom: 25px;
+  border-radius: 15px;
   position: relative;
   z-index: 1;
 }
@@ -2418,6 +2621,7 @@ New Demo CSS
   left: 0;
   right: 0;
   top: 0;
+  border-radius: 15px;
   background: var(--gradientColor);
   z-index: -1;
   opacity: 0;
