@@ -11,7 +11,7 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import Pricing from '../components/subscriptions/Pricing';
+import Pricing from '../components/Common/Pricing';
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import GetInTouch from '../components/Common/GetInTouch';
 import DealDoxFooter from '../layouts/DealDoxFooter';

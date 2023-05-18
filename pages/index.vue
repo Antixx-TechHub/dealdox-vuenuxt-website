@@ -2,6 +2,7 @@
   <div>
   <Navbar class="navbar-style-two"/>
   <MainBanner />
+  <Partner />
   <EasyIntegration />
   <LightningFast />
   <Pricing />
@@ -16,6 +17,7 @@
 
 import Navbar from '../layouts/Navbar';
 import MainBanner from '../components/IndexPage/MainBanner';
+import Partner from '../components/Common/Partner'
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
 import LightningFast from '../components/IndexPage/LightningFast';
 import Pricing from '../components/Common/Pricing';
@@ -29,6 +31,7 @@ export default {
 components: {
     Navbar,
     MainBanner,
+    Partner,
     EasyIntegration,
     LightningFast,
     AutomatedQuotes,

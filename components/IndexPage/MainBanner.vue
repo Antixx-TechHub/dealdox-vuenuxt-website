@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/cpq/transform_sales.png" alt="cpq">
+                    <img src="../../assets/images/banner/banner-home.png" alt="cpq">
                 </div>
                 <!-- <div class="screenshots-swiper-slides">
                     <carousel :autoplay="5000" :settings='settings' :breakpoints='breakpoints' :wrap-around="true">

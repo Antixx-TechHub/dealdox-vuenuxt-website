@@ -126,7 +126,7 @@
             <div class="copyright-area">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6">
-                        <p class="text-left">Copyright {{ currentYear }} <strong>All right reserved @2023, </strong><a
+                        <p class="text-left">All right reserved @2023, DealDocx,<a
                                 href="https://dealdox.io/" target="_blank">DealDocx</a></p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
