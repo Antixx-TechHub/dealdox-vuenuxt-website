@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-area ptb-100">
+    <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
             <div 
                 class="row justify-content-center"

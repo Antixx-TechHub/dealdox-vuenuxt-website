@@ -607,16 +607,49 @@ Features Home Improve Sales Area CSS
   font-weight: 700;
 } 
 
+.features-content-improve-sales title-faq {
+  line-height: 1.4;
+  margin-bottom: 0;
+  font-size: 42px;
+}
+
+.features-content-improve-sales .sub-title-faq {
+  font-size: 16px;
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  /* margin-bottom: 10px; */
+  font-weight: 700;
+} 
+
 .features-content-improve-sales h2 {
   font-size: 36px;
-  line-height: 1.4;
+  line-height: 1.2;
   margin-bottom: 15px;
+  margin-right: 90px;
+}
+
+.features-content-improve-sales h5 {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  margin-right: 90px;
+}
+
+.features-content-improve-sales.section-title {
+  text-align: center;
+  /* max-width: 660px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
 }
 
 .features-content-improve-sales p {
   font-size: 18px;
   line-height: 1.4;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .features-content-improve-sales .features-list {

@@ -1,69 +1,29 @@
 <template>
-    <div class="blog-area bg-FAFAFA">
-        <div class="container ptb-100">
+    <div class="blog-area pt-70 bg-FAFAFA">
+        <div class="container">
             <div class="section-title">
                 <span class="sub-title"></span>
                 <h2>In the news</h2>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
+            <div class="row justify-content-center" v-if="blogs !== []">
+                <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(0, 3)" :key="blog.id">
                     <div class="single-blog-post">
                         <div class="image">
-                            <router-link to="/blog-details" class="d-block">
-                                <img src="../../assets/images/About-US/Blog1.png" alt="blog">
+                            <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
+                                <img :src="blog.attributes.image.data.attributes.url" alt="blog">
                             </router-link>
-                            <router-link to="/blog-grid" class="tag">Branding</router-link>
+                            <router-link to="/blog-grid" class="tag">{{ blog.attributes.tag }}</router-link>
                         </div>
                         <div class="content">
-                            
-                            <h3><router-link to="/blog-details">AI Innovation in Quote </router-link></h3>
-                            <p>“Our team includes experienced developers and architects who are experts in building cutting-edge”</p>
                             <ul class="meta">
-                                <br>
-                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(0) Comment</router-link></li>
-                                <li><i class="ri-time-line"></i> April 14, 2021</li>
+                                <li><i class="ri-time-line"></i> {{ blog.attributes.date }}</li>
+                                <!-- <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(0) Comment</router-link></li> -->
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog-post">
-                        <div class="image">
-                            <router-link to="/blog-details" class="d-block">
-                                <img src="../../assets/images/About-US/Blog2.png" alt="blog">
-                            </router-link>
-                            <router-link to="/blog-grid" class="tag">Agency</router-link>
-                        </div>
-                        <div class="content">
-                            
-                            <h3><router-link to="/blog-details">AI Innovation in Quote </router-link></h3>
-                            <p>“Our team includes experienced developers and architects who are experts in building cutting-edge”</p>
-                            <br>
-                            <ul class="meta">
-                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(4) Comment</router-link></li>
-                                <li><i class="ri-time-line"></i> April 13, 2021</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog-post">
-                        <div class="image">
-                            <router-link to="/blog-details" class="d-block">
-                                <img src="../../assets/images/About-US/Blog3.png" alt="blog">
-                            </router-link>
-                            <router-link to="/blog-grid" class="tag">Marketing</router-link>
-                        </div>
-                        <div class="content">
-                            
-                            <h3><router-link to="/blog-details">AI Innovation in Quote </router-link></h3>
-                            <p>“Our team includes experienced developers and architects who are experts in building cutting-edge”</p>
-                            <br>
-                            <ul class="meta">
-                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(2) Comment</router-link></li>
-                                <li><i class="ri-time-line"></i> April 12, 2021</li>
-                            </ul>
+                            <h3>
+                                <router-link :to="'/blog-details/' + blog.attributes.slug">
+                                    {{ blog.attributes.title }}
+                                </router-link>
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -73,7 +33,18 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-    name: 'Blog'
+    name: 'Blog',
+    data() {
+        return {
+            blogs: []
+        }
+    },
+    created: async function () {
+        const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
+        this.blogs = response.data.data
+    },
 }
 </script>

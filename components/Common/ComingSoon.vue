@@ -40,10 +40,10 @@
                                         <p>Seconds</p>
                                     </div>
                                 </div>
-                                <form class="newsletter-form" data-toggle="validator">
+                                <!-- <form class="newsletter-form" data-toggle="validator">
                                     <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL">
                                     <button type="submit" class="default-btn">Subscribe</button>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default {
     },
     methods: {
         commingSoonTime() {
-            let endTime = new Date("December 5, 2025 17:00:00 PDT");            
+            let endTime = new Date("July 1, 2023 10:00:00 PDT");            
             let endTimeParse = (Date.parse(endTime)) / 1000;
             let now = new Date();
             let nowParse = (Date.parse(now) / 1000);

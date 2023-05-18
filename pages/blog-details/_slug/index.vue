@@ -20,6 +20,7 @@
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
 import BlogDetails from '../../../components/single-blog/BlogDetails'
+import FreeTrial from '../../../components/single-blog/FreeTrial'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -28,6 +29,7 @@ export default {
         Navbar,
         PageTitle,
         BlogDetails,
+        FreeTrial,
         DealDoxFooter,
     },
 

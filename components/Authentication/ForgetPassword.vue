@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <ul class="social-links d-flex align-items-center justify-content-center">
+        <!-- <ul class="social-links d-flex align-items-center justify-content-center">
             <li><span>Follow Us On:</span></li>
             <li>
                 <a href="https://www.facebook.com/" class="facebook" target="_blank">
@@ -42,7 +42,7 @@
                     <i class="ri-instagram-line"></i>
                 </a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </template>
 

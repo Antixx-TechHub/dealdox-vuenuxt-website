@@ -1,9 +1,11 @@
 <template>
     <div class="app-download-area ptb-70">
         <div class="container">
-            <div class="section-title">
-                <h2>Frequently asked questions</h2>
-                <span class="sub-title">Can’t find your query listed? Write us your query</span>
+            <div class="features-content-improve-sales">
+                <div class="section-title">
+                    <h2>Frequently asked questions</h2>
+                    <h5>Can’t find your query listed? <span class="sub-title-faq">Write us</span> your query</h5>
+                </div>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-2 col-md-12"></div>
@@ -18,10 +20,10 @@
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p><strong>Jexa</strong> is always looking for talented <a href="#">information</a>
+                                        <p>is always looking for talented <a href="#">information</a>
                                             security and IT risk management professionals who are dedicated, hard working
                                             and looking for a challenge. If you are interested in employment with
-                                            <strong>Jexa</strong>, a company who values you and your family, visit our
+                                            a company who values you and your family, visit our
                                             careers page.
                                         </p>
                                         <ul>
@@ -58,14 +60,14 @@
                                             AI-Enabled easy Quotes and DealDocx's inventive highlights rise above
                                             conventional citing and increase present expectations for client experience,
                                             enabling organizations to create AI-Enabled easy </p>
-                                        
+
                                     </div>
                                 </template>
                             </accordion-item>
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">
-                                        How to avail enterprise subscription 
+                                        How to avail enterprise subscription
                                     </button>
                                 </template>
                                 <template v-slot:accordion-content>

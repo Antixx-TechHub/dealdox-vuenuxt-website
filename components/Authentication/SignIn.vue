@@ -5,10 +5,10 @@
                 <div class="container">
                     <div class="signin-form">
                         <div class="logo">
-            <router-link class="navbar-brand" to="/">
-                <img src="~/assets/images/logo.svg" alt="logo">
-            </router-link>
-        </div>
+                            <router-link class="navbar-brand" to="/">
+                                <img src="~/assets/images/logo.svg" alt="logo">
+                            </router-link>
+                        </div>
                         <h2>Sign In</h2>
                         <form>
                             <div class="form-group">
@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <ul class="social-links d-flex align-items-center justify-content-center">
+        <!-- <ul class="social-links d-flex align-items-center justify-content-center">
             <li><span>Follow Us On:</span></li>
             <li>
                 <a href="https://www.facebook.com/" class="facebook" target="_blank">
@@ -85,7 +85,7 @@
                     <i class="ri-instagram-line"></i>
                 </a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </template>
 

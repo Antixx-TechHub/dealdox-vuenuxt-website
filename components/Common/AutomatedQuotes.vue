@@ -1,5 +1,5 @@
 <template>
-    <div class="free-trial-area pt-65">
+    <div class="free-trial-area ptb-100 bg-FFFFFF">
         <div class="container">
             <div class="free-trial-inner">
                 <div class="row">

@@ -6,6 +6,7 @@
             pageDesc="News and Insights" 
         />
         <Blog />
+        <AutomatedQuotes />
         <DealDoxFooter />
     </div>
 </template>
@@ -14,6 +15,7 @@
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
 import Blog from '../components/blogs/Blog'
+import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
 export default {
@@ -21,6 +23,7 @@ export default {
         Navbar,
         PageTitle,
         Blog,
+        AutomatedQuotes,
         DealDoxFooter,
     },
     head: {

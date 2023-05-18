@@ -39,6 +39,7 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   --fontSize: 14px;
   --transition: .5s;
@@ -49,7 +50,7 @@ Default CSS
   --gradientColor: linear-gradient(99.01deg, #715CF3 20.98%, #5C99F3 94.62%);
   --paragraphColor: #716c80;
   --fontFamily: 'Inter', sans-serif;
-  
+
 }
 
 body {
@@ -60,7 +61,18 @@ body {
   font-family: var(--fontFamily);
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--blackColor);
   font-weight: 700;
 }
@@ -153,8 +165,17 @@ p:last-child {
   padding-bottom: 75px;
 }
 
+.pb-80 {
+  padding-top: 125px;
+  padding-bottom: 30px;
+}
+
 .bg-F7F7FF {
   background-color: #F7F7FF;
+}
+
+.bg-FFFFFF {
+  background-color: #ffffff;
 }
 
 .bg-FAFAFA {
@@ -185,7 +206,7 @@ p:last-child {
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
   font-size: var(--fontSize);
   font-weight: 600;
 }
@@ -271,7 +292,7 @@ p:last-child {
 .form-control {
   background-color: #ffffff !important;
   -webkit-box-shadow: unset !important;
-          box-shadow: unset !important;
+  box-shadow: unset !important;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: var(--fontSize);
@@ -336,7 +357,7 @@ textarea.form-control {
   left: -50px;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .shape2 {
@@ -345,7 +366,7 @@ textarea.form-control {
   right: -70px;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .bg-shape1 {
@@ -355,7 +376,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .shape3 {
@@ -364,7 +385,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .shape4 {
@@ -373,7 +394,7 @@ textarea.form-control {
   z-index: -1;
   position: absolute;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .shape5 {
@@ -392,7 +413,7 @@ textarea.form-control {
 
 .shape6 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-          animation: moveleftbounce 5s linear infinite;
+  animation: moveleftbounce 5s linear infinite;
 }
 
 .shape7 {
@@ -404,7 +425,7 @@ textarea.form-control {
 
 .shape7 img {
   -webkit-animation: opacitychange 4s linear 1s infinite;
-          animation: opacitychange 4s linear 1s infinite;
+  animation: opacitychange 4s linear 1s infinite;
 }
 
 .shape8 {
@@ -416,13 +437,13 @@ textarea.form-control {
 
 .shape8 img {
   -webkit-animation-name: rotateme;
-          animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .shape9 {
@@ -434,7 +455,7 @@ textarea.form-control {
 
 .shape9 img {
   -webkit-animation: opacitychange 4s linear 1s infinite;
-          animation: opacitychange 4s linear 1s infinite;
+  animation: opacitychange 4s linear 1s infinite;
 }
 
 .shape10 {
@@ -460,7 +481,7 @@ textarea.form-control {
 
 .shape12 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-          animation: moveleftbounce 5s linear infinite;
+  animation: moveleftbounce 5s linear infinite;
 }
 
 .shape13 {
@@ -472,13 +493,13 @@ textarea.form-control {
 
 .shape13 img {
   -webkit-animation-name: rotateme;
-          animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .lines {
@@ -511,11 +532,11 @@ textarea.form-control {
   display: block;
   position: absolute;
   -webkit-animation: run 7s 0s infinite;
-          animation: run 7s 0s infinite;
+  animation: run 7s 0s infinite;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(75%, var(--whiteColor)), to(var(--whiteColor)));
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, var(--whiteColor) 75%, var(--whiteColor) 100%);
 }
@@ -526,7 +547,7 @@ textarea.form-control {
 
 .lines .line:nth-child(1)::after {
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .lines .line:nth-child(3) {
@@ -535,7 +556,7 @@ textarea.form-control {
 
 .lines .line:nth-child(3)::after {
   -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .lines .line:nth-child(4) {
@@ -544,7 +565,7 @@ textarea.form-control {
 
 .lines .line:nth-child(4)::after {
   -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .lines .line:nth-child(5) {
@@ -553,7 +574,7 @@ textarea.form-control {
 
 .lines .line:nth-child(5)::after {
   -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 
 .shape14 {
@@ -565,7 +586,7 @@ textarea.form-control {
 
 .shape14 img {
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .shape15 {
@@ -577,7 +598,7 @@ textarea.form-control {
 
 .shape15 img {
   -webkit-animation: moveleftbounce 5s linear infinite;
-          animation: moveleftbounce 5s linear infinite;
+  animation: moveleftbounce 5s linear infinite;
 }
 
 .divider {
@@ -600,9 +621,11 @@ textarea.form-control {
   /* z-index: 1; */
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
-  background-image: url(../../assets/images/more-home/banner/banner-bg.jpg);
-  padding-bottom: 100px;
-  padding-top: 180px;
+  background-image: url(../../assets/images/more-home/banner/blog-header2.png);
+  padding-bottom: 150px;
+  padding-top: 150px;
+  margin-top: 80px;
+  background-size: cover;
 }
 
 .page-title-area::before {
@@ -618,7 +641,14 @@ textarea.form-control {
 }
 
 .page-title-area.page-title-style-two {
-  background: #eef5fc;
+  /* background: #eef5fc; */
+  position: relative;
+  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background-image: url(../../assets/images/more-home/banner/blog-header.png);
+  padding-bottom: 150px;
+  padding-top: 150px;
+  margin-top: 80px;
+  background-size: cover;
 }
 
 .page-title-area.page-title-style-two::before {
@@ -627,15 +657,15 @@ textarea.form-control {
 }
 
 .page-title-area.page-title-style-two .page-title-content h2 {
-  color: var(--blackColor);
+  color: var(--whiteColor);
 }
 
 .page-title-area.page-title-style-two .page-title-content ul li {
-  color: var(--blackColor);
+  color: var(--whiteColor);
 }
 
 .page-title-area.page-title-style-two .page-title-content ul li a {
-  color: var(--mainColor);
+  color: var(--whiteColor);
 }
 
 .page-title-area.page-title-style-two .page-title-content ul li a:hover {
@@ -643,7 +673,7 @@ textarea.form-control {
 }
 
 .page-title-area.page-title-style-two .page-title-content ul li::before {
-  background-color: var(--blackColor);
+  background-color: var(--whiteColor);
   opacity: .3;
 }
 
@@ -707,7 +737,7 @@ textarea.form-control {
   margin-top: 1px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: -20px;
   content: '';
   position: absolute;
@@ -729,8 +759,8 @@ textarea.form-control {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .pagination-area .page-numbers {
@@ -748,7 +778,7 @@ textarea.form-control {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eaeef3));
   background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
   -webkit-box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
-          box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+  box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
   font-size: 15px;
   font-weight: 700;
   margin-left: 5px;
@@ -780,32 +810,37 @@ textarea.form-control {
 @-webkit-keyframes ripple {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   75% {
     -webkit-transform: scale(1.75);
-            transform: scale(1.75);
+    transform: scale(1.75);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(2);
-            transform: scale(2);
+    transform: scale(2);
     opacity: 0;
   }
 }
+
 @keyframes ripple {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   75% {
     -webkit-transform: scale(1.75);
-            transform: scale(1.75);
+    transform: scale(1.75);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(2);
-            transform: scale(2);
+    transform: scale(2);
     opacity: 0;
   }
 }
@@ -813,82 +848,92 @@ textarea.form-control {
 @-webkit-keyframes movebounce {
   0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes movebounce {
   0% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
     -webkit-transform: translateY(15px);
-            transform: translateY(15px);
+    transform: translateY(15px);
   }
+
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @-webkit-keyframes moveleftbounce {
   0% {
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
+
   50% {
     -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    transform: translateX(15px);
   }
+
   100% {
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
 @keyframes moveleftbounce {
   0% {
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
+
   50% {
     -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    transform: translateX(15px);
   }
+
   100% {
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
 @-webkit-keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -896,15 +941,19 @@ textarea.form-control {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -914,15 +963,19 @@ textarea.form-control {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -932,6 +985,7 @@ textarea.form-control {
   0% {
     top: -50%;
   }
+
   100% {
     top: 110%;
   }
@@ -941,6 +995,7 @@ textarea.form-control {
   0% {
     top: -50%;
   }
+
   100% {
     top: 110%;
   }
@@ -952,6 +1007,7 @@ textarea.form-control {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   to {
     opacity: 1;
     -webkit-transform: translateZ(0);
@@ -965,6 +1021,7 @@ textarea.form-control {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   to {
     opacity: 1;
     -webkit-transform: translateZ(0);
@@ -981,7 +1038,7 @@ textarea.form-control {
 
 .navbar-toggler:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-toggler .icon-bar {
@@ -995,9 +1052,9 @@ textarea.form-control {
 
 .navbar-toggler .top-bar {
   -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   -webkit-transform-origin: 10% 10%;
-          transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
   position: relative;
 }
 
@@ -1008,15 +1065,15 @@ textarea.form-control {
 
 .navbar-toggler .bottom-bar {
   -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   -webkit-transform-origin: 10% 90%;
-          transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
   position: relative;
 }
 
 .navbar-toggler.active .top-bar {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .navbar-toggler.active .middle-bar {
@@ -1025,7 +1082,7 @@ textarea.form-control {
 
 .navbar-toggler.active .bottom-bar {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 /*
@@ -1052,9 +1109,9 @@ New Demo CSS
 .jexa-new-navbar-area.is-sticky {
   background-color: var(--whiteColor) !important;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 .jexa-new-navbar-area .jexa-nav .navbar .navbar-brand img:first-child {
@@ -1069,11 +1126,13 @@ New Demo CSS
   color: var(--blackColor);
 }
 
-.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a:hover, .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a.active {
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a:hover,
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a.active {
   color: var(--mainColor);
 }
 
-.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item:hover a, .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.active a {
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item:hover a,
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.active a {
   color: var(--mainColor);
 }
 
@@ -1142,16 +1201,17 @@ New Demo CSS
   color: var(--blackColor);
 }
 
-.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover, .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover,
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
   color: var(--mainColor);
 }
 
 .navbar-with-white-content.is-sticky {
   background-color: var(--blackColor) !important;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 .navbar-with-white-content .jexa-nav .navbar .navbar-brand img:first-child {
@@ -1166,11 +1226,13 @@ New Demo CSS
   color: var(--whiteColor);
 }
 
-.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item a:hover, .navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item a.active {
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item a:hover,
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item a.active {
   color: var(--mainColor);
 }
 
-.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item:hover a, .navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.active a {
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item:hover a,
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.active a {
   color: var(--mainColor);
 }
 
@@ -1239,7 +1301,8 @@ New Demo CSS
   color: var(--blackColor);
 }
 
-.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover, .navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover,
+.navbar-with-white-content .jexa-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
   color: var(--mainColor);
 }
 
@@ -1262,11 +1325,11 @@ New Demo CSS
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 630px;
   margin-left: auto;
 }
@@ -1343,7 +1406,7 @@ New Demo CSS
 
 .new-app-main-banner-content .content .app-btn-box .applestore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -1367,7 +1430,7 @@ New Demo CSS
 
 .new-app-main-banner-content .content .app-btn-box .applestore-btn:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1389,7 +1452,7 @@ New Demo CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 12px;
   font-weight: 500;
   padding-top: 12px;
@@ -1410,7 +1473,7 @@ New Demo CSS
 
 .new-app-main-banner-content .content .app-btn-box .playstore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 30px;
   top: 50%;
@@ -1434,7 +1497,7 @@ New Demo CSS
 
 .new-app-main-banner-content .content .app-btn-box .playstore-btn:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1452,7 +1515,7 @@ New Demo CSS
   left: -190px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: -11;
 }
 
@@ -1487,7 +1550,7 @@ New Demo CSS
   left: 112px;
   top: -40px;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .new-app-main-banner-image .wrap-shape-2 {
@@ -1495,7 +1558,7 @@ New Demo CSS
   right: 40px;
   top: -25px;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .new-app-banner-bg-shape {
@@ -1618,7 +1681,7 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content .app-btn-box .applestore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -1642,7 +1705,7 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content .app-btn-box .applestore-btn:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1664,7 +1727,7 @@ New Demo CSS
   color: var(--whiteColor);
   background: var(--blackColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 12px;
   font-weight: 500;
   padding-top: 12px;
@@ -1685,7 +1748,7 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content .app-btn-box .playstore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 30px;
   top: 50%;
@@ -1709,7 +1772,7 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content .app-btn-box .playstore-btn:hover {
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1733,7 +1796,7 @@ New Demo CSS
   left: 145px;
   top: 70px;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .new-app-main-banner-wrap-image .wrap-image-shape-2 {
@@ -1741,14 +1804,14 @@ New Demo CSS
   right: 115px;
   bottom: 160px;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .new-app-main-banner-wrap-image .banner-circle {
   position: absolute;
   top: 45%;
   -webkit-transform: translateY(-45%);
-          transform: translateY(-45%);
+  transform: translateY(-45%);
   left: 0;
   right: 80px;
   margin: auto;
@@ -1758,13 +1821,13 @@ New Demo CSS
 
 .new-app-main-banner-wrap-image .banner-circle img {
   -webkit-animation-name: rotateme;
-          animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .new-app-main-banner-wrap-shape {
@@ -1849,7 +1912,7 @@ New Demo CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   background: var(--gradientColor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1870,7 +1933,7 @@ New Demo CSS
   right: -18px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .features-card h3 {
@@ -1902,7 +1965,7 @@ New Demo CSS
 
 .features-card:hover {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .features-card:hover .icon {
@@ -1929,9 +1992,9 @@ New Demo CSS
   background: -webkit-gradient(linear, left top, left bottom, from(#ED2775), to(#FF7448));
   background: linear-gradient(180deg, #ED2775 0%, #FF7448 100%);
   -webkit-box-shadow: 15px 20px 35px;
-          box-shadow: 15px 20px 35px;
+  box-shadow: 15px 20px 35px;
   -webkit-box-shadow: unset;
-          box-shadow: unset;
+  box-shadow: unset;
 }
 
 .features-card.style-two .icon .number {
@@ -2030,7 +2093,7 @@ New Demo CSS
 .features-inner-card.with-box-shadow {
   background: var(--whiteColor);
   -webkit-box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
 }
 
 .features-inner-card.with-box-shadow .icon i {
@@ -2060,7 +2123,7 @@ New Demo CSS
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .features-inner-card h3 {
@@ -2099,7 +2162,7 @@ New Demo CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
-          box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
+  box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
   background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
   color: var(--whiteColor);
   transition: var(--transition);
@@ -2199,7 +2262,7 @@ New Demo CSS
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .app-about-content .list li .icon.bg2 {
@@ -2261,7 +2324,7 @@ New Demo CSS
   top: 0;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .app-about-shape-2 {
@@ -2270,7 +2333,7 @@ New Demo CSS
   top: 0;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .app-about-shape-3 {
@@ -2279,7 +2342,7 @@ New Demo CSS
   bottom: 65px;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 /* Key Features Area CSS */
@@ -2433,7 +2496,7 @@ New Demo CSS
   top: 50px;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .key-features-shape-2 {
@@ -2442,7 +2505,7 @@ New Demo CSS
   bottom: 30px;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .key-features-btn {
@@ -2506,7 +2569,7 @@ New Demo CSS
   top: 30px;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .new-app-progress-wrap-area {
@@ -2620,20 +2683,22 @@ New Demo CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
   background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
-.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before, .app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
+.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before,
+.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after, .app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
+.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after,
+.app-screenshots-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
   opacity: 1;
   visibility: visible;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .app-screenshots-shape-1 {
@@ -2641,9 +2706,9 @@ New Demo CSS
   top: 8%;
   left: 8%;
   -webkit-transform: translateY(-8%) translateX(-8%);
-          transform: translateY(-8%) translateX(-8%);
+  transform: translateY(-8%) translateX(-8%);
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
   z-index: -1;
 }
 
@@ -2653,7 +2718,7 @@ New Demo CSS
   top: 0;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .app-screenshots-wrap-area {
@@ -2686,9 +2751,9 @@ New Demo CSS
   width: 750px;
   border-radius: 10px;
   -webkit-transition-duration: 0ms;
-          transition-duration: 0ms;
+  transition-duration: 0ms;
   -webkit-transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1) !important;
-          transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1) !important;
+  transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1) !important;
 }
 
 .screenshots-swiper-wrap-slides .carousel .carousel__viewport .carousel__track .carousel__slide .swiper-slide img {
@@ -2698,11 +2763,12 @@ New Demo CSS
 .screenshots-swiper-wrap-slides .carousel .carousel__viewport .carousel__track .carousel__slide.carousel__slide--active.carousel__slide--visible .swiper-slide {
   border-radius: 10px;
   -webkit-transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1.2) !important;
-          transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1.2) !important;
+  transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1.2) !important;
   z-index: 1;
 }
 
-.screenshots-swiper-wrap-slides .carousel .carousel__prev, .screenshots-swiper-wrap-slides .carousel .carousel__next {
+.screenshots-swiper-wrap-slides .carousel .carousel__prev,
+.screenshots-swiper-wrap-slides .carousel .carousel__next {
   z-index: 1;
   left: 40px;
   width: 50px;
@@ -2710,18 +2776,21 @@ New Demo CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
-.screenshots-swiper-wrap-slides .carousel .carousel__prev i, .screenshots-swiper-wrap-slides .carousel .carousel__next i {
+.screenshots-swiper-wrap-slides .carousel .carousel__prev i,
+.screenshots-swiper-wrap-slides .carousel .carousel__next i {
   font-size: 30px;
 }
 
-.screenshots-swiper-wrap-slides .carousel .carousel__prev::after, .screenshots-swiper-wrap-slides .carousel .carousel__next::after {
+.screenshots-swiper-wrap-slides .carousel .carousel__prev::after,
+.screenshots-swiper-wrap-slides .carousel .carousel__next::after {
   font-size: 20px;
 }
 
-.screenshots-swiper-wrap-slides .carousel .carousel__prev::before, .screenshots-swiper-wrap-slides .carousel .carousel__next::before {
+.screenshots-swiper-wrap-slides .carousel .carousel__prev::before,
+.screenshots-swiper-wrap-slides .carousel .carousel__next::before {
   content: '';
   position: absolute;
   left: 0;
@@ -2733,7 +2802,8 @@ New Demo CSS
   border-radius: 50%;
 }
 
-.screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next, .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
+.screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next,
+.screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
   left: auto;
   right: 40px;
 }
@@ -2745,7 +2815,7 @@ New Demo CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
 .screenshots-swiper-wrap-slides .swiper-button-next::after {
@@ -2771,7 +2841,7 @@ New Demo CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
 .screenshots-swiper-wrap-slides .swiper-button-prev::after {
@@ -2853,7 +2923,7 @@ New Demo CSS
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .app-ever-content .list li .icon.bg2 {
@@ -2913,7 +2983,7 @@ New Demo CSS
   right: 30px;
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
-          animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
 }
 
 .app-ever-wrap-image {
@@ -2967,19 +3037,19 @@ New Demo CSS
 
 .popup-video .popup-overlay-close .popup-overlay-close-line:nth-child(1) {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .popup-video .popup-overlay-close .popup-overlay-close-line:nth-child(2) {
   margin-top: -7px;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .popup-video .popup-overlay-close:hover .popup-overlay-close-line {
   background: var(--mainColor);
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .popup-video .play-video {
@@ -3023,15 +3093,16 @@ New Demo CSS
   top: 50%;
   z-index: 1;
   -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-          box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
+  box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
 }
 
-.app-video-box .video-btn::after, .app-video-box .video-btn::before {
+.app-video-box .video-btn::after,
+.app-video-box .video-btn::before {
   content: '';
   display: block;
   position: absolute;
@@ -3046,12 +3117,12 @@ New Demo CSS
 
 .app-video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
-          animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
 }
 
 .app-video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
-          animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
 }
 
 .app-video-box:hover::before {
@@ -3065,7 +3136,7 @@ New Demo CSS
   top: -35px;
   z-index: 1;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .app-video-box .shape .shape-2 {
@@ -3074,7 +3145,7 @@ New Demo CSS
   bottom: -35px;
   z-index: 1;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .app-intro-video-box {
@@ -3113,15 +3184,16 @@ New Demo CSS
   top: 50%;
   z-index: 1;
   -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-          box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
+  box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
 }
 
-.app-intro-video-box .video-btn::after, .app-intro-video-box .video-btn::before {
+.app-intro-video-box .video-btn::after,
+.app-intro-video-box .video-btn::before {
   content: '';
   display: block;
   position: absolute;
@@ -3136,12 +3208,12 @@ New Demo CSS
 
 .app-intro-video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
-          animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
 }
 
 .app-intro-video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
-          animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
 }
 
 .app-intro-video-box:hover::before {
@@ -3154,7 +3226,7 @@ New Demo CSS
   left: -55px;
   top: -20px;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .app-intro-video-content {
@@ -3289,44 +3361,54 @@ New Demo CSS
   transition: var(--transition);
 }
 
-.single-app-pricing-box:hover, .single-app-pricing-box.active {
+.single-app-pricing-box:hover,
+.single-app-pricing-box.active {
   border: 1px solid var(--mainColor);
 }
 
-.single-app-pricing-box:hover::before, .single-app-pricing-box.active::before {
+.single-app-pricing-box:hover::before,
+.single-app-pricing-box.active::before {
   opacity: 1;
   visibility: visible;
 }
 
-.single-app-pricing-box:hover .title h3, .single-app-pricing-box.active .title h3 {
+.single-app-pricing-box:hover .title h3,
+.single-app-pricing-box.active .title h3 {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .title p, .single-app-pricing-box.active .title p {
+.single-app-pricing-box:hover .title p,
+.single-app-pricing-box.active .title p {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .price, .single-app-pricing-box.active .price {
+.single-app-pricing-box:hover .price,
+.single-app-pricing-box.active .price {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .price span, .single-app-pricing-box.active .price span {
+.single-app-pricing-box:hover .price span,
+.single-app-pricing-box.active .price span {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .pricing-btn .default-btn::before, .single-app-pricing-box.active .pricing-btn .default-btn::before {
+.single-app-pricing-box:hover .pricing-btn .default-btn::before,
+.single-app-pricing-box.active .pricing-btn .default-btn::before {
   background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
 }
 
-.single-app-pricing-box:hover .features-list li, .single-app-pricing-box.active .features-list li {
+.single-app-pricing-box:hover .features-list li,
+.single-app-pricing-box.active .features-list li {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .features-list li i, .single-app-pricing-box.active .features-list li i {
+.single-app-pricing-box:hover .features-list li i,
+.single-app-pricing-box.active .features-list li i {
   color: var(--whiteColor);
 }
 
-.single-app-pricing-box:hover .features-list li i.ri-close-line, .single-app-pricing-box.active .features-list li i.ri-close-line {
+.single-app-pricing-box:hover .features-list li i.ri-close-line,
+.single-app-pricing-box.active .features-list li i.ri-close-line {
   color: var(--whiteColor);
 }
 
@@ -3342,7 +3424,7 @@ New Demo CSS
 .single-app-pricing-box.with-border-radius {
   background: var(--whiteColor);
   -webkit-box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
   border-radius: 25px;
   border: 1px solid var(--whiteColor);
 }
@@ -3465,11 +3547,13 @@ New Demo CSS
   background: linear-gradient(247.32deg, #4400B2 0%, #8B4FEB 70.53%);
 }
 
-.app-pricing-gradient-area .single-app-pricing-box:hover, .app-pricing-gradient-area .single-app-pricing-box.active {
+.app-pricing-gradient-area .single-app-pricing-box:hover,
+.app-pricing-gradient-area .single-app-pricing-box.active {
   border: 1px solid var(--mainColor);
 }
 
-.app-pricing-gradient-area .single-app-pricing-box:hover::before, .app-pricing-gradient-area .single-app-pricing-box.active::before {
+.app-pricing-gradient-area .single-app-pricing-box:hover::before,
+.app-pricing-gradient-area .single-app-pricing-box.active::before {
   opacity: 1;
   visibility: visible;
 }
@@ -3536,7 +3620,7 @@ New Demo CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -3557,7 +3641,7 @@ New Demo CSS
 
 .new-app-download-content .btn-box .playstore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -3566,7 +3650,7 @@ New Demo CSS
 .new-app-download-content .btn-box .playstore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -3581,7 +3665,7 @@ New Demo CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -3602,7 +3686,7 @@ New Demo CSS
 
 .new-app-download-content .btn-box .applestore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -3611,7 +3695,7 @@ New Demo CSS
 .new-app-download-content .btn-box .applestore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -3653,7 +3737,7 @@ New Demo CSS
   margin: auto;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: -1;
   max-width: 580px;
 }
@@ -3669,7 +3753,7 @@ New Demo CSS
   top: 85px;
   z-index: -1;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .app-download-shape-2 {
@@ -3677,9 +3761,9 @@ New Demo CSS
   bottom: 15%;
   left: 45%;
   -webkit-transform: translateY(-15%) translateX(-45%);
-          transform: translateY(-15%) translateX(-45%);
+  transform: translateY(-15%) translateX(-45%);
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 /* New Software Area CSS */
@@ -3709,7 +3793,7 @@ New Demo CSS
   transition: var(--transition);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
 }
 
 .new-software-list ul li img {
@@ -3718,7 +3802,7 @@ New Demo CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -3764,22 +3848,22 @@ New Demo CSS
   width: 140px;
   height: 140px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
   -webkit-box-shadow: 0px 10px 35px rgba(237, 39, 117, 0.08);
-          box-shadow: 0px 10px 35px rgba(237, 39, 117, 0.08);
+  box-shadow: 0px 10px 35px rgba(237, 39, 117, 0.08);
 }
 
 .new-software-list ul:hover li {
   -webkit-filter: blur(4px);
-          filter: blur(4px);
+  filter: blur(4px);
 }
 
 .new-software-list ul:hover li:hover {
   -webkit-filter: blur(0);
-          filter: blur(0);
+  filter: blur(0);
 }
 
 .new-software-content {
@@ -3976,20 +4060,22 @@ New Demo CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
   background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
 }
 
-.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before, .new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
+.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before,
+.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after, .new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
+.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after,
+.new-feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
   opacity: 1;
   visibility: visible;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .new-feedback-shape {
@@ -3998,7 +4084,7 @@ New Demo CSS
   top: 0;
   z-index: -1;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .feedback-wrap-area {
@@ -4007,7 +4093,7 @@ New Demo CSS
 
 .single-feedback-wrap-item {
   -webkit-box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
-          box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
+  box-shadow: 0px 0px 30px rgba(29, 23, 77, 0.07);
   background-color: var(--whiteColor);
   text-align: center;
   padding: 45px 145px;
@@ -4069,7 +4155,8 @@ New Demo CSS
   margin: 25px;
 }
 
-.feedback-swiper-wrap-slides .carousel .carousel__prev, .feedback-swiper-wrap-slides .carousel .carousel__next {
+.feedback-swiper-wrap-slides .carousel .carousel__prev,
+.feedback-swiper-wrap-slides .carousel .carousel__next {
   z-index: 1;
   width: 50px;
   height: 50px;
@@ -4077,18 +4164,21 @@ New Demo CSS
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-          box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
 }
 
-.feedback-swiper-wrap-slides .carousel .carousel__prev i, .feedback-swiper-wrap-slides .carousel .carousel__next i {
+.feedback-swiper-wrap-slides .carousel .carousel__prev i,
+.feedback-swiper-wrap-slides .carousel .carousel__next i {
   font-size: 40px;
 }
 
-.feedback-swiper-wrap-slides .carousel .carousel__prev::after, .feedback-swiper-wrap-slides .carousel .carousel__next::after {
+.feedback-swiper-wrap-slides .carousel .carousel__prev::after,
+.feedback-swiper-wrap-slides .carousel .carousel__next::after {
   font-size: 20px;
 }
 
-.feedback-swiper-wrap-slides .carousel .carousel__prev::before, .feedback-swiper-wrap-slides .carousel .carousel__next::before {
+.feedback-swiper-wrap-slides .carousel .carousel__prev::before,
+.feedback-swiper-wrap-slides .carousel .carousel__next::before {
   content: '';
   position: absolute;
   left: 0;
@@ -4100,7 +4190,8 @@ New Demo CSS
   border-radius: 50%;
 }
 
-.feedback-swiper-wrap-slides .carousel .carousel__prev.carousel__next, .feedback-swiper-wrap-slides .carousel .carousel__next.carousel__next {
+.feedback-swiper-wrap-slides .carousel .carousel__prev.carousel__next,
+.feedback-swiper-wrap-slides .carousel .carousel__next.carousel__next {
   left: auto;
   right: -30px;
 }
@@ -4214,14 +4305,15 @@ New Demo CSS
   margin-right: 10px;
 }
 
-.new-feedback-wrap-slides .carousel .carousel__prev, .new-feedback-wrap-slides .carousel .carousel__next {
+.new-feedback-wrap-slides .carousel .carousel__prev,
+.new-feedback-wrap-slides .carousel .carousel__next {
   position: absolute;
   top: 42%;
   -webkit-transform: translateY(-42%);
-          transform: translateY(-42%);
+  transform: translateY(-42%);
   left: 24.5%;
   -webkit-transform: translateX(-24.5%);
-          transform: translateX(-24.5%);
+  transform: translateX(-24.5%);
   font-size: 25px;
   width: 40px;
   height: 40px;
@@ -4235,7 +4327,8 @@ New Demo CSS
   z-index: 1;
 }
 
-.new-feedback-wrap-slides .carousel .carousel__prev::before, .new-feedback-wrap-slides .carousel .carousel__next::before {
+.new-feedback-wrap-slides .carousel .carousel__prev::before,
+.new-feedback-wrap-slides .carousel .carousel__next::before {
   content: '';
   position: absolute;
   left: 0;
@@ -4251,20 +4344,23 @@ New Demo CSS
   visibility: hidden;
 }
 
-.new-feedback-wrap-slides .carousel .carousel__prev.carousel__next, .new-feedback-wrap-slides .carousel .carousel__next.carousel__next {
+.new-feedback-wrap-slides .carousel .carousel__prev.carousel__next,
+.new-feedback-wrap-slides .carousel .carousel__next.carousel__next {
   left: auto;
   right: 23.5%;
   -webkit-transform: translateX(-23.5%);
-          transform: translateX(-23.5%);
+  transform: translateX(-23.5%);
 }
 
-.new-feedback-wrap-slides .carousel .carousel__prev:hover, .new-feedback-wrap-slides .carousel .carousel__next:hover {
+.new-feedback-wrap-slides .carousel .carousel__prev:hover,
+.new-feedback-wrap-slides .carousel .carousel__next:hover {
   background-color: #f9f9f9;
   color: var(--whiteColor);
   border-radius: 50%;
 }
 
-.new-feedback-wrap-slides .carousel .carousel__prev:hover::before, .new-feedback-wrap-slides .carousel .carousel__next:hover::before {
+.new-feedback-wrap-slides .carousel .carousel__prev:hover::before,
+.new-feedback-wrap-slides .carousel .carousel__next:hover::before {
   opacity: 1;
   border-radius: 50%;
   visibility: visible;
@@ -4293,7 +4389,7 @@ New Demo CSS
   left: -55px;
   top: -48px;
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .new-free-trial-content {
@@ -4438,7 +4534,7 @@ New Demo CSS
 
 .single-funfacts-card:hover {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Blog Wrap Area CSS */
@@ -4490,7 +4586,7 @@ New Demo CSS
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   color: #0064FB;
 }
@@ -4515,7 +4611,7 @@ New Demo CSS
 
 .single-blog-wrap-post:hover .image img {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .single-blog-wrap-post:hover .content h3 a {
@@ -4718,36 +4814,40 @@ Preloader CSS
   background-color: var(--whiteColor);
   margin: 100px auto;
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-          animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
   }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
 
 @keyframes sk-rotateplane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
   }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
 
@@ -4756,86 +4856,118 @@ Preloader CSS
   body {
     font-size: 13px;
   }
+
   p {
     font-size: 13px;
   }
+
   .ptb-100 {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .pt-100 {
     padding-top: 60px;
   }
+
   .pb-100 {
     padding-bottom: 60px;
   }
+
   .ptb-75 {
     padding-top: 35px;
     padding-bottom: 35px;
   }
+
   .pt-75 {
     padding-top: 35px;
   }
+
   .pb-75 {
     padding-bottom: 35px;
   }
+
   .default-btn {
     padding: 11px 30px;
     font-size: 12.5px;
   }
-  .shape1, .shape2, .bg-shape1, .shape6, .shape8, .shape12, .shape13, .shape10, .shape11 {
+
+  .shape1,
+  .shape2,
+  .bg-shape1,
+  .shape6,
+  .shape8,
+  .shape12,
+  .shape13,
+  .shape10,
+  .shape11 {
     display: none;
   }
+
   .shape7 {
     left: 0;
     width: 80px;
   }
+
   .section-title {
     margin-bottom: 40px;
     max-width: 100%;
   }
+
   .section-title .sub-title {
     font-size: 12px;
   }
+
   .section-title h2 {
     font-size: 20px;
   }
+
   .section-title p {
     font-size: 13px;
   }
+
   .page-title-area {
     padding-top: 140px;
     padding-bottom: 70px;
   }
+
   .page-title-area::before {
     display: none;
   }
+
   .page-title-area .banner-shape1 {
     width: 80px;
   }
+
   .page-title-content h2 {
     font-size: 22px;
   }
+
   .page-title-content ul li {
     font-size: 13px;
   }
+
   .divider {
     height: 50px;
   }
+
   .form-control {
     font-size: 13px;
     height: 45px;
   }
+
   .pagination-area {
     margin-top: 0;
     padding-top: 20px;
   }
+
   .pagination-area .page-numbers {
     width: 40px;
     height: 40px;
     font-size: 14px;
     line-height: 40px;
   }
+
   /*
     New Demo Responsive CSS
     ======================================================*/
@@ -4843,27 +4975,35 @@ Preloader CSS
     font-size: 35px;
     top: -8px;
   }
+
   .new-app-main-banner-area {
     padding-top: 170px;
   }
+
   .new-app-main-banner-content .content .name-big-text {
     display: none;
   }
+
   .new-app-main-banner-content .content h1 {
     font-size: 28px;
   }
+
   .new-app-main-banner-content .content .app-btn-box .applestore-btn {
     font-size: 10px;
   }
+
   .new-app-main-banner-content .content .app-btn-box .applestore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-main-banner-content .content .app-btn-box .playstore-btn {
     font-size: 10px;
   }
+
   .new-app-main-banner-content .content .app-btn-box .playstore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-main-banner-content .new-app-trusted-by {
     top: 0;
     padding: 15px;
@@ -4871,193 +5011,252 @@ Preloader CSS
     border-radius: 5px;
     background-color: var(--whiteColor);
   }
+
   .new-app-main-banner-content .new-app-trusted-by .title {
     margin-bottom: 15px;
     text-align: center;
   }
+
   .new-app-main-banner-content .new-app-trusted-by .item img {
     max-width: 110px;
   }
+
   .new-app-main-banner-image {
     margin-top: 30px;
   }
-  .new-app-main-banner-image .wrap-shape-1, .new-app-main-banner-image .wrap-shape-2 {
+
+  .new-app-main-banner-image .wrap-shape-1,
+  .new-app-main-banner-image .wrap-shape-2 {
     display: none;
   }
+
   .features-card .icon {
     width: 60px;
     height: 60px;
     font-size: 25px;
     margin-bottom: 20px;
   }
+
   .features-card h3 {
     font-size: 18px;
   }
+
   .app-about-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .app-about-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .app-about-content .big-text {
     font-size: 35px;
     top: -8px;
   }
+
   .app-about-content h2 {
     font-size: 20px;
   }
+
   .app-about-content .list li h3 {
     font-size: 16px;
   }
-  .app-about-shape-1, .app-about-shape-2, .app-about-shape-3 {
+
+  .app-about-shape-1,
+  .app-about-shape-2,
+  .app-about-shape-3 {
     display: none;
   }
+
   .key-features-card {
     padding: 20px;
   }
+
   .key-features-card .icon {
     margin-bottom: 20px;
   }
+
   .key-features-card .icon i {
     height: 55px;
     width: 55px;
     line-height: 55px;
     font-size: 20px;
   }
+
   .key-features-card h3 {
     font-size: 18px;
   }
+
   .key-features-card.style-two {
     padding: 20px 20px 20px 92px;
   }
+
   .key-features-card.style-two .icon {
     left: 20px;
     top: 20px;
   }
+
   .key-features-card.style-two .icon i {
     height: 50px;
     width: 50px;
     line-height: 50px;
   }
-  .key-features-shape-1, .key-features-shape-2 {
+
+  .key-features-shape-1,
+  .key-features-shape-2 {
     display: none;
   }
+
   .new-app-progress-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .new-app-progress-content .big-text {
     font-size: 35px;
     top: -8px;
   }
+
   .new-app-progress-content h2 {
     font-size: 20px;
   }
+
   .new-app-progress-shape {
     display: none;
   }
+
   .new-app-progress-image {
     margin-top: 30px;
   }
-  .app-screenshots-shape-1, .app-screenshots-shape-2 {
+
+  .app-screenshots-shape-1,
+  .app-screenshots-shape-2 {
     display: none;
   }
+
   .app-ever-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .app-ever-content {
     padding-left: 0;
   }
+
   .app-ever-content h2 {
     font-size: 20px;
   }
+
   .app-ever-content .list li h3 {
     font-size: 16px;
   }
+
   .app-ever-image {
     margin-bottom: 30px;
   }
+
   .app-ever-shape-1 {
     display: none;
   }
+
   .app-ever-wrap-image {
     margin-top: 30px;
     text-align: center;
   }
+
   .app-video-box .video-btn {
     width: 70px;
     height: 70px;
     font-size: 45px;
     line-height: 70px;
   }
+
   .app-video-box .shape .shape-1 {
     display: none;
   }
+
   .app-video-box .shape .shape-2 {
     display: none;
   }
+
   .single-app-pricing-box {
     padding: 20px;
   }
+
   .single-app-pricing-box .title {
     margin-bottom: 20px;
   }
+
   .single-app-pricing-box .price {
     font-size: 30px;
   }
+
   .single-app-pricing-box .features-list {
     margin-top: 25px;
   }
+
   .single-app-pricing-box .features-list li {
     font-size: 14px;
   }
+
   .app-pricing-section-title {
     padding-right: 0;
     top: 0;
     margin-bottom: 35px;
   }
+
   .app-pricing-section-title h2 {
     font-size: 20px;
   }
+
   .new-app-download-content .big-text {
     font-size: 35px;
     top: -8px;
   }
+
   .new-app-download-content h2 {
     font-size: 20px;
   }
+
   .new-app-download-content .btn-box .playstore-btn {
     font-size: 10px;
     margin-bottom: 10px;
   }
+
   .new-app-download-content .btn-box .playstore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-download-content .btn-box .applestore-btn {
     font-size: 10px;
   }
+
   .new-app-download-content .btn-box .applestore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-download-image {
     margin-top: 30px;
     text-align: center !important;
   }
+
   .new-software-list {
     text-align: center;
     margin-left: 0;
   }
+
   .new-software-list img {
     display: none;
   }
+
   .new-software-list ul {
     position: relative;
     width: auto;
     height: auto;
   }
+
   .new-software-list ul li {
     position: relative;
     display: inline-block;
@@ -5066,78 +5265,98 @@ Preloader CSS
     left: 0 !important;
     top: 0 !important;
     -webkit-transform: unset !important;
-            transform: unset !important;
+    transform: unset !important;
     width: 80px !important;
     height: 80px !important;
     margin-bottom: 15px;
     margin-left: 8px;
     margin-right: 8px;
   }
+
   .new-software-list ul li img {
     display: inline-block;
     width: 40px;
   }
+
   .new-software-content {
     margin-top: 20px;
   }
+
   .new-software-content .big-text {
     font-size: 35px;
     top: -8px;
   }
+
   .new-software-content h2 {
     font-size: 20px;
   }
+
   .single-feedback-card {
     padding: 20px 15px;
     text-align: center;
   }
+
   .single-feedback-card .client-info {
     margin-bottom: 15px;
   }
+
   .single-feedback-card .client-info .d-flex {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .single-feedback-card .client-info .title {
     text-align: start;
     margin-left: 12px;
   }
+
   .single-feedback-card .client-info .title h3 {
     font-size: 15px;
   }
+
   .single-feedback-card .client-info .title span {
     font-size: 13px;
   }
+
   .single-feedback-card p {
     font-size: 14px;
   }
+
   .single-feedback-card .rating {
     margin-top: 18px;
     display: block !important;
   }
+
   .single-feedback-card .rating h5 {
     font-size: 14px;
     margin-bottom: 15px;
   }
+
   .new-feedback-shape {
     display: none;
   }
+
   .new-free-trial-inner-box {
     padding: 50px 15px;
   }
+
   .new-free-trial-inner-box .new-free-trial-shape {
     display: none;
   }
+
   .new-free-trial-content .sub-title {
     font-size: 12px;
   }
+
   .new-free-trial-content h2 {
     font-size: 20px;
   }
+
   .new-free-trial-content form .input-newsletter {
     height: 50px;
   }
+
   .new-free-trial-content form .default-btn {
     height: 50px;
     position: relative;
@@ -5147,46 +5366,60 @@ Preloader CSS
     margin-top: 15px;
     width: 100%;
   }
+
   .new-free-trial-image {
     margin-top: 30px;
   }
+
   .footer-area-style-with-black-color {
     padding-top: 330px;
   }
+
   .new-app-main-banner-wrap-area {
     padding-top: 110px;
     padding-bottom: 50px;
   }
+
   .new-app-main-banner-wrap-content {
     margin-top: 0;
   }
+
   .new-app-main-banner-wrap-content h1 {
     font-size: 25px;
   }
+
   .new-app-main-banner-wrap-content .app-btn-box .applestore-btn {
     font-size: 10px;
   }
+
   .new-app-main-banner-wrap-content .app-btn-box .applestore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-main-banner-wrap-content .app-btn-box .playstore-btn {
     font-size: 10px;
   }
+
   .new-app-main-banner-wrap-content .app-btn-box .playstore-btn span {
     font-size: 12.5px;
   }
+
   .new-app-main-banner-wrap-image {
     margin-top: 30px;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-1 {
     display: none;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-2 {
     display: none;
   }
+
   .screenshots-tabs .tabs .tabs__header {
     border-bottom: none;
   }
+
   .screenshots-tabs .tabs .tabs__header .tabs__header-item {
     border: 1px solid #444444;
     border-radius: 0.25rem;
@@ -5197,89 +5430,114 @@ Preloader CSS
     padding-bottom: 10px;
     margin-bottom: 5px;
   }
+
   .screenshots-tabs .tabs .tabs__header .tabs__header-item::before {
     border-radius: 0.25rem;
   }
+
   .screenshots-tabs .tabs .tabs__header .tabs__header-item i {
     left: 10px;
   }
+
   .features-inner-content {
     padding-right: 0;
     margin-bottom: 25px;
   }
+
   .features-inner-content h2 {
     font-size: 20px;
   }
+
   .features-inner-content .btn-box {
     margin-top: 25px;
   }
+
   .features-inner-list .row .col-lg-6:nth-child(2) {
     margin-top: 0;
   }
+
   .features-inner-list .row .col-lg-6:nth-child(3) {
     margin-top: 0;
   }
+
   .features-inner-card {
     padding: 20px;
   }
+
   .features-inner-card .icon {
     margin: 14px 0 30px;
     padding-left: 60px;
   }
+
   .features-inner-card .icon i {
     width: 45px;
     height: 45px;
     line-height: 45px;
     font-size: 20px;
   }
+
   .features-box-card .icon {
     margin-bottom: 15px;
   }
+
   .features-box-card .icon i {
     width: 65px;
     height: 65px;
     line-height: 65px;
     font-size: 30px;
   }
+
   .features-box-card h3 {
     font-size: 14px;
   }
+
   .app-intro-video-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .app-intro-video-content h2 {
     font-size: 22px;
   }
+
   .app-intro-video-box .video-btn {
     width: 70px;
     height: 70px;
     font-size: 45px;
     line-height: 70px;
   }
+
   .app-intro-video-box .intro-video-shape {
     display: none;
   }
+
   .single-funfacts-card p {
     font-size: 15px;
   }
+
   .single-feedback-wrap-item {
     padding: 30px 20px;
   }
+
   .single-feedback-wrap-item p {
     font-size: 14px;
   }
+
   .single-feedback-wrap-item .client-info .title h3 {
     font-size: 16px;
   }
+
   .feedback-swiper-wrap-slides {
     max-width: 100%;
     overflow: hidden;
     padding-bottom: 55px;
   }
-  .feedback-swiper-wrap-slides .swiper-slide-shadow-right, .feedback-swiper-wrap-slides .swiper-slide-shadow-left {
+
+  .feedback-swiper-wrap-slides .swiper-slide-shadow-right,
+  .feedback-swiper-wrap-slides .swiper-slide-shadow-left {
     display: none;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next {
     top: auto;
     bottom: 0;
@@ -5287,14 +5545,16 @@ Preloader CSS
     width: 35px;
     height: 35px;
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     margin-right: -22px;
     -webkit-transform: translateY(0) translateX(50%) !important;
-            transform: translateY(0) translateX(50%) !important;
+    transform: translateY(0) translateX(50%) !important;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next::after {
     font-size: 15px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev {
     top: auto;
     bottom: 0;
@@ -5303,80 +5563,104 @@ Preloader CSS
     height: 35px;
     margin-top: 25px;
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     margin-left: -22px;
     -webkit-transform: translateY(0) translateX(-50%) !important;
-            transform: translateY(0) translateX(-50%) !important;
+    transform: translateY(0) translateX(-50%) !important;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev::after {
     left: -2px;
     font-size: 15px;
     position: relative;
   }
+
   .single-blog-wrap-post .content h3 {
     font-size: 18px;
   }
+
   .new-app-main-banner-gradient-area {
     padding-top: 145px;
     padding-bottom: 50px;
   }
+
   .new-app-main-banner-gradient-content h1 {
     font-size: 25px;
   }
+
   .new-app-main-banner-gradient-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .new-app-progress-wrap-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .new-app-progress-wrap-area .new-app-progress-image {
     margin-top: 0;
     margin-bottom: 30px;
   }
+
   .new-app-progress-wrap-area .new-app-progress-content {
     padding-left: 0;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev, .screenshots-swiper-wrap-slides .carousel .carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next {
     left: 30px;
     width: 30px;
     height: 30px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev i, .screenshots-swiper-wrap-slides .carousel .carousel__next i {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev i,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next i {
     font-size: 20px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next, .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
     left: auto;
     right: 35px;
   }
+
   .new-software-area.software-wrap-style .new-software-content {
     margin-top: 0;
     margin-bottom: 25px;
   }
+
   .new-software-area.software-wrap-style .new-software-list ul li {
     margin-top: 15px;
     margin-bottom: 0;
   }
+
   .new-feedback-wrap-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .single-feedback-wrap-card {
     padding: 20px;
   }
+
   .single-feedback-wrap-card p {
     font-size: 14px;
   }
+
   .single-feedback-wrap-card .client-info .title h3 {
     font-size: 16px;
   }
-  .new-feedback-wrap-slides .carousel .carousel__prev, .new-feedback-wrap-slides .carousel .carousel__next {
+
+  .new-feedback-wrap-slides .carousel .carousel__prev,
+  .new-feedback-wrap-slides .carousel .carousel__next {
     top: auto;
     bottom: 100px;
     left: 20px;
   }
-  .new-feedback-wrap-slides .carousel .carousel__prev.carousel__next, .new-feedback-wrap-slides .carousel .carousel__next.carousel__next {
+
+  .new-feedback-wrap-slides .carousel .carousel__prev.carousel__next,
+  .new-feedback-wrap-slides .carousel .carousel__next.carousel__next {
     left: auto;
     right: 0;
   }
@@ -5395,92 +5679,121 @@ Preloader CSS
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .pt-100 {
     padding-top: 80px;
   }
+
   .pb-100 {
     padding-bottom: 80px;
   }
+
   .ptb-75 {
     padding-top: 55px;
     padding-bottom: 55px;
   }
+
   .pt-75 {
     padding-top: 55px;
   }
+
   .pb-75 {
     padding-bottom: 55px;
   }
-  .shape1, .shape2, .shape6 {
+
+  .shape1,
+  .shape2,
+  .shape6 {
     display: none;
   }
+
   .shape10 {
     left: -20px;
   }
+
   .shape11 {
     right: -20px;
   }
+
   .default-btn {
     font-size: 13px;
   }
+
   .section-title {
     max-width: 100%;
     margin-bottom: 50px;
   }
+
   .section-title .sub-title {
     font-size: 13px;
   }
+
   .section-title h2 {
     font-size: 30px;
   }
+
   .section-title p {
     font-size: 14px;
   }
+
   .page-title-area {
     padding-top: 150px;
     padding-bottom: 80px;
   }
+
   .page-title-area::before {
     display: none;
   }
+
   .page-title-area .banner-shape1 {
     width: 100px;
   }
+
   .page-title-content h2 {
     font-size: 30px;
   }
+
   .page-title-content ul {
     margin-top: 10px;
   }
+
   .page-title-content ul li {
     font-size: 14px;
   }
+
   .divider {
     height: 50px;
   }
+
   .pagination-area {
     margin-top: 10px;
     padding-top: 20px;
   }
+
   /*
     New Demo Responsive CSS
     ======================================================*/
   .container-fluid {
     max-width: 720px;
   }
+
   .section-title.title-with-bg-text .big-title {
     font-size: 70px;
     top: -18px;
   }
+
   .new-app-main-banner-area {
     padding-top: 210px;
   }
+
   .new-app-main-banner-content {
     max-width: 695px;
   }
+
   .new-app-main-banner-content .content h1 {
     font-size: 35px;
   }
+
   .new-app-main-banner-content .new-app-trusted-by {
     top: 0;
     padding: 15px;
@@ -5488,202 +5801,265 @@ Preloader CSS
     border-radius: 5px;
     background-color: var(--whiteColor);
   }
+
   .new-app-main-banner-content .new-app-trusted-by .title {
     margin-bottom: 15px;
     text-align: center;
   }
+
   .new-app-main-banner-image {
     margin-top: 30px;
   }
-  .new-app-main-banner-image .wrap-shape-1, .new-app-main-banner-image .wrap-shape-2 {
+
+  .new-app-main-banner-image .wrap-shape-1,
+  .new-app-main-banner-image .wrap-shape-2 {
     display: none;
   }
+
   .features-card .icon {
     width: 60px;
     height: 60px;
     font-size: 25px;
     margin-bottom: 20px;
   }
+
   .features-card h3 {
     font-size: 18px;
   }
+
   .app-about-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .app-about-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .app-about-content .big-text {
     font-size: 70px;
     top: -18px;
   }
+
   .app-about-content h2 {
     font-size: 28px;
   }
+
   .app-about-content .list li h3 {
     font-size: 16px;
   }
-  .app-about-shape-1, .app-about-shape-2, .app-about-shape-3 {
+
+  .app-about-shape-1,
+  .app-about-shape-2,
+  .app-about-shape-3 {
     display: none;
   }
+
   .key-features-card {
     padding: 20px;
   }
+
   .key-features-card .icon {
     margin-bottom: 20px;
   }
+
   .key-features-card .icon i {
     height: 55px;
     width: 55px;
     line-height: 55px;
     font-size: 20px;
   }
+
   .key-features-card h3 {
     font-size: 18px;
   }
+
   .key-features-card.style-two {
     padding: 20px 20px 20px 92px;
   }
+
   .key-features-card.style-two .icon {
     left: 20px;
     top: 20px;
   }
+
   .key-features-card.style-two .icon i {
     height: 50px;
     width: 50px;
     line-height: 50px;
   }
-  .key-features-shape-1, .key-features-shape-2 {
+
+  .key-features-shape-1,
+  .key-features-shape-2 {
     display: none;
   }
+
   .new-app-progress-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .new-app-progress-content {
     max-width: 695px;
   }
+
   .new-app-progress-content .big-text {
     font-size: 70px;
     top: -18px;
   }
+
   .new-app-progress-content h2 {
     font-size: 28px;
   }
+
   .new-app-progress-shape {
     display: none;
   }
+
   .new-app-progress-image {
     margin-top: 30px;
   }
-  .app-screenshots-shape-1, .app-screenshots-shape-2 {
+
+  .app-screenshots-shape-1,
+  .app-screenshots-shape-2 {
     display: none;
   }
+
   .app-ever-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .app-ever-content {
     padding-left: 0;
   }
+
   .app-ever-content h2 {
     font-size: 28px;
   }
+
   .app-ever-content .list li h3 {
     font-size: 16px;
   }
+
   .app-ever-image {
     margin-bottom: 30px;
   }
+
   .app-ever-shape-1 {
     display: none;
   }
+
   .app-ever-wrap-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .app-video-box .video-btn {
     width: 70px;
     height: 70px;
     font-size: 45px;
     line-height: 70px;
   }
+
   .app-video-box .shape .shape-1 {
     display: none;
   }
+
   .app-video-box .shape .shape-2 {
     display: none;
   }
+
   .single-app-pricing-box {
     padding: 20px;
   }
+
   .single-app-pricing-box .title {
     margin-bottom: 20px;
   }
+
   .single-app-pricing-box .price {
     font-size: 38px;
   }
+
   .single-app-pricing-box .features-list {
     margin-top: 25px;
   }
+
   .single-app-pricing-box .features-list li {
     font-size: 14px;
   }
+
   .app-pricing-section-title {
     top: 0;
     padding-right: 0;
     margin-bottom: 35px;
   }
+
   .app-pricing-section-title h2 {
     font-size: 28px;
   }
+
   .new-app-download-content .big-text {
     font-size: 70px;
     top: -18px;
   }
+
   .new-app-download-content h2 {
     font-size: 28px;
   }
+
   .new-app-download-image {
     margin-top: 30px;
     text-align: center !important;
   }
+
   .new-software-content {
     margin-top: 20px;
   }
+
   .new-software-content .big-text {
     font-size: 70px;
     top: -18px;
   }
+
   .new-software-content h2 {
     font-size: 28px;
   }
+
   .single-feedback-card p {
     font-size: 15px;
   }
+
   .single-feedback-card .rating h5 {
     font-size: 15px;
   }
+
   .new-feedback-shape {
     display: none;
   }
+
   .new-free-trial-inner-box {
     padding: 50px;
   }
+
   .new-free-trial-inner-box .new-free-trial-shape {
     display: none;
   }
+
   .new-free-trial-content .sub-title {
     font-size: 12px;
   }
+
   .new-free-trial-content h2 {
     font-size: 20px;
   }
+
   .new-free-trial-content form .input-newsletter {
     height: 50px;
   }
+
   .new-free-trial-content form .default-btn {
     height: 50px;
     position: relative;
@@ -5693,96 +6069,123 @@ Preloader CSS
     margin-top: 15px;
     width: 100%;
   }
+
   .new-free-trial-image {
     margin-top: 30px;
   }
+
   .footer-area-style-with-black-color {
     padding-top: 330px;
   }
+
   .new-app-main-banner-wrap-area {
     padding-bottom: 50px;
   }
+
   .new-app-main-banner-wrap-content {
     margin-top: 0;
     max-width: 695px;
   }
+
   .new-app-main-banner-wrap-content h1 {
     font-size: 35px;
   }
+
   .new-app-main-banner-wrap-image {
     margin-top: 30px;
   }
+
   .features-inner-content {
     padding-right: 0;
     margin-bottom: 25px;
   }
+
   .features-inner-content h2 {
     font-size: 28px;
   }
+
   .features-inner-content .btn-box {
     margin-top: 25px;
   }
+
   .features-inner-card {
     padding: 20px;
   }
+
   .features-inner-card .icon {
     margin: 14px 0 30px;
     padding-left: 60px;
   }
+
   .features-inner-card .icon i {
     width: 45px;
     height: 45px;
     line-height: 45px;
     font-size: 20px;
   }
+
   .features-box-card .icon {
     margin-bottom: 15px;
   }
+
   .features-box-card .icon i {
     width: 65px;
     height: 65px;
     line-height: 65px;
     font-size: 30px;
   }
+
   .features-box-card h3 {
     font-size: 14px;
   }
+
   .app-intro-video-content {
     padding-left: 0;
     margin-top: 30px;
   }
+
   .app-intro-video-content h2 {
     font-size: 28px;
   }
+
   .app-intro-video-box .video-btn {
     width: 70px;
     height: 70px;
     font-size: 45px;
     line-height: 70px;
   }
+
   .app-intro-video-box .intro-video-shape {
     display: none;
   }
+
   .single-funfacts-card p {
     font-size: 15px;
   }
+
   .single-feedback-wrap-item {
     padding: 30px 20px;
   }
+
   .single-feedback-wrap-item p {
     font-size: 14px;
   }
+
   .single-feedback-wrap-item .client-info .title h3 {
     font-size: 16px;
   }
+
   .feedback-swiper-wrap-slides {
     max-width: 100%;
     overflow: hidden;
     padding-bottom: 55px;
   }
-  .feedback-swiper-wrap-slides .swiper-slide-shadow-right, .feedback-swiper-wrap-slides .swiper-slide-shadow-left {
+
+  .feedback-swiper-wrap-slides .swiper-slide-shadow-right,
+  .feedback-swiper-wrap-slides .swiper-slide-shadow-left {
     display: none;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next {
     top: auto;
     bottom: 0;
@@ -5790,14 +6193,16 @@ Preloader CSS
     width: 35px;
     height: 35px;
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     margin-right: -22px;
     -webkit-transform: translateY(0) translateX(50%) !important;
-            transform: translateY(0) translateX(50%) !important;
+    transform: translateY(0) translateX(50%) !important;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next::after {
     font-size: 15px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev {
     top: auto;
     bottom: 0;
@@ -5806,74 +6211,95 @@ Preloader CSS
     height: 35px;
     margin-top: 25px;
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     margin-left: -22px;
     -webkit-transform: translateY(0) translateX(-50%) !important;
-            transform: translateY(0) translateX(-50%) !important;
+    transform: translateY(0) translateX(-50%) !important;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev::after {
     left: -2px;
     font-size: 15px;
     position: relative;
   }
+
   .new-app-main-banner-gradient-area {
     padding-top: 145px;
     padding-bottom: 50px;
   }
+
   .new-app-main-banner-gradient-content {
     max-width: 695px;
   }
+
   .new-app-main-banner-gradient-content h1 {
     font-size: 45px;
   }
+
   .new-app-main-banner-gradient-image {
     text-align: center;
     margin-top: 30px;
   }
+
   .new-app-progress-wrap-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .new-app-progress-wrap-area .new-app-progress-image {
     margin-top: 0;
     margin-bottom: 30px;
   }
+
   .new-app-progress-wrap-area .new-app-progress-content {
     padding-left: 0;
   }
+
   .screenshots-swiper-wrap-slides .carousel .carousel__viewport {
     padding: 15px 0;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev, .screenshots-swiper-wrap-slides .carousel .carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next {
     left: 35px;
     width: 40px;
     height: 40px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev i, .screenshots-swiper-wrap-slides .carousel .carousel__next i {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev i,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next i {
     font-size: 20px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next, .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
     left: auto;
     right: 40px;
   }
+
   .new-software-area.software-wrap-style .new-software-content {
     margin-top: 0;
     margin-bottom: 25px;
   }
+
   .new-software-area.software-wrap-style .new-software-list ul li {
     margin-top: 15px;
     margin-bottom: 0;
   }
+
   .new-feedback-wrap-area .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
   }
+
   .single-feedback-wrap-card {
     padding: 20px;
   }
+
   .single-feedback-wrap-card p {
     font-size: 14px;
   }
+
   .single-feedback-wrap-card .client-info .title h3 {
     font-size: 16px;
   }
@@ -5884,157 +6310,203 @@ Preloader CSS
   .shape6 {
     display: none;
   }
+
   .shape10 {
     left: -15px;
   }
+
   .shape11 {
     right: -15px;
   }
+
   .shape12 {
     bottom: 12%;
     left: 10%;
   }
+
   /*
     New Demo Responsive CSS
     ======================================================*/
   .container-fluid {
     max-width: 960px;
   }
+
   .section-title.title-with-bg-text .big-title {
     font-size: 70px;
     top: -15px;
   }
+
   .new-app-main-banner-content .content h1 {
     font-size: 36px;
   }
+
   .new-app-main-banner-content .content .name-big-text {
     font-size: 100px;
     left: -5px;
     top: -65px;
   }
+
   .new-app-main-banner-image .wrap-shape-1 {
     left: 55px;
     top: -100px;
   }
+
   .new-app-main-banner-image .wrap-shape-2 {
     right: 0;
     top: -100px;
   }
+
   .app-about-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .app-about-shape-2 {
     display: none;
   }
+
   .new-app-progress-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .new-app-progress-shape {
     display: none;
   }
+
   .app-ever-shape-1 {
     top: 0;
     right: 0;
   }
+
   .app-video-box .shape .shape-1 {
     left: 0;
   }
+
   .app-video-box .shape .shape-1 {
     right: 0;
   }
+
   .single-app-pricing-box {
     padding: 25px;
   }
+
   .single-app-pricing-box .features-list li {
     font-size: 14px;
   }
+
   .new-app-download-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .new-software-list ul li:nth-child(1) {
     top: 0;
     left: 0;
   }
+
   .new-software-list ul li:nth-child(5) {
     top: 2%;
   }
+
   .new-software-list ul li:nth-child(2) {
     left: 5%;
     bottom: 8%;
   }
+
   .new-software-list ul li:nth-child(4) {
     right: 0;
   }
+
   .screenshots-swiper-wrap-slides .carousel .carousel__viewport {
     padding: 20px 0;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev, .screenshots-swiper-wrap-slides .carousel .carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next {
     left: 35px;
     width: 40px;
     height: 40px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev i, .screenshots-swiper-wrap-slides .carousel .carousel__next i {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev i,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next i {
     font-size: 20px;
   }
-  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next, .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
+
+  .screenshots-swiper-wrap-slides .carousel .carousel__prev.carousel__next,
+  .screenshots-swiper-wrap-slides .carousel .carousel__next.carousel__next {
     left: auto;
     right: 40px;
   }
+
   .new-software-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .single-feedback-card {
     padding: 25px;
   }
+
   .single-feedback-card p {
     font-size: 15px;
   }
+
   .single-feedback-card .rating h5 {
     font-size: 12.8px;
   }
+
   .new-free-trial-inner-box .new-free-trial-shape {
     display: none;
   }
+
   .new-app-main-banner-wrap-area {
     padding-bottom: 80px;
   }
+
   .new-app-main-banner-wrap-content {
     margin-top: 0;
   }
+
   .new-app-main-banner-wrap-content h1 {
     font-size: 45px;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-1 {
     left: 45px;
     top: 0;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-2 {
     right: 35px;
     bottom: 110px;
   }
+
   .features-inner-card {
     padding: 20px;
   }
+
   .features-inner-card .icon {
     margin: 18px 0 20px;
     padding-left: 50px;
   }
+
   .features-inner-card .icon i {
     width: 35px;
     height: 35px;
     line-height: 35px;
     font-size: 20px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next {
     right: -30px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev {
     left: -30px;
   }
+
   .new-app-main-banner-gradient-area {
     padding-top: 145px;
     padding-bottom: 100px;
@@ -6043,6 +6515,7 @@ Preloader CSS
 
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
   /*
     New Demo Responsive CSS
     ======================================================*/
@@ -6050,125 +6523,160 @@ Preloader CSS
     font-size: 70px;
     top: -15px;
   }
+
   .container-fluid {
     max-width: 1140px;
   }
+
   .new-app-main-banner-content .content h1 {
     font-size: 45px;
   }
+
   .new-app-main-banner-content .content .name-big-text {
     font-size: 100px;
     left: -5px;
     top: -65px;
   }
+
   .new-app-main-banner-content .new-app-trusted-by {
     top: -35px;
   }
+
   .new-app-main-banner-image .wrap-shape-1 {
     left: 55px;
     top: -100px;
   }
+
   .new-app-main-banner-image .wrap-shape-2 {
     right: 0;
     top: -100px;
   }
+
   .features-card {
     padding: 25px 18px;
   }
+
   .app-about-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .app-about-shape-2 {
     display: none;
   }
+
   .new-app-progress-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .new-app-progress-shape {
     display: none;
   }
+
   .app-ever-shape-1 {
     top: 0;
     right: 0;
   }
+
   .app-video-box .shape .shape-1 {
     left: 0;
   }
+
   .app-video-box .shape .shape-1 {
     right: 0;
   }
+
   .new-app-download-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .new-software-list ul li:nth-child(1) {
     top: 35px;
     left: 50px;
   }
+
   .new-software-list ul li:nth-child(5) {
     top: 2%;
   }
+
   .new-software-list ul li:nth-child(2) {
     left: 5%;
     bottom: 8%;
   }
+
   .new-software-list ul li:nth-child(4) {
     right: 18px;
   }
+
   .new-software-content .big-text {
     font-size: 70px;
     top: -15px;
   }
+
   .single-feedback-card {
     padding: 25px;
   }
+
   .single-feedback-card p {
     font-size: 15px;
   }
+
   .single-feedback-card .rating h5 {
     font-size: 14px;
   }
+
   .new-free-trial-inner-box .new-free-trial-shape {
     left: 0;
   }
+
   .new-app-main-banner-wrap-area {
     padding-bottom: 80px;
   }
+
   .new-app-main-banner-wrap-content {
     margin-top: 0;
   }
+
   .new-app-main-banner-wrap-content h1 {
     font-size: 45px;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-1 {
     left: 45px;
     top: 0;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-2 {
     right: 35px;
     bottom: 110px;
   }
+
   .features-inner-card {
     padding: 20px;
   }
+
   .features-inner-card .icon {
     margin: 18px 0 20px;
     padding-left: 50px;
   }
+
   .features-inner-card .icon i {
     width: 35px;
     height: 35px;
     line-height: 35px;
     font-size: 20px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-next {
     right: -30px;
   }
+
   .feedback-swiper-wrap-slides .swiper-button-prev {
     left: -30px;
   }
+
   .app-video-box .shape .shape-2 {
     right: 0;
   }
@@ -6176,6 +6684,7 @@ Preloader CSS
 
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
+
   /*
     New Demo Responsive CSS
     ======================================================*/
@@ -6183,36 +6692,45 @@ Preloader CSS
   .new-app-main-banner-area {
     padding-top: 200px;
   }
+
   .new-app-main-banner-content .content {
     margin-top: 0;
   }
+
   .new-app-main-banner-image .wrap-shape-1 {
     left: 50px;
     top: 30px;
   }
+
   .new-app-main-banner-image .wrap-shape-2 {
     right: 100px;
     top: 50px;
   }
+
   .new-app-banner-strock-shape {
     right: 155px;
     top: -15px;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-1 {
     left: 210px;
     top: 140px;
   }
+
   .new-app-main-banner-wrap-image .wrap-image-shape-2 {
     right: 190px;
     bottom: 210px;
   }
+
   .new-app-main-banner-wrap-image .banner-circle {
     max-width: 100%;
   }
+
   .new-app-main-banner-wrap-shape {
     left: -100px;
     top: -100px;
   }
+
   .single-feedback-wrap-card {
     padding: 30px 80px;
   }
@@ -6224,4 +6742,20 @@ Preloader CSS
     right: 400px;
   }
 }
+
+.contact-limited-offer {
+  background-image: url(../../assets/images/more-home/banner/contact-limited-offer-background.svg);
+  padding-bottom: 50px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.contact-limited-offer .signup-button {
+  padding-top: 131px;
+  padding-left: 75px;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
