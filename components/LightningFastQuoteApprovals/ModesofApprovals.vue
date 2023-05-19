@@ -33,7 +33,7 @@
 
 <script>
 export default {
-    name: 'FreeTrial'
+    name: 'ModesofApprovals'
 }
 </script>
 

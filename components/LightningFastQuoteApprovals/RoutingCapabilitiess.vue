@@ -13,10 +13,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Routing Capabilitiess</h3>
-                        <p>Are you concerned that the quote would need single or multiple levels of authorization? Or, how
-                            and in what order should the authorities be notified? Dealdox provides a quick solution to all
-                            of your quote approval concerns. It allows you to nudge every approver who is in charge of
-                            reviewing and approving according to your routing rules.
+                        <p>Whether you require single or multiple levels of authorization or need to determine the specific
+                            order for notifying authorities, DealDox makes it easy. Our quote-to-cash platform empowers easy
+                            to deal with all your statement approval concerns. With an automated quoting tool, you can
+                            notify every approver responsible for reviewing and approving, ensuring a smooth process that
+                            aligns with your specified routing rules.
                         </p>
                     </div>
                 </div>
@@ -27,6 +28,6 @@
 
 <script>
 export default {
-    name: 'About'
+    name: 'RoutingCapabilitiess'
 }
 </script>

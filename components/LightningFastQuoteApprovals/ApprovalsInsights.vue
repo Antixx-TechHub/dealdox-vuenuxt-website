@@ -14,9 +14,9 @@
                     <div class="about-content">
                         <h3>Approvals Insights</h3>
                         <p>Dealdox makes it possible to have a delegation dashboard with all quotes accessible from a
-                            single, simple insight. The approval process includes examining quote details approval,
-                            commenting on the quote, and advising changes. AI-enabled quotation tool automatically
-                            synchronizes data with CRM and PSA/ERP applications following approval
+                            single, simple insight. CPQ Approval process includes examining quote details approval,
+                            commenting on the quotation, and advising changes. DealDox automatically synchronizes data with
+                            CRM and ERP applications following approval.
                         </p>
                     </div>
                 </div>
@@ -49,6 +49,6 @@
 
 <script>
 export default {
-    name: 'About'
+    name: 'ApprovalsInsights'
 }
 </script>
