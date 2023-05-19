@@ -126,12 +126,12 @@
             <div class="copyright-area">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6">
-                        <p class="text-left">All right reserved @2023, DealDocx,<a
-                                href="https://dealdox.io/" target="_blank">DealDocx</a></p>
+                        <p class="text-left">All right reserved @2023, DealDocx,<a href="https://dealdox.io/"
+                                target="_blank">DealDocx</a></p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> | <router-link
-                                to="/privacy-policy">Privacy Policy</router-link></p>
+                        <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> |
+                            <router-link to="/privacy-policy">Privacy Policy</router-link></p>
                     </div>
                 </div>
             </div>
