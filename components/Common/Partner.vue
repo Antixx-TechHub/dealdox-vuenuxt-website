@@ -4,31 +4,31 @@
             <div class="partner-title">
                 Trusted by Industry Leaders
             </div>
-            <div class="clients-logo-list align-items-center" v-if="partners !== null">
-                <div class="single-clients-logo" v-for="slide in partners.partnerSlides" :key="slide.id">
-                    <a href="#">
-                        <img :src="slide.image.data.attributes.url" alt="image">
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- <div class="partner-slides">
-                <carousel
-                    :autoplay="5000"
-                    :settings='settings'
-                    :breakpoints='breakpoints'
-                >
-                    <slide 
-                        v-for="slide in carouselItems" 
-                        :key="slide.id"
-                    >
-                        <div class="partner-item">
-                            <img :src="slide.image" alt="image">
-                        </div>
-                    </slide>
+            <!-- <div class="clients-logo-list align-items-center" v-if="partners !== null">
+                <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
+                          :perPageCustom="[[0, 2], [576, 3], [768, 3], [1200, 5]]" v-if="partners !== null">
+                          <slide v-for="slide in partners.partnerSlides" :key="slide.id">
+                                <div class="single-partner-item">
+                                    <a>
+                                        <img :src="slide.image.data.attributes.url" alt="image">
+                                    </a>
+                                </div>
+                            </slide>
                 </carousel>
             </div> -->
+
+            <div class="partner-slides">
+                <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
+                          :perPageCustom="[[0, 2], [576, 3], [768, 3], [1200, 5]]" v-if="partners !== null">
+                          <slide v-for="slide in partners.partnerSlides" :key="slide.id">
+                                <div class="single-partner-item">
+                                    <a>
+                                        <img :src="slide.image.data.attributes.url" alt="image">
+                                    </a>
+                                </div>
+                            </slide>
+                </carousel>
+            </div>
         </div>
     </div>
 </template>
