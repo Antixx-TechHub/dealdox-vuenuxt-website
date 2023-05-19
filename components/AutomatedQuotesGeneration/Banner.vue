@@ -5,8 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Revolutionising Quote Generation with <br><span class="sub-title">Automation</span></h1>
-                        <p>Automation streamlines quote generation, saving time and boosting efficiency for businesses
-                            dealing with high volumes of requests.</p>
+                        <p>Streamline sales, accelerate efficiency and enable faster sales cycle.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
@@ -22,6 +21,6 @@
 
 <script>
 export default {
-    name: 'PageHeader'
+    name: 'Banner'
 }
 </script>
