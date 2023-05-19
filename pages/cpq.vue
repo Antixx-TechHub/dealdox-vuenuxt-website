@@ -1,10 +1,10 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <MainBanner />
-        <Stats />
-        <IAQSolutions />
-        <ChallengesAndTrack />
+        <MainBannerCPQ />
+        <WhatisCPQService />
+        <TransformYourSales />
+        <QuickandAccurate />
         <FreeTrial />
         <DealDoxFooter />
     </div>
@@ -12,10 +12,10 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBanner from '../components/CPQ/MainBanner'
-import IAQSolutions from '../components/CPQ/IAQSolutions'
-import ChallengesAndTrack from '../components/CPQ/ChallengesAndTrack'
-import Stats from '../components/CPQ/Stats'
+import MainBannerCPQ from '../components/CPQ/MainBannerCPQ'
+import TransformYourSales from '../components/CPQ/TransformYourSales'
+import QuickandAccurate from '../components/CPQ/QuickandAccurate'
+import WhatisCPQService from '../components/CPQ/WhatisCPQService'
 import FreeTrial from '../components/CPQ/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
@@ -23,10 +23,10 @@ export default {
     name: 'AboutPageOne',
     components: {
         Navbar,
-        MainBanner,
-        IAQSolutions,
-        ChallengesAndTrack,
-        Stats,
+        MainBannerCPQ,
+        TransformYourSales,
+        QuickandAccurate,
+        WhatisCPQService,
         FreeTrial,
         DealDoxFooter,
     }

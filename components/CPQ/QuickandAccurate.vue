@@ -12,12 +12,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Quick and Accurate Quoting</h3>
-                        <p>DealDox is the most suitable sales-engagement platform due to its intriguing feature of guided
-                            selling. With real-time insights into your prospect's level of interest, it makes quoting quick
-                            and easy.</p>
-                        <p>A predetermined questionnaire flow, from guided selling, directs the sales team through setting
-                            up the product that fits perfectly. Upgrade, upsell, and cross-selling suggestions are
-                            automatically triggered to expand the deal size.</p>
+                        <p>DealDox's unique feature of advanced guided selling makes it the best tool for sales engagement.
+                            With real-time insights into your prospect's needs, the best quote automation software enables
+                            quick and accurate quoting for any sized business - small, middle & big</p>
+                        <p>A predetermined questionnaire flow, from CPQ guided selling setup, directs the sales team through
+                            setting up the product that fits perfectly. Upgrade, upsell, and cross-selling suggestions are
+                            automatically triggered to expand the deal size</p>
                     </div>
                 </div>
             </div>
@@ -26,12 +26,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h3>Professional Services</h3>
-                        <p>The powerful AI-driven and data-driven features of DealDox transform the estimation, pricing, and
-                            quotation of services. It aids in maximizing gross margins and improving win probability by
-                            eliminating the traditional incompetencies of creating and managing complex service quotes.</p>
-                        <p>In professional services, you can quote using roles, phases, rates, rate cards, and other
-                            aspects. Additionally, you can view Quotes by the synopsis, stages, weeks, months, years, and
-                            contract period.</p>
+                        <p>With features like role-based pricing, customizable stages, and flexible pricing options, you can
+                            create accurate and detailed quotes. Gain a complete view of your quotes with summaries, stages,
+                            timeframes, and contract durations. Plus, effortlessly switch between different pricing models,
+                            including time and expense, fixed price, and margin target.</p>
                     </div>
                 </div>
 
@@ -55,7 +53,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Managed Services</h3>
-                        <p>Any managed services can be included in a quote. Support for the help desk, hosting, security monitoring, data storage, network operations, IoT services, analytics, and other related areas are all possibilities. Pricing ramps and all necessary information, such as contract duration, target margin, discounts, setup and exit fees, third-party services, users, and so on, can also be included.</p>
+                        <p>Create quotes for a wide range of managed services, including help desk support, hosting,
+                            security monitoring, data storage, network operations, IoT services, analytics, and more.
+                            Experience the flexibility to customize pricing ramps and include essential details such as
+                            contract duration, target margin, discounts, setup and exit fees, user counts, and beyond</p>
                     </div>
                 </div>
             </div>
@@ -64,7 +65,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h3>Subscription Services</h3>
-                        <p>DealDox facilitates work within any pricing model — fixed, tiered, or pay-per-usage. Setup fees, discount management, renewal pricing, and mid-contract updates are all possibilities. Add-ons and upgrades can also be attached to current contract terms and conditions</p>
+                        <p>With automated quoting solution, you can seamlessly handle any pricing model, whether it's fixed,
+                            tiered, or pay-per-usage. You can add setup fees, effortlessly manage discounts, update pricing
+                            mid-contract, and handle renewals with ease. In addition, you have the freedom to attach add-ons
+                            and upgrades to existing contract terms, ensuring flexibility and scalability for your services.
+                        </p>
                     </div>
                 </div>
 
@@ -88,16 +93,25 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Everything-as-a-Service</h3>
-                        <p>We offer anything or everything as a service where you can add services, subscriptions, and items from our catalog in a quote. You can get quotes for all of your services at once or for each category separately, which is a unique feature.</p>
+                        <p>We offer everything as a service where you can add services, subscriptions, and items from our
+                            catalogue in a quote. With CPQ sales automation you can get quotes for all of your services at
+                            once or for each category separately, which is a unique feature.</p>
                     </div>
                 </div>
+            </div>
+            <div class="section-title title-with-bg-text">
+                <h3> Discover the benefits of DealDox today!</h3>
             </div>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Reduction in document <br>management</h3>
-                        <p>Time spent on document management has moderately decreased for our customers. DealDox automates the presales process, allowing the sales team to concentrate on selling while spending less time on other tasks. Additionally, users can create SOWs with no risk and 100% accuracy.</p>
+                        <h3>Get Rid of Manual Process</h3>
+                        <p>Automated Quoting Software streamlines quoting, configuration, pricing, and proposal generation,
+                            eliminating manual processes.</p>
+                        <p>It saves time, ensures accuracy, and accelerates sales cycles. </p>
+                        <p>Sales teams can focus on building relationships and closing deals instead of administrative
+                            tasks. </p>
                     </div>
                 </div>
 
@@ -114,14 +128,17 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Womanearningthroughpassiveincome.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/Womanearningthroughpassiveincome.png" data-aos="fade-up"
+                                alt="about">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Enhanced Margins</h3>
-                        <p>If the presales team frequently borrows pricing and language from their documents, the more likely scenario is that a project will be priced too high or too low. Consequently, our platform provides a common language and visibility into the scoping procedure to guarantee that promises and deliverables are met. Further, you can forecast the revenue and expand the business considerably.</p>
+                        <h3>Optimize Sales Operations</h3>
+                        <p>Maintain pricing and discounts consistency </p>
+                        <p>Easily update products and pricing</p>
+                        <p>Enhance CRM with accurate sales data</p>
                     </div>
                 </div>
             </div>
@@ -130,7 +147,15 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h3>Swift Implementation</h3>
-                        <p>DealDox revenue platform was designed for any type of industry, and no need for additional coding. As a result, you can easily incorporate your technology stack without any complicated procedures that typically necessitate months' worth of resources. Its implementation is easy and swift - 10x quicker than with other service quotes.</p>
+                        <p>Sales and operational teams can completely install and manage the system.</p>
+                        <p>Handles any quotation complexity level.</p>
+                        <p>Capability for changing goods, configurations, and price</p>
+                        <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs - can be easily
+                            integrated</p>
+                        <p>Easily integrates with ERP systems, enabling real-time data synchronization and smooth
+                            communication between the platforms</p>
+                        <p>There is no additional coding or reliance on internal IT resources</p>
+
                     </div>
                 </div>
 
@@ -151,19 +176,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="about-content">
-                        <h3>Streamlined Quoting Process</h3>
-                        <p>Our AI-enabled quoting tool enables you to configure custom quotes depending on the customer's need. It accepts quotes in any format, including pdf, word, excel, and so on. You don't need to do complicated calculations to change order quantities or apply discounts. Simplifies approval process through automated workflows.</p>
-                    </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-content">
+                    <h3>Streamlined Quoting Process</h3>
+                    <p>Configure personalized quotes as per customer's requirements</p>
+                    <p>Generate quotes without errors in any brandable format (such as PDF or Word).</p>
+                    <p>Modify quantities and apply discounts without needing complicated calculations</p>
+                    <p>Implementing automated workflows makes the approval process quicker</p>
+                    <p>Data is automatically synced with your CRM and ERP for accurate sales tracking and reporting.</p>
                 </div>
             </div>
         </div>
     </div>
-</template>
+</div></template>
 
 <script>
 export default {
-    name: 'About'
+    name: 'QuickandAccurate'
 }
 </script>

@@ -17,6 +17,6 @@
 <script>
 
 export default {
-    name: 'Stats',
+    name: 'TransformYourSales',
 }
 </script>
