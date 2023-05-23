@@ -459,6 +459,9 @@ Feedback Area CSS
     padding-left: 40px;
     padding-right: 40px;
   }
+  .features-content-improve-sales .btn-box {
+    margin-top: 0px;
+  }
   .screen-swiper-slides .swiper-button-prev {
     width: 30px;
     height: 30px;
@@ -477,11 +480,36 @@ Feedback Area CSS
     margin-top: 30px;
   }
   .software-integrations-inner.bg-gradient-color {
-    padding: 60px 15px;
+    padding: 5px 15px 70px 15px;
   }
-  .feedback-area.bg-gradient-color::before {
-    width: 100%;
-  }
+  .features-content-improve-sales h2 {
+    font-size: 21px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.new-app-main-banner-wrap-content-full p {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  color: #8E8E8E;
+}
+.features-content-improve-sales {
+  padding-right: 0px;
+  margin: 25px 10px -35px 10px;
+}
+.features-content-improve-sales .sub-title {
+  font-size: 21px;
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  /* margin-bottom: 10px; */
+  font-weight: 700;
+}
   .feedback-section-title {
     top: 0;
     text-align: center;

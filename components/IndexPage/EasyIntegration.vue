@@ -1,13 +1,13 @@
 <template>
-    <div class="features-area pt-70 bg-FAFAFA">
+    <div class="features-area pb-85 bg-FAFAFA">
         <div class="container">
             <div class="software-integrations-inner bg-gradient-color">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
-                        <h2>Easy Integration</h2>
-                        <p>DealDocx makes it simple to connect to all the major CRMs.</p>
                         <div class="features-content">
                             <ul class="features-list">
+                                <h2>Easy Integration</h2>
+                        <p>DealDocx makes it simple to connect to all the major CRMs.</p>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>

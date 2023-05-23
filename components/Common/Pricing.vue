@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Let’s get started?</h2>
-                <p>Choose a plan that works best for your team and boost <br> your sales with DealDocx.</p>
+                <p1>Choose a plan that works best for your team and boost your sales with DealDocx.</p1>
             </div>
 
             <div class="row justify-content-center">

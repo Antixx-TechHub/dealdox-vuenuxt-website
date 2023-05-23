@@ -608,7 +608,7 @@ Features Home Improve Sales Area CSS
 
 .features-content-improve-sales {
   padding-right: 15px;
-  margin: 27px 35px 27px 35px;
+  margin: 15px 35px 15px 35px;
 }
 
 /* .features-content .sub-title {
@@ -639,7 +639,7 @@ Features Home Improve Sales Area CSS
 }
 
 .features-content-improve-sales .sub-title-faq {
-  font-size: 16px;
+  font-size: 12px;
   display: inline-block;
   background: var(--gradientColor);
   -webkit-background-clip: text;
@@ -1996,17 +1996,30 @@ Free Trial Area CSS
     text-align: center;
     padding-right: 0;
     margin-left: 10px;
+    margin-bottom: -15px;
   }
   .features-content h2 {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 12px;
+    text-align: left;
   }
+  .features-content .sub-title {
+    font-size: 21px;
+    display: inline-block;
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.1;
+    /* margin-bottom: 10px; */
+    font-weight: 700;
+}
   .features-content .features-list {
     margin-top: 25px;
   }
   .features-content .features-list li {
-    margin-bottom: 25px;
-    padding-left: 0;
+    margin-bottom: 0px;
+    padding-left: 35px;
+    padding-bottom: 15px;
   }
   .features-content .features-list li h3 {
     font-size: 15px;
@@ -2014,7 +2027,12 @@ Free Trial Area CSS
   .features-content p {
     font-size: 15px;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 0px;
+  }
+  .features-content-easy {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
   }
   .features-content .features-list li .icon {
     width: 25px;
@@ -2026,7 +2044,7 @@ Free Trial Area CSS
     margin-bottom: 16px;
   }
   .features-content .btn-box {
-    margin-top: 25px;
+    margin-top: 0px;
     position: absolute;
   }
   .features-image {
