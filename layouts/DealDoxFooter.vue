@@ -79,25 +79,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h3>Resources</h3>
-                        <ul class="links-list">
-                            <li>
-                                <router-link to="/blogs">Blog</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/coming-soon">Success Stories</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/privacy-policy">Privacy Policy</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/terms-conditions">Terms Conditions</router-link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <h3>Get in touch</h3>
@@ -122,6 +103,19 @@
                         </form> -->
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Resources</h3>
+                        <ul class="links-list">
+                            <li>
+                                <router-link to="/blogs">Blog</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/coming-soon">Success Stories</router-link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="copyright-area">
                 <div class="row">
@@ -131,7 +125,8 @@
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> |
-                            <router-link to="/privacy-policy">Privacy Policy</router-link></p>
+                            <router-link to="/privacy-policy">Privacy Policy</router-link>
+                        </p>
                     </div>
                 </div>
             </div>
