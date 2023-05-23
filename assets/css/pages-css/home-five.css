@@ -604,9 +604,9 @@ Free Trial Area CSS
     padding-right: 5px;
   }
   .free-trial-inner {
-    padding-top: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 20px !important;
+    position: relative;
+    margin: 0px 10px 0px 0px;
   }
   .free-trial-inner .content {
     text-align: center;
@@ -631,7 +631,7 @@ Free Trial Area CSS
     font-size: 13px;
   }
   .free-trial-inner .content form .default-btn {
-    position: relative;
+    position: absolute;
     margin-top: 15px;
     height: auto;
     right: 0;
@@ -648,7 +648,7 @@ Free Trial Area CSS
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .gradient-banner-content form .default-btn {
-    position: absolute;
+    position: absolute !important;
     margin-top: 0;
     height: 45px;
     right: 2px;
