@@ -4,9 +4,9 @@
             <div class="software-integrations-inner bg-gradient-color">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
+                        <h2>Easy Integration</h2>
+                        <p>DealDocx makes it simple to connect to all the major CRMs.</p>
                         <div class="features-content">
-                            <h2>Easy Integration</h2>
-                            <p>DealDocx makes it simple to connect to all the major CRMs.</p>
                             <ul class="features-list">
                                 <li>
                                     <div class="icon">

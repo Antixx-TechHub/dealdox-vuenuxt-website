@@ -408,8 +408,18 @@ Feedback Area CSS
 
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  .new-app-main-banner-wrap-content-full h2 {
+    font-size: 24px !important;
+}
+.new-app-main-banner-wrap-content-full .sub-title {
+  font-size: 24px !important;
+}
+.new-app-main-banner-wrap-content-full p {
+  font-size: 14px !important;
+
+}
   .main-banner {
-    padding-top: 135px;
+    padding-top: 125px;
   }
   .main-banner .divider {
     height: 100px;

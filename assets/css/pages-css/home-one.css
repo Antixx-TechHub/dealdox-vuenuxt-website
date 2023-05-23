@@ -1995,6 +1995,7 @@ Free Trial Area CSS
   .features-content {
     text-align: center;
     padding-right: 0;
+    margin-left: 10px;
   }
   .features-content h2 {
     font-size: 20px;
@@ -2010,17 +2011,23 @@ Free Trial Area CSS
   .features-content .features-list li h3 {
     font-size: 15px;
   }
+  .features-content p {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 40px;
+  }
   .features-content .features-list li .icon {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    position: relative;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
   }
   .features-content .btn-box {
     margin-top: 25px;
+    position: absolute;
   }
   .features-image {
     padding-left: 0;
