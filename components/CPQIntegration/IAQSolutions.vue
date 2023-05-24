@@ -2,7 +2,7 @@
     <div class="features-area pt-65 bg-white">
         <div class="container">
             <div class="section-title">
-                <h3>Stay Ahead of the Competition with <br>DealDox Integration</h3>
+                <h3>Stay Ahead of the Competition with DealDox Integration</h3>
             </div>
             <br>
             <div class="row justify-content-center">

@@ -2052,13 +2052,12 @@ Free Trial Area CSS
     margin-top: 35px;
   }
   .single-features-item {
-    padding: 20px 15px 20px 80px;
+    padding: 50px 40px 50px 40px;
   }
   .single-features-item .icon {
-    top: 20px;
-    left: 15px;
-    width: 50px;
-    height: 50px;
+    margin: 4px 0px 0px -30px;
+    width: 65px;
+    height: 65px;
     font-size: 20px;
   }
   .single-features-item h3 {

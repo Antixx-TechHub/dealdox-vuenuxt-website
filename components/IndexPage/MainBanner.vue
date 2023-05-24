@@ -4,7 +4,7 @@
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full">
                     <h2>Experience Unbeatable Sales <br>Efficiency with <span class="sub-title">DealDocx</span> NOW!</h2>
-                    <p>Are you still using spreadsheets? Toss it! and start using DealDox now <br>generate AI-Enabled quotes
+                    <p>Are you still using spreadsheets? Toss it! and start using DealDox now generate AI-Enabled quotes
                         with just few clicks</p>
                     <router-link to="/" class="default-btn">Boost Your Sales Now</router-link>
                     <div class="section-title-button">
