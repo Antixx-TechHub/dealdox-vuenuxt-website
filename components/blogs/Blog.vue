@@ -1,6 +1,9 @@
 <template>
     <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
+            <div class="section-title">
+                    <h2>Featured Blogs</h2>
+                </div>
             <div 
                 class="row justify-content-center"
                 v-if="blogs !== []"

@@ -2,8 +2,8 @@
     <div>
         <Navbar class="navbar-style-two" />
         <PageTitle class="page-title-style-two"
-            pageTitle="Check our Latest & Trending Blogs" 
-            pageDesc="News and Insights" 
+            pageTitle="Blogs" 
+            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" 
         />
         <Blog />
         <AutomatedQuotes />
@@ -27,7 +27,7 @@ export default {
         DealDoxFooter,
     },
     head: {
-        title: 'Antixx TechHub - Blogs',
+        title: 'Dealdox - Blogs',
         htmlAttrs: {
             lang: 'en-us'
         },
