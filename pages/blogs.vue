@@ -27,7 +27,7 @@ export default {
         DealDoxFooter,
     },
     head: {
-        title: 'Antixx TechHub - Blogs',
+        title: 'DealDox - Blogs',
         htmlAttrs: {
             lang: 'en-us'
         },
