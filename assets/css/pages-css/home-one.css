@@ -1809,29 +1809,34 @@ Free Trial Area CSS
 .free-trial-content::before {
   content: '';
   position: absolute;
+  margin: 50px 150px 134px 150px;
   left: 0;
   right: 0;
   top: 0;
   z-index: -1;
   bottom: 0;
-  border-radius: 5px;
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  border-radius: 30px;
+  /* background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%); */
+  background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
           transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .free-trial-content .sub-title {
-  display: block;
-  margin-bottom: 12px;
-  letter-spacing: 0.1em;
+  display: inline-block;
   color: var(--whiteColor);
-  font-weight: 600;
+  font-weight: 800;
+  background: #FAFF00;
+  font-size: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: double;
 }
 
 .free-trial-content h2 {
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.4;
-  max-width: 500px;
+  max-width: 550px;
   color: var(--whiteColor);
   margin-bottom: 0;
   margin-left: auto;
@@ -1853,8 +1858,8 @@ Free Trial Area CSS
   padding-left: 25px;
   background-color: var(--whiteColor);
   color: var(--blackColor);
-  border-radius: 5px;
-  border: none;
+  border-radius: 50px;
+  border: 2px solid #eeeeee !important;
 }
 
 .free-trial-content form .input-newsletter::-webkit-input-placeholder {
@@ -1899,14 +1904,14 @@ Free Trial Area CSS
 
 .free-trial-content form .default-btn {
   position: absolute;
-  border-radius: 5px;
+  border-radius: 50px;
   height: 60px;
   right: 5px;
   top: 5px;
 }
 
 .free-trial-content form .default-btn::before {
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .free-trial-content .shape8 {
@@ -1931,6 +1936,22 @@ Free Trial Area CSS
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
+  }
+  .free-trial-content::before {
+    content: '';
+    position: absolute;
+    margin: 20px 155px 70px 140px;
+    left: -135px;
+    right: -150px;
+    top: 15px;
+
+    z-index: -1;
+    bottom: 0;
+    border-radius: 30px;
+    /* background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%); */
+    background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
   }
   .main-banner-content .content {
     max-width: 100%;
@@ -2326,18 +2347,19 @@ Free Trial Area CSS
     margin-top: 30px;
   }
   .free-trial-content form .input-newsletter {
-    height: 50px;
+    height: 40px;
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 10px;
+    border-radius: 20px;
   }
   .free-trial-content form .default-btn {
-    position: relative;
-    margin-top: 15px;
+    position: absolute;
+    margin-top: 0px;
     height: auto;
-    right: 0;
-    top: 0;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
+    right: 3px;
+    top: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
