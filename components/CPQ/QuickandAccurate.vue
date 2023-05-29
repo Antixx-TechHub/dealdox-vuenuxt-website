@@ -100,20 +100,61 @@
                 </div>
             </div>
             <div class="section-title title-with-bg-text">
-                <h3> Discover the benefits of DealDox today!</h3>
+                <h3 class="text-left"> Discover the benefits of DealDox today!</h3>
             </div>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Get Rid of Manual Process</h3>
-                        <p>Automated Quoting Software streamlines quoting, configuration, pricing, and proposal generation,
-                            eliminating manual processes.</p>
-                        <p>It saves time, ensures accuracy, and accelerates sales cycles. </p>
-                        <p>Sales teams can focus on building relationships and closing deals instead of administrative
-                            tasks. </p>
+                        <div class="features-content">
+                            <ul class="features-list">
+
+                                <h3>Get Rid of Manual Process</h3>
+                                <br>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">DocuSign Integration to e-sign SOW</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Automated Quoting Software streamlines quoting, configuration,
+                                        pricing, and proposal
+                                        generation,
+                                        eliminating manual processes.</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">It saves time, ensures accuracy, and accelerates sales cycles. </p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Sales teams can focus on building relationships and closing deals
+                                        instead of
+                                        administrative
+                                        tasks. </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <!-- <div class="features-content">
+                            <ul class="features-list">
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>DocuSign Integration to e-sign SOW</p>
+                                </li>
+                                </ul>
+                                </div> -->
 
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
@@ -135,10 +176,30 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Optimize Sales Operations</h3>
-                        <p>Maintain pricing and discounts consistency </p>
-                        <p>Easily update products and pricing</p>
-                        <p>Enhance CRM with accurate sales data</p>
+                        <div class="features-content">
+                            <ul class="features-list">
+                                <h3>Optimize Sales Operations</h3>
+                                <br>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Maintain pricing and discounts consistency</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Easily update products and pricing</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Enhance CRM with accurate sales data</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,16 +207,51 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Swift Implementation</h3>
-                        <p>Sales and operational teams can completely install and manage the system.</p>
-                        <p>Handles any quotation complexity level.</p>
-                        <p>Capability for changing goods, configurations, and price</p>
-                        <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs - can be easily
-                            integrated</p>
-                        <p>Easily integrates with ERP systems, enabling real-time data synchronization and smooth
-                            communication between the platforms</p>
-                        <p>There is no additional coding or reliance on internal IT resources</p>
-
+                        <div class="features-content">
+                            <h3>Swift Implementation</h3>
+                            <ul class="features-list">
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Sales and operational teams can completely install and manage the
+                                        system.</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Handles any quotation complexity level.</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Capability for changing goods, configurations, and price</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot,
+                                        and Sugar CRMs - can be easily integrated</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Easily integrates with ERP systems, enabling real-time data
+                                        synchronization and smooth communication between the platforms</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">There is no additional coding or reliance on internal IT resources
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -176,19 +272,53 @@
                         </div>
                     </div>
                 </div>
-            <div class="col-lg-6 col-md-12">
-                <div class="about-content">
-                    <h3>Streamlined Quoting Process</h3>
-                    <p>Configure personalized quotes as per customer's requirements</p>
-                    <p>Generate quotes without errors in any brandable format (such as PDF or Word).</p>
-                    <p>Modify quantities and apply discounts without needing complicated calculations</p>
-                    <p>Implementing automated workflows makes the approval process quicker</p>
-                    <p>Data is automatically synced with your CRM and ERP for accurate sales tracking and reporting.</p>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-content">
+                        <div class="features-content">
+                            <h3>Streamlined Quoting Process</h3>
+                            <ul class="features-list">
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Configure personalized quotes as per customer's requirements</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Generate quotes without errors in any brandable format (such as PDF
+                                        or Word).</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Modify quantities and apply discounts without needing complicated
+                                        calculations</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Implementing automated workflows makes the approval process quicker
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p class="text-left">Data is automatically synced with your CRM and ERP for accurate
+                                        sales tracking and reporting.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div></template>
+</template>
 
 <script>
 export default {
