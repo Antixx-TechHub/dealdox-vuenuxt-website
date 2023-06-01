@@ -4970,7 +4970,7 @@ New Demo CSS
 
 .footer-wrap-area .copyright-area p a {
   color: var(--white);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .footer-wrap-area.with-gradient-color .single-footer-widget .social-links li a::before {
@@ -5079,6 +5079,13 @@ Preloader CSS
   body {
     font-size: 13px;
   }
+
+  .footer-wrap-area .copyright-area p a {
+    color: var(--white);
+    font-weight: 400;
+    text-align: center;
+  }
+  
 
 .page-title-area.page-title-style-two {
   position: relative;
