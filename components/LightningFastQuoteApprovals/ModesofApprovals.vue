@@ -5,8 +5,10 @@
             <h1>Modes of Approvals</h1>
             </div>
             <div class="row align-items-center">
+
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">
+                        <h5> Solo Approval   </h5>
                         <div class="app-download-image" data-aos="fade-up">
                             <img src="../../assets/images/lightning-fast-quote-approvals/scope.png" alt="app-img">
                         </div>
@@ -14,6 +16,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">
+                        <h5>Succeeding Approval</h5>
                         <div class="app-download-image" data-aos="fade-up">
                             <img src="../../assets/images/lightning-fast-quote-approvals/risk.png" alt="app-img">
                         </div>
@@ -21,6 +24,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">
+                        <h5>Collateral Approval </h5>
                         <div class="app-download-image" data-aos="fade-up">
                             <img src="../../assets/images/lightning-fast-quote-approvals/margin.png" alt="app-img">
                         </div>
