@@ -61,7 +61,7 @@
                                         <router-link to="/blogs" class="nav-link">Blogs</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/coming-soon" class="nav-link">Success Stories</router-link>
+                                        <router-link to="/success-stories" class="nav-link">Success Stories</router-link>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/coming-soon" class="nav-link">Glossary</router-link>
