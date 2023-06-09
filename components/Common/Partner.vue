@@ -45,7 +45,7 @@ export default {
         partners: null,
     }),
     created: async function () {
-        const response = await axios.get('http://localhost:1337/api/partner?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/partner?populate=*')
         const { data: { attributes } } = response.data
         this.partners = attributes
     },
