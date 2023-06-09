@@ -9,17 +9,16 @@
                             <img :src="details[0].attributes.image.data.attributes.url" alt="image">
                         </div>
                         <div class="article-content">
-                            <div class="entry-meta">
+                            <!-- <div class="entry-meta">
                                 <ul>
-                                    <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
-                                    <li><i class="ri-message-2-line"></i><router-link to="/blog-grid">(4)
-                                            Comments</router-link></li>
+                                    <li><i class="ri-calendar-2-line"></i>{{details[0].attributes.date}}</li>
+                                    <li><i class="ri-message-2-line"></i><router-link to="/blog-grid">(4) Comments</router-link></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-                        <div class="article-footer">
+                        <!-- <div class="article-footer">
                             <div class="post-author-meta">
                                 <div class="d-flex align-items-center">
                                     <img src="../../assets/images/user/user6.jpg" alt="user">
@@ -32,18 +31,14 @@
                             <div class="article-share">
                                 <ul class="social">
                                     <li><span>Share:</span></li>
-                                    <li><a href="#" class="facebook" target="_blank"><i class="ri-facebook-fill"></i></a>
-                                    </li>
-                                    <li><a href="#" class="twitter" target="_blank"><i class="ri-linkedin-fill"></i></a>
-                                    </li>
-                                    <li><a href="#" class="linkedin" target="_blank"><i class="ri-twitter-fill"></i></a>
-                                    </li>
-                                    <li><a href="#" class="instagram" target="_blank"><i class="ri-instagram-line"></i></a>
-                                    </li>
+                                    <li><a href="#" class="facebook" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                                    <li><a href="#" class="twitter" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                                    <li><a href="#" class="linkedin" target="_blank"><i class="ri-twitter-fill"></i></a></li>
+                                    <li><a href="#" class="instagram" target="_blank"><i class="ri-instagram-line"></i></a></li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="related-post">
+                        </div> -->
+                        <!-- <div class="related-post">
                             <h3 class="title">Related Post</h3>
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6">
@@ -57,11 +52,9 @@
                                         <div class="content">
                                             <ul class="meta">
                                                 <li><i class="ri-time-line"></i> April 14, 2021</li>
-                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(0)
-                                                        Comment</router-link></li>
+                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(0) Comment</router-link></li>
                                             </ul>
-                                            <h3><router-link to="/blog-details">Branding involves developing strategy to
-                                                    create a point of differentiation</router-link></h3>
+                                            <h3><router-link to="/blog-details">Branding involves developing strategy to create a point of differentiation</router-link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -76,11 +69,9 @@
                                         <div class="content">
                                             <ul class="meta">
                                                 <li><i class="ri-time-line"></i> April 13, 2021</li>
-                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(4)
-                                                        Comment</router-link></li>
+                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(4) Comment</router-link></li>
                                             </ul>
-                                            <h3><router-link to="/blog-details">Design is a plan or specification for the
-                                                    construction of an object</router-link></h3>
+                                            <h3><router-link to="/blog-details">Design is a plan or specification for the construction of an object</router-link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -101,9 +92,7 @@
                                             </div>
                                         </footer>
                                         <div class="comment-content">
-                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen.</p>
+                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                         </div>
                                         <div class="reply">
                                             <router-link to="/blog-details" class="comment-reply-link">Reply</router-link>
@@ -114,8 +103,7 @@
                                             <div class="comment-body">
                                                 <footer class="comment-meta">
                                                     <div class="comment-author vcard">
-                                                        <img src="../../assets/images/user/user2.jpg" class="avatar"
-                                                            alt="user">
+                                                        <img src="../../assets/images/user/user2.jpg" class="avatar" alt="user">
                                                         <b class="fn">Steven Smith</b>
                                                     </div>
                                                     <div class="comment-metadata">
@@ -123,9 +111,7 @@
                                                     </div>
                                                 </footer>
                                                 <div class="comment-content">
-                                                    <p>Lorem Ipsum has been the industry’s standard dummy text ever since
-                                                        the 1500s, when an unknown printer took a galley of type and
-                                                        scrambled it to make a type specimen.</p>
+                                                    <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                                 </div>
                                                 <div class="reply">
                                                     <a href="#" class="comment-reply-link">
@@ -138,8 +124,7 @@
                                                     <div class="comment-body">
                                                         <footer class="comment-meta">
                                                             <div class="comment-author vcard">
-                                                                <img src="../../assets/images/user/user3.jpg" class="avatar"
-                                                                    alt="user">
+                                                                <img src="../../assets/images/user/user3.jpg" class="avatar" alt="user">
                                                                 <b class="fn">Sarah Taylor</b>
                                                             </div>
                                                             <div class="comment-metadata">
@@ -147,9 +132,7 @@
                                                             </div>
                                                         </footer>
                                                         <div class="comment-content">
-                                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever
-                                                                since the 1500s, when an unknown printer took a galley of
-                                                                type and scrambled it to make a type specimen.</p>
+                                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                                         </div>
                                                         <div class="reply">
                                                             <a href="#" class="comment-reply-link">Reply</a>
@@ -172,9 +155,7 @@
                                             </div>
                                         </footer>
                                         <div class="comment-content">
-                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen.</p>
+                                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                         </div>
                                         <div class="reply">
                                             <a href="#" class="comment-reply-link">Reply</a>
@@ -185,8 +166,7 @@
                                             <div class="comment-body">
                                                 <footer class="comment-meta">
                                                     <div class="comment-author vcard">
-                                                        <img src="../../assets/images/user/user1.jpg" class="avatar"
-                                                            alt="user">
+                                                        <img src="../../assets/images/user/user1.jpg" class="avatar" alt="user">
                                                         <b class="fn">James Anderson</b>
                                                     </div>
                                                     <div class="comment-metadata">
@@ -194,9 +174,7 @@
                                                     </div>
                                                 </footer>
                                                 <div class="comment-content">
-                                                    <p>Lorem Ipsum has been the industry’s standard dummy text ever since
-                                                        the 1500s, when an unknown printer took a galley of type and
-                                                        scrambled it to make a type specimen.</p>
+                                                    <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
                                                 </div>
                                                 <div class="reply">
                                                     <a href="#" class="comment-reply-link">Reply</a>
@@ -215,13 +193,11 @@
                                     </p>
                                     <p class="comment-form-author">
                                         <label>Name <span class="required">*</span></label>
-                                        <input type="text" id="author" placeholder="Your Name*" name="author"
-                                            required="required">
+                                        <input type="text" id="author" placeholder="Your Name*" name="author" required="required">
                                     </p>
                                     <p class="comment-form-email">
                                         <label>Email <span class="required">*</span></label>
-                                        <input type="email" id="email" placeholder="Your Email*" name="email"
-                                            required="required">
+                                        <input type="email" id="email" placeholder="Your Email*" name="email" required="required">
                                     </p>
                                     <p class="comment-form-url">
                                         <label>Website</label>
@@ -229,22 +205,18 @@
                                     </p>
                                     <p class="comment-form-comment">
                                         <label>Comment</label>
-                                        <textarea name="comment" id="comment" cols="45" placeholder="Your Comment..."
-                                            rows="5" maxlength="65525" required="required"></textarea>
+                                        <textarea name="comment" id="comment" cols="45" placeholder="Your Comment..." rows="5" maxlength="65525" required="required"></textarea>
                                     </p>
                                     <p class="comment-form-cookies-consent">
-                                        <input type="checkbox" value="yes" name="wp-comment-cookies-consent"
-                                            id="wp-comment-cookies-consent">
-                                        <label for="wp-comment-cookies-consent">Save my name, email, and website in this
-                                            browser for the next time I comment.</label>
+                                        <input type="checkbox" value="yes" name="wp-comment-cookies-consent" id="wp-comment-cookies-consent">
+                                        <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label>
                                     </p>
                                     <p class="form-submit">
-                                        <input type="submit" name="submit" id="submit" class="submit"
-                                            value="Post A Comment">
+                                        <input type="submit" name="submit" id="submit" class="submit" value="Post A Comment">
                                     </p>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
@@ -258,38 +230,30 @@
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg1"
-                                        role="img"></span></router-link>
+                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg1" role="img"></span></router-link>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Being The Best-Selling Smart
-                                            Phone This Year</router-link></h4>
+                                    <h4 class="title usmall"><router-link to="/blog-details">Being The Best-Selling Smart Phone This Year</router-link></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> Jan 15, 2020</span>
                                 </div>
                             </article>
                             <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg2"
-                                        role="img"></span></router-link>
+                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg2" role="img"></span></router-link>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Love Songs Helped Me Through
-                                            Heartbreak</router-link></h4>
+                                    <h4 class="title usmall"><router-link to="/blog-details">Love Songs Helped Me Through Heartbreak</router-link></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> Jan 14, 2020</span>
                                 </div>
                             </article>
                             <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg3"
-                                        role="img"></span></router-link>
+                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg3" role="img"></span></router-link>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Two Fashion Designers Busy With
-                                            2020 Winter Fashion</router-link></h4>
+                                    <h4 class="title usmall"><router-link to="/blog-details">Two Fashion Designers Busy With 2020 Winter Fashion</router-link></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> Jan 13, 2020</span>
                                 </div>
                             </article>
                             <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg4"
-                                        role="img"></span></router-link>
+                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg4" role="img"></span></router-link>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Working in the Office is a
-                                            Tradition For Women</router-link></h4>
+                                    <h4 class="title usmall"><router-link to="/blog-details">Working in the Office is a Tradition For Women</router-link></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> Jan 12, 2020</span>
                                 </div>
                             </article>
@@ -297,62 +261,51 @@
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
                             <ul>
-                                <li v-for="category in categories" :key="category.id">
-                                    <nuxt-link :to="`/categories-details/${category.slug}`">{{ category.attributes.name
-                                    }}</nuxt-link>
-                                </li>
+                                
+                                <li><router-link to="/blog-right-sidebar">Business <span class="post-count">(2)</span></router-link></li>
+                                <li><router-link to="/blog-right-sidebar">Privacy <span class="post-count">(5)</span></router-link></li>
+                                <li><router-link to="/blog-right-sidebar">Technology <span class="post-count">(6)</span></router-link></li>
+                                <li><router-link to="/blog-right-sidebar">Tips <span class="post-count">(2)</span></router-link></li>
+                                <li><router-link to="/blog-right-sidebar">Log in <span class="post-count">(1)</span></router-link></li>
+                                <li><router-link to="/blog-right-sidebar">Uncategorized <span class="post-count">(1)</span></router-link></li>
                             </ul>
                         </div>
                         <div class="widget widget_archive">
                             <h3 class="widget-title">Archives</h3>
                             <ul>
-                            <li><router-link to="/blog-right-sidebar">May 2020 (1)</router-link></li>
-                            <li><router-link to="/blog-right-sidebar">April 2020 (2)</router-link></li>
-                            <li><router-link to="/blog-right-sidebar">June 2020 (3)</router-link></li>
-                        </ul>
-                    </div>
-                    <div class="widget widget_tag_cloud">
-                        <h3 class="widget-title">Tags</h3>
-                        <div class="tagcloud">
-                            <router-link to="/blog-right-sidebar">Advertisment</router-link>
-                            <router-link to="/blog-right-sidebar">Business</router-link>
-                            <router-link to="/blog-right-sidebar">Life</router-link>
-                            <router-link to="/blog-right-sidebar">Lifestyle</router-link>
-                            <router-link to="/blog-right-sidebar">Fashion</router-link>
-                            <router-link to="/blog-right-sidebar">Ads</router-link>
-                            <router-link to="/blog-right-sidebar">Inspiration</router-link>
-                            <router-link to="/blog-right-sidebar">Blog</router-link>
+                                <li><router-link to="/blog-right-sidebar">May 2020 (1)</router-link></li>
+                                <li><router-link to="/blog-right-sidebar">April 2020 (2)</router-link></li>
+                                <li><router-link to="/blog-right-sidebar">June 2020 (3)</router-link></li>
+                            </ul>
                         </div>
-                    </div>
-                </aside>
+                        <div class="widget widget_tag_cloud">
+                            <h3 class="widget-title">Tags</h3>
+                            <div class="tagcloud">
+                                <router-link to="/blog-right-sidebar">Advertisment</router-link>
+                                <router-link to="/blog-right-sidebar">Business</router-link>
+                                <router-link to="/blog-right-sidebar">Life</router-link>
+                                <router-link to="/blog-right-sidebar">Lifestyle</router-link>
+                                <router-link to="/blog-right-sidebar">Fashion</router-link>
+                                <router-link to="/blog-right-sidebar">Ads</router-link>
+                                <router-link to="/blog-right-sidebar">Inspiration</router-link>
+                                <router-link to="/blog-right-sidebar">Blog</router-link>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </template>
 
 <script>
-
-import axios from 'axios';
-
 export default {
     name: 'BlogDetails',
     props: ['detailsContent'],
     data: function () {
         return {
-            details: this.detailsContent,
-            categories: []
+            details: this.detailsContent
         }
-    },
-    created() {
-      axios
-        .get('http://localhost:1337/api/categories') // Update the endpoint URL if needed
-        .then(response => {
-          this.categories = response.data.data;
-        })
-        .catch(error => {
-          console.error(error);
-        });
     }
 }
 </script>
