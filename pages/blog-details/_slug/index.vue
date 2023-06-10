@@ -38,8 +38,9 @@ export default {
 
     created: async function (){
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://cms.dealdox.io/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug }})
+        const reaponse = await axios.get(`http://localhost:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug }})
         this.details = reaponse.data.data
+        console.log("this.details....",this.details);
     }
 };
 </script>

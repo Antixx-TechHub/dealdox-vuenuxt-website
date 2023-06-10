@@ -1,0 +1,48 @@
+<template>
+  <div>
+    <Navbar class="navbar-style-two" />
+    <PageTitle pageTitle="Blog Category" pageDesc="" />
+    <div v-if="category !== null">
+      <CategoryDetails v-bind:detailsContent="category" />
+    </div>
+    <DealDoxFooter />
+  </div>
+</template>
+  
+<script>
+import Navbar from '../../../layouts/Navbar';
+import PageTitle from '../../../components/Common/PageTitle';
+import CategoryDetails from '../../../components/categories/categories-details'
+import DealDoxFooter from '../../../layouts/DealDoxFooter'
+import axios from 'axios';
+
+export default {
+  components: {
+    Navbar,
+    PageTitle,
+    CategoryDetails,
+    DealDoxFooter,
+  },
+  data() {
+    return {
+      category: null,
+    };
+  },
+  mounted() {
+    this.fetchCategories();
+    console.log("I am don")
+  },
+  methods: {
+    async fetchCategories() {
+      try {
+        const { slug } = this.$route.params
+        const reaponse = await axios.get(`http://localhost:1337/api/categories?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        this.category = reaponse.data.data
+        console.log("this.categories....", this.category);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+  },
+};
+</script>

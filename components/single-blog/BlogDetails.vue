@@ -19,12 +19,13 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-                        <div class="article-footer">
+
+                        <!-- <div class="article-footer">
                             <div class="post-author-meta">
                                 <div class="d-flex align-items-center">
                                     <img src="../../assets/images/user/user6.jpg" alt="user">
                                     <div class="title">
-                                        <span class="name">By <router-link to="/blog-grid">EnvyTheme</router-link></span>
+                                        <span class="name">By <router-link to="/blog-grid">Deal Dox</router-link></span>
                                         <span class="date">March 17, 2021</span>
                                     </div>
                                 </div>
@@ -42,8 +43,9 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="related-post">
+                        </div> -->
+
+                        <!-- <div class="related-post">
                             <h3 class="title">Related Post</h3>
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-6">
@@ -85,9 +87,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                         <div class="comments-area">
-                            <h3 class="comments-title">2 Comments:</h3>
+                            <!-- <h3 class="comments-title">2 Comments:</h3>
                             <ol class="comment-list">
                                 <li class="comment">
                                     <div class="comment-body">
@@ -205,7 +208,7 @@
                                         </li>
                                     </ol>
                                 </li>
-                            </ol>
+                            </ol> -->
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
                                 <form class="comment-form">
@@ -245,17 +248,19 @@
                                 </form>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <aside class="widget-area">
-                        <div class="widget widget_search">
+                        <!-- <div class="widget widget_search">
                             <form class="search-form">
                                 <label><input type="search" class="search-field" placeholder="Search..."></label>
                                 <button type="submit"><i class="ri-search-2-line"></i></button>
                             </form>
-                        </div>
-                        <div class="widget widget_jexa_posts_thumb">
+                        </div> -->
+
+                        <!-- <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item">
                                 <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg1"
@@ -293,42 +298,46 @@
                                     <span class="date"><i class="ri-calendar-2-fill"></i> Jan 12, 2020</span>
                                 </div>
                             </article>
-                        </div>
+                        </div> -->
+
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="category in categories" :key="category.id">
-                                    <nuxt-link :to="`/categories-details/${category.slug}`">{{ category.attributes.name
-                                    }}</nuxt-link>
+                                    <router-link :to="`/category-details/${category.attributes.slug}`">{{
+                                        category.attributes.name }}</router-link>
                                 </li>
                             </ul>
                         </div>
-                        <div class="widget widget_archive">
+
+                        <!-- <div class="widget widget_archive">
                             <h3 class="widget-title">Archives</h3>
                             <ul>
-                            <li><router-link to="/blog-right-sidebar">May 2020 (1)</router-link></li>
-                            <li><router-link to="/blog-right-sidebar">April 2020 (2)</router-link></li>
-                            <li><router-link to="/blog-right-sidebar">June 2020 (3)</router-link></li>
-                        </ul>
-                    </div>
-                    <div class="widget widget_tag_cloud">
-                        <h3 class="widget-title">Tags</h3>
-                        <div class="tagcloud">
-                            <router-link to="/blog-right-sidebar">Advertisment</router-link>
-                            <router-link to="/blog-right-sidebar">Business</router-link>
-                            <router-link to="/blog-right-sidebar">Life</router-link>
-                            <router-link to="/blog-right-sidebar">Lifestyle</router-link>
-                            <router-link to="/blog-right-sidebar">Fashion</router-link>
-                            <router-link to="/blog-right-sidebar">Ads</router-link>
-                            <router-link to="/blog-right-sidebar">Inspiration</router-link>
-                            <router-link to="/blog-right-sidebar">Blog</router-link>
-                        </div>
-                    </div>
-                </aside>
+                                <li><router-link to="/blog-right-sidebar">May 2020 (1)</router-link></li>
+                                <li><router-link to="/blog-right-sidebar">April 2020 (2)</router-link></li>
+                                <li><router-link to="/blog-right-sidebar">June 2020 (3)</router-link></li>
+                            </ul>
+                        </div> -->
+
+                        <!-- <div class="widget widget_tag_cloud">
+                            <h3 class="widget-title">Tags</h3>
+                            <div class="tagcloud">
+                                <router-link to="/blog-right-sidebar">Advertisment</router-link>
+                                <router-link to="/blog-right-sidebar">Business</router-link>
+                                <router-link to="/blog-right-sidebar">Life</router-link>
+                                <router-link to="/blog-right-sidebar">Lifestyle</router-link>
+                                <router-link to="/blog-right-sidebar">Fashion</router-link>
+                                <router-link to="/blog-right-sidebar">Ads</router-link>
+                                <router-link to="/blog-right-sidebar">Inspiration</router-link>
+                                <router-link to="/blog-right-sidebar">Blog</router-link>
+                            </div>
+                        </div> -->
+
+                    </aside>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </template>
 
 <script>
@@ -345,14 +354,15 @@ export default {
         }
     },
     created() {
-      axios
-        .get('http://localhost:1337/api/categories') // Update the endpoint URL if needed
-        .then(response => {
-          this.categories = response.data.data;
-        })
-        .catch(error => {
-          console.error(error);
-        });
+        axios
+            .get('http://localhost:1337/api/categories') // Update the endpoint URL if needed
+            .then(response => {
+                this.categories = response.data.data;
+                // console.log("categories....", this.categories)
+            })
+            .catch(error => {
+                console.error(error);
+            });
     }
 }
 </script>

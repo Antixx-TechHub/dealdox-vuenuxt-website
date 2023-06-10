@@ -48,7 +48,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/projects?populate=*')
+        const response = await axios.get('http://localhost:1337/api/projects?populate=*')
         this.projects = response.data.data
     },
 }
