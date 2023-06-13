@@ -45,7 +45,7 @@ export default {
         partners: null,
     }),
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/partner?populate=*')
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/partner?populate=*')
         const { data: { attributes } } = response.data
         this.partners = attributes
     },

@@ -48,7 +48,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('http://localhost:1337/api/projects?populate=*')
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/projects?populate=*')
         this.projects = response.data.data
     },
 }

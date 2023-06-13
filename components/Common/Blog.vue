@@ -43,7 +43,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/blogs?populate=*')
         this.blogs = response.data.data
     },
 }
