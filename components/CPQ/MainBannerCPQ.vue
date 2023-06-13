@@ -4,10 +4,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Best <span class="sub-title">CPQ</span> Software - Deliver Timely Sales Quotes Faster and More Accurately</h1>
-                        <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal delivery</p>
+                        <h1><span class="sub-title">CPQ</span> Deliver timely Sales Quotes Faster and More Accurately</h1>
+                        <p>DealDox simplifies the management of cash flow. Its user-friendly platform allows effortless
+                            management with just a few clicks.</p>
                     </div>
-                </div> 
+                </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
                         <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
