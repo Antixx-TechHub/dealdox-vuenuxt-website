@@ -2,7 +2,7 @@
     <div class="partner-area pt-70">
         <div class="container">
             <div class="partner-title">
-                Trusted by Industry Leaders
+                Industry-Preferred CPQ SaaS Solution at Your Fingertips
             </div>
             <!-- <div class="clients-logo-list align-items-center" v-if="partners !== null">
                 <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
