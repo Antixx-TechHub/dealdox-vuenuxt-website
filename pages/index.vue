@@ -40,5 +40,19 @@ components: {
     Faq,
     DealDoxFooter,
 },
+    head: {
+        title: 'DealDox|An AI-enabled Quoting Solution',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Discover DealDox, the AI-enabled quoting solution revolutionizing the sales process. Streamline your quoting workflows with advanced artificial intelligence capabilities, improving accuracy and efficiency. ' },
+            { hid: 'keywords', name: 'keywords', content: 'DealDox CPQ, CPQ Software, deal management, automated quoting tool, automated quoting solution, CPQ SaaS Solution, Quote-to-Cash process,  Quotation Generation, Automated Quotes, effortless quoting solution, subscription-based quoting solution, SaaS Quoting Software, CPQ SaaS Solution, Quote-to-Cash process, Lightning-Fast Quote Approvals , best CPQ Solutions, CPQ solutions, quick & accurate quote automation, services CPQ, quote generation process DealDox CPQ , Quoting software, Automated Deal Documents, CPQ for Services Software, CPQ SaaS Software, Leading CPQ Solution' }
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io' }
+        ],
+    },
 }
 </script>
