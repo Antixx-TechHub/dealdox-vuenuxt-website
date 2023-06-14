@@ -4,8 +4,8 @@
             <div class="section-title title-with-bg-text">
                 <h2>Bridge the gap between CRM and ERP.</h2>
                 <p>DealDox streamlines service contracting for IT providers, increasing profit margins while reducing effort
-                    and risk. Our AI-
-                    enabled quoting solution ensures fast and accurate statements of work with necessary approvals.</p>
+                    and risk. Our AI-enabled quoting solution ensures fast and accurate statements of work with necessary
+                    approvals.</p>
             </div>
 
             <div class="row justify-content-center">
