@@ -118,7 +118,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Productprice.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/ReductionDocument.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Database.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/EnhancedMargins.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Productprice.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/SwiftImplementation.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>

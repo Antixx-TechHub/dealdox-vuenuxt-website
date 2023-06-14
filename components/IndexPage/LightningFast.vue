@@ -35,7 +35,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="../../assets/images/HomePage/easy-integration.png" alt="border">
+                            <img src="../../assets/images/lightning-fast-quote-approvals/lfqa-banner.png" alt="border">
                         </div>
                     </div>
                 </div>
