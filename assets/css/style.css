@@ -1627,13 +1627,14 @@ New Demo CSS
 
 .new-app-main-banner-wrap-content-full h2 {
   color: var(--blackColor);
-  font-size: 40px;
-  line-height: 1.1;
-  margin-bottom: 10px;
+  font-size: 46px;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 
 .new-app-main-banner-wrap-content-full p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  padding: 0px 275px 0px 275px;
   font-weight: 500;
   font-size: 18px;
   line-height: 125%;

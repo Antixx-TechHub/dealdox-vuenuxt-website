@@ -27,7 +27,7 @@ import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 // import Pricing from '../components/Common/Pricing';
-import AutomatedQuotes from '../components/Common/AutomatedQuotes';
+import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 import GetInTouch from '../components/Common/GetInTouch';
 import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
