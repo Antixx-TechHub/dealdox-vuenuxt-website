@@ -5,6 +5,7 @@
   <Partner />
   <EasyIntegration />
   <LightningFast />
+  <ImproveSales />
   <EasyCPQ />
   <AdditionalFeature />
   <!-- <Pricing /> -->
@@ -22,6 +23,7 @@ import MainBanner from '../components/IndexPage/MainBanner';
 import Partner from '../components/Common/Partner'
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
 import LightningFast from '../components/IndexPage/LightningFast';
+import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 // import Pricing from '../components/Common/Pricing';
@@ -38,6 +40,7 @@ components: {
     Partner,
     EasyIntegration,
     LightningFast,
+    ImproveSales,
     EasyCPQ,
     AdditionalFeature,
     AutomatedQuotes,
