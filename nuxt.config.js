@@ -3,12 +3,13 @@ export default {
   head: {
     title: 'DealDox',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en-us'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { hid: 'keywords', name: 'keywords', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -64,6 +65,7 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap',
     // '@nuxtjs/strapi',
   ],
 
