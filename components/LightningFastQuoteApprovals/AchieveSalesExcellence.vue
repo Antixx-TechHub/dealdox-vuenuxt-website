@@ -3,7 +3,7 @@
     <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
         <div class="container">
             <div class="section-title title-with-bg-text">
-                <h2>Achieve Sales Excellence with CPQ Quick Approvals: Fast-Track Your Way to Success</h2>
+                <h2>You know what you're doing when you describe it as a process.</h2>
             </div>
 
             <div class="row align-items-center">
@@ -17,22 +17,13 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Boost Sales with Smart Approval in CPQ for <br>Quick Deal Closures! </h3>
-                        <p>CPQ advanced approvals enable sales excellence by simplifying the transaction endorsement process
-                            and considerably shortening the time it takes to close agreements. With CPQ quick approvals </p>
-                        <p>Sales teams can expedite the approval workflow, eliminating bottlenecks and delays that often
-                            hinder sales velocity. </p>
-                        <p> Sales professionals can respond to customer inquiries promptly, demonstrate agility, and provide
-                            a superior buying experience. </p>
-                        <p>Enables sales teams to close deals faster, increase productivity, and achieve higher customer
-                            satisfaction. </p>
-                        <p>With streamlined approvals, sales excellence is achieved by optimizing sales cycles, improving
-                            sales efficiency, and ultimately driving revenue growth. </p>
+                        <h3>Swift and Automated <br> Approvals</h3>
+                        <p>Auto-quotation's ability to preprogram your business <br> rules makes it simple to way through the smart and <br> automated agreement of the deal</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Maximize Efficiency and Precision with Digital Quoting Tool</h3>
+                        <h3>Maximize Efficiency and <br> Precision with Digital <br> Quoting Tool</h3>
                         <p>Swift and Automated Approvals Seamlessly navigate through the smart and automated agreement of
                             deals, eliminating complexities
                             and streamlining your operations. With automated quotation solution, the process becomes

@@ -74,7 +74,7 @@
                         <h3>Subscription Services</h3>
                         <p>DealDox facilitates work within any pricing model — fixed, tiered, or pay-per-usage. Setup fees,
                             discount management, renewal pricing, and mid-contract updates are all possibilities. Add-ons
-                            and upgrades can also be attached to current contract terms and conditions.</p>
+                            and upgrades can also be attached to current contract terms <br> and conditions.</p>
                     </div>
                 </div>
 
@@ -98,8 +98,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Everything-as-a-Service</h3>
-                        <p>We offer anything or everything as a service where you can add services, subscriptions, and items
-                            from our catalog in a quote. You can get quotes for all of your services at once or for each
+                        <p>We offer anything or everything as a service where you can add <br> services, subscriptions, and items
+                            from our catalog in a quote. <br> You can get quotes for all of your services at once or for each<br>
                             category separately, which is a unique feature.</p>
                     </div>
                 </div>
@@ -108,10 +108,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Reduction in document management</h3>
-                        <p>Time spent on document management has moderately decreased for our customers. DealDox automates
-                            the presales process, allowing the sales team to concentrate on selling while spending less time
-                            on other tasks. Additionally, users can create SOWs with no risk and 100% accuracy.</p>
+                        <h3>Reduction in document <br> management</h3>
+                        <p>Time spent on document management has moderately <br> decreased for our customers. DealDox automates
+                            the presales <br> process, allowing the sales team to concentrate on selling while <br> spending less time
+                            on other tasks. Additionally, users can create <br> SOWs with no risk and 100% accuracy.</p>
                     </div>
                 </div>
 

@@ -12,17 +12,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Accelerate Your Sales Success: Create Quotes <br> using DealDox Automation Software at 10x Speed
-                        </h3>
-                        <p>Optimize quote generation speed by leveraging our Quoting software to automate your sales
-                            process. DealDox enables seamless and auto-generating content that captures the scope,
-                            assumptions, price, and client needs. Our automated quoting solution covers everything - from
-                            detailed scopes of work to precise terms and conditions, licensing agreements, automated
-                            business proposals, order forms, pricing quotes, and every essential document to seal the deal.
-
-                            When the scope changes, the quick and accurate quoting tool dynamically revises all content,
-                            ensuring you are always up to date and saving you from the headache of manual revisions and
-                            automates the document creation process.
+                        <h3>Cut the hassle, close the <br> deal: With Automation </h3>
+                        <p>DealDox allows automation of quote generation. The <br> content is built automatically to document the scope, <br> assumptions, pricing, and other customer requirements. <br> It facilitates generating documents automatically – <br> scope of work, terms and conditions, licensing <br> agreements, and any document needed to close the <br> deal. One of the best features is that all content gets<br> revised dynamically when the scope change
                         </p>
                     </div>
                 </div>

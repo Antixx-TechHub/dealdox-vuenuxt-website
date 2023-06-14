@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-free-quotes with-border bg-grey">
-                        <h3>By using CPQ software, you can automate the process of generating proposals and eliminate the burden of manual content creation. Experience streamlined efficiency and unlock more time for selling.Get started with a demo session and free onboarding today! </h3>
+                        <h3>Automating quote generation boosts creativity and <br> streamlines workflow, Fact-based quotes maintain accuracy <br>  while keeping a unique voice. </h3>
                         <router-link to="/" class="default-btn">Sign up now!</router-link>
                     </div>
                 </div>

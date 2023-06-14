@@ -6,24 +6,25 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Generate <span class="sub-title">Automated Quotes </span> in a few Seconds! Save Time and Close More Deals</h2>
+                                <h2>Additional feature</h2>
+                                <h2><span class="sub-title">fifth one </span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Best Solution for quick and accurate quote generation in less time</p>
+                                    <p class="with-top-border">Integrate services CPQ with your CRM & ERP system effortlessly</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Eliminate manual quote creation</p>
+                                    <p class="with-top-border">Auto-sync of accounts, opportunities, price and more</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Close deals faster and win more business</p>
+                                    <p>DealDox CPQ integration optimizes the sales process</p>
                                 </li>
                             </ul>
 

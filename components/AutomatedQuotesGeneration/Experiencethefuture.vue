@@ -2,40 +2,36 @@
     <div class="features-area bg-FAFAFA ptb-75">
         <div class="container">
             <div class="section-title title-with-bg-text">
-                <h2>Experience the future of business efficiency with <br>advanced features of DealDox </h2>
+                <h2>Unlock the potential of quote <br> automation with these key features</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-sm-6 col-md-6">
                     <div class="features-item with-border-one">
-                        <h3><span class="sub-title-key-features">Automated Document</span> Generation Made Easy</h3>
-                        <p>With each new service you add, DealDox’s document automation feature instantly generates all the
-                            vital documents, such as the scope of work, terms and conditions, licensing agreements, and
-                            more, to complete your proposal.</p>
+                        <h3><span class="sub-title-key-features">Easy Modification</span><br> of Scope</h3>
+                        <p>Add services, subscriptions, and categories with ease. DealDox lets you include pricing details
+                            like users, setup fees, duration, discounts, and travel costs in just a few clicks.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-md-6">
                     <div class="features-item with-border-two">
-                        <h3><span class="sub-title-key-features">Easy Scope</span> <br>Adaptation</h3>
-                        <p>Experience the ease of adjusting your scope with just a few clicks. Whether it's adding a new
-                            service, subscription, or catalogue item, our intelligent quoting solution allows you to
-                            seamlessly incorporate them into your offerings.</p>
+                        <h3><span class="sub-title-key-features">Enhanced Rate </span> <br>of Dealing</h3>
+                        <p>Generate quotes 10x faster with DealDox's CPQ engine. No more spreadsheets or Word needed. Try
+                            our AI-embedded quoting tool today.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-md-6">
                     <div class="features-item with-border-three">
-
-                        <h3>Achieve 10x Faster <span class="sub-title-key-features">Quote Generation</span></h3>
-                        <p>Experience an incredible 10x speed advancement compared to quotes created in Word and Excel
-                            spreadsheets. DealDox - an advanced CPQ software generates quotations in seconds, regardless of
-                            the number of line items.</p>
+                        <h3>Easy Vendor <br> <span class="sub-title-key-features">Quoting</span></h3>
+                        <p>Easily segregate third-party services revenue with DealDox. Bring in service pricing of
+                            subcontractors without a linked account to differentiate from internal services revenue.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-md-6">
                     <div class="features-item with-border-four">
-                        <h3><span class="sub-title-key-features">Optimize Pricing</span> <br>Strategies</h3>
-                        <p>With advanced pricing rules and algorithms, Quoting software ensures consistency, accuracy, and
-                            flexibility in pricing, enabling businesses to maximize profit margins and win more deals. Use
-                            our CPQ software to optimize pricing strategies.</p>
+                        <h3><span class="sub-title-key-features">Track</span> Project  <br>Versions</h3>
+                        <p>Efficiently audit project changes with DealDox. Keep track of all project versions and easily
+                            compare interpretations to ensure accuracy.</p>
                     </div>
                 </div>
             </div>

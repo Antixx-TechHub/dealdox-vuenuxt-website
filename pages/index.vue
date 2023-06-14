@@ -5,7 +5,9 @@
   <Partner />
   <EasyIntegration />
   <LightningFast />
-  <Pricing />
+  <EasyCPQ />
+  <AdditionalFeature />
+  <!-- <Pricing /> -->
   <AutomatedQuotes />
   <GetInTouch />
   <Faq />
@@ -20,7 +22,9 @@ import MainBanner from '../components/IndexPage/MainBanner';
 import Partner from '../components/Common/Partner'
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
 import LightningFast from '../components/IndexPage/LightningFast';
-import Pricing from '../components/Common/Pricing';
+import EasyCPQ from '../components/IndexPage/EasyCPQ';
+import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
+// import Pricing from '../components/Common/Pricing';
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import GetInTouch from '../components/Common/GetInTouch';
 import Faq from '../components/Common/Faq';
@@ -34,8 +38,10 @@ components: {
     Partner,
     EasyIntegration,
     LightningFast,
+    EasyCPQ,
+    AdditionalFeature,
     AutomatedQuotes,
-    Pricing,
+    // Pricing,
     GetInTouch,
     Faq,
     DealDoxFooter,
