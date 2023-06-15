@@ -19,7 +19,7 @@
 
             <div class="partner-slides">
                 <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
-                    :perPageCustom="[[0, 3], [576, 3], [768, 3], [1200, 5]]" v-if="partners !== null">
+                    :perPageCustom="[[0, 3], [576, 3], [768, 3], [1200, 7]]" v-if="partners !== null">
                     <slide v-for="slide in partners.partnerSlides" :key="slide.id">
                         <div class="single-partner-item">
                             <a>
@@ -45,7 +45,7 @@ export default {
         partners: null,
     }),
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/partner?populate=*')
+        const response = await axios.get('http://localhost:1337/api/partner?populate=partnerSlides.image')
         const { data: { attributes } } = response.data
         this.partners = attributes
     },
