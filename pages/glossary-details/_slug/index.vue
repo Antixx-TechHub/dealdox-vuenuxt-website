@@ -5,7 +5,6 @@
         <div v-if="details !== null">
             <GlossaryDetails v-bind:detailsContent="details" />
         </div>
-        <FreeTrial />
         <DealDoxFooter />
     </div>
 </template>
@@ -14,7 +13,6 @@
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
 import GlossaryDetails from '../../../components/glossary/GlossaryDetails'
-import FreeTrial from '../../../components/single-blog/FreeTrial'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -23,7 +21,6 @@ export default {
         Navbar,
         PageTitle,
         GlossaryDetails,
-        FreeTrial,
         DealDoxFooter,
     },
 
