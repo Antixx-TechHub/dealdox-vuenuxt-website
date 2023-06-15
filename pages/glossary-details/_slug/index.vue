@@ -1,16 +1,11 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle 
-            v-if="details !== null"
-            :pageTitle="details[0].attributes.title" 
-            pageDesc="News and Insights" 
-        />
+        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
         <div v-if="details !== null">
-            <BlogDetails 
-                v-bind:detailsContent="details"
-            />
+            <GlossaryDetails v-bind:detailsContent="details" />
         </div>
+        <FreeTrial />
         <DealDoxFooter />
     </div>
 </template>
@@ -18,7 +13,8 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
-import BlogDetails from '../../../components/single-blog/BlogDetails'
+import GlossaryDetails from '../../../components/glossary/GlossaryDetails'
+import FreeTrial from '../../../components/single-blog/FreeTrial'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -26,21 +22,21 @@ export default {
     components: {
         Navbar,
         PageTitle,
-        BlogDetails,
+        GlossaryDetails,
+        FreeTrial,
         DealDoxFooter,
     },
 
-    data(){
-        return{
+    data() {
+        return {
             details: null
         }
     },
 
-    created: async function (){
+    created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`http://localhost:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug }})
+        const reaponse = await axios.get(`http://localhost:1337/api/glossaries?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data
-        console.log("this.details....",this.details);
     }
 };
 </script>
