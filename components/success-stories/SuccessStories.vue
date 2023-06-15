@@ -4,18 +4,18 @@
             <div class="section-title">
                 <h2>Success Stories</h2>
             </div>
-            <div class="row justify-content-center" v-if="projects !== []">
-                <div class="col-lg-4 col-md-6" v-for="project in projects" :key="project.id">
+            <div class="row justify-content-center" v-if="successstories !== []">
+                <div class="col-lg-4 col-md-6" v-for="successstory in successstories" :key="successstory.id">
                     <div class="single-blog-post">
                         <div class="image">
-                            <router-link :to="'/success-stories-details/' + project.attributes.slug" class="d-block">
-                                <img :src="project.attributes.image.data.attributes.url" alt="blog">
+                            <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
+                                <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
                             </router-link>
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/success-stories-details/' + project.attributes.slug">
-                                    {{ project.attributes.title }}
+                                <router-link :to="'/success-stories-details/' + successstory.attributes.slug">
+                                    {{ successstory.attributes.title }}
                                 </router-link>
                             </h3>
                         </div>
@@ -41,15 +41,15 @@
 import axios from 'axios'
 
 export default {
-    name: 'SuccessStories',
+    name: 'successstories',
     data() {
         return {
-            projects: []
+            successstories: []
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/projects?populate=*')
-        this.projects = response.data.data
+        const response = await axios.get('http://localhost:1337/api/successstories?populate=*')
+        this.successstories = response.data.data
     },
 }
 </script>
