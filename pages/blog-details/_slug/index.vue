@@ -1,15 +1,9 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle 
-            v-if="details !== null"
-            :pageTitle="details[0].attributes.title" 
-            pageDesc="News and Insights" 
-        />
+        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
         <div v-if="details !== null">
-            <BlogDetails 
-                v-bind:detailsContent="details"
-            />
+            <BlogDetails v-bind:detailsContent="details" />
         </div>
         <DealDoxFooter />
     </div>
@@ -30,17 +24,17 @@ export default {
         DealDoxFooter,
     },
 
-    data(){
-        return{
+    data() {
+        return {
             details: null
         }
     },
 
-    created: async function (){
+    created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`http://localhost:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug }})
+        const reaponse = await axios.get(`http://localhost:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data
-        console.log("this.details....",this.details);
+        console.log("this.details....", this.details);
     }
 };
 </script>
