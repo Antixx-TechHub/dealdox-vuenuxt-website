@@ -47,10 +47,10 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/about-us" class="nav-link">Our Team</router-link>
+                                        <router-link to="/about-us" class="nav-link">About Us</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/contact-us" class="nav-link">Get In Touch</router-link>
+                                        <router-link to="/contact-us" class="nav-link">Contact Us</router-link>
                                     </li>
                                 </ul>
                             </li>
