@@ -110,7 +110,8 @@ About Area CSS
 
 .about-content-right {
   padding-right: 30px;
-  text-align: right;
+  /* css changed 3 */
+  text-align: left;
 }
 
 .about-content .sub-title {
@@ -128,6 +129,18 @@ About Area CSS
   line-height: 1.4;
   margin-bottom: 15px;
 }
+/* css Changed */
+.about-content h3{
+
+  font-size:30px;
+  margin-right: 180px;
+}
+
+.about-content p{
+  font-size:18px;
+
+}
+
 
 .about-content .features-text {
   margin-top: 30px;

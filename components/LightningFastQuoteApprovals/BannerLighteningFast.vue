@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Lightening Fast <br><span class="sub-title">Quote Approvals</span></h1>
+                        <h1>Lightening Fast <span class="sub-title">Quote Approvals</span></h1>
                         <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate consent requests, and simplify complex agreements for maximum efficiency. </p>
                     </div>
                 </div>

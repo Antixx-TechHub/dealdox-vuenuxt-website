@@ -4,8 +4,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Revolutionising Quote Generation with <br><span class="sub-title">Automation</span></h1>
-                        <p>Automation streamlines quote generation, saving time <br> and boosting efficiency for businesses dealing with <br> high volumes of requests.</p>
+                        <h1>Revolutionising Quote Generation with <span class="sub-title">Automation</span></h1>
+                        <p>Automation streamlines quote generation, saving time </p>
+                         <p>and boosting efficiency for businesses dealing with </p> 
+                         <p>high volumes of requests.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

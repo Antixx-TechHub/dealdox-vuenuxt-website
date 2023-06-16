@@ -2,7 +2,7 @@
     <div class="free-trial-area ptb-100 bg-FFFFFF">
         <div class="container">
             <div class="section-title title-with-bg-text">
-                <h2>Enhance Your Quote Generation Process with<br>the best CPQ Solution Now</h2>
+                <h2>Enhance Your Quote Generation Process with the best CPQ Solution Now</h2>
                 <p>Let’s get started!</p>
             </div>
             <div class="free-trial-content">

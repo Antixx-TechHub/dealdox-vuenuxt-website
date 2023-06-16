@@ -293,7 +293,10 @@ Features Area CSS
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 15px;
+  /* css changed 2 */
+  margin-right:167px;
 }
+
 
 .features-content p {
   font-size: 18px;

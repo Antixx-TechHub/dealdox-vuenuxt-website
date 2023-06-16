@@ -4,6 +4,7 @@
         <div class="container">
             <div class="section-title title-with-bg-text">
                 <h2>You know what you're doing when you describe it as a process.</h2>
+                <p> Initiate a citation and set it forth for getting content; Dealdox will take care of the rest.</p>
             </div>
 
             <div class="row align-items-center">
@@ -17,13 +18,13 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Swift and Automated <br> Approvals</h3>
-                        <p>Auto-quotation's ability to preprogram your business <br> rules makes it simple to way through the smart and <br> automated agreement of the deal</p>
+                        <h3>Swift and Automated Approvals</h3>
+                        <p>Auto-quotation's ability to preprogram your business rules makes it simple to way through the smart and automated agreement of the deal</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Maximize Efficiency and <br> Precision with Digital <br> Quoting Tool</h3>
+                        <h3>Maximize Efficiency and  Precision with Digital  Quoting Tool</h3>
                         <p>Swift and Automated Approvals Seamlessly navigate through the smart and automated agreement of
                             deals, eliminating complexities
                             and streamlining your operations. With automated quotation solution, the process becomes
