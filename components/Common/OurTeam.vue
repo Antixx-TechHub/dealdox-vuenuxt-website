@@ -6,7 +6,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
                         </div>
@@ -15,7 +15,7 @@
                             <span>Founder & CEO</span>
                             <p>“Our team includes experienced <br>developers and architects”</p>
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-apt.png" alt="image">
                         </div>
@@ -50,7 +50,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-apthr.png" alt="image">
                         </div>
@@ -85,7 +85,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
                         </div>
@@ -120,7 +120,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -145,7 +145,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
                         </div>
@@ -155,7 +155,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -180,7 +180,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-apt.png" alt="image">
                         </div>
@@ -190,7 +190,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-apthr.png" alt="image">
                         </div>
@@ -225,7 +225,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member">
+                    <div class="single-team-member bg-white">
                         <div class="image">
                             <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
                         </div>
@@ -260,7 +260,7 @@
                             <p>“Our team includes experienced <br>developers and architects”</p>
 
                         </div>
-                        <ul class="social-links">
+                        <ul class="social-links bg-white">
                             <li>
                                 <a href="https://facebook.com/" target="_blank">
                                     <i class="ri-facebook-fill"></i>

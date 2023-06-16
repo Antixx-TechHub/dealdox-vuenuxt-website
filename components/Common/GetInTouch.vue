@@ -7,8 +7,7 @@
                         <div class="software-integrations-inner bg-gradient-color">
                             <div class="features-content">
                                 <h2>Get in Touch</h2>
-                                <p>Have an query or some feedback for us? <br>Write to our team, and will get back ASAP.</p>
-                                <p><br></p>
+                                <p>Have an query or some feedback for us? Write to our team, and will get back ASAP.</p>
                             </div>
                             <div class="software-integrations-list" data-aos="fade-up">
                                 <img src="../../assets/images/HomePage/get-in-touch.png" alt="image">
@@ -17,7 +16,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-12">
-                        <div class="contact-area ptb-100">
+                        <div class="contact-area pt-70">
                             <div class="container">
                                 <div class="contact-form">
                                     <form id="contactForm">

@@ -468,6 +468,7 @@ Features Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 18px;
+  margin-right: 12px;
   font-weight: 500;
   line-height: 125%;
 
@@ -1271,6 +1272,7 @@ Software Integrations Area CSS
 .software-integrations-list {
   margin-left: 15px;
   position: relative;
+  margin-top: 35px;
 }
 
 .software-integrations-list ul {
@@ -2016,8 +2018,7 @@ Free Trial Area CSS
   .features-content {
     text-align: center;
     padding-right: 0;
-    margin-left: 10px;
-    margin-bottom: -15px;
+    margin: 20px 10px 10px 10px;
   }
   .features-content h2 {
     font-size: 21px;
@@ -2025,7 +2026,7 @@ Free Trial Area CSS
     text-align: left;
   }
   .features-content .sub-title {
-    font-size: 21px;
+    font-size: 26px;
     display: inline-block;
     background: var(--gradientColor);
     -webkit-background-clip: text;
@@ -2073,10 +2074,10 @@ Free Trial Area CSS
     margin-top: 35px;
   }
   .single-features-item {
-    padding: 50px 40px 50px 40px;
+    padding: 50px 0px 50px 30px;
   }
   .single-features-item .icon {
-    margin: 4px 0px 0px -30px;
+    margin: 4px 0px 0px -50px;
     width: 65px;
     height: 65px;
     font-size: 20px;

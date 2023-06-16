@@ -226,6 +226,7 @@ Team Area CSS
   }
   .single-team-member .content h3 {
     font-size: 16px;
+    margin-bottom: 4px;
   }
   .single-team-member .social-links {
     visibility: visible;
