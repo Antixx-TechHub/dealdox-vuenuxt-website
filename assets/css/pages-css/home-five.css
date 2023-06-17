@@ -563,6 +563,32 @@ Free Trial Area CSS
     padding-right: 0;
     text-align: center;
   }
+
+  .about-content p {
+    text-align: left;
+  }
+ /* CSS Changed */
+  .about-content h3 {
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-top: 35;
+    margin-right: 14px
+  }
+  
+  .about-content-right h3 {
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-right: 14px
+  }
+
+  .about-content-right p {
+    text-align: left;
+  }
+
+  
+
   .about-content h2 {
     font-size: 20px;
     margin-bottom: 12px;
