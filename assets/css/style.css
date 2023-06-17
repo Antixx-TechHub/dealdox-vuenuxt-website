@@ -122,6 +122,8 @@ p {
 
 p:last-child {
   margin-bottom: 0;
+  /* css changed 3 */
+  /* margin-right: 117px; */
 }
 
 .ptb-100 {
@@ -281,8 +283,16 @@ p:last-child {
 
 .section-title h2 {
   line-height: 1.4;
-  margin-bottom: 0;
-  font-size: 42px;
+    margin-bottom: 0;
+    font-size: 32px;
+    margin-right: 374px;
+    margin-left: 272px
+}
+
+/* css changed */
+.section-title h3 {
+  margin-right: 43px;
+  margin-left: 117px
 }
 
 .section-title p {
@@ -290,6 +300,9 @@ p:last-child {
   line-height: 1.5;
   margin-top: 10px;
   font-weight: 500;
+  /* css changed */
+  margin-right: 236px;
+  margin-left: 175px
 }
 
 .section-title-button p {
@@ -1635,6 +1648,9 @@ New Demo CSS
   font-size: 46px;
   line-height: 1.2;
   margin-bottom: 15px;
+  /* Css Changed 1 */
+  /* text-align: right;
+  margin-right: 285px; */
 }
 
 .new-app-main-banner-wrap-content-full p {
@@ -1834,6 +1850,7 @@ New Demo CSS
   font-size: 50px;
   line-height: 1.1;
   margin-bottom: 10px;
+  margin-right: 39px;
 }
 
 .new-app-main-banner-wrap-content p {

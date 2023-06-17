@@ -6,25 +6,24 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Additional feature</h2>
-                                <h2><span class="sub-title">fifth one </span></h2>
+                                <h2><span class="sub-title">Localised</span> Deal Documents</h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Integrate services CPQ with your CRM & ERP system effortlessly</p>
+                                    <p class="with-top-border">Eliminate language barrier for seamless communication with clients and partners.</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Auto-sync of accounts, opportunities, price and more</p>
+                                    <p class="with-top-border">Conduct business effortlessly in your native language with the global reach of DealDocx CPQ</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>DealDox CPQ integration optimizes the sales process</p>
+                                    <p>Access deal documents in your local language for enhanced clarity and understanding.</p>
                                 </li>
                             </ul>
 

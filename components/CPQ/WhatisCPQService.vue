@@ -22,7 +22,7 @@
                             <i class="ri-eye-line"></i>
                         </div>
                         <h3>Sales</h3>
-                        <p>DealHub automates time-consuming manual processes and provides all the tools needed to close
+                        <p class="text-right">DealHub automates time-consuming manual processes and provides all the tools needed to close
                             deals, so sales reps can focus on selling.</p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                             <i class="ri-stack-line"></i>
                         </div>
                         <h3>Operations</h3>
-                        <p>Our no-code environment enables operations teams to continuously adapt to changing business
+                        <p class="text-center">Our no-code environment enables operations teams to continuously adapt to changing business
                             needs, like pricing and product updates, in real time.</p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                             <i class="ri-leaf-line"></i>
                         </div>
                         <h3>Finance</h3>
-                        <p>Increase revenue growth with improved discount governance, quote version control, and advanced
+                        <p class="text-center">Increase revenue growth with improved discount governance, quote version control, and advanced
                             approval workflows.</p>
                     </div>
                 </div>
