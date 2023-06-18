@@ -43,7 +43,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossaries?populate=*')
+        const response = await axios.get('http://localhost:1337/api/glossaries?populate=*')
         this.glossaries = response.data.data
     },
 }

@@ -284,10 +284,21 @@ p:last-child {
 .section-title h2 {
   line-height: 1.4;
     margin-bottom: 0;
-    font-size: 32px;
-    margin-right: 374px;
-    margin-left: 272px
+    font-size: 27px;
 }
+
+.section-titles h2 {
+  line-height: 1.4;
+    margin-bottom: 0;
+    font-size: 42px;
+    text-align:center
+}
+
+.section-titles p {
+  font-size: 16px;
+  text-align: center;
+}
+
 
 /* css changed */
 .section-title h3 {
@@ -301,8 +312,8 @@ p:last-child {
   margin-top: 10px;
   font-weight: 500;
   /* css changed */
-  margin-right: 236px;
-  margin-left: 175px
+  /* margin-right: 236px;
+  margin-left: 175px */
 }
 
 .section-title-button p {
@@ -1651,6 +1662,15 @@ New Demo CSS
   /* Css Changed 1 */
   /* text-align: right;
   margin-right: 285px; */
+}
+
+.new-app-main-banner-wrap-content-full-one h2 {
+  color: var(--blackColor);
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-right: 277px;
+    margin-left: 254px;
 }
 
 .new-app-main-banner-wrap-content-full p {
@@ -5103,6 +5123,10 @@ Preloader CSS
     font-size: 13px;
   }
 
+  .new-app-main-banner-wrap-content-full-one .h2{
+    text-align: left;
+  }
+
   .footer-wrap-area .copyright-area p a {
     color: var(--white);
     font-weight: 400;
@@ -5188,6 +5212,8 @@ Preloader CSS
     width: 80px;
   }
 
+
+
   .section-title {
     margin-bottom: 50px;
   }
@@ -5200,10 +5226,21 @@ Preloader CSS
   }
 
   .section-title h2 {
-    font-size: 20px !important;
+    font-size: 19px !important;
     text-align: center;
     margin-bottom: 3px;
   }
+
+  .section-titles h2{
+    font-size: 18px;
+  }
+
+  .feedback-tabs .tab-content p {
+    padding: 25px;
+  }
+
+  .feedback-tabs .tab-content h1 {
+      font-size: 17px;  }
 
   .features-content-improve-sales h5 {
     margin-right: 0px;
@@ -5212,6 +5249,9 @@ Preloader CSS
 
   .section-title p {
     font-size: 13px !important;
+    text-align: justify;
+    margin-right: 12px;
+    margin-left: 8px;
   }
 
   .section-title p1 {
@@ -5695,10 +5735,31 @@ Preloader CSS
   .new-app-main-banner-wrap-content {
     margin-top: 0;
   }
-
+/* css changed 17-6-23 */
   .new-app-main-banner-wrap-content h1 {
-    font-size: 25px;
+    font-size: 19px;
     text-align: center;
+    margin-right: 0px;
+  }
+
+  .new-app-main-banner-wrap-content p {
+    text-align: center;
+    margin-right: 1px
+  }
+
+  .section-title h3 {
+    text-align: center !important;
+    font-size: 19px;
+    margin-right: -3px;
+    margin-left: -2px;
+
+  }
+  .new-app-main-banner-wrap-content-full-one h2{
+    text-align: center !important;
+    font-size: 18px;
+    margin-right: -3px;
+    margin-left: 2px;
+
   }
 
   .new-app-main-banner-wrap-content .sub-title {
