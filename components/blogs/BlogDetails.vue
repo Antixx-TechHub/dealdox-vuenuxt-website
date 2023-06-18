@@ -6,7 +6,7 @@
                     <div class="blog-details-desc">
                         <div class="article-image">
                             <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link>
-                            <img :src="details[0].attributes.image.data.attributes.url" alt="image">
+                            <!-- <img :src="details[0].attributes.image.data.attributes.url" alt="image"> -->
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
@@ -358,7 +358,7 @@ export default {
             .get('http://localhost:1337/api/blog-categories') // Update the endpoint URL if needed
             .then(response => {
                 this.categories = response.data.data;
-                // console.log("categories....", this.categories)
+                console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);
