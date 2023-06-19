@@ -1,18 +1,45 @@
 <template>
     <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
         <div class="container">
+
+            <div class="section-title">
+                <h4> AI-enabled CPQ for Services - Easy to Use and Quick Implementation</h4>
+            </div>
             <div class="section-title title-with-bg-text">
                 <h2>What is CPQ for Services?</h2>
-                <p>CPQ is a sales tool that quickly generates accurate quotes by automating the process based on pre-set
-                    rules. It seamlessly integrates with CRM and ERP technologies to ensure data accuracy. CPQ software
-                    considers various factors such as quantities, customisations, and deals to provide error-free pricing.
-                    Services CPQ software fills the gap in service pricing and quotes, streamlining pre-sales practices and
-                    reducing manual errors. Generate professional quotes in just a few minutes with CPQ for services.</p>
+                <p>Initially, configure, price, quote (CPQ) software applications supported only to automate the configuring
+                    of products which did not add value to the services. As a result, Services CPQ software came to the
+                    market to fill the void in service pricing and quotes.
+                </p>
+
+                <p> CPQ for Services is a sales tool to generate quick quotes accurately. It caters to businesses of all
+                    sizes, including small, medium, and large enterprises. CPQ for Services automates the presales process
+                    of configuring the pricing of services. With CPQ solutions
+                </p>
+                <div class="features-content tb-50 ">
+                    <ul class="features-list">
+                        <li>
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p class="text-left">You can generate quick and accurate quota, SOW and proposals in minutes!
+                            </p>
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <p class="text-left">Enables automation and simplifies the quote-to-cash process eliminating
+                                manual and error-prone procedures.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="section-title title-with-bg-text">
-                <h3>CPQ Software: The ultimate tool for multi team collaboration</h3>
-                <p>Master the art of remote collaboration</p>
+                <h3>CPQ Software: The Ultimate Tool for Multi-Team Collaboration </h3>
+                <p>Empowers teams to work together efficiently, breaking down barriers and enhancing productivity </p>
             </div>
 
             <div class="row justify-content-center">
@@ -22,8 +49,8 @@
                             <i class="ri-eye-line"></i>
                         </div>
                         <h3>Sales</h3>
-                        <p class="text-right">DealHub automates time-consuming manual processes and provides all the tools needed to close
-                            deals, so sales reps can focus on selling.</p>
+                        <p class="text-center">DealDox automates manual tasks and equips sales reps with the tools to close deals, freeing them to focus on selling.
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -32,8 +59,7 @@
                             <i class="ri-stack-line"></i>
                         </div>
                         <h3>Operations</h3>
-                        <p class="text-center">Our no-code environment enables operations teams to continuously adapt to changing business
-                            needs, like pricing and product updates, in real time.</p>
+                        <p class="text-center">Without the need for traditional programming or coding skills, operations teams can easily adjust to changing business needs such as real-time pricing and product modifications.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -42,8 +68,7 @@
                             <i class="ri-leaf-line"></i>
                         </div>
                         <h3>Finance</h3>
-                        <p class="text-center">Increase revenue growth with improved discount governance, quote version control, and advanced
-                            approval workflows.</p>
+                        <p class="text-center">Boost revenue growth with enhanced discount Governance, streamlined Quote Version control, and advanced approval workflows.</p>
                     </div>
                 </div>
             </div>

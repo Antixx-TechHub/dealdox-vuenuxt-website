@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full-one">
-                    <h2>Experience Unbeatable Sales Efficiency with <span class="sub-title">DealDocx</span> NOW!</h2>
+                    <h2>Experience Swift Deal Creation, Agile Price List Switching, and Dynamic Discounts with DealDox CPQ</h2>
                     <p>Are you still stuck with outdated spreadsheet calculations, spending precious time manually shifting
                         estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these tedious tasks
                         and welcome effortless quoting with DealDox.</p>

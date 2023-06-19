@@ -17,7 +17,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Auto-sync of accounts, opportunities, price and more.</p>
+                                    <p class="with-top-border">Auto-sync of accounts, opportunities, price and more</p>
                                 </li>
                                 <li>
                                     <div class="icon">
@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/" class="default-btn">Know more</router-link>
+                                <router-link to="/cpq-integration" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>

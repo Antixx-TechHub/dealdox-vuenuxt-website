@@ -8,8 +8,7 @@
   <ImproveSales />
   <EasyCPQ />
   <AdditionalFeature />
-  <!-- <Pricing /> -->
-  <AutomatedQuotes />
+>  <AutomatedQuotes />
   <GetInTouch />
   <Faq />
   <DealDoxFooter/>
@@ -26,7 +25,6 @@ import LightningFast from '../components/IndexPage/LightningFast';
 import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
-// import Pricing from '../components/Common/Pricing';
 import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 import GetInTouch from '../components/Common/GetInTouch';
 import Faq from '../components/Common/Faq';
@@ -44,7 +42,6 @@ components: {
     EasyCPQ,
     AdditionalFeature,
     AutomatedQuotes,
-    // Pricing,
     GetInTouch,
     Faq,
     DealDoxFooter,

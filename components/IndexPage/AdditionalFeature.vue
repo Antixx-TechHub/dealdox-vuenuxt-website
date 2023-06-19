@@ -11,19 +11,19 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Eliminate language barrier for seamless communication with clients and partners.</p>
+                                    <p class="with-top-border">Eliminate language barriers for seamless communication with clients and partners</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Conduct business effortlessly in your native language with the global reach of DealDocx CPQ</p>
+                                    <p class="with-top-border">Conduct business effortlessly in your preferred language with the global reach of DealDox CPQ</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Access deal documents in your local language for enhanced clarity and understanding.</p>
+                                    <p>Access deal documents in non-English language for enhanced clarity and understanding</p>
                                 </li>
                             </ul>
 
