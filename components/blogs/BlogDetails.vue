@@ -6,7 +6,7 @@
                     <div class="blog-details-desc">
                         <div class="article-image">
                             <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link>
-                            <!-- <img :src="details[0].attributes.image.data.attributes.url" alt="image"> -->
+                            <img :src="details[0].attributes.image.data.attributes.url" alt="image">
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
