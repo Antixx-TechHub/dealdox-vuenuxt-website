@@ -2,7 +2,7 @@
     <div class="partner-area pt-70">
         <div class="container">
             <div class="partner-title">
-                Industry-Preferred CPQ SaaS Solution at Your Fingertips
+                Industry-Preferred CPQ SaaS Solution at Your Fingertipss
             </div>
 
             <div class="partner-slides">
