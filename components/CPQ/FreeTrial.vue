@@ -4,9 +4,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-free-quotes with-border bg-grey">
-                        <h3>Automating quote generation boosts creativity and streamlines workflow, Fact-based quotes
-                            maintain accuracy while keeping a unique voice.</h3>
-                        <router-link to="/" class="default-btn">Get your free quotes now!</router-link>
+                        <h4>Did you know?</h4>
+                        <h3>Automated Quote Generation tool helps businesses achieve faster sales cycles and higher win rates by providing accurate pricing and quotes in a timely manner. Get started free onboarding today!.</h3>
+                        <router-link to="/" class="default-btn">Sign up now!</router-link>
                     </div>
                 </div>
             </div>

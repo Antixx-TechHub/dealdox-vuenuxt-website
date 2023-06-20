@@ -40,7 +40,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/" class="default-btn">Know more</router-link>
+                                <router-link to="/automated-quotes-generation" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>
