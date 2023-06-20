@@ -1,13 +1,14 @@
 <template>
-<div class="blog-area ptb-100 bg-FAFAFA">
+    <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
+
             <div class="section-title">
                 <h2>Featured Categories</h2>
             </div>
+
             <div class="row justify-content-center" v-if="details !== []">
                 <div class="col-lg-4 col-md-6" v-for="blog in details[0].attributes?.blogs?.data" :key="blog.id">
-                 <h3>{{blog.attributes.title}}</h3> 
-                   <div class="single-blog-post bg-white">
+                    <div class="single-blog-post bg-white">
                         <div class="image">
                             <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
                                 <img :src="blog?.attributes?.image?.data?.attributes?.url" alt="blog">
@@ -28,6 +29,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <div class="nav-links">
@@ -45,6 +47,7 @@
 </template>
 
 <script>
+
 import axios from 'axios'
 
 export default {
@@ -56,17 +59,5 @@ export default {
             categories: []
         }
     },
-    created() {
-        console.log("########### details....", this.details);
-        //   axios
-        //     .get('http://localhost:1337/api/categories') // Update the endpoint URL if needed
-        //     .then(response => {
-        //       this.categories = response.data.data;
-        //       console.log("categories....",this.categories)
-        //     })
-        //     .catch(error => {
-        //       console.error(error);
-        //     });
-    }
 }
 </script>

@@ -36,7 +36,7 @@ export default {
     async fetchCategories() {
       try {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`http://localhost:1337/api/blog-categories?filters[slug][$eq]=${slug}&populate=deep,10`, { params: { slug } })
+        const reaponse = await axios.get(`http://localhost:1337/api/blog-categories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
         this.category = reaponse.data.data
         console.log("this.categories....", this.category);
       } catch (error) {
