@@ -58,7 +58,7 @@
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="category in categories" :key="category.id">
-                                    <router-link :to="`/category-details/${category.attributes.slug}`">{{
+                                    <router-link :to="`/glossary-category-details/${category.attributes.slug}`">{{
                                         category.attributes.name }}</router-link>
                                 </li>
                             </ul>
@@ -85,7 +85,7 @@ export default {
     },
     created() {
         axios
-            .get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories') // Update the endpoint URL if needed
+            .get('http://localhost:1337/api/glossary-categories') // Update the endpoint URL if needed
             .then(response => {
                 this.categories = response.data.data;
             })
