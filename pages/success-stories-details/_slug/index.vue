@@ -32,7 +32,7 @@ export default {
 
     created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/successstories?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        const reaponse = await axios.get(`http://localhost:1337/api/successstories?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data
     }
 };

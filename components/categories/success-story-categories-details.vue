@@ -1,16 +1,19 @@
 <template>
     <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
+
             <div class="section-title">
-                <h2>Success Stories</h2>
+                <h2>Success Story Categories</h2>
             </div>
-            <div class="row justify-content-center" v-if="successstories !== []">
-                <div class="col-lg-4 col-md-6" v-for="successstory in successstories" :key="successstory.id">
-                    <div class="single-blog-post">
+
+            <div class="row justify-content-center" v-if="details !== []">
+                <div class="col-lg-4 col-md-6" v-for="successstory in details[0].attributes?.success_stories?.data" :key="successstory.id">
+                    <div class="single-blog-post bg-white">
                         <div class="image">
                             <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
-                                <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
+                                <img :src="successstory?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </router-link>
+                            <router-link to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag }}</router-link>
                         </div>
                         <div class="content">
                             <h3>
@@ -18,9 +21,15 @@
                                     {{ successstory.attributes.title }}
                                 </router-link>
                             </h3>
+                            <p>{{ successstory.attributes.shortDesc }}</p>
+                            <ul class="meta">
+                                <li><i class="ri-time-line"></i> {{ successstory.attributes.date }}</li>
+                                <!-- <li><i class="ri-time-line"></i> {{ blog.attributes.shortDesc }}</li> -->
+                            </ul>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <div class="nav-links">
@@ -38,18 +47,17 @@
 </template>
 
 <script>
+
 import axios from 'axios'
 
 export default {
-    name: 'successstories',
-    data() {
+    name: 'CategoryDetails',
+    props: ['detailsContent'],
+    data: function () {
         return {
+            details: this.detailsContent,
             successstories: []
         }
-    },
-    created: async function () {
-        const response = await axios.get('http://localhost:1337/api/successstories?populate=*')
-        this.successstories = response.data.data
     },
 }
 </script>
