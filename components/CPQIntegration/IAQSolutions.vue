@@ -2,7 +2,7 @@
     <div class="features-area pt-65 bg-white">
         <div class="container">
             <div class="section-title">
-                <h3>Stay Ahead of the Competition with DealDox Integration</h3>
+                <h3>Leveraging DealDox Integration for Success</h3>
             </div>
             <br>
             <div class="row justify-content-center">
@@ -11,7 +11,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
                         </div>
-                        <p>The entire quote-to delivery process is  transparent</p>
+                        <p>The entire quote-to-delivery process is transparent</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -19,7 +19,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
                         </div>
-                        <p>No more mistakes  from manual data entering</p>
+                        <p>No more mistakes from manual data entering</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -27,7 +27,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/predictioncpq.png" alt="image">
                         </div>
-                        <p>Proper prediction  of resource  demand</p>
+                        <p>Proper prediction of resource demand</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -43,7 +43,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/synccpq.png" alt="image">
                         </div>
-                        <p>Sync up opportunities,  jobs, talents, rates, and  so on</p>
+                        <p>Sync up opportunities, jobs, talents, rates, and so on</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">

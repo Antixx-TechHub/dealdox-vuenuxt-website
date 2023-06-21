@@ -25,12 +25,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Re-approve with Ease</h3>
+                        <h3>Reapprove with Ease </h3>
                         <p>DealDox provides a flexible and streamlined approach to deal approval. Even after approval, if
-                            any modifications are required, they can be made easily and the deal can be re-approved without
-                            any delay. This feature ensures that deals are always up-to-date and all parties involved are on
-                            the same page. With DealDox, you can have peace of mind knowing that your deals are being
-                            handled efficiently and effectively.
+                            any modifications are require, they can be made easily can be re-approved without any delay.
+                            This feature ensures that deals are always up-to-date and all parties involved are on the same
+                            plate
                         </p>
                     </div>
                 </div>

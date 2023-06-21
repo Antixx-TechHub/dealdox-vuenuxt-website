@@ -45,7 +45,7 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: 'Efficient CPQ approvals made easy with DealDox. Empower sales teams with streamlined processes for faster deal closures.' },
-            { hid: 'keywords', name: 'keywords', content: 'CPQ Quick Approvals, Smart approval in CPQ, CPQ advanced approvals, AI-enabled quoting tool, Lightening-Fast Quote Approvals, Digital Quoting Tool, Fast Quote Approvals, smart and automated agreement of deals, automated quotation solution, quote-to-cash platform, automated quoting tool, CPQ Approval process, streamlined approvals' }
+            { hid: 'keywords', name: 'keywords', content: 'Cpq quick approvals, Lightening-fast approvals, Smart approval in cpq, Cpq advanced approvals, Fast quote approvals, Quote-to-cash platform, Automated quoting tool, Quote approvals, Digital quoting tool , Cpq approval process, Streamlined approvals, Quotation software, Smart and automated agreement of deals, Automated quotation solution' }
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/quick-approvals' }
         ],

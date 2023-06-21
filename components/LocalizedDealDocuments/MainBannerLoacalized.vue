@@ -4,13 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Lightening Fast <span class="sub-title">Quote Approvals</span></h1>
-                        <p>Unleash the Power of Fast Quote Approvals for Rapid Sales, Delighted Customers, and Maximum Revenue </p>
+                        <h1><span class="sub-title">Localized Deal </span> Documents</h1>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/lightning-fast-quote-approvals/lfqa-banner.png" alt="image">
+                        <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -24,6 +23,6 @@
 
 <script>
 export default {
-    name: 'LighteningFast'
+    name: 'MainBannercpq'
 }
 </script>

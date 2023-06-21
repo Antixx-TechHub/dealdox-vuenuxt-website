@@ -27,15 +27,20 @@
                                         <router-link to="/cpq" class="nav-link">CPQ</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/cpq-integration" class="nav-link">Integrations</router-link>
+                                        <router-link to="/cpq-integration" class="nav-link">Integration</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/automated-quotes-generation" class="nav-link">Swift
-                                            Quotes</router-link>
+                                        <router-link to="/automated-quotes-generation" class="nav-link">Automated Quotations
+                                            </router-link>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/lightning-fast-quote-approvals" class="nav-link">Quick
                                             Approvals</router-link>
+                                    </li>
+                                    <li class="nav-item">
+                                        <router-link to="/localizeddealdocuments" class="nav-link">
+                                            Localized Deal Documents
+                                            </router-link>
                                     </li>
                                 </ul>
                             </li>
@@ -47,10 +52,10 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/about-us" class="nav-link">About Us</router-link>
+                                        <router-link to="/about-us" class="nav-link">Our Team</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/contact-us" class="nav-link">Contact Us</router-link>
+                                        <router-link to="/contact-us" class="nav-link">Get In Touch</router-link>
                                     </li>
                                 </ul>
                             </li>
