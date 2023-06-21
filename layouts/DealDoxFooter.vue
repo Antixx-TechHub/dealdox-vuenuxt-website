@@ -41,6 +41,9 @@
                             <li>
                                 <router-link to="/lightning-fast-quote-approvals">Quick Approvals</router-link>
                             </li>
+                            <li>
+                                <router-link to="/localizeddealdocuments">Localized Deal Documents</router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
