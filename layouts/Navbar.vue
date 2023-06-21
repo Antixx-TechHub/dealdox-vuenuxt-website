@@ -27,7 +27,7 @@
                                         <router-link to="/cpq" class="nav-link">CPQ</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/cpq-integration" class="nav-link">Integrations</router-link>
+                                        <router-link to="/cpq-integration" class="nav-link">Integration</router-link>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/automated-quotes-generation" class="nav-link">Swift

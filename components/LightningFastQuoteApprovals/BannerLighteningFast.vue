@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Lightening Fast <span class="sub-title">Quote Approvals</span></h1>
-                        <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate consent requests, and simplify complex agreements for maximum efficiency. </p>
+                        <p>Unleash the Power of Fast Quote Approvals for Rapid Sales, Delighted Customers, and Maximum Revenue </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
