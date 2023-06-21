@@ -28,17 +28,17 @@ export default {
         DealDoxFooter,
     },
     head: {
-        title: 'CPQ (Configure, Price, Quote)|DealDox',
+        title: 'Localized Deal Documents',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Streamline quoting processes with DealDox CPQ. Configure, price, and quote with precision, empowering sales teams for success.' },
-            { hid: 'keywords', name: 'keywords', content: 'CPQ(Configure, Price, Quote), best cpq software, price quote software, configure price quote (cpq) software, automate presales process, CPQ guided selling, guidded selling cpq, best quote automation software, Automated Quoting Solutions, AI-enabled CPQ for Services, Quote-to-cash process, Advanced guided selling, cpq guided selling setup, automate the process of configuring products sales tool to generate quick quotes accurately, automated quoting software, best tool for sales engagement, CPQ Quoting Process' }
+            { hid: 'description', name: 'description', content: '' },
+            { hid: 'keywords', name: 'keywords', content: 'Localized deal documents, Non-english cpq for services, Area-specific deal documents, Regionally customed agreements, Geographically customized quotations, Deal management, Deal documents, Dealdox cpq, Close deals faster, Regional cpq automated quote generation, Localized versions of deal documents, Customized automated quotation, How localized deal documents work, Multilingual document creation capability,' }
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/cpq' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/localizeddealdocuments' }
         ],
     },
 }

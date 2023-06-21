@@ -6,13 +6,55 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-inner bg-gradient-color">
                             <div class="features-content-improve-sales">
-                                <h2>Generate your quotes in <span class="sub-title">2 seconds.</span></h2>
-                                <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p>
+                                <!-- <h2>Generate your quotes in <span class="sub-title">2 seconds.</span></h2>
+                                <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p> -->
+                                <h4> Start Your Free Onboarding Now! </h4>
+                                <p>No credit card or software installation is required. </p>
+                                <h6> With Advanced Quoting Solution, Beyond Invoicing you benefit from: </h6>
+                                
+                        <div class="features-content">
+                            <ul class="features-list">
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Guided selling approach to empower sales reps, leaders, and other teams for efficient sales processes and optimized decision-making. </p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed </p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Effortlessly generate accurate deal documents like quotations, proposals, SOWs, orders, and more.</p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Streamline single or multi-level approvals faster</p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Get your deal documents in your local language, regardless of your country </p>
+                                </li>
+                            </ul>
+                        </div>
                             </div>
                             <div class="contact-limited-offer">
                                 <div class="signup-button">
                                     <div class="btn-box">
-                                        <router-link to="/SignUp" class="default-btn">Sign Up</router-link>
+                                        <!-- <router-link to="/SignUp" class="default-btn">Sign Up</router-link> -->
                                     </div>
                                 </div>
                             </div>
@@ -67,9 +109,23 @@
                                                         placeholder="Eg: www.yourdomain.com">
                                                 </div>
                                             </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Country Region</p>
+                                                    <input type="text" name="name" required class="form-control" id="name"
+                                                        placeholder="Eg: India">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Phone Number</p>
+                                                    <input type="text" name="name" required class="form-control" id="name"
+                                                        placeholder="Eg: 91 9878454345">
+                                                </div>
+                                            </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <p>Please write your message</p>
+                                                    <p>Leave your message</p>
                                                     <textarea name="message" id="message" required class="form-control"
                                                         cols="30" rows="6"
                                                         placeholder="This just a dummy message! please dont mind"></textarea>

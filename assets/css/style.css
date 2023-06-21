@@ -7150,7 +7150,7 @@ Preloader CSS
 }
 
 .contact-limited-offer {
-  background-image: url(../../assets/images/more-home/banner/contact-limited-offer-background.svg);
+  /* background-image: url(../../assets/images/more-home/banner/contact-limited-offer-background.svg); */
   padding-bottom: 50px;
   padding-top: 100px;
   background-repeat: no-repeat;
