@@ -7,8 +7,7 @@
                         <router-link to="/" class="logo">
                             <img src="../assets/images/footer-logo.svg" alt="logo">
                         </router-link>
-                        <p>DealDocx, a unique cost-effective, CRM and AI enabled quote management software specially
-                            designed for IT services.</p>
+                        <p>DealDox CPQ: the all-in-one solution that streamlines quoting, closes deals faster, and boosts sales efficiency.</p>
                         <ul class="social-links">
                             <li>
                                 <a href="/" target="_blank"><i class="ri-facebook-fill"></i></a>
@@ -52,48 +51,53 @@
                         <h3>Integrations</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/coming-soon">Salesforce</router-link>
+                                <router-link to="/coming-soon">Salesforce
+                                </router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Hubspot</router-link>
+                                <router-link to="/coming-soon">Microsoft Dynamics
+                                </router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Freshworks</router-link>
+                                <router-link to="/coming-soon">Freshworks
+                                </router-link>
+                            </li>
+
+                            <li>
+                                <router-link to="/coming-soon">HubSpot
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/coming-soon">SugarCRM</router-link>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>Company</h3>
+                        <h3>Resources</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/about-us">About Us</router-link>
+                                <router-link to="/blogs">Blogs</router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Collaborators</router-link>
+                                <router-link to="/success-stories">Success Stories</router-link>
                             </li>
                             <li>
-                                <router-link to="/contact-us">Contact us</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/coming-soon">Glossary</router-link>
+                                <router-link to="/glossary">Glossary </router-link>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>Get in touch</h3>
+                        <h3>Company </h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/">Locate us on map</router-link>
+                                <router-link to="/about-us">Our Team</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Mail us - Info@dealdocx.io</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/">Call us - 999999999</router-link>
+                                <router-link to="/contact-us">Get in Touch</router-link>
                             </li>
                         </ul>
 
@@ -108,13 +112,16 @@
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>Resources</h3>
+                        <h3>Get in Touch </h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/blogs">Blog</router-link>
+                                <router-link to="/">Locate us on map</router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Success Stories</router-link>
+                                <router-link to="/">Mail us - Info@dealdocx.io</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/">Call us - 999999999</router-link>
                             </li>
                         </ul>
                     </div>
@@ -122,16 +129,24 @@
             </div>
             <div class="copyright-area">
                 <div class="row">
+                    <router-link to="/" class="logo">
+                            <img src="../assets/images/footer-logo.svg" alt="logo">
+                        </router-link>
                     <div class="col-lg-6 col-sm-6">
-                        <p class="text-left">All right reserved @2023,<a href="https://dealdox.io/"
-                                target="_blank">DealDox</a></p>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <p class="text-right"><router-link to="/terms-conditions">Terms & conditions</router-link> |
-                            <router-link to="/privacy-policy">Privacy Policy</router-link>
+                        <p class="text-left"><router-link to="/">Security</router-link> |
+                            <router-link to="/terms-conditions">Terms of Use</router-link>
                         </p>
                     </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <p class="text-right"><router-link to="/privacy-policy">Privacy Policy</router-link> |
+                            <router-link to="/">Cookie Preference</router-link>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                    </div>
                 </div>
+                <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
+
             </div>
         </div>
     </div>

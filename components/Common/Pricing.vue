@@ -2,36 +2,35 @@
     <div class="app-pricing-gradient-area ptb-75">
         <div class="container">
             <div class="section-title">
-                <h2>Let’s get started?</h2>
-                <p1>Choose a plan that works best for your team and boost your sales with DealDocx.</p1>
+                <h2>Subscription Plans </h2>
+                <h5>Simplify Quote-to-Cash process with DealDox </h5>
+                <p> Unleash the full potential of collaborative deals with our subscription plan. Streamline workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a centralized hub for policies, customizable workflows, and real-time alerts.</p>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
+                <div class="section-title">
+                <h3>Leverage DealDox for Comprehensive Implementation and Tailored Solutions</h3>
+            </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-app-pricing-box">
                         <div class="title">
-                            <h3>FREE</h3>
-                            <p>Powerful & awesome elements</p>
+                            <h3>Enjoy DealDox at zero cost! Including</h3>
                         </div>
                         <div class="price">
                             0$ <span>/Month</span>
                         </div>
                         <ul class="features-list">
-                            <li><i class="ri-check-line"></i> All free Features</li>
-                            <li><i class="ri-check-line"></i> Personalized Document</li>
-                            <li><i class="ri-check-line"></i> Templates Sales Dashboard</li>
-                            <li><i class="ri-check-line"></i> API</li>
-                            <li><i class="ri-check-line"></i> SSO Support</li>
-                            <li><i class="ri-check-line"></i> Online forms</li>
-
+                            <li><i class="ri-check-line"></i> Onboarding Assistance </li>
+                            <li><i class="ri-check-line"></i> Comprehensive Implementation </li>
+                            <li><i class="ri-check-line"></i> Adaptations to meet your needs and so much more!</li>
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/" class="default-btn">Start Using for Free</router-link>
+                            <router-link to="/" class="default-btn"> Sign Up Now!</router-link>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-app-pricing-box active">
                         <div class="title">
                             <h3>Premium</h3>
@@ -77,7 +76,7 @@
                             <router-link to="/" class="default-btn">Request a Quote</router-link>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="app-pricing-bottom-text">
