@@ -56,6 +56,30 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <aside class="widget-area">
+                        <div class="widget widget_search">
+                            <form class="search-form">
+                                <label><input type="search" class="search-field" placeholder="Search..."></label>
+                                <button type="submit"><i class="ri-search-2-line"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="widget widget_jexa_posts_thumb">
+                            <h3 class="widget-title">Popular Posts</h3>
+                            <article class="item" v-for="successstory in successstories" :key="successstory.id">
+                                <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="thumb">
+                                    <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
+                                </router-link>
+                                <div class="info">
+                                    <h4 class="title usmall"><router-link
+                                            :to="'/success-stories-details/' + successstory.attributes.slug">
+                                            {{ successstory.attributes.title }}
+                                        </router-link></h4>
+                                    <span class="date"><i class="ri-calendar-2-fill"></i> {{ successstory.attributes.date
+                                    }}</span>
+                                </div>
+                            </article>
+                        </div>
+
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
                             <ul>
@@ -83,18 +107,21 @@ export default {
     data: function () {
         return {
             details: this.detailsContent,
-            successcategories: []
+            successcategories: [],
+            successstories: [],
         }
     },
-    created() {
-        axios
-            .get('https://dealdoxstrapi.pbwebvision.com/api/successcategories') // Update the endpoint URL if needed
+    created: async function () {
+        axios.get('https://dealdoxstrapi.pbwebvision.com/api/successcategories')
             .then(response => {
                 this.successcategories = response.data.data;
+                // console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);
             });
-    }
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/successstories?populate=*')
+        this.successstories = response.data.data;
+    },
 }
 </script>
