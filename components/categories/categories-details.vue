@@ -13,7 +13,7 @@
                             <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
                                 <img :src="blog?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </router-link>
-                            <router-link to="/blog-grid" class="tag">{{ blog?.attributes?.tag }}</router-link>
+                            <!-- <router-link to="/blog-grid" class="tag">{{ blog?.attributes?.tag }}</router-link> -->
                         </div>
                         <div class="content">
                             <h3>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
