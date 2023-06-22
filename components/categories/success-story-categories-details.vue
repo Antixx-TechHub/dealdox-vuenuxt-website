@@ -3,17 +3,19 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Success Story Categories</h2>
+                <h2>Success Story Featured Categories</h2>
             </div>
 
             <div class="row justify-content-center" v-if="details !== []">
-                <div class="col-lg-4 col-md-6" v-for="successstory in details[0].attributes?.success_stories?.data" :key="successstory.id">
+                <div class="col-lg-4 col-md-6" v-for="successstory in details[0].attributes?.success_stories?.data"
+                    :key="successstory.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
                             <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
                                 <img :src="successstory?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </router-link>
-                            <router-link to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag }}</router-link>
+                            <router-link to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag
+                            }}</router-link>
                         </div>
                         <div class="content">
                             <h3>
@@ -41,6 +43,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

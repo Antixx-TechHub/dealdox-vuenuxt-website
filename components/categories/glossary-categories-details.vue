@@ -3,11 +3,12 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Glossary Categories</h2>
+                <h2>Glossary Featured Categories</h2>
             </div>
 
             <div class="row justify-content-center" v-if="details !== []">
-                <div class="col-lg-4 col-md-6" v-for="glossary in details[0].attributes?.glossaries?.data" :key="glossary.id">
+                <div class="col-lg-4 col-md-6" v-for="glossary in details[0].attributes?.glossaries?.data"
+                    :key="glossary.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
                             <router-link :to="'/glossary-details/' + glossary.attributes.slug" class="d-block">
@@ -41,6 +42,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>

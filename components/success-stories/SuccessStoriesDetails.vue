@@ -12,7 +12,6 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-
                         <div class="comments-area">
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
@@ -61,8 +60,9 @@
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="successcategory in successcategories" :key="successcategory.id">
-                                    <router-link :to="`/success-stories-category-details/${successcategory.attributes.slug}`">{{
-                                        successcategory.attributes.name }}</router-link>
+                                    <router-link
+                                        :to="`/success-stories-category-details/${successcategory.attributes.slug}`">{{
+                                            successcategory.attributes.name }}</router-link>
                                 </li>
                             </ul>
                         </div>
