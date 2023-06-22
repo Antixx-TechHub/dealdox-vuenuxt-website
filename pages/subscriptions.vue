@@ -2,8 +2,8 @@
   <div>
   <Navbar class="navbar-style-two"/>
   <Pricing />
-  <AutomatedQuotes />
-  <GetInTouch />
+  <!-- <AutomatedQuotes /> -->
+  <!-- <GetInTouch /> -->
   <DealDoxFooter/>
 </div>
 </template>
@@ -12,17 +12,17 @@
 
 import Navbar from '../layouts/Navbar';
 import Pricing from '../components/Common/Pricing';
-import AutomatedQuotes from '../components/Common/AutomatedQuotes';
-import GetInTouch from '../components/Common/GetInTouch';
+// import AutomatedQuotes from '../components/Common/AutomatedQuotes';
+// import GetInTouch from '../components/Common/GetInTouch';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 
 
 export default {
 components: {
     Navbar,
-    AutomatedQuotes,
+    // AutomatedQuotes,
     Pricing,
-    GetInTouch,
+    // GetInTouch,
     DealDoxFooter,
 },
 }
