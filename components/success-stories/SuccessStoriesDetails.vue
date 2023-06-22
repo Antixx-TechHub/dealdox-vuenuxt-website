@@ -88,7 +88,7 @@ export default {
     },
     created() {
         axios
-            .get('http://localhost:1337/api/successcategories') // Update the endpoint URL if needed
+            .get('https://dealdoxstrapi.pbwebvision.com/api/successcategories') // Update the endpoint URL if needed
             .then(response => {
                 this.successcategories = response.data.data;
             })

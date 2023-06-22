@@ -48,7 +48,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('http://localhost:1337/api/successstories?populate=*')
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/successstories?populate=*')
         this.successstories = response.data.data
     },
 }
