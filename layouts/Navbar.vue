@@ -27,14 +27,14 @@
                                         <router-link to="/cpq" class="nav-link">CPQ</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/cpq-integration" class="nav-link">Integration</router-link>
+                                        <router-link to="/integration" class="nav-link">Integration</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/automated-quotes-generation" class="nav-link">Automated Quotations
+                                        <router-link to="/quotations" class="nav-link">Automated Quotations
                                             </router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/lightning-fast-quote-approvals" class="nav-link">Quick
+                                        <router-link to="/approvals" class="nav-link">Quick
                                             Approvals</router-link>
                                     </li>
                                     <li class="nav-item">
@@ -52,10 +52,10 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/about-us" class="nav-link">Our Team</router-link>
+                                        <router-link to="/team" class="nav-link">Our Team</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/contact-us" class="nav-link">Get In Touch</router-link>
+                                        <router-link to="/contactus" class="nav-link">Get In Touch</router-link>
                                     </li>
                                 </ul>
                             </li>
