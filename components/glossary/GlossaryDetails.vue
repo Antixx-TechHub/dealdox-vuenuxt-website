@@ -8,7 +8,6 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-
                         <div class="comments-area">
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
@@ -51,20 +50,21 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-12">
                     <aside class="widget-area">
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="category in categories" :key="category.id">
-                                    <router-link :to="`/category-details/${category.attributes.slug}`">{{
+                                    <router-link :to="`/glossary-category-details/${category.attributes.slug}`">{{
                                         category.attributes.name }}</router-link>
                                 </li>
                             </ul>
                         </div>
                     </aside>
                 </div>
+
             </div>
         </div>
     </div>

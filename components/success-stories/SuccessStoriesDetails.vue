@@ -12,7 +12,6 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-
                         <div class="comments-area">
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
@@ -60,9 +59,10 @@
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
                             <ul>
-                                <li v-for="category in categories" :key="category.id">
-                                    <router-link :to="`/category-details/${category.attributes.slug}`">{{
-                                        category.attributes.name }}</router-link>
+                                <li v-for="successcategory in successcategories" :key="successcategory.id">
+                                    <router-link
+                                        :to="`/success-stories-category-details/${successcategory.attributes.slug}`">{{
+                                            successcategory.attributes.name }}</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -83,14 +83,14 @@ export default {
     data: function () {
         return {
             details: this.detailsContent,
-            categories: []
+            successcategories: []
         }
     },
     created() {
         axios
-            .get('https://dealdoxstrapi.pbwebvision.com/api/success-categories') // Update the endpoint URL if needed
+            .get('https://dealdoxstrapi.pbwebvision.com/api/successcategories') // Update the endpoint URL if needed
             .then(response => {
-                this.categories = response.data.data;
+                this.successcategories = response.data.data;
             })
             .catch(error => {
                 console.error(error);

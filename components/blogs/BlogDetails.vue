@@ -358,7 +358,7 @@ export default {
             .get('https://dealdoxstrapi.pbwebvision.com/api/blog-categories') // Update the endpoint URL if needed
             .then(response => {
                 this.categories = response.data.data;
-                console.log("categories....", this.categories)
+                // console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);

@@ -3,7 +3,7 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Featured Categories</h2>
+                <h2>Blogs Featured Categories</h2>
             </div>
 
             <div class="row justify-content-center" v-if="details !== []">
@@ -41,6 +41,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
