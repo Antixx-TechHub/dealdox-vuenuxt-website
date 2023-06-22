@@ -5,7 +5,7 @@
                 <h2>Glossary</h2>
             </div>
             <div class="row justify-content-center" v-if="glossaries !== []">
-                <div class="col-lg-4 col-md-6" v-for="glossary in glossaries" :key="glossary.id">
+                <div class="col-lg-3 col-md-6" v-for="glossary in glossaries" :key="glossary.id">
                     <div class="single-blog-post">
                         <div class="content">
                             <h3>

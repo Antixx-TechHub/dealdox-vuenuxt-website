@@ -14,7 +14,7 @@
                             <router-link :to="'/glossary-details/' + glossary.attributes.slug" class="d-block">
                                 <img :src="glossary?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </router-link>
-                            <router-link to="/glossary-details/" class="tag">{{ glossary?.attributes?.tag }}</router-link>
+                            <!-- <router-link to="/glossary-details/" class="tag">{{ glossary?.attributes?.tag }}</router-link> -->
                         </div>
                         <div class="content">
                             <h3>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
