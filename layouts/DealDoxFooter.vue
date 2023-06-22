@@ -29,16 +29,16 @@
                         <h3>Features</h3>
                         <ul class="links-list">
                             <li>
+                                <router-link to="/quotations">Automated Quotations</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/approvals">Quick Approvals</router-link>
+                            </li>
+                            <li>
                                 <router-link to="/cpq">CPQ</router-link>
                             </li>
                             <li>
-                                <router-link to="/cpq-integration">Integrations</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/automated-quotes-generation">Swift Quotes</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/lightning-fast-quote-approvals">Quick Approvals</router-link>
+                                <router-link to="/integration">Integration</router-link>
                             </li>
                             <li>
                                 <router-link to="/localizeddealdocuments">Localized Deal Documents</router-link>
