@@ -5,15 +5,15 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
-                            <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link>
+                            <!-- <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link> -->
                             <img :src="details[0].attributes.image.data.attributes.url" alt="image">
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
                                 <ul>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
-                                    <li><i class="ri-message-2-line"></i><router-link to="/blog-grid">(4)
-                                            Comments</router-link></li>
+                                    <!-- <li><i class="ri-message-2-line"></i><router-link to="/blog-grid">(4)
+                                            Comments</router-link></li> -->
                                 </ul>
                             </div>
                             <h4>{{ details[0].attributes.title }}</h4>
@@ -253,52 +253,28 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <aside class="widget-area">
-                        <!-- <div class="widget widget_search">
+                        <div class="widget widget_search">
                             <form class="search-form">
                                 <label><input type="search" class="search-field" placeholder="Search..."></label>
                                 <button type="submit"><i class="ri-search-2-line"></i></button>
                             </form>
-                        </div> -->
+                        </div>
 
-                        <!-- <div class="widget widget_jexa_posts_thumb">
+                        <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
-                            <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg1"
-                                        role="img"></span></router-link>
+                            <article class="item" v-for="blog in blogs" :key="blog.id">
+                                <router-link :to="'/blog-details/' + blog.attributes.slug" class="thumb">
+                                    <img :src="blog.attributes.image.data.attributes.url" alt="blog">
+                                </router-link>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Being The Best-Selling Smart
-                                            Phone This Year</router-link></h4>
-                                    <span class="date"><i class="ri-calendar-2-fill"></i> Jan 15, 2020</span>
+                                    <h4 class="title usmall"><router-link :to="'/blog-details/' + blog.attributes.slug">
+                                            {{ blog.attributes.title }}
+                                        </router-link></h4>
+                                    <span class="date"><i class="ri-calendar-2-fill"></i> {{ blog.attributes.date
+                                    }}</span>
                                 </div>
                             </article>
-                            <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg2"
-                                        role="img"></span></router-link>
-                                <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Love Songs Helped Me Through
-                                            Heartbreak</router-link></h4>
-                                    <span class="date"><i class="ri-calendar-2-fill"></i> Jan 14, 2020</span>
-                                </div>
-                            </article>
-                            <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg3"
-                                        role="img"></span></router-link>
-                                <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Two Fashion Designers Busy With
-                                            2020 Winter Fashion</router-link></h4>
-                                    <span class="date"><i class="ri-calendar-2-fill"></i> Jan 13, 2020</span>
-                                </div>
-                            </article>
-                            <article class="item">
-                                <router-link to="/blog-details" class="thumb"><span class="fullimage cover bg4"
-                                        role="img"></span></router-link>
-                                <div class="info">
-                                    <h4 class="title usmall"><router-link to="/blog-details">Working in the Office is a
-                                            Tradition For Women</router-link></h4>
-                                    <span class="date"><i class="ri-calendar-2-fill"></i> Jan 12, 2020</span>
-                                </div>
-                            </article>
-                        </div> -->
+                        </div>
 
                         <div class="widget widget_categories">
                             <h3 class="widget-title">Categories</h3>
@@ -350,12 +326,12 @@ export default {
     data: function () {
         return {
             details: this.detailsContent,
-            categories: []
+            categories: [],
+            blogs: [],
         }
     },
-    created() {
-        axios
-            .get('https://dealdoxstrapi.pbwebvision.com/api/blog-categories') // Update the endpoint URL if needed
+    created: async function () {
+        axios.get('https://dealdoxstrapi.pbwebvision.com/api/blog-categories')
             .then(response => {
                 this.categories = response.data.data;
                 // console.log("categories....", this.categories)
@@ -363,6 +339,8 @@ export default {
             .catch(error => {
                 console.error(error);
             });
-    }
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/blogs?populate=*')
+        this.blogs = response.data.data;
+    },
 }
 </script>

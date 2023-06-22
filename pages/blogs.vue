@@ -4,6 +4,7 @@
         <PageTitle class="page-title-style-two" pageTitle="Blogs"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" />
         <Blog />
+        <LatestBlog />
         <AutomatedQuotes />
         <DealDoxFooter />
     </div>
@@ -13,6 +14,7 @@
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
 import Blog from '../components/blogs/Blog'
+import LatestBlog from '../components/blogs/LatestBlog'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
@@ -21,6 +23,7 @@ export default {
         Navbar,
         PageTitle,
         Blog,
+        LatestBlog,
         AutomatedQuotes,
         DealDoxFooter,
     },

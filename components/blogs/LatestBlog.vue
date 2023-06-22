@@ -1,14 +1,14 @@
 <template>
-    <div class="blog-area ptb-100 bg-LatestBlog">
+    <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
             <div class="row justify-content-left">
                 <div class="col-lg-4 col-md-6">
                     <div class="section-title">
-                        <h2>Featured Blogs</h2>
+                        <h2>Latest Blogs</h2>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-6">
-                    <!-- <div class="widget-area" id="secondary">
+                    <div class="widget-area" id="secondary">
                         <div class="widget widget_search">
                             <form class="search-form">
                                 <label>
@@ -18,7 +18,7 @@
                                 <button type="submit"><i class='ri-search-2-line'></i></button>
                             </form>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center" v-if="blogs !== []">
@@ -28,7 +28,7 @@
                             <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
                                 <img :src="blog.attributes.image.data.attributes.url" alt="blog">
                             </router-link>
-                            <!-- <router-link to="/blog-grid" class="tag">{{ blog.attributes.tag }}</router-link> -->
+                            <router-link to="/blog-grid" class="tag">{{ blog.attributes.tag }}</router-link>
                         </div>
                         <div class="content">
                             <h3>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <div class="nav-links">
                             <span class="page-numbers current">1</span>
@@ -54,7 +54,7 @@
                                     class="ri-arrow-right-line"></i></router-link>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
