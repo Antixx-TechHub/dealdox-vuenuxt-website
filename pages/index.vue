@@ -2,13 +2,15 @@
   <div>
   <Navbar class="navbar-style-two"/>
   <MainBanner />
+  <TransformYourSales />
   <Partner />
+    <WithOurSubscrip />
   <EasyIntegration />
   <LightningFast />
   <ImproveSales />
   <EasyCPQ />
   <AdditionalFeature />
->  <AutomatedQuotes />
+  <AutomatedQuotes />
   <GetInTouch />
   <Faq />
   <DealDoxFooter/>
@@ -19,7 +21,11 @@
 
 import Navbar from '../layouts/Navbar';
 import MainBanner from '../components/IndexPage/MainBanner';
+import TransformYourSales from '../components/IndexPage/TransformYourSales';
 import Partner from '../components/Common/Partner'
+
+import WithOurSubscrip from '../components/IndexPage/WithOurSubscrip';
+
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
 import LightningFast from '../components/IndexPage/LightningFast';
 import ImproveSales from '../components/IndexPage/ImproveSales';
@@ -35,7 +41,9 @@ export default {
 components: {
     Navbar,
     MainBanner,
+    TransformYourSales,
     Partner,
+    WithOurSubscrip,
     EasyIntegration,
     LightningFast,
     ImproveSales,
