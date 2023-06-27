@@ -14,8 +14,8 @@
                             <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
                                 <img :src="successstory?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </router-link>
-                            <router-link to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag
-                            }}</router-link>
+                            <!-- <router-link to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag
+                            }}</router-link> -->
                         </div>
                         <div class="content">
                             <h3>

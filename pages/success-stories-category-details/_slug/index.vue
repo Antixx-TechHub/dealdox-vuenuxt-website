@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar class="navbar-style-two" />
-    <PageTitle pageTitle="Blog Category" pageDesc="" />
+    <PageTitle pageTitle="Success Story Category" pageDesc="" />
     <div v-if="successcategory !== null">
       <CategoryDetails v-bind:detailsContent="successcategory" />
     </div>

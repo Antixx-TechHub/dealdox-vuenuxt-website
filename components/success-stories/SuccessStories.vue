@@ -1,9 +1,27 @@
 <template>
     <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
-            <div class="section-title">
-                <h2>Success Stories</h2>
+            <div class="row justify-content-left">
+                <div class="col-lg-4 col-md-6">
+                    <div class="section-title">
+                        <h2>Success Stories</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="widget-area" id="secondary">
+                        <div class="widget widget_search">
+                            <form class="search-form">
+                                <label>
+                                    <span class="screen-reader-text">Search for:</span>
+                                    <input type="search" class="search-field" placeholder="Search...">
+                                </label>
+                                <button type="submit"><i class='ri-search-2-line'></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="row justify-content-center" v-if="successstories !== []">
                 <div class="col-lg-4 col-md-6" v-for="successstory in successstories" :key="successstory.id">
                     <div class="single-blog-post">
