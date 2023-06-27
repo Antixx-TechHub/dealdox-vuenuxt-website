@@ -2,7 +2,10 @@
     <div class="loader">
         <div class="d-table">
             <div class="d-table-cell">
-                <div class="spinner"></div>
+                <!-- <div class="spinner"></div> -->
+                <div class="about-imgone">
+                <img src="../assets/images/footer-logo.svg" alt="logo">
+                </div>
             </div>
         </div>
     </div>

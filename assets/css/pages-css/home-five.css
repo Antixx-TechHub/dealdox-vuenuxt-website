@@ -207,6 +207,11 @@ About Area CSS
   text-align: center;
 }
 
+.about-imgone {
+  text-align: center;
+  height: 100px;
+}
+
 /*================================================
 Features Area CSS
 =================================================*/
