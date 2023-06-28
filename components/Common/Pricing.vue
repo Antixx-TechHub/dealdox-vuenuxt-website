@@ -7,10 +7,7 @@
                 <p> Unleash the full potential of collaborative deals with our subscription plan. Streamline workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a centralized hub for policies, customizable workflows, and real-time alerts.</p>
             </div>
 
-            <div class="row justify-content-center ">
-                <div class="section-title">
-                <h3>Leverage DealDox for Comprehensive Implementation and Tailored Solutions</h3>
-            </div>
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-app-pricing-box">
                         <div class="title">

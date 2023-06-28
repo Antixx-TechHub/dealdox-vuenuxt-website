@@ -1,11 +1,14 @@
 <template>
-<div class="new-app-main-banner-wrap-area bg-white">
+    <div class="new-app-main-banner-wrap-area bg-white">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Effortlessly streamline your <span class="sub-title">quote generation</span> process with DealDox</h1>
-                        <p>Are you still stuck with outdated spreadsheet calculations, spending precious time manually shifting estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these tedious tasks and welcome effortless quoting with DealDox.</p> 
+                        <h1>Effortlessly streamline<br>your <span class="sub-title">quote generation</span><br>process with
+                            DealDox</h1>
+                        <h5>Are you still stuck with outdated spreadsheet calculations, spending precious time manually
+                            shifting estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these
+                            tedious tasks and welcome effortless quoting with DealDox.</h5>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

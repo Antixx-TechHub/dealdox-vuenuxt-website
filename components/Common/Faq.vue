@@ -3,8 +3,8 @@
         <div class="container">
             <div class="features-content-improve-sales">
                 <div class="section-title">
-                    <h2>Frequently asked questions</h2>
-                    <h5>Can’t find your query listed? <span class="sub-title-faq">Write us</span> your query</h5>
+                    <h1>Frequently asked questions</h1>
+                    <p>Can’t find your query listed? <span class="sub-title-faq">Write us</span> your query</p>
                 </div>
             </div>
             <div class="row align-items-center">

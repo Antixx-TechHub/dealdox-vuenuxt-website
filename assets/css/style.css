@@ -153,6 +153,10 @@ p:last-child {
   padding-top: 30px;
 }
 
+.tb-20 {
+  padding-bottom: 30px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -198,6 +202,10 @@ p:last-child {
   background-color: #F7F7FF;
 }
 
+.bg-homegradiant {
+  background-color: linear-gradient(99.01deg, #715CF3 100%, #5C99F3 100%)
+}
+
 .bg-FFFFFF {
   background-color: #ffffff;
 }
@@ -229,6 +237,23 @@ p:last-child {
   color: var(--whiteColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+  box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+
+.default-btn-home {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 12px 35px;
+  border-radius: 300px;
+  display: inline-block;
+  color: var(--gradientColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: #ffffff;
   -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
   box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
   font-size: var(--fontSize);
@@ -278,6 +303,15 @@ p:last-child {
   margin-right: auto;
 }
 
+.section-title-home {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 45px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-title p1 {
   font-size: 18px;
   text-align: center;
@@ -308,11 +342,17 @@ p:last-child {
   text-align: center;
 }
 
+.section-title-home h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
 
 /* css changed */
 .section-title h3 {
   margin-right: 43px;
-  margin-left: 117px
+
+  margin-left: 117px;
 }
 
 .section-title p {
@@ -1692,6 +1732,33 @@ New Demo CSS
   color: #8E8E8E;
 }
 
+.new-app-main-banner-wrap-content-full h5 {
+  padding: 0px 0px 0px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 28px */
+  color: #8E8E8E;
+}
+
+.new-app-main-banner-wrap-content-full h6 {
+  /* padding: 0px 100px 0px 100; */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  /* or 28px */
+  color: #8E8E8E;
+}
+
+.new-app-main-banner-wrap-content-full strong {
+  padding: 0px 0px 0px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 28px */
+  color: #000000;
+}
+
 .new-app-main-banner-wrap-content-full .user-info {
   padding: 0;
   margin-top: 25px;
@@ -1888,6 +1955,16 @@ New Demo CSS
   font-size: 18px;
   line-height: 125%;
   padding-right: 150px;
+  /* or 28px */
+  color: #8E8E8E;
+}
+
+.new-app-main-banner-wrap-content h5 {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 125%;
+  padding-right: 130px;
   /* or 28px */
   color: #8E8E8E;
 }

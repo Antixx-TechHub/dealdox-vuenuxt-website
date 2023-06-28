@@ -71,7 +71,8 @@
   border-bottom: 1px solid #eeeeee;
   width: 100%;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  padding-right: 10px;
 }
 
 .faq-accordion .accordion .accordion__item .accordion__trigger .accordion-title::before {

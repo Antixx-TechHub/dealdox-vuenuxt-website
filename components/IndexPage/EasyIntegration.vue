@@ -6,7 +6,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Generate <span class="sub-title">Automated Quotes </span> in a few Seconds! Save Time and Close More Deals</h2>
+                                <h2>Generate <span class="sub-title">Automated</span> <span class="sub-title">Quotes</span> in a few Seconds! Save Time and Close More Deals</h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
