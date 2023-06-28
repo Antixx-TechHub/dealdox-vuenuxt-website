@@ -595,20 +595,31 @@ textarea.form-control {
 
 /*pagination*/
 .pagination-area {
+    margin-bottom: 0rem;
     margin-top: 20px;
     padding-top: 30px;
+    padding-left: 10px;
     border-top: 1px solid #eeeeee;
 
+    ol, ul {
+        padding-left: 0rem;
+        margin-right: 8px;
+    }
+
+    .nav-links {
+        width: 30px;
+        height: 30px;
+    }
     .nav-links {
         display: flex;
         align-items: center;
     }
     .page-numbers {
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
         border: none;
         display: block;
-        line-height: 43px;
+        line-height: 35px;
         position: relative;
         text-align: center;
         border-radius: 50%;
@@ -4382,8 +4393,8 @@ Preloader CSS
         padding-top: 20px;
 
         .page-numbers {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             font-size: 14px;
             line-height: 40px;
         }
