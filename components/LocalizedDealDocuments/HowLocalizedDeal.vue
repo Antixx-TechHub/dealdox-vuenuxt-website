@@ -11,31 +11,9 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>How Localized Deal Documents Work</h3>
-                        <p>Using Localized Deal Documents is a straightforward and user-friendly process
+                        <h3>Breaking Barriers, Connecting Deals:</h3>
+                        <p>Businesses are crossing international boundaries and interacting with partners, clients, and consumers who come from a variety of language origins. It is essential to get through language barriers and guarantee clarity in all business contacts in order to promote successful communication and cooperation. This is where Localized Deal Documents' pioneering functionality shines. 
                         </p>
-
-                        <div class="features-content">
-                            <ul class="features-list">
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>
-                                    <h6>Select Language</h6> Choose the desired language for the deal documentation from a
-                                    comprehensive list of supported languages.</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>
-                                    <h6>Generate Quotation</h6> Select the preferred services from the catalogue and
-                                    submit. You will get the required documents in your selected language.</p>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -43,14 +21,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Empowering Global Business Communication</h3>
-                        <p>Area-specific deal documents revolutionize the way businesses communicate, collaborate, and
-                            conduct transactions across linguistic barriers. By providing support for an extensive array of
-                            languages, this feature enables organizations to unlock new opportunities, establish strong
-                            relationships, and navigate the global business landscape confidently. Businesses can overcome
-                            language barriers using regional contracts, ensuring that all parties are able to understand
-                            their agreements.
-
+                        <h3>Regional CPQ automated quote <br> generation </h3>
+                        <p>is an advanced solution designed to support multilingual communication in a global business environment. This feature enables businesses to create and share deal documents, such as quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By offering support for a wide range of languages, including English, Chinese (Mandarin and Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French, Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses can now engage with stakeholders worldwide with ease.
                         </p>
                     </div>
                 </div>
