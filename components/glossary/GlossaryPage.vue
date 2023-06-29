@@ -2,10 +2,12 @@
     <div class="blog-area ptb-100 bg-FAFAFA">
         <div class="container">
             <div class="pagination-area">
-                <div class="nav-links" v-if="categories !== []">
+                <div class="nav-links">
                     <ul v-for="category in categories" :key="category.id">
-                        <router-link to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
+                        <!-- <li > -->
+                        <router-link :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
                             category.attributes.name }}</router-link>
+                        <!-- </li> -->
                     </ul>
                 </div>
             </div>
@@ -31,21 +33,22 @@
 
 <script>
 
-import axios from 'axios'
+import axios from 'axios';
 
 export default {
-    name: 'Glossary',
-    data() {
+    name: 'BlogDetails',
+    props: ['detailsContent'],
+    data: function () {
         return {
+            details: this.detailsContent,
+            categories: [],
             glossaries: [],
-            categories: []
         }
     },
     created: async function () {
         axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories')
             .then(response => {
                 this.categories = response.data.data;
-                // console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);

@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12">
+                <!-- <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <div class="nav-links">
                             <span class="page-numbers current">1</span>
@@ -49,7 +49,7 @@
                                     class="ri-arrow-right-line"></i></router-link>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

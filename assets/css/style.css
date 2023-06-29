@@ -861,11 +861,11 @@ textarea.form-control {
 }
 
 .pagination-area .page-numbers {
-  width: 45px;
-  height: 45px;
+  width: 42px;
+  height: 42px;
   border: none;
   display: block;
-  line-height: 43px;
+  line-height: 42px;
   position: relative;
   text-align: center;
   border-radius: 50%;

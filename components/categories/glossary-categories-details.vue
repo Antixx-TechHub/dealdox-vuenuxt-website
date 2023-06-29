@@ -24,25 +24,12 @@
                             </h3>
                             <p>{{ glossary.attributes.shortDesc }}</p>
                             <ul class="meta">
-                                <li><i class="ri-time-line"></i> {{ glossary.attributes.date }}</li>
+                                <!-- <li><i class="ri-time-line"></i> {{ glossary.attributes.date }}</li> -->
                                 <!-- <li><i class="ri-time-line"></i> {{ blog.attributes.shortDesc }}</li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-12 col-md-12">
-                    <div class="pagination-area">
-                        <div class="nav-links">
-                            <span class="page-numbers current">1</span>
-                            <router-link to="/blog-grid" class="page-numbers">2</router-link>
-                            <router-link to="/blog-grid" class="page-numbers">3</router-link>
-                            <router-link to="/blog-grid" class="next page-numbers" title="Next Page"><i
-                                    class="ri-arrow-right-line"></i></router-link>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
