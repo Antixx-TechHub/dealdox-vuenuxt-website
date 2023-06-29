@@ -1,7 +1,9 @@
 <template>
   <div>
   <Navbar class="navbar-style-two"/>
-  <Pricing />
+  <MainBannerSubscription />
+  <OnbaordingAssistance />
+  <!-- <Pricing /> -->
   <!-- <AutomatedQuotes /> -->
   <!-- <GetInTouch /> -->
   <DealDoxFooter/>
@@ -11,7 +13,9 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import Pricing from '../components/Common/Pricing';
+import MainBannerSubscription from '../components/Subscriptions/MainBannerSubscription';
+import OnbaordingAssistance from '../components/Subscriptions/OnbaordingAssistance';
+// import Pricing from '../components/Common/Pricing';
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 // import GetInTouch from '../components/Common/GetInTouch';
 import DealDoxFooter from '../layouts/DealDoxFooter';
@@ -21,7 +25,9 @@ export default {
 components: {
     Navbar,
     // AutomatedQuotes,
-    Pricing,
+    MainBannerSubscription,
+    OnbaordingAssistance,
+    // Pricing,
     // GetInTouch,
     DealDoxFooter,
 },
