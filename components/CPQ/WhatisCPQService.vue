@@ -42,33 +42,33 @@
                 <p>Empowers teams to work together efficiently, breaking down barriers and enhancing productivity </p>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card">
-                        <div class="icon">
+                        <!-- <div class="icon">
                             <i class="ri-eye-line"></i>
-                        </div>
+                        </div> -->
                         <h3>Sales</h3>
-                        <p class="text-center">DealDox automates manual tasks and equips sales reps with the tools to close deals, freeing them to focus on selling.
+                        <p class="text-left">DealDox automates manual tasks and equips sales reps with the tools to close deals, freeing them to focus on selling.
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card bg-color-two">
-                        <div class="icon bg2">
+                        <!-- <div class="icon bg2">
                             <i class="ri-stack-line"></i>
-                        </div>
+                        </div> -->
                         <h3>Operations</h3>
-                        <p class="text-center">Without the need for traditional programming or coding skills, operations teams can easily adjust to changing business needs such as real-time pricing and product modifications.</p>
+                        <p class="text-left">Without the need for traditional programming or coding skills, operations teams can easily adjust to changing business needs such as real-time pricing and product modifications.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card">
-                        <div class="icon">
+                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6 ">
+                    <div class="key-features-card ">
+                        <!-- <div class="icon">
                             <i class="ri-leaf-line"></i>
-                        </div>
+                        </div> -->
                         <h3>Finance</h3>
-                        <p class="text-center">Boost revenue growth with enhanced discount Governance, streamlined Quote Version control, and advanced approval workflows.</p>
+                        <p class="text-left">Boost revenue growth with enhanced discount Governance, streamlined Quote Version control, and advanced approval workflows.</p>
                     </div>
                 </div>
             </div>
