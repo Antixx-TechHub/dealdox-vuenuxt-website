@@ -5,8 +5,8 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-free-quotes with-border bg-white">
                         <h3>Did you know?</h3>
-                        <h3>DealDox's AI-enabled quoting platform can integrate with most applications via API, streamlining your sales <br>process and saving you time?</h3>
-                        <router-link to="/" class="default-btn">Get your free quotes now!</router-link>
+                        <h3>CPQ allows for real-time access to product catalogues, pricing information, and inventory data, ensuring accurate and consistent quotes. It also enables seamless collaboration between sales teams, partners, and customers, leading to faster sales cycles and improved customer satisfaction Supercharge Your Sales Process and Get started free onboarding today!</h3>
+                        <router-link to="/" class="default-btn">Sign up now</router-link>
                     </div>
                 </div>
             </div>

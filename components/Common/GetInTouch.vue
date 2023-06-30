@@ -2,9 +2,9 @@
     <div class="app-download-area pt-70">
         <div class="container">
             <div class="app-download-inner bg-gray">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="software-integrations-inner bg-gradient-color">
+                <!-- <div class="row align-items-center"> -->
+                    <!-- <div class="col-lg-6 col-md-12"> -->
+                        <!-- <div class="software-integrations-inner bg-gradient-color">
                             <div class="features-content">
                                 <h2>Get in Touch</h2>
                                 <p>Have an query or some feedback for us? Write to our team, and will get back ASAP.</p>
@@ -12,17 +12,78 @@
                             <div class="software-integrations-list" data-aos="fade-up">
                                 <img src="../../assets/images/HomePage/get-in-touch.png" alt="image">
                             </div>
+                        </div> -->
+                        <div class="contact-page-header-form-app-download-inner">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="software-integrations-inner bg-gradient-color">
+                            <div class="features-content-improve-sales">
+                                <!-- <h2>Generate your quotes in <span class="sub-title">2 seconds.</span></h2>
+                                <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p> -->
+                                <h4> Start Your Free Onboarding Now! </h4>
+                                <p>No credit card or software installation is required. </p>
+                                <h6> With Advanced Quoting Solution, Beyond Invoicing you benefit from: </h6>
+
+                                <div class="features-content">
+                                    <ul class="features-list">
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-check-line"></i>
+                                            </div>
+                                            <p>Guided selling approach to empower sales reps, leaders, and other teams for
+                                                efficient sales processes and optimized decision-making. </p>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-check-line"></i>
+                                            </div>
+                                            <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed </p>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-check-line"></i>
+                                            </div>
+                                            <p>Effortlessly generate accurate deal documents like quotations, proposals,
+                                                SOWs, orders, and more.</p>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-check-line"></i>
+                                            </div>
+                                            <p>Streamline single or multi-level approvals faster</p>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-check-line"></i>
+                                            </div>
+                                            <p>Get your deal documents in your local language, regardless of your country
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contact-limited-offer">
+                                <div class="signup-button">
+                                    <div class="btn-box">
+                                        <!-- <router-link to="/SignUp" class="default-btn">Sign Up</router-link> -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-12 pt-70">
+                    <div class="col-lg-6 col-md-12">
                         <div class="contact-area pbt-75">
                             <div class="container">
                                 <div class="contact-form">
                                     <form id="contactForm">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group ">
+                                                <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: Sarah">
@@ -97,8 +158,13 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
                     </div>
+
+                    
                 </div>
             </div>
         </div>
