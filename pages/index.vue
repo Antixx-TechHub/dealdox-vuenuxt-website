@@ -55,7 +55,7 @@ components: {
     DealDoxFooter,
 },
     head: {
-        title: 'DealDox|An AI-enabled Quoting Solution',
+        title: 'DealDox | An AI-enabled Quoting Solution',
         htmlAttrs: {
             lang: 'en-us'
         },

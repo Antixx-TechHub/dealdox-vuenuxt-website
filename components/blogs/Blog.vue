@@ -21,24 +21,24 @@
                     </div> -->
                 </div>
             </div>
-            <div class="row justify-content-center" v-if="blogs !== []">
-                <div class="col-lg-4 col-md-6" v-for="blog in blogs" :key="blog.id">
+            <div class="row justify-content-center" v-if="featuredblogs !== []">
+                <div class="col-lg-4 col-md-6" v-for="featuredblog in featuredblogs" :key="featuredblog.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
-                            <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
-                                <img :src="blog.attributes.image.data.attributes.url" alt="blog">
+                            <router-link :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
+                                <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">
                             </router-link>
                             <!-- <router-link to="/blog-grid" class="tag">{{ blog.attributes.tag }}</router-link> -->
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/blog-details/' + blog.attributes.slug">
-                                    {{ blog.attributes.title }}
+                                <router-link :to="'/featured-blog-details/' + featuredblog.attributes.slug">
+                                    {{ featuredblog.attributes.title }}
                                 </router-link>
                             </h3>
-                            <p>{{ blog.attributes.shortDesc }}</p>
+                            <p>{{ featuredblog.attributes.shortDesc }}</p>
                             <ul class="meta">
-                                <li><i class="ri-time-line"></i> {{ blog.attributes.date }}</li>
+                                <li><i class="ri-time-line"></i> {{ featuredblog.attributes.date }}</li>
                                 <!-- <li><i class="ri-time-line"></i> {{ blog.attributes.shortDesc }}</li> -->
                             </ul>
                         </div>
@@ -68,12 +68,12 @@ export default {
     name: 'Blog',
     data() {
         return {
-            blogs: []
+            featuredblogs: []
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/blogs?populate=*')
-        this.blogs = response.data.data
+        const response = await axios.get('http://localhost:1337/api/featuredblogs?populate=*')
+        this.featuredblogs = response.data.data
     },
 }
 </script>
