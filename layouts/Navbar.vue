@@ -75,7 +75,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <router-link to="/coming-soon" class="nav-link">Request a demo</router-link>
+                                <router-link to="/requestdemo" class="nav-link">Request a demo</router-link>
                             </li>
                         </ul>
                     </div>

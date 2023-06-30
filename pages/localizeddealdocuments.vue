@@ -4,6 +4,8 @@
         <MainBannerLoacalized/>
         <HowLocalizedDeal />
         <KeyBenefitsof />
+        <HowLocalized />
+        <EmpoerGlobal />
         <FreeTrial />
         <DealDoxFooter />
     </div>
@@ -14,6 +16,8 @@ import Navbar from '../layouts/Navbar'
 import MainBannerLoacalized from '../components/LocalizedDealDocuments/MainBannerLoacalized'
 import HowLocalizedDeal from '../components/LocalizedDealDocuments/HowLocalizedDeal'
 import KeyBenefitsof from '../components/LocalizedDealDocuments/KeyBenefitsof'
+import HowLocalized from '../components/LocalizedDealDocuments/HowLocalized'
+import EmpoerGlobal from '../components/LocalizedDealDocuments/EmpoerGlobal'
 import FreeTrial from '../components/LocalizedDealDocuments/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
@@ -24,6 +28,8 @@ export default {
         MainBannerLoacalized,
         HowLocalizedDeal,
         KeyBenefitsof,
+        HowLocalized,
+        EmpoerGlobal,
         FreeTrial,
         DealDoxFooter,
     },

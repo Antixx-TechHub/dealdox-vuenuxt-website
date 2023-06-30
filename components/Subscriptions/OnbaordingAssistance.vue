@@ -1,0 +1,68 @@
+<template>
+    <div class="app-download-area pt-75">
+        <div class="container">
+            <div class="section-title">
+                <h2>Leverage DealDox for Comprehensive Implementation and Tailored Solutions </h2>
+            </div>
+            <div class="app-download-inner">
+                <div class="row align-items-center">
+                    <div class="section-title-home tb-30">
+                        <h4>Enjoy DealDox at zero cost! Including:</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="app-download-image" data-aos="fade-up">
+                            <img src="../../assets/images/HomePage/onboarding-assistance.png" alt="app-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="app-download-content">
+                            <div class="features-content">
+                                <ul class="features-list">
+                                    <li>
+                                        <div class="icon-home">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>Onboarding Assistance</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon-home">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>Comprehensive Implementation</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon-home">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>Adaptaions to meet your needs and so much more</p>
+                                    </li>
+                                </ul>
+
+                                <div class="btn-box">
+                                    <p>Act Fast to Streamline Your Sales Process</p>
+                                    <router-link to="/" class="default-btn-home">SIGN UP NOW</router-link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape5">
+                    <img src="../../assets/images/shape/shape4.png" alt="shape4">
+                </div>
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'AppDownload'
+}
+</script>

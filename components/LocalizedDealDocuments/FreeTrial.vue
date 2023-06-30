@@ -5,7 +5,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-free-quotes with-border bg-grey">
                         <h4>Did you know?</h4>
-                        <h3>Automated Quote Generation tool helps businesses achieve faster sales cycles and higher win rates by providing accurate pricing and quotes in a timely manner. Get started free onboarding today!.</h3>
+                        <h3>With the multilingual document creation capability of DealDox CPQ, you can confidently navigate international markets, expand your customer base, and close deals faster. By speaking your prospects' language, you demonstrate a deep understanding of their needs, culture, and preferences, elevating your sales effectiveness to a whole new level. </h3>
                         <router-link to="/" class="default-btn">Sign up now!</router-link>
                     </div>
                 </div>
