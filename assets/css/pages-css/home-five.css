@@ -574,8 +574,8 @@ Free Trial Area CSS
   }
  /* CSS Changed */
   .about-content h3 {
-    font-size: 17px;
-    text-align: left;
+    font-size: 21px;
+    text-align: center;
     margin-bottom: 12px;
     padding-top: 35;
     margin-right: 14px
@@ -592,12 +592,20 @@ Free Trial Area CSS
     text-align: left;
   }
 
-  
-
+  /* CSS Changed 3-7-23 */
   .about-content h2 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 12px;
+    text-align: left;
   }
+
+  .about-content-right h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: left;  
+  }
+
+
   .about-content .features-text h6 {
     margin-bottom: 11px;
     font-size: 14px;

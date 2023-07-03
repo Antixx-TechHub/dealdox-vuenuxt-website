@@ -8,7 +8,7 @@
 
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">
-                        <h5> Solo Approval   </h5>
+                        <h5>Solo Approval</h5>
                         <div class="app-download-image" data-aos="fade-up">
                             <img src="../../assets/images/lightning-fast-quote-approvals/scope.png" alt="app-img">
                         </div>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">
-                        <h5>Collateral Approval </h5>
+                        <h5>Collateral Approval</h5>
                         <div class="app-download-image" data-aos="fade-up">
                             <img src="../../assets/images/lightning-fast-quote-approvals/margin.png" alt="app-img">
                         </div>
