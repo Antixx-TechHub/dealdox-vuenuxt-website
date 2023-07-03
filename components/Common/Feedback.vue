@@ -53,7 +53,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('http://localhost:1338/api/customerreview?populate=singleFeedbacks.media')
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/customerreview?populate=singleFeedbacks.media')
         const { data: { attributes } } = response.data;
         this.customerreviews = attributes
     },
