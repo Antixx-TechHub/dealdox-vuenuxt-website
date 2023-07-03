@@ -44,7 +44,11 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+<<<<<<< HEAD
                     <div class="key-features-cards">
+=======
+                    <div class="features-item-cpq with-border-one">
+>>>>>>> b83df5973e7fe28e8f6b0d74af1332c41f746712
                         <!-- <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div> -->
