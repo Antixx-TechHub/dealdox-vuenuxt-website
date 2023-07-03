@@ -4,281 +4,21 @@
             <div class="section-title">
                 <h2>Meet our People</h2>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row justify-content-center" v-if="teams !== null">
+                <div class="col-lg-3 col-md-6 col-sm-6" v-for="team in teams.singleTeam" :key="team.id">
                     <div class="single-team-member bg-white">
                         <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
+                            <img :src="team.image.data.attributes.url" alt="teams">
                         </div>
                         <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
+                            <h3>{{ team.title }}</h3>
+                            <span>{{ team.designation }}</span>
+                            <p>{{ team.shortDesc }}</p>
                         </div>
                         <ul class="social-links bg-white">
                             <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
+                                <a :href="team.linkedin" target="_blank">
                                     <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-apt.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-apthr.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-apt.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-apthr.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
-                            <img src="../../assets/images/About-US/halima-sadiya-ap.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3>Halima Sadiya AP</h3>
-                            <span>Founder & CEO</span>
-                            <p>“Our team includes experienced <br>developers and architects”</p>
-
-                        </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a href="https://facebook.com/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
                                 </a>
                             </li>
                         </ul>
@@ -290,7 +30,21 @@
 </template>
 
 <script>
+
+import axios from 'axios'
+
 export default {
-    name: 'OurTeam'
+    name: 'OurTeam',
+    data() {
+        return {
+            teams: null,
+        }
+    },
+    created: async function () {
+        const response = await axios.get('http://localhost:1338/api/team?populate=deep,5')
+        const { data: { attributes } } = response.data
+        this.teams = attributes
+    },
+
 }
 </script>
