@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Quick and Accurate Quoting</h3>
+                        <h2>Quick and Accurate Quoting</h2>
                         <p>DealDox's unique feature of advanced guided selling makes it the best tool for sales engagement.
                             With real-time insights into your prospect's needs, the best quote automation software enables
                             quick and accurate quoting for any sized business - small, middle & big.
@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Professional Services</h3>
+                        <h2>Professional Services</h2>
                         <p>With features like role-based pricing, customizable stages, and flexible pricing options, you can
                             create accurate and detailed quotes. Gain a complete view of your quotes with summaries, stages,
                             timeframes, and contract durations. Plus, effortlessly switch between different pricing models,
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Managed Services</h3>
+                        <h2>Managed Services</h2>
                         <p>Create quotes for a wide range of managed services, including help desk support, hosting,
                             security monitoring, data storage, network operations, IoT services, analytics, and more.
                             Experience the flexibility to customize pricing ramps and include essential details such as
@@ -67,7 +67,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Subscription Services</h3>
+                        <h2>Subscription Services</h2>
                         <p>With automated quoting solution, you can seamlessly handle any pricing model, whether it's fixed,
                             tiered, or pay-per-usage. You can add setup fees, effortlessly manage discounts, update pricing
                             mid-contract, and handle renewals with ease. In addition, you have the freedom to attach add-ons
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Everything-as-a-Service</h3>
+                        <h2>Everything-as-a-Service</h2>
                         <p>We offer everything as a service where you can add services, subscriptions, and items from our
                             catalogue in a quote. With CPQ sales automation you can get quotes for all of your services at
                             once or for each category separately, which is a unique feature.</p>
@@ -110,7 +110,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Get Rid of Manual Process</h3>
+                        <h2>Get Rid of Manual Process</h2>
 
                         <div class="features-content">
                             <ul class="features-list">
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Optimize Sales Operations</h3>
+                        <h2>Optimize Sales Operations</h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
@@ -198,7 +198,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Swift Implementation</h3>
+                        <h2>Swift Implementation</h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
@@ -274,7 +274,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Streamlined Quoting Process</h3>
+                        <h2>Streamlined Quoting Process</h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>

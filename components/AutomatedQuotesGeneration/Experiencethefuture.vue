@@ -2,7 +2,7 @@
     <div class="features-area bg-FAFAFA ptb-75">
         <div class="container">
             <div class="section-title title-with-bg-text">
-                <h2>Unlock the potential of quote  automation with these key features</h2>
+                <h2>Unlock the potential of quote automation with these key features</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-sm-6 col-md-6">

@@ -1643,8 +1643,9 @@ Blog Area CSS
   }
 
   .features-item h3 {
-    font-size: 20px;
-  }
+    font-size: 16px;
+    margin-right: 2; 
+   }
 
   .features-item .icon {
     width: 60px;
