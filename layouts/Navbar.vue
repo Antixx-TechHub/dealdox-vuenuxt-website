@@ -80,9 +80,9 @@
                         </ul>
                     </div>
 
-                    <div class="others-option">
+                    <!-- <div class="others-option">
                         <router-link to="/SignIn" class="default-btn">Login</router-link>
-                    </div>
+                    </div> -->
                 </nav>
             </div>
         </div>

@@ -45,6 +45,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-cards">
+
+                    <div class="features-item-cpq with-border-one">
                         <!-- <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div> -->
@@ -72,6 +74,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </template>
