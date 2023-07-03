@@ -42,9 +42,9 @@
                 <p>Empowers teams to work together efficiently, breaking down barriers and enhancing productivity </p>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card">
+                    <div class="key-features-cards">
                         <!-- <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div> -->
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two">
+                    <div class="key-features-cards">
                         <!-- <div class="icon bg2">
                             <i class="ri-stack-line"></i>
                         </div> -->
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6 ">
-                    <div class="key-features-card ">
+                    <div class="key-features-cards ">
                         <!-- <div class="icon">
                             <i class="ri-leaf-line"></i>
                         </div> -->

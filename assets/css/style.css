@@ -2725,6 +2725,21 @@ New Demo CSS
   width: 384px;
 }
 
+/* CSS Changed For Featured Cards */
+.key-features-cards {
+  text-align: center;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  border-radius: 19px;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+  width: 384px;
+  border-left: 5px solid #715CF3;
+  border-width: 20;
+}
+
 .key-features-card .icon {
   margin-bottom: 25px;
 }
