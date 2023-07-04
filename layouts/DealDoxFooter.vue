@@ -94,10 +94,10 @@
                         <h3>Company </h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/about-us">Our Team</router-link>
+                                <router-link to="/team">Our Team</router-link>
                             </li>
                             <li>
-                                <router-link to="/contact-us">Get in Touch</router-link>
+                                <router-link to="/contactus">Get in Touch</router-link>
                             </li>
                         </ul>
 

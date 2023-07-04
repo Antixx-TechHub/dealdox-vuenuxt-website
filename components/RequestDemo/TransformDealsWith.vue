@@ -6,7 +6,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Transform Deals with <span class="sub-title">DealDox</span>in Action!</h2>
+                                <h2>Transform Deals with <span class="sub-title">DealDox</span> in Action!</h2>
                                 <p>A centralized platform for automated quote generation, Accurate Pricing, Product Bundling and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy, Customize Deal Documents in your desired language, and more! </p>
                                 <li>
                                     <div class="icon">
@@ -40,7 +40,7 @@
                         <div class="col-lg-6 col-md-12 pt-70">
                         <div class="contact-area pbt-75">
                             <div class="container">
-                                <div class="contact-form">
+                                <div class="contact-form pt-70">
                                     <form id="contactForm">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -57,13 +57,13 @@
                                                         placeholder="Eg: Taylor">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: Software Developer">
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Company</p>
@@ -71,7 +71,7 @@
                                                         placeholder="Eg: Lorem Ipsum">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Employees</p>
                                                     <select required name="experience" class="form-select">
@@ -81,15 +81,15 @@
                                                         <option>10,001 +</option>
                                                     </select>
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                            </div> -->
+                                            <!-- <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country Region</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: India">
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                            </div> -->
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
@@ -102,14 +102,14 @@
                                                         id="email" placeholder="hello@sarah.com">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
                                                     <textarea name="message" id="message" required class="form-control"
                                                         cols="30" rows="6"
                                                         placeholder="This just a dummy message! please dont mind"></textarea>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
