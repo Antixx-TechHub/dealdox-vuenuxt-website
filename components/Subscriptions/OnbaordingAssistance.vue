@@ -22,24 +22,24 @@
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Onboarding Assistance</p>
+                                        <h4>Onboarding Assistance</h4>
                                     </li>
                                     <li>
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Comprehensive Implementation</p>
+                                        <h4>Comprehensive Implementation</h4>
                                     </li>
                                     <li>
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Adaptaions to meet your needs and so much more</p>
+                                        <h4>Adaptaions to meet your needs and so much more</h4>
                                     </li>
                                 </ul>
 
                                 <div class="btn-box">
-                                    <p>Act Fast to Streamline Your Sales Process</p>
+                                    <p> Don't miss added perks here</p>
                                     <router-link to="/" class="default-btn-home">SIGN UP NOW</router-link>
                                 </div>
                             </div>
