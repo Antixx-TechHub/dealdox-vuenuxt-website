@@ -1,12 +1,12 @@
 <template>
-    <div class="features-area  bg-FAFAFA">
+    <div class="features-area pt-60 bg-FAFAFA">
         <div class="container">
-            <div class="software-integrations-inner bg-gradient-color">
+            <div class="software-integrations-inner">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Transform Deals with <span class="sub-title">DealDox</span> in Action!</h2>
+                                <h2>Transform Deals with <br><span class="sub-title">DealDox</span> in Action!</h2>
                                 <p>A centralized platform for automated quote generation, Accurate Pricing, Product Bundling and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy, Customize Deal Documents in your desired language, and more! </p>
                                 <li>
                                     <div class="icon">
