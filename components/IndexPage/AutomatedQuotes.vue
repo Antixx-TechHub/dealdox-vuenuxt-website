@@ -11,7 +11,7 @@
                         <h4>Enjoy DealDox at zero cost! Including:</h4>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="app-download-image" data-aos="fade-up">
+                        <div class="app-download-images" data-aos="fade-up">
                             <img src="../../assets/images/HomePage/onboarding-assistance.png" alt="app-img">
                         </div>
                     </div>

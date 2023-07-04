@@ -1190,6 +1190,12 @@ App Download Area CSS
   /* margin-bottom: 100px; */
 }
 
+.app-download-images {
+  text-align: center;
+  padding: 35px 20px 75px 150px;
+  /* margin-bottom: 100px; */
+}
+
 /*================================================
 Screenshots Area CSS
 =================================================*/
