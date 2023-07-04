@@ -1,10 +1,9 @@
 <template>
     <div class="app-download-area ptb-70">
         <div class="container">
-            <div class="section-title">
-                <h2>Enhance Your Quote Generation Process with</h2>
-                <h2>the best CPQ Solution Now</h2>
-                <p>Let's get started!</p>
+            <div class="section-title-about">
+                <h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1>
+                <h5>Let's get started!</h5>
             </div>
             <div class="app-download-inner">
                 <div class="row align-items-center">
