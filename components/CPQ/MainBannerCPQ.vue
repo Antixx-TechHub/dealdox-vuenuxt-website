@@ -4,10 +4,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Best <span class="sub-title">CPQ</span> - Deliver timely Sales Quotes Faster and More Accurately</h1>
-                        <p>Empower your sales team with DealDox for</p>
-                           <p>faster and more accurate quotes</p> 
-                            <p>for timely deal delivery</p> 
+                        <h1>Best <span class="sub-title">CPQ</span> - Deliver timely Sales Quotes Faster and More Accurately
+                        </h1>
+                        <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal delivery
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

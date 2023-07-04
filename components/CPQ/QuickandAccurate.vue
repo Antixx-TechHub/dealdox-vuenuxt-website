@@ -104,7 +104,7 @@
             </div>
 
             <div class="section-title tb-30">
-                <h4>Discover the benefits of DealDox today!</h4>
+                <h2>Discover the benefits of DealDox today!</h2>
             </div>
 
             <div class="row align-items-center">
@@ -226,21 +226,24 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs - can be easily integrated</p>
+                                    <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs -
+                                        can be easily integrated</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs - can be easily integrated</p>
+                                    <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs -
+                                        can be easily integrated</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Easily integrates with ERP systems, enabling real-time data synchronization and smooth communication between the platforms</p>
+                                    <p>Easily integrates with ERP systems, enabling real-time data synchronization and
+                                        smooth communication between the platforms</p>
                                 </li>
 
                                 <li>
@@ -251,7 +254,7 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -316,7 +319,8 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Data is automatically synced with your CRM and ERP for accurate sales tracking and reporting</p>
+                                    <p>Data is automatically synced with your CRM and ERP for accurate sales tracking and
+                                        reporting</p>
                                 </li>
                             </ul>
                         </div>
@@ -542,8 +546,9 @@
                 </div>
             </div> -->
 
+        </div>
     </div>
-</div></template>
+</template>
 
 <script>
 export default {

@@ -137,10 +137,12 @@ About Area CSS
 }
 
 .about-content p{
-  font-size:14px;
-
+  font-size:17px;
 }
 
+.about-content-right p{
+  font-size:17px;
+}
 
 .about-content .features-text {
   margin-top: 30px;
