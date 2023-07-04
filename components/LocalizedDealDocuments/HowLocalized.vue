@@ -12,14 +12,14 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <h4>Select Language</h4>
+                                    <h5>Select Language</h5>
                                     <p class="with-top-border">Choose the desired language for the deal documentation from a comprehensive list of supported languages</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <h4>Generate Quotation:</h4>
+                                    <h5>Generate Quotation:</h5>
                                     <p>Select the preferred services from the catalogue and submit. You will get the required documents in your selected language</p>
                                 </li>
                             </ul>

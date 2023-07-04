@@ -3,7 +3,7 @@
     <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
         <div class="container">
             <div class="section-title title-with-bg-text">
-                <h2>Achieve Sales Excellence with CPQ Quick Approvals: Fast-Track Your Way to Success </h2>
+                <h3>Achieve Sales Excellence with CPQ Quick Approvals:<br>Fast-Track Your Way to Success</h3>
             </div>
 
             <div class="row align-items-center">

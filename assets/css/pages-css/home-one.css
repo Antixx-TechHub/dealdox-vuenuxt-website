@@ -307,6 +307,16 @@ Features Area CSS
   margin-right: 80px;
 }
 
+.features-content h5 {
+  font-size: 20px;
+  color: var(--blackColor);
+    font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  /* css changed 2 */
+  margin-right: 80px;
+}
+
 .features-content p {
   font-size: 18px;
   line-height: 1.4;
@@ -1176,8 +1186,8 @@ App Download Area CSS
 
 .app-download-image {
   text-align: center;
-  padding: 30px 0px 0px 120px;
-  margin-bottom: 100px;
+  padding: 0px 0px 0px 0px;
+  /* margin-bottom: 100px; */
 }
 
 /*================================================
