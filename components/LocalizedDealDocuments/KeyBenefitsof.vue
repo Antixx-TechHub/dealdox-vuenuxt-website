@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full tb-20">
-                    <h2><span class="sub-title">Key Benefits</span> of Geographically<br> Customized Quotations:</h2>
+                    <h3><span class="sub-title-effortless">Key Benefits</span> of Geographically<br> Customized Quotations:</h3>
                 </div>
             </div>
             <div class="row justify-content-center">

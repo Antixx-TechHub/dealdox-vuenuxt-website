@@ -1727,6 +1727,17 @@ New Demo CSS
   font-weight: 700;
 }
 
+.new-app-main-banner-wrap-content-full .sub-title-effortless {
+  font-size: 28px;
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+
 .new-app-main-banner-wrap-content-full h2 {
   color: var(--blackColor);
   font-size: 46px;
