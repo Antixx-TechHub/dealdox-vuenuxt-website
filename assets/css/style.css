@@ -1953,6 +1953,7 @@ New Demo CSS
   z-index: 1;
   overflow: hidden;
   padding-top: 50px;
+  padding-bottom: -50px;
 }
 
 .new-app-main-banner-wrap-content .sub-title {
@@ -1978,7 +1979,7 @@ New Demo CSS
   font-weight: 500;
   font-size: 18px;
   line-height: 125%;
-  padding-right: 70px;
+  padding-right: 130px;
   /* or 28px */
   color: #8E8E8E;
 }

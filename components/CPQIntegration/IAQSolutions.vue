@@ -2,7 +2,7 @@
     <div class="features-area pt-65 bg-white">
         <div class="container">
             <div class="section-title">
-                <h3>Leveraging DealDox Integration for Success</h3>
+                <h1>Leveraging DealDox Integration for Success</h1>
             </div>
             <br>
             <div class="row justify-content-center">
@@ -49,7 +49,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/enables.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/income.png" alt="image">
                         </div>
                         <p>Enables easy revenue forecasting</p>
                     </div>
