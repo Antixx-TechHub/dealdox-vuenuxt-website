@@ -495,9 +495,9 @@ Features Area CSS
 .single-features-item p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  font-size: 18px;
-  margin-right: 12px;
-  font-weight: 500;
+  font-size: 16px;
+  margin-right: 0px;
+  font-weight: 400;
   line-height: 125%;
 
 color: #393939;

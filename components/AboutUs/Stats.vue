@@ -2,7 +2,7 @@
     <div class="stats-area bg-FAFAFA pt-100">
         <div class="container">
             <div class="section-title pt-60">
-                <h2>Meet the Stellar Lineup of Professionals on Our Team!</h2>
+                <h1>Meet the Stellar Lineup of Professionals on Our Team!</h1>
                 <p>At DealDox, we are a team of trustworthy professionals passionate about pre-sales automation and
                     assisting businesses to grow.</p>
             </div>

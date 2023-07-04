@@ -2,7 +2,7 @@
     <div class="team-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="section-title">
-                <h2>Meet our People</h2>
+                <h1>Meet our People</h1>
             </div>
             <div class="row justify-content-center" v-if="teams !== null">
                 <div class="col-lg-3 col-md-6 col-sm-6" v-for="team in teams.singleTeam" :key="team.id">

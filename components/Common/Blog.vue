@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title">
                 <span class="sub-title"></span>
-                <h2>In the news</h2>
+                <h1>In the news</h1>
             </div>
             <div class="row justify-content-center" v-if="blogs !== []">
                 <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(0, 3)" :key="blog.id">

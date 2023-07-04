@@ -1,8 +1,8 @@
 <template>
     <div class="features-area pt-100 bg-white">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Values</h2>
+            <div class="section-title-about">
+                <h1>Our Values</h1>
                 <p>At our core, we have a team of skilled developers and architects who excel in crafting state-of-the-art software solutions. With their expertise, we specialize in creating innovative and scalable software that addresses the distinct requirements of every business. </p>
             </div>
             <div class="row justify-content-center pt-60">
@@ -54,7 +54,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/synca.png" alt="image">
+                            <img src="../../assets/images/About-US/income.png" alt="image">
                         </div>
                         <h5>Excellence </h5>
                         <p>Striving for excellence and upholding high standards is paramount in our work, encompassing every facet and extending to all team members. </p>
