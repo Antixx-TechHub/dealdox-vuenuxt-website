@@ -297,6 +297,15 @@ Features Area CSS
   margin-right: 80px;
 }
 
+.features-content h4 {
+  font-size: 25px;
+  color: var(--whiteColor);
+    font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  /* css changed 2 */
+  margin-right: 80px;
+}
 
 .features-content p {
   font-size: 18px;
@@ -326,7 +335,8 @@ Features Area CSS
   text-align: center;
   /* vertical-align: middle; */
   color: #715CF3;
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 700;
   left: 0;
   top: 0;
 }
@@ -1822,22 +1832,23 @@ Free Trial Area CSS
 .free-trial-content {
   text-align: center;
   position: relative;
-  padding: 100px;
+  padding-top: 75px;
+  padding-bottom: 25px;
   z-index: 1;
 }
 
 .free-trial-content::before {
   content: '';
   position: absolute;
-  margin: 50px 150px 134px 150px;
+  margin: 25px 195px 75px 195px;
   left: 0;
   right: 0;
   top: 0;
   z-index: -1;
   bottom: 0;
   border-radius: 30px;
-  /* background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%); */
-  background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%);
+  background: linear-gradient(#715CF3 100%, #5C99F3 100%);
+  /* background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%); */
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
           transform: matrix(-1, 0, 0, 1, 0, 0);
 }

@@ -261,7 +261,7 @@ Software Integrations Home Area CSS
 .software-integrations-inner-home.bg-gradient-color {
   z-index: 1;
   padding: 0px 0px 30px 10px;
-  margin: 0px 150px 0px 150px;
+  margin: 0px 200px 0px 200px;
   position: relative;
   margin-bottom: 25px;
   /* background: var(--gradientColor); */
@@ -275,7 +275,8 @@ Software Integrations Home Area CSS
   z-index: -1;
   content: '';
   position: absolute;
-  background: #ffffff;
+  background: #FAFAFA;
+  ;
   border-radius: 40px;
   /* background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%); */
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -287,7 +288,7 @@ Software Integrations Area CSS
 =================================================*/
 .software-integrations-inner.bg-gradient-color {
   z-index: 1;
-  padding: 53px;
+  padding: 0px 50px 50px 40px;
   position: relative;
   margin-bottom: 25px;
   /* background: var(--gradientColor); */

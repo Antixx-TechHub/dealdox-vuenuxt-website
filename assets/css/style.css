@@ -95,6 +95,11 @@ a:hover {
   padding-bottom: 25px;
 }
 
+.with-top-border-subscription {
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 20px;
+}
+
 :focus {
   outline: 0 !important;
 }
@@ -194,7 +199,7 @@ p:last-child {
 }
 
 .pb-85 {
-  padding-bottom: 5px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -1958,7 +1963,7 @@ New Demo CSS
   font-weight: 500;
   font-size: 18px;
   line-height: 125%;
-  padding-right: 150px;
+  padding-right: 45px;
   /* or 28px */
   color: #8E8E8E;
 }

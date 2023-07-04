@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pb-85 bg-FAFAFA">
+    <div class="features-area pb-85 bg-white">
         <div class="container">
             <div class="new-app-main-banner-wrap-content-full tb-20">
                 <h5>With our <strong>subscription-based quoting solution</strong>, you can easily streamline deal</h5>
@@ -15,33 +15,33 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Quotations</p>
+                                    <h5 class="with-top-border-subscription">Quotations</h5>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Scope Of Work</p>
+                                    <h5 class="with-top-border-subscription">Scope Of Work</h5>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Estimations</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Contracts</p>
+                                    <h5 class="with-top-border-subscription">Estimations</h5>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Proposals</p>
+                                    <h5 class="with-top-border-subscription">Contracts</h5>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <h5 class="with-top-border-subscription">Proposals</h5>
                                 </li>
                             </ul>
                         </div>
@@ -57,33 +57,33 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Procurement Services Reports</p>
+                                    <h5 class="with-top-border-subscription">Procurement Services Reports</h5>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Delivery Notes</p>
+                                    <h5 class="with-top-border-subscription">Delivery Notes</h5>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Deal Summary Documents</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p> Service Documents </p>
+                                    <h5 class="with-top-border-subscription">Deal Summary Documents</h5>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Staffing Requirements Documnet</p>
+                                    <h5 class="with-top-border-subscription">Service Documents</h5>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <h5 class="with-top-border-subscription">Staffing Requirements Documnet</h5>
                                 </li>
                             </ul>
                         </div>

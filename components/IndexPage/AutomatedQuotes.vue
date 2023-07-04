@@ -1,5 +1,5 @@
 <template>
-    <div class="app-download-area ptb-75">
+    <div class="app-download-area ptb-70">
         <div class="container">
             <div class="section-title">
                 <h2>Enhance Your Quote Generation Process with</h2>
@@ -24,19 +24,19 @@
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Onboarding Assistance</p>
+                                        <h4>Onboarding Assistance</h4>
                                     </li>
                                     <li>
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Comprehensive Implementation</p>
+                                        <h4>Comprehensive Implementation</h4>
                                     </li>
                                     <li>
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <p>Adaptaions to meet your needs and so much more</p>
+                                        <h4>Adaptaions to meet your needs and so much more</h4>
                                     </li>
                                 </ul>
 
