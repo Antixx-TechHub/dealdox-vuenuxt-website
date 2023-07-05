@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="content">
-                            <h2>What are you waiting for?<span class="sub-title"> Your 10 FREE automated quotes</span> are ready and waiting!</h2>
+                            <h2><span class="sub-title"> Enjoy the DealDox at Zero Cost</span></h2>
                             <form class="free-trial-form">
                                 <input type="text" class="input-newsletter" placeholder="Enter Your Email Address"
                                     name="email">

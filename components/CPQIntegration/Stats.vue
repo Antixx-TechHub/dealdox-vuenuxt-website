@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-6 col-sm-6 col-md-6">
                     <div class="stats-map text-center">
-                        <img src="../../assets/images/cpq-integration/crm-and-erp.png" alt="cpq">
+                        <img src="../../assets/images/cpq-integration/BridgeGapBetween.png" alt="cpq">
                     </div>
                 </div>
             </div>

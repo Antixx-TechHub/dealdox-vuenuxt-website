@@ -68,7 +68,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h2>Subscription Services</h2>
-                        <p>With automated quoting solution, you can seamlessly handle any pricing model, whether it's fixed,
+                        <p>With automated quotation solution, you can seamlessly handle any pricing model, whether it's fixed,
                             tiered, or pay-per-usage. You can add setup fees, effortlessly manage discounts, update pricing
                             mid-contract, and handle renewals with ease. In addition, you have the freedom to attach add-ons
                             and upgrades to existing contract terms, ensuring flexibility and scalability for your services.

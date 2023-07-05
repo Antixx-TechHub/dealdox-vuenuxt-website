@@ -8,7 +8,7 @@
             <div class="app-download-inner">
                 <div class="row align-items-center">
                     <div class="section-title-home tb-30">
-                        <h4>Enjoy DealDox at zero cost! Including:</h4>
+                        <h4>Enjoy DealDox At Zero Cost! Including:</h4>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="app-download-images" data-aos="fade-up">
