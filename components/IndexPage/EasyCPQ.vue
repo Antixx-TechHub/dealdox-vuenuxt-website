@@ -1,12 +1,12 @@
 <template>
-    <div class="features-area pb-85 bg-FAFAFA">
+    <div class="features-area pt-60 bg-FAFAFA">
         <div class="container">
             <div class="software-integrations-inner bg-gradient-color">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Easy CPQ <span class="sub-title">Integration</span></h2>
+                                <h2>Easy CPQ<br><span class="sub-title">Integration</span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>

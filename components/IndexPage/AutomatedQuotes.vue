@@ -1,5 +1,5 @@
 <template>
-    <div class="app-download-area ptb-70">
+    <div class="app-download-area pt-60">
         <div class="container">
             <div class="section-title-about">
                 <h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1>
@@ -37,10 +37,13 @@
                                         </div>
                                         <h4>Adaptaions to meet your needs and so much more</h4>
                                     </li>
+                                    <li>
+                                        <div class="features-content-home">
+                                            <p>Don't miss added perks here</p>
+                                        </div>
+                                    </li>
                                 </ul>
-
                                 <div class="btn-box">
-                                    <p> Don't miss added perks here</p>
                                     <router-link to="/" class="default-btn-home">SIGN UP NOW</router-link>
                                 </div>
                             </div>

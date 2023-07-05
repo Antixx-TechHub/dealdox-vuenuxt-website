@@ -290,7 +290,7 @@ Software Integrations Area CSS
   z-index: 1;
   padding: 0px 30px 50px 30px;
   position: relative;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   /* background: var(--gradientColor); */
 }
 
@@ -508,13 +508,14 @@ Feedback Area CSS
     margin-top: 30px;
   }
   .software-integrations-inner.bg-gradient-color {
-    padding: 5px 15px 70px 15px;
+    padding: 0px 0px 0px 0px;
   }
   .features-content-improve-sales h2 {
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 15px;
     margin-right: 10px;
+    padding-top: 15px;
 }
 .new-app-main-banner-wrap-content-full p {
   margin-bottom: 0;
@@ -526,7 +527,7 @@ Feedback Area CSS
 }
 .features-content-improve-sales {
   padding-right: 0px;
-  margin: 25px 10px -35px 10px;
+  margin: 15px 10px 35px 15px;
 }
 .features-content-improve-sales .sub-title {
   font-size: 21px;
@@ -578,9 +579,10 @@ Feedback Area CSS
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 0px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     text-align: left;
     margin-right: 0px;
+    padding-bottom: 20px;
 }
 }
 

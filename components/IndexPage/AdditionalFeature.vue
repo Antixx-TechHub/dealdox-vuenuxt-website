@@ -6,7 +6,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2><span class="sub-title">Localised</span> Deal Documents</h2>
+                                <h2><span class="sub-title">Localised</span><br> Deal Documents</h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>

@@ -2072,7 +2072,7 @@ Free Trial Area CSS
   .features-content {
     text-align: center;
     padding-right: 0;
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 60px 10px;
   }
   .features-content h2 {
     font-size: 20px;
@@ -2080,6 +2080,14 @@ Free Trial Area CSS
     text-align: left;
     margin-right: 0px;
   }
+  .features-content-home p {
+    font-size: 15px !important;
+    color: var(--whiteColor);
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 5px;
+}
   .features-content .sub-title {
     font-size: 20px;
     display: inline-block;
@@ -2163,16 +2171,80 @@ Free Trial Area CSS
     margin-top: 5px;
   }
   .app-download-inner {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+  .features-content-improve-sales h6 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    padding-bottom: 10px;
+}
+  .features-content-improve-sales .sub-title-faq {
+    font-size: 13px;
+    display: inline-block;
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.1;
+    font-weight: 700;
+}
+  .app-download-images {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.features-content h4 {
+  font-size: 16px;
+  color: var(--whiteColor);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+.features-content p {
+  font-size: 15px !important;
+  color: var(--blackColor);
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+  /* margin-left: 5px; */
+}
+.features-content .features-list li .icon-home {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(99.01deg, #ffffff 20.98%, #ffffff 94.62%);
+  position: absolute;
+  text-align: center;
+  color: #715CF3;
+  font-size: 22px;
+  font-weight: 700;
+  left: 10px;
+  top: 0;
+}
   .app-download-inner::before {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
+  .app-download-inner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    border-radius: 20px;
+    background: linear-gradient(99.01deg, #715CF3 100%, #5C99F3 100%);
+    z-index: -1;
+    border: 10px solid #FAFAFA;
+    margin: 0px 0px 0px 0px;
+}
   .app-download-content {
     text-align: center;
     padding-right: 0;

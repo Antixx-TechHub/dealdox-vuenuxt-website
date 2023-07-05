@@ -36,10 +36,13 @@
                                         </div>
                                         <h4>Adaptaions to meet your needs and so much more</h4>
                                     </li>
+                                    <li>
+                                        <div class="icon-home">
+                                            <p>Don't miss added perks here</p>
+                                        </div> 
+                                    </li>
                                 </ul>
-
                                 <div class="btn-box">
-                                    <p> Don't miss added perks here</p>
                                     <router-link to="/" class="default-btn-home">SIGN UP NOW</router-link>
                                 </div>
                             </div>

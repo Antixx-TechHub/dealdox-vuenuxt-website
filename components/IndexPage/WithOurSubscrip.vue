@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pb-85 bg-white">
+    <div class="features-area pb-75 bg-white">
         <div class="container">
             <div class="new-app-main-banner-wrap-content-full tb-20">
                 <h5>With our <strong>subscription-based quoting solution</strong>, you can easily streamline deal</h5>

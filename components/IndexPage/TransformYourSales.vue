@@ -4,12 +4,8 @@
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full">
                     <span class="sub-title">
-                        <h4>Experience Swift Deal Creation, Agile Price List</h4>
-                    </span>
-                </div>
-                <div class="new-app-main-banner-wrap-content-full">
-                    <span class="sub-title">
-                        <h4>Switching, and Dynamic Discounts with DealDox CPQ</h4>
+                        <h4>Experience Swift Deal Creation, Agile Price List Switching, and Dynamic Discounts with DealDox
+                            CPQ</h4>
                     </span>
                 </div>
                 <div class="stats-map text-center">
