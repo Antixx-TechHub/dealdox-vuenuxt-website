@@ -5567,7 +5567,8 @@ Preloader CSS
   }
 
   .key-features-card {
-    padding: 20px;
+    padding: 28px;
+    height: 255px;
   }
 
   .key-features-card .icon {
