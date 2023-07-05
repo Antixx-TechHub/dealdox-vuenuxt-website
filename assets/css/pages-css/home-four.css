@@ -556,6 +556,32 @@ Feedback Area CSS
   .feedback-slides-two.owl-theme .owl-dots .owl-dot span::after {
     background: var(--whiteColor);
   }
+  .software-integrations-inner-home.bg-gradient-color {
+    z-index: 1;
+    padding: 15px 0px 0px 15px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .with-top-border-subscription {
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+}
+.features-content .features-list li {
+  margin-bottom: 0px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+}
+  .features-content h5 {
+    font-size: 16px;
+    color: var(--blackColor);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 0px;
+}
 }
 
 /* Min width 576px to Max width 767px */
