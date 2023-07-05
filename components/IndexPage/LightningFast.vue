@@ -6,7 +6,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Lightning-Fast<span class="sub-title">Quote Approvals</span></h2>
+                                <h2>Lightning-Fast <br><span class="sub-title">Quote Approvals</span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
