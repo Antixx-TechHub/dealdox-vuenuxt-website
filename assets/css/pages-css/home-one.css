@@ -2075,12 +2075,13 @@ Free Trial Area CSS
     margin: 20px 10px 10px 10px;
   }
   .features-content h2 {
-    font-size: 21px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    margin-bottom: 20px;
     text-align: left;
+    margin-right: 0px;
   }
   .features-content .sub-title {
-    font-size: 26px;
+    font-size: 20px;
     display: inline-block;
     background: var(--gradientColor);
     -webkit-background-clip: text;
@@ -2103,7 +2104,8 @@ Free Trial Area CSS
   .features-content p {
     font-size: 15px;
     text-align: left;
-    padding-left: 0px;
+    padding-left: 5px;
+    margin-bottom: 25px !important;
   }
   .features-content-easy {
     font-size: 15px;

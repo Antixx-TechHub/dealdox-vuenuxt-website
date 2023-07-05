@@ -5272,7 +5272,11 @@ Preloader CSS
     font-weight: 400;
     text-align: center;
   }
-  
+ 
+  .with-top-border {
+    border-bottom: 2px solid #DBDBDB;
+    padding-bottom: 10px;
+}
 
 .page-title-area.page-title-style-two {
   position: relative;
