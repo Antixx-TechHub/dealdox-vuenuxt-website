@@ -439,6 +439,9 @@ Feedback Area CSS
   .new-app-main-banner-wrap-content-full h2 {
     font-size: 24px !important;
 }
+.new-app-main-banner-wrap-content-full h1 {
+  font-size: 24px !important;
+}
 .new-app-main-banner-wrap-content-full .sub-title {
   font-size: 24px !important;
 }

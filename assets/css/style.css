@@ -1709,7 +1709,7 @@ New Demo CSS
   font-size: 40px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 750px;
+  max-width: 765px;
 }
 
 
@@ -5375,10 +5375,8 @@ Preloader CSS
     width: 80px;
   }
 
-
-
   .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   
   .section-title-about {
@@ -5484,10 +5482,23 @@ Preloader CSS
   color: #8E8E8E;
 }
 
+.key-features-cards {
+    text-align: left;
+    padding: 40px 25px 0px 35px;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border-radius: 19px;
+    position: relative;
+    z-index: 1;
+    height: 201px;
+    border-left: 5px solid #715CF3;
+    border-width: 20;
+}
+
 .section-title-about h1 {
   text-align: center;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .section-title-about h5 {
