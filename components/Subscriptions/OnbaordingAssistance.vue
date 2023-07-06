@@ -1,8 +1,9 @@
 <template>
-    <div class="app-download-area pt-75">
+    <div class="app-download-area pt-60">
         <div class="container">
-            <div class="section-title">
-                <h2>Leverage DealDox for Comprehensive Implementation and Tailored Solutions </h2>
+            <div class="section-title-about">
+                <h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1>
+                <h5>Let's get started!</h5>
             </div>
             <div class="app-download-inner">
                 <div class="row align-items-center">
@@ -37,9 +38,9 @@
                                         <h4>Adaptaions to meet your needs and so much more</h4>
                                     </li>
                                     <li>
-                                        <div class="icon-home">
+                                        <div class="features-content-home">
                                             <p>Don't miss added perks here</p>
-                                        </div> 
+                                        </div>
                                     </li>
                                 </ul>
                                 <div class="btn-box">

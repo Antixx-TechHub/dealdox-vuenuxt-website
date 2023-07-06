@@ -23,7 +23,7 @@
             </div>
             <div class="row justify-content-center" v-if="featuredblogs !== []">
                 <div class="col-lg-4 col-md-6" v-for="featuredblog in featuredblogs" :key="featuredblog.id">
-                    <div class="single-blog-post bg-white">
+                    <div class="single-blog-post bg-F9F9FD">
                         <div class="image">
                             <router-link :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
                                 <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">
