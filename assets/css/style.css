@@ -5971,7 +5971,7 @@ Preloader CSS
   .new-app-main-banner-wrap-content h1 {
     font-size: 23px;
     text-align: center;
-    margin-right: 0px;
+    margin-right: 4px;
   }
 
   .new-app-main-banner-wrap-content p {
@@ -5981,7 +5981,7 @@ Preloader CSS
 
   .section-title h3 {
     text-align: center !important;
-    font-size: 19px;
+    font-size: 14px;
     margin-right: -3px;
     margin-left: -2px;
 
@@ -5992,6 +5992,10 @@ Preloader CSS
     margin-right: -3px;
     margin-left: 2px;
 
+  }
+
+  .new-app-main-banner-wrap-content-full h3{
+    font-size: 34;
   }
 
   .new-app-main-banner-wrap-content .sub-title {
