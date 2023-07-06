@@ -2078,7 +2078,8 @@ Free Trial Area CSS
     font-size: 20px;
     margin-bottom: 20px;
     text-align: left;
-    margin-right: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .features-content-home p {
     font-size: 15px !important;
@@ -2139,6 +2140,7 @@ Free Trial Area CSS
   }
   .single-features-item {
     padding: 50px 0px 50px 30px;
+    margin-bottom: 55px;
   }
   .single-features-item .icon {
     margin: 4px 0px 0px -50px;

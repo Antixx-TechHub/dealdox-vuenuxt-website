@@ -51,7 +51,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/income.png" alt="image">
                         </div>
-                        <p>Enables easy revenue forecasting</p>
+                        <p>Enables easy revenue<br>forecasting</p>
                     </div>
                 </div>
             </div>

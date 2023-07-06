@@ -1,5 +1,5 @@
 <template>
-    <div class="key-features-area bg-FAFAFA pt-100 pb-75">
+    <div class="key-features-area bg-FAFAFA pt-100">
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full tb-20">

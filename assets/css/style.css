@@ -325,6 +325,7 @@ p:last-child {
   font-size: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .section-title-home {
@@ -384,9 +385,7 @@ p:last-child {
   line-height: 1.5;
   margin-top: 10px;
   font-weight: 500;
-  /* css changed */
-  /* margin-right: 236px;
-  margin-left: 175px */
+  margin-bottom: 20px;
 }
 
 .section-title-button p {
@@ -1735,6 +1734,7 @@ New Demo CSS
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.1;
+  max-width: 600px;
   font-weight: 700;
 }
 
@@ -5308,6 +5308,16 @@ Preloader CSS
   margin-left: 45px;
 }
 
+.new-app-main-banner-wrap-content-full .sub-title-effortless {
+  font-size: 20px;
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
 .page-title-area {
   /* z-index: 1; */
   position: relative;
@@ -5376,7 +5386,7 @@ Preloader CSS
   }
 
   .section-title {
-    margin-bottom: 0px;
+    margin-bottom: 35px;
   }
   
   .section-title-about {
@@ -5992,7 +6002,7 @@ Preloader CSS
 
   .section-title h3 {
     text-align: center !important;
-    font-size: 14px;
+    font-size: 20px;
     margin-right: -3px;
     margin-left: -2px;
 
@@ -6006,7 +6016,7 @@ Preloader CSS
   }
 
   .new-app-main-banner-wrap-content-full h3{
-    font-size: 34;
+    font-size: 20;
   }
 
   .new-app-main-banner-wrap-content .sub-title {
