@@ -11,10 +11,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h3>
-                        <p>Salesforce customers can speed up their transactions by controlling their complete deal cycle
-                            within their CRM. With real-time insights on your prospect's engagements and degree of interest,
-                            DealDox's reliable CPQ enables quotations easier and faster.</p>
+                        <h3>Close Deals Faster with DealDox</h3>
+                        <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams sell quicker and more efficiently. <strong>Dynamics 365 CRM</strong> allows sales teams to create <strong>advanced quotes</strong>, expedite contract discussions with <strong>automated workflows</strong> and approvals, and sign off huge agreements.</p>
                     </div>
                 </div>
             </div>
@@ -22,39 +20,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Drive Operational Excellence</h3>
-                        <p>DealDox is designed to help every Salesforce user’s sales activity to be simplified and
-                            productive. It enables step-by-step guidance through the deal flow within Salesforce.</p>
-                        <div class="features-content">
-                            <ul class="features-list">
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Auto-syncing of deals data with Salesforce</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Get rid of manual tasks</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Consistent version management </p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Customer support through streamlined workflow ensures accuracy & efficiency</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <h3>Generate Lightning-fast Professional Quotes</h3>
+                        <p>DealDox equips your sales team with the tools to <strong>configure tailored quotes in minutes</strong>. Get rid of manual searches and heavy reliance on desk staff. With our advanced platform, your team can effortlessly answer pre-built questions, generating a comprehensive digital sales manifesto with accurate pricing, favorable terms, and a seamless signing process.</p>
                     </div>
                 </div>
 
@@ -76,13 +43,9 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Deep Dive into Customer Insights</h3>
-                        <p>DealDox's modern analytics and reporting feature provides unparalleled visibility into every
-                            digital interaction along the buyer's journey. You get detailed insights that empower you to
-                            build consensus and accelerate your deal stages.</p>
-                        <p>By combining the dynamic capabilities of DealDox with the comprehensive view offered by
-                            Salesforce CRM, you'll gain a 360-degree understanding of each customer's unique needs, paving
-                            the way for transformative strategies and remarkable success. </p>
+                        <h3>Utilize the Power of a User-Friendly CPQ Solution</h3>
+                        <p>Don't allow complicated price regulations to burden you. DealDox is here to make the procedure easier with our <strong>simple-to-implement and simple-to-maintain CPQ</strong> solution. Our platform is built to support a variety of deal structures, such as subscription pricing, use pricing, multi-year ramp offers, co-terming, cross-selling, and renewals.</p>
+                        <p>Your operations staff may easily change the pricing, processes, and other features with DealDox's easy and no-code Interface in minutes. Our professional installation and customer success teams are always ready to answer your concerns and assist you.</p>
                     </div>
                 </div>
             </div>
@@ -90,47 +53,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Empower Your Business Collaborations and Maximize Deal Success</h3>
-                        <p>Line of Business teams must cooperate on all deals, which slows the supply of proposal bids and
-                            increases the long administrative activities. DealDox offers an interactive sales platform
-                            enabling the necessary data at your ease. It ensures a speedy decision-making process that is
-                            accurate, fast and efficient:</p>
-                        <div class="features-content">
-                            <ul class="features-list">
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Access critical information instantly.</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Streamline decisions with ease.</p>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Centralize policies for legal, finance, and brand protection.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Personalized process to delegate approvals easily.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Stay informed with desktop and mobile alerts on transaction progress.</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <h3>Closing Deals at Lightning Speed through CPQ Automation</h3>
+                        <p>In today's digital workplace, seamless cross-team collaboration is essential. At DealDox, we understand that internal conversations and processes surrounding discounting or other aspects should never impede your ability to send a quote. That's why our advanced platform enables you to assign roles, automate approvals based on thresholds, and set up notifications for every step of the deal process. Experience a paradigm shift where approvals that used to take days or hours are now accomplished in minutes.</p>
                     </div>
                 </div>
 
@@ -153,11 +77,9 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
-                            <h3>Achieve Results Faster Than Ever</h3>
-                            <p>DealDox eliminates the need for programming, which prevents expensive initiatives. Just
-                                configure the capabilities you want, then get to work.</p>
-                            <p>There is no technical difficulty in the implementation since it is synchronized with standard
-                                objects. We enhance the way you automatically operate inside Salesforce.</p>
+                            <h3>Deliver Timely Experiences with Precision</h3>
+                            <p>Get rid of outdated paper or PDF proposals and enter a world of <strong>simplified pricing with DealDox</strong>. Our next-generation <strong>digital sales proposal solution</strong> revolutionizes the seller and customer experience. Stay up to date with pricing and terms, enjoy hyper-personalized content, and leverage advanced automation capabilities that empower your sales teams to effortlessly execute deals.</p>
+                            <p>With DealDox, collaboration becomes effortless as every internal team member and buyer can seamlessly connect and contribute to one centralized digital location.</p>
                         </div>
                     </div>
                 </div>
