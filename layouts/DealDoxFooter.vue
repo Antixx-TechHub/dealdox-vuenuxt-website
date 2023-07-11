@@ -10,16 +10,16 @@
                         <p>DealDox CPQ: the all-in-one solution that streamlines quoting, closes deals faster, and boosts sales efficiency.</p>
                         <ul class="social-links">
                             <li>
-                                <a href="/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                                <a href="https://www.facebook.com/dealdox.io" target="_blank"><i class="ri-facebook-fill"></i></a>
                             </li>
                             <li>
-                                <a href="/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                <a href="https://www.instagram.com/dealdox.io/" target="_blank"><i class="ri-instagram-fill"></i></a>
                             </li>
                             <li>
                                 <a href="/" target="_blank"><i class="ri-linkedin-fill"></i></a>
                             </li>
                             <li>
-                                <a href="/" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank"><i class="ri-twitter-fill"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -118,10 +118,10 @@
                                 <router-link to="/">Locate us on map</router-link>
                             </li>
                             <li>
-                                <router-link to="/">Mail us - Info@dealdocx.io</router-link>
+                                <p>Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a></p>
                             </li>
                             <li>
-                                <router-link to="/">Call us - 999999999</router-link>
+                                <p>Call us - <a href="call:+91 9999999999">91 999999999</a></p>
                             </li>
                         </ul>
                     </div>
