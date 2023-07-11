@@ -11,10 +11,11 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h3>
-                        <p>Salesforce customers can speed up their transactions by controlling their complete deal cycle
-                            within their CRM. With real-time insights on your prospect's engagements and degree of interest,
-                            DealDox's reliable CPQ enables quotations easier and faster.</p>
+                        <h3>Drive Sales Success, Enhance Buyer Experience, and Boost Your Business Growth</h3>
+                        <p>With the ability to manage your entire deal flow seamlessly within Freshworks CRM, you can
+                            supercharge your deals and achieve remarkable results. Experience the <strong>ease and speed of
+                                quoting</strong> with DealDox's <strong>advanced CPQ tool</strong>, providing you with
+                            real-time insights into your prospect's engagements and level of interest.</p>
                     </div>
                 </div>
             </div>
@@ -22,36 +23,32 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Drive Operational Excellence</h3>
-                        <p>DealDox is designed to help every Salesforce user’s sales activity to be simplified and
-                            productive. It enables step-by-step guidance through the deal flow within Salesforce.</p>
+                        <h3>Improve the Buyer Experience with Real-time Insights</h3>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Auto-syncing of deals data with Salesforce</p>
+                                    <p>Personalize your interactions and deliver an exceptional buying experience with
+                                        Freshworks CRM and DealDox.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Get rid of manual tasks</p>
+                                    <p>Leverage real-time insights into prospect engagements and interests, enabling you to
+                                        tailor your communication and offerings effectively.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Consistent version management </p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Customer support through streamlined workflow ensures accuracy & efficiency</p>
+                                    <p>Experience the <strong>power of DealDox's CPQ capabilities</strong>, making quoting
+                                        faster, easier, and more accurate, resulting in an absolute buying journey for your
+                                        prospects.</p>
                                 </li>
                             </ul>
                         </div>
@@ -76,13 +73,34 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Deep Dive into Customer Insights</h3>
-                        <p>DealDox's modern analytics and reporting feature provides unparalleled visibility into every
-                            digital interaction along the buyer's journey. You get detailed insights that empower you to
-                            build consensus and accelerate your deal stages.</p>
-                        <p>By combining the dynamic capabilities of DealDox with the comprehensive view offered by
-                            Salesforce CRM, you'll gain a 360-degree understanding of each customer's unique needs, paving
-                            the way for transformative strategies and remarkable success. </p>
+                        <h3>Streamline Your Sales Process and Enhance Operational Capability</h3>
+                        <div class="features-content">
+                            <ul class="features-list">
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Maximize your sales efficiency with Freshworks CRM and DealDox integrated solutions.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Discover how a centralized deal management system within Freshworks CRM improves
+                                        collaboration, communication, and visibility across your sales team.</p>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="ri-check-line"></i>
+                                    </div>
+                                    <p>Automate time-consuming manual tasks like deal creation, tracking, and follow-up,
+                                        saving valuable time and boosting overall productivity.</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,44 +108,31 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Empower Your Business Collaborations and Maximize Deal Success</h3>
-                        <p>Line of Business teams must cooperate on all deals, which slows the supply of proposal bids and
-                            increases the long administrative activities. DealDox offers an interactive sales platform
-                            enabling the necessary data at your ease. It ensures a speedy decision-making process that is
-                            accurate, fast and efficient:</p>
+                        <h3>Empower Your Sales Success with Actionable Data for Optimal Conversions</h3>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Access critical information instantly.</p>
+                                    <p>Real-time analytics provided by Freshworks CRM and DealDox empowers you with
+                                        actionable insights into your deals and prospect interactions.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Streamline decisions with ease.</p>
+                                    <p>Identify bottlenecks, fine-tune sales strategies, and prioritize high-value
+                                        opportunities using the real-time insights at your disposal.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Centralize policies for legal, finance, and brand protection.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Personalized process to delegate approvals easily.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Stay informed with desktop and mobile alerts on transaction progress.</p>
+                                    <p>Streamline Approvals with a Customizable Workflow for Automatic Delegation to
+                                        Decision-Makers.</p>
                                 </li>
                             </ul>
                         </div>
@@ -153,19 +158,42 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
-                            <h3>Achieve Results Faster Than Ever</h3>
-                            <p>DealDox eliminates the need for programming, which prevents expensive initiatives. Just
-                                configure the capabilities you want, then get to work.</p>
-                            <p>There is no technical difficulty in the implementation since it is synchronized with standard
-                                objects. We enhance the way you automatically operate inside Salesforce.</p>
+                            <h3>Lightning-fast Results with DealDox</h3>
+                            <p>Experience rapid results without coding or IT support using DealDox. Configure and customize
+                                DealDox effortlessly to meet your unique business needs within Freshworks CRM. Achieve swift
+                                implementation and consistent integration, tailored to streamline your workflows and boost
+                                productivity.</p>
+                            <div class="features-content">
+                                <ul class="features-list">
+                                    <li>
+                                        <div class="icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>No coding or IT support required</p>
+                                    </li>
+
+                                    <li>
+                                        <div class="icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>Quick implementation, no extensive training needed</p>
+                                    </li>
+
+                                    <li>
+                                        <div class="icon">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <p>Tailored solutions for simple to complex processes</p>
+                                    </li>
+                                </ul>
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
     </div>
-</template>
+</div></template>
 
 <script>
 export default {
