@@ -55,11 +55,11 @@
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Microsoft Dynamics
+                                <router-link to="/microsoft-dynamics">Microsoft Dynamics
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">Freshworks
+                                <router-link to="/freshworks">Freshworks
                                 </router-link>
                             </li>
 
