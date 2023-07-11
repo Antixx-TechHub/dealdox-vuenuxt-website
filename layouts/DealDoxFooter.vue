@@ -64,11 +64,11 @@
                             </li>
 
                             <li>
-                                <router-link to="/coming-soon">HubSpot
+                                <router-link to="/hubspot">HubSpot
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/coming-soon">SugarCRM</router-link>
+                                <router-link to="/sugar-crm">Sugar CRM</router-link>
                             </li>
                         </ul>
                     </div>

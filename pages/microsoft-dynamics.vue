@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/microsoft-dynamics/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/microsoft-dynamics/HowLocalizedDeal'
-import KeyBenefitsof from '../components/microsoft-dynamics/KeyBenefitsof'
+import MainBannerLoacalized from '../components/Microsoft-Dynamics/MainBannerLoacalized'
+import HowLocalizedDeal from '../components/Microsoft-Dynamics/HowLocalizedDeal'
+import KeyBenefitsof from '../components/Microsoft-Dynamics/KeyBenefitsof'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
 export default {

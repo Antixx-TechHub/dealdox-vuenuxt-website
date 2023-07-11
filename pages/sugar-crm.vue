@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/Freshworks/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/Freshworks/HowLocalizedDeal'
-import KeyBenefitsof from '../components/Freshworks/KeyBenefitsof'
+import MainBannerLoacalized from '../components/Sugar-CRM/MainBannerLoacalized'
+import HowLocalizedDeal from '../components/Sugar-CRM/HowLocalizedDeal'
+import KeyBenefitsof from '../components/Sugar-CRM/KeyBenefitsof'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
 export default {

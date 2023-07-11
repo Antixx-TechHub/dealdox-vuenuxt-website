@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/Freshworks/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/Freshworks/HowLocalizedDeal'
-import KeyBenefitsof from '../components/Freshworks/KeyBenefitsof'
+import MainBannerLoacalized from '../components/HubSpot/MainBannerLoacalized'
+import HowLocalizedDeal from '../components/HubSpot/HowLocalizedDeal'
+import KeyBenefitsof from '../components/HubSpot/KeyBenefitsof'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
 export default {
