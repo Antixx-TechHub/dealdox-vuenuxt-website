@@ -51,7 +51,7 @@
                         <h3>Integrations</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/coming-soon">Salesforce
+                                <router-link to="/salesforce">Salesforce
                                 </router-link>
                             </li>
                             <li>

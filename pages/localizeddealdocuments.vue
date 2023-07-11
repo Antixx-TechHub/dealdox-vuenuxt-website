@@ -34,7 +34,7 @@ export default {
         DealDoxFooter,
     },
     head: {
-        title: 'Localized Deal Documents',
+        title: 'Salesforce CRM',
         htmlAttrs: {
             lang: 'en-us'
         },
@@ -42,9 +42,9 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: '' },
-            { hid: 'keywords', name: 'keywords', content: 'Localized deal documents, Non-english cpq for services, Area-specific deal documents, Regionally customed agreements, Geographically customized quotations, Deal management, Deal documents, Dealdox cpq, Close deals faster, Regional cpq automated quote generation, Localized versions of deal documents, Customized automated quotation, How localized deal documents work, Multilingual document creation capability,' }
+            { hid: 'keywords', name: 'keywords', content: '' }
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/localizeddealdocuments' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/salesforce' }
         ],
     },
 }
