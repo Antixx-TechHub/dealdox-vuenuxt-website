@@ -4,8 +4,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Sugar DealDox and<br><span class="sub-title">Salesforce</span>CRM</h1>
-                        <p>Maximize Your CRM Potential with DealDox CPQ</p>
+                        <h1>DealDox and <br><span class="sub-title">SugarCRM</span></h1>
+                        <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly CPQ Solution</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
