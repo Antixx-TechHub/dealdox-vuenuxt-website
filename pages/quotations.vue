@@ -18,6 +18,8 @@ import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experie
 import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness'
 import FreeTrial from '../components/AutomatedQuotesGeneration/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
+import axios from 'axios';
+
 
 export default {
     name: 'AutomatedQuotesGeneration',
@@ -30,19 +32,25 @@ export default {
         FreeTrial,
         DealDoxFooter,
     },
-    head: {
-        title: 'Quote Automation|DealDox',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Automate quoting processes with DealDox. Experience efficient quote generation and streamline your sales workflow. Empower your team for success.' },
-            { hid: 'keywords', name: 'keywords', content: 'Quote automation, Automated quotations, Quote automation software, Quotation software, Automated quotes generation, Automate contracts and renewals, Automated quoting solutions, Intelligent quoting solution, Automated document generation, Dealdox automation software, Automate billing process, Quick and accurate quoting, Pricing & quote generator, Cpq for services, Create quotations, Maximize profit margins, Cpq software, Cpq software to analyze sales data and generate reports, Create quotes using automation software, Automates the document creation process, Cpq software to automate their sales processes, Cpq software to automate the generating quotes, Cpq software to automate the generating proposals, Cpq software to automate the generating contracts, Cpq software to optimize pricing strategies, Switch between price listings, Easily generating custom quotes in any desired language, Automate the process of generating proposals, Advanced cpq software generates quotations' }
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/automated-quotations' }
-        ],
+    data() {
+        return {
+            seoData: [],
+        }
+    },
+    created: async function () {
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/pages?filters[slug][$eq]=quotations&populate=deep,5')
+        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+        if (pageData?.attributes?.seo?.length > 0) {
+            this.seoData = pageData.attributes.seo[0];
+        }
+    },
+    head({ $seo }) {
+        return $seo({
+            title: this.seoData.metaTitle,
+            description: this.seoData.metaDescription,
+            keywords: this.seoData.keywords,
+            // image: this.post.image || '',
+        });
     },
 }
 </script>
