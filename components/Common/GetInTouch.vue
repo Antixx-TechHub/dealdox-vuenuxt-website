@@ -137,7 +137,7 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                                     <div class="form-group">
                                                         <p>Phone Number</p>
-                                                        <input type="number" name="name" required class="form-control"
+                                                        <input type="number" pattern="[0-9]{10}" name="name" required class="form-control"
                                                             id="name" placeholder="Eg: 91 9878454345">
                                                     </div>
                                                 </div>
@@ -163,6 +163,7 @@
                                                 </div>
                                             </div>
                                         </form>
+                                        
                                     </div>
                                 </div>
                                 <!-- </div> -->
