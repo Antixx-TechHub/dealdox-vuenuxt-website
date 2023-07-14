@@ -8,7 +8,7 @@
                             <div class="tabs__list-tab" v-for="customerreview in customerreviews"
                                 v-bind:class="{ 'active': activeTab == customerreview.id }" :key="customerreview.id">
                                 <div class="features-content">
-                                    <h1>What does users say about <span class="sub-title">Dealdox</span></h1>
+                                    <h1>What does users say about <span class="sub-title">DealDox</span></h1>
                                     <br>
                                     <br>
                                     <carousel :autoplay="8000" :settings='settings' :loop="true"

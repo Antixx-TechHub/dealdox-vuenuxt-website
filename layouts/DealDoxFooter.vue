@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
-                    <div class="single-footer-widget pl-2">
+                    <div class="single-footer-widget">
                         <h3>Features</h3>
                         <ul class="links-list">
                             <li>
@@ -133,20 +133,22 @@
                             <img src="../assets/images/footer-logo.svg" alt="logo">
                         </router-link>
                     <div class="col-lg-6 col-sm-6">
-                        <p class="text-left"><router-link to="/">Security</router-link> |
+                        <p class="text-left"><router-link to="/security">Security</router-link> |
                             <router-link to="/terms-conditions">Terms of Use</router-link>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <p class="text-right"><router-link to="/privacy-policy">Privacy Policy</router-link> |
-                            <router-link to="/">Cookie Preference</router-link>
+                            <router-link to="/cookiepreference">Cookie Preference</router-link>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                     </div>
                 </div>
+                <br>
+                <div class="about-content">
                 <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
-
+                </div>
             </div>
         </div>
     </div>
