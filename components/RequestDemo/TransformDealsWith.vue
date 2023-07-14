@@ -92,7 +92,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
+                                                    <input type="number" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: 91 9878454345">
                                                 </div>
                                             </div>
