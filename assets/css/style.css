@@ -5217,7 +5217,7 @@ Preloader CSS
 .spinner {
   width: 40px;
   height: 40px;
-  background-color: var(--whiteColor);
+  /* background-color: var(--whiteColor); */
   margin: 100px auto;
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
   animation: sk-rotateplane 1.2s infinite ease-in-out;
