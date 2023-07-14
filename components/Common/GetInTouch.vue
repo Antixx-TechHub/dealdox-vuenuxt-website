@@ -151,9 +151,11 @@
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <p>Leave your message</p>
-                                                        <textarea name="message" id="message" required class="form-control"
+                                                        <!-- <textarea name="message" id="message" required class="form-control"
                                                             cols="30" rows="6"
-                                                            placeholder="This just a dummy message! please dont mind"></textarea>
+                                                            placeholder="This just a dummy message! please dont mind"></textarea> -->
+                                                            <input type="text" name="name" class="form-control" required
+                                                            id="name" placeholder="This just a dummy message">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
