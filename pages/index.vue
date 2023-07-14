@@ -4,7 +4,7 @@
   <MainBanner />
   <TransformYourSales />
   <Partner />
-    <WithOurSubscrip />
+  <WithOurSubscrip />
   <EasyIntegration />
   <LightningFast />
   <ImproveSales />

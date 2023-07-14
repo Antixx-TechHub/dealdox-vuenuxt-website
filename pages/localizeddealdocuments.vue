@@ -20,6 +20,7 @@ import HowLocalized from '../components/LocalizedDealDocuments/HowLocalized'
 import EmpoerGlobal from '../components/LocalizedDealDocuments/EmpoerGlobal'
 import FreeTrial from '../components/LocalizedDealDocuments/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
+import axios from 'axios';
 
 export default {
     name: 'AboutPageOne',
@@ -33,19 +34,27 @@ export default {
         FreeTrial,
         DealDoxFooter,
     },
-    head: {
-        title: 'Salesforce CRM',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
-            { hid: 'keywords', name: 'keywords', content: '' }
+    data() {
+        return {
+            seoData: [],
+        }
+    },
+    created: async function () {
+        const response = await axios.get('http://localhost:1338/api/pages?filters[slug][$eq]=localized-deal-documents&populate=deep,5')
+        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+        if (pageData?.attributes?.seo?.length > 0) {
+            this.seoData = pageData.attributes.seo[0];
+        }
+    },
+    head({ $seo }) {
+        return $seo({
+            title: this.seoData.metaTitle,
+            description: this.seoData.metaDescription,
+            keywords: this.seoData.keywords,
+            link: [{ hid: 'canonical', rel: 'canonical', href: this.seoData.canonicalURL }
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/salesforce' }
-        ],
+            // image: this.post.image || '',
+        });
     },
 }
 </script>

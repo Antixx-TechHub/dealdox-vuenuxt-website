@@ -66,6 +66,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
+    'nuxt-seo'
     // '@nuxtjs/strapi',
   ],
 
@@ -83,5 +84,15 @@ export default {
         prettify: false
       }
     }
-  }
+  },
+  // seo: {
+  //   // My custom configuration
+  //   baseUrl: 'https://domain',
+  //   name: '<name of site>',
+  //   title: '<title default>',
+  //   templateTitle: '%name% - %title%',
+  //   description: '<description default>',
+  //   canonical: 'auto',
+  //   isForcedTrailingSlash: false
+  // }
 }

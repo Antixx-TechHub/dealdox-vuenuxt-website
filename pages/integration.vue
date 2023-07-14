@@ -18,6 +18,7 @@ import Funfacts from '../components/CPQIntegration/Funfacts'
 import Stats from '../components/CPQIntegration/Stats'
 import FreeTrial from '../components/CPQIntegration/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
+import axios from 'axios';
 
 export default {
     name: 'AboutPageOne',
@@ -30,19 +31,25 @@ export default {
         FreeTrial,
         DealDoxFooter,
     },
-    head: {
-        title: 'CPQ Integration|DealDox',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Enhance sales performance with DealDox CPQ integrations. Integrate seamlessly with major CRMs and ERPs to optimize your quoting workflow.' },
-            { hid: 'keywords', name: 'keywords', content: 'Cpq integration, Easy cpq integration, Integrating CPQ, CPQ Integration work, Cpq for services, Cpq crm integration, Quote-to-cash cycle, Deal closures, Quote-to-delivery process, Revenue forecasting, Automate sales quoting process, Cpq guided selling configuration, Quoting & order management cpq, Generate detailed statements of work, Convert opportunities into cash, Cpq software integrated with other platforms like crm, Erp and e-commerce ' }
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/integration' }
-        ],
+    data() {
+        return {
+            seoData: [],
+        }
+    },
+    created: async function () {
+        const response = await axios.get('http://localhost:1338/api/pages?filters[slug][$eq]=integration&populate=deep,5')
+        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+        if (pageData?.attributes?.seo?.length > 0) {
+            this.seoData = pageData.attributes.seo[0];
+        }
+    },
+    head({ $seo }) {
+        return $seo({
+            title: this.seoData.metaTitle,
+            description: this.seoData.metaDescription,
+            keywords: this.seoData.keywords,
+            // image: this.post.image || '',
+        });
     },
 }
 </script>
