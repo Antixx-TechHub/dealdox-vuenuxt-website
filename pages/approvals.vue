@@ -22,6 +22,8 @@ import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofA
 import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights'
 import FreeTrial from '../components/LightningFastQuoteApprovals/FreeTrial'
 import DealDoxFooter from '../layouts/DealDoxFooter'
+import axios from 'axios';
+
 
 export default {
     name: 'AboutPageOne',
@@ -36,19 +38,25 @@ export default {
         FreeTrial,
         DealDoxFooter,
     },
-    head: {
-        title: 'CPQ Quick Approvals|DealDox',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Efficient CPQ approvals made easy with DealDox. Empower sales teams with streamlined processes for faster deal closures.' },
-            { hid: 'keywords', name: 'keywords', content: 'Cpq quick approvals, Lightening-fast approvals, Smart approval in cpq, Cpq advanced approvals, Fast quote approvals, Quote-to-cash platform, Automated quoting tool, Quote approvals, Digital quoting tool , Cpq approval process, Streamlined approvals, Quotation software, Smart and automated agreement of deals, Automated quotation solution' }
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/quick-approvals' }
-        ],
+    data() {
+        return {
+            seoData: [],
+        }
+    },
+    created: async function () {
+        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/pages?filters[slug][$eq]=approvals&populate=deep,5')
+        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+        if (pageData?.attributes?.seo?.length > 0) {
+            this.seoData = pageData.attributes.seo[0];
+        }
+    },
+    head({ $seo }) {
+        return $seo({
+            title: this.seoData.metaTitle,
+            description: this.seoData.metaDescription,
+            keywords: this.seoData.keywords,
+            // image: this.post.image || '',
+        });
     },
 }
 </script>
