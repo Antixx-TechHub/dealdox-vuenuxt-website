@@ -99,6 +99,9 @@
                             <li>
                                 <router-link to="/contactus">Get in Touch</router-link>
                             </li>
+                            <li>
+                                <router-link to="/signuppage">Sign Up</router-link>
+                            </li>
                         </ul>
 
                         <!-- <p>Best solution for your it startup business, consecteturadipiscing elit.</p>
