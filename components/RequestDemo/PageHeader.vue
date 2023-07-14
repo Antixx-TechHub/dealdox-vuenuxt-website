@@ -119,11 +119,12 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: 91 9878454345">
+                                                    <input type="number"  name="name" required
+                                                        class="form-control" id="name" placeholder="Eg: 91 9878454345">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">                                                <div class="form-group">
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="form-group">
                                                     <p>Business Email</p>
                                                     <input type="email" name="email" required class="form-control"
                                                         id="email" placeholder="hello@sarah.com">

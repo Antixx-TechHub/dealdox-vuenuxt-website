@@ -137,7 +137,7 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                                     <div class="form-group">
                                                         <p>Phone Number</p>
-                                                        <input type="number" name="name" required class="form-control"
+                                                        <input type="number" pattern="[0-9]{10}" name="name" required class="form-control"
                                                             id="name" placeholder="Eg: 91 9878454345">
                                                     </div>
                                                 </div>
@@ -151,9 +151,11 @@
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <p>Leave your message</p>
-                                                        <textarea name="message" id="message" required class="form-control"
+                                                        <!-- <textarea name="message" id="message" required class="form-control"
                                                             cols="30" rows="6"
-                                                            placeholder="This just a dummy message! please dont mind"></textarea>
+                                                            placeholder="This just a dummy message! please dont mind"></textarea> -->
+                                                            <input type="text" name="name" class="form-control" required
+                                                            id="name" placeholder="This just a dummy message">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -163,6 +165,7 @@
                                                 </div>
                                             </div>
                                         </form>
+                                        
                                     </div>
                                 </div>
                                 <!-- </div> -->
