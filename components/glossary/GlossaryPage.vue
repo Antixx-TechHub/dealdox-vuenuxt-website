@@ -15,13 +15,17 @@
                 <!-- <h2>Glossary</h2> -->
             </div>
             <div class="row justify-content-center" v-if="glossaries !== []">
-                <div class="col-lg-3 col-md-6" v-for="glossary in glossaries" :key="glossary.id">
+                <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
                     <div class="single-blog-post">
                         <div class="content">
                             <h3>
-                                <router-link :to="'/glossary-details/' + glossary.attributes.slug">
+                                {{ glossary.value }}
+                                <!-- <router-link :to="'/glossary-details/' + glossary.attributes.slug">
                                     {{ glossary.attributes.title }}
-                                </router-link>
+                                </router-link> -->
+                                <div class="col-lg-3 col-md-6" v-for="glossData in glossary.data" :key="glossData.id">
+                                    {{ glossData.attributes.title }}
+                                </div>
                             </h3>
                         </div>
                     </div>
@@ -43,18 +47,29 @@ export default {
             details: this.detailsContent,
             categories: [],
             glossaries: [],
+            groupby: {}
         }
     },
     created: async function () {
-        axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories')
-            .then(response => {
-                this.categories = response.data.data;
-            })
-            .catch(error => {
-                console.error(error);
-            });
+        const response1 = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories')
+        this.categories = response1.data.data;
         const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossaries?populate=*')
         this.glossaries = response.data.data;
+        let groupby = {};
+        this.categories.map(x => {
+            const r = this.glossaries.filter(v =>
+                v.attributes.glossary_categories.data.map(e => e.id).includes(x.id)
+            )
+            groupby = { ...groupby, [x.attributes.name]: r };
+
+        })
+        const dd = []
+        Object.keys(groupby).map(key => {
+            dd.push({ value: key, data: groupby[key] })
+        });
+        this.groupby = dd;
+        console.log(this.groupby, 'groupby');
+
     },
 }
 </script>
