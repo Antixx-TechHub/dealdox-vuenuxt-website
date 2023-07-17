@@ -3,16 +3,16 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
+                    <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Effortlessly streamline your <span class="sub-title">quote generation</span> process with DealDox</h1>
                         <p>Are you still stuck with outdated spreadsheet calculations, spending precious time manually
                             shifting estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these
-                            tedious tasks and welcome effortless quoting with DealDox.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
+                            tedious tasks and welcome effortless quoting with DealDox also called DD CPQ.</p>
                     </div>
                 </div>
             </div>
