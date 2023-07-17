@@ -67,8 +67,8 @@
                                                     country
                                                 </h6>
                                             </li>
-                                            <h5>Question? Talk to an expert: <span
-                                                    class="sub-title-faq">8482642864</span></h5>
+                                            <h5>Question? Talk to an expert: <span class="sub-title-faq">8482642864</span>
+                                            </h5>
                                         </ul>
                                     </div>
                                 </div>
@@ -137,8 +137,8 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                                     <div class="form-group">
                                                         <p>Phone Number</p>
-                                                        <input type="number" pattern="[0-9]{10}" name="name" required class="form-control"
-                                                            id="name" placeholder="Eg: 91 9878454345">
+                                                        <input type="number" pattern="[0-9]{10}" name="name" required
+                                                            class="form-control" id="name" placeholder="Eg: 91 9878454345">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -154,30 +154,33 @@
                                                         <!-- <textarea name="message" id="message" required class="form-control"
                                                             cols="30" rows="6"
                                                             placeholder="This just a dummy message! please dont mind"></textarea> -->
-                                                            <input type="text" name="name" class="form-control" required
+                                                        <input type="text" name="name" class="form-control" required
                                                             id="name" placeholder="This just a dummy message">
                                                     </div>
                                                 </div>
+
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="form-group">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    I agree to the <router-link to="/terms-conditions"> Terms of Use</router-link> 
-                                                </label>
-                                            </div>
-                                            
-                                            </div>
-                                            <p>By registering, you confirm that you agree to the storing and processing of your personal data by DealDox as described in the<router-link to="/privacy-policy">
-                                                Privacy <Statement class=""></Statement></router-link> </p>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <button type="submit" required class="default-btn"><i
-                                                        class='bx bx-paper-plane'></i>
+                                                    <div class="form-group">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            I agree to the <router-link to="/terms-conditions"> Terms of
+                                                                Use</router-link>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <p>By registering, you confirm that you agree to the storing and processing
+                                                    of your personal data by DealDox as described in the<router-link
+                                                        to="/privacy-policy">
+                                                        Privacy <Statement class=""></Statement></router-link> </p>
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <button type="submit" required class="default-btn"><i
+                                                            class='bx bx-paper-plane'></i>
                                                         Request for a Demo </button>
-                                            </div>
+                                                </div>
                                             </div>
                                         </form>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- </div> -->
