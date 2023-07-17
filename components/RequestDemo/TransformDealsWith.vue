@@ -7,7 +7,9 @@
                         <div class="features-content">
                             <ul class="features-list">
                                 <h2>Transform Deals with <br><span class="sub-title">DealDox</span> in Action!</h2>
-                                <p>A centralized platform for automated quote generation, Accurate Pricing, Product Bundling and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy, Customize Deal Documents in your desired language, and more! </p>
+                                <p>A centralized platform for automated quote generation, Accurate Pricing, Product Bundling
+                                    and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy,
+                                    Customize Deal Documents in your desired language, and more! </p>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
@@ -27,17 +29,13 @@
                                     <p>Close Deals Faster</p>
                                 </li>
                             </ul>
-
-                            <div class="btn-box">
-                                <router-link to="/lightning-fast-quote-approvals" class="default-btn">Know more</router-link>
-                            </div>
                         </div>
                     </div>
 
-                        <!-- <div class="software-integrations-list">
+                    <!-- <div class="software-integrations-list">
                             <img src="../../assets/images/RequestDemo/Frame 1000007144.png" alt="border">
                         </div> -->
-                        <div class="col-lg-6 col-md-12 pt-70">
+                    <div class="col-lg-6 col-md-12 pt-70">
                         <div class="contact-area pbt-75">
                             <div class="container">
                                 <div class="contact-form pt-70">
@@ -96,7 +94,8 @@
                                                         placeholder="Eg: 91 9878454345">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">                                                <div class="form-group">
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="form-group">
                                                     <p>Business Email</p>
                                                     <input type="email" name="email" required class="form-control"
                                                         id="email" placeholder="hello@sarah.com">
