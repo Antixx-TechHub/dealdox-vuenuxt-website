@@ -21,6 +21,9 @@
                             <li>
                                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank"><i class="ri-twitter-fill"></i></a>
                             </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank"><i class="ri-youtube-fill"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
