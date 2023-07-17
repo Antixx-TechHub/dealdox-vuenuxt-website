@@ -118,7 +118,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Best Solution for quick and accurate quote generation in less time</p>
+                                    <p>Automated Quoting Software streamlines quoting, configuration, pricing, and proposal generation, eliminating manual processes.</p>
                                 </li>
 
                                 <li>
