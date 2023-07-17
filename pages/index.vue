@@ -1,8 +1,8 @@
 <template>
   <div>
   <Navbar class="navbar-style-two"/>
-  <TransformYourSales />
   <MainBanner />
+  <TransformYourSales />
   <Partner />
   <WithOurSubscrip />
   <EasyIntegration />

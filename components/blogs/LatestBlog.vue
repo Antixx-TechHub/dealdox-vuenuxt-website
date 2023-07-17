@@ -22,7 +22,10 @@
                 </div>
             </div>
             <div class="row justify-content-center" v-if="blogs !== []">
-                <div class="col-lg-4 col-md-6" v-for="blog in blogs" :key="blog.id">
+                <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(
+            (currentPage - 1) * perPage,
+            currentPage * perPage,
+        )" :key="blog.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
                             <router-link :to="'/blog-details/' + blog.attributes.slug" class="d-block">
@@ -44,7 +47,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-12 col-md-12">
+
+                <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <div class="nav-links">
                             <span class="page-numbers current">1</span>
@@ -54,7 +58,10 @@
                                     class="ri-arrow-right-line"></i></router-link>
                         </div>
                     </div>
-                </div> -->
+                    <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
+                        align="center"></b-pagination>
+                </div>
+
             </div>
         </div>
     </div>
@@ -66,14 +73,19 @@ import axios from 'axios'
 
 export default {
     name: 'Blog',
+
     data() {
         return {
-            blogs: []
+            blogs: [],
+            rows: 0,
+            currentPage: 1,
+            perPage: 1,
         }
     },
     created: async function () {
         const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/blogs?populate=*')
-        this.blogs = response.data.data
+        this.blogs = response.data.data;
+        this.rows = this.blogs?.length;
     },
 }
 </script>
