@@ -10,7 +10,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card bg-color-two">
                         <h3>Enhanced Clarity</h3>
-                        <p class="text-left">providing localized versions of deal documents, businesses can ensure that all
+                        <p class="text-left"> By providing localized versions of deal documents, businesses can ensure that all
                             parties involved fully understand the terms, conditions, and obligations outlined in the
                             documents. This minimizes the risk of miscommunication and potential disputes, fostering
                             smoother business relationships.
@@ -23,7 +23,7 @@
                             <i class="ri-stack-line"></i>
                         </div> -->
                         <h3>Cultural Sensitivity</h3>
-                        <p class="text-left">cultures have unique business practices and linguistic nuances. By tailoring
+                        <p class="text-left">Different cultures have unique business practices and linguistic nuances. By tailoring
                             deal documents to specific languages, businesses demonstrate cultural sensitivity and respect
                             for their counterparts, thereby strengthening trust and rapport.
                         </p>

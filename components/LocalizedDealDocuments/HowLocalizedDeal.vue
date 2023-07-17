@@ -14,6 +14,8 @@
                         <h3>Breaking Barriers, Connecting Deals:</h3>
                         <p>Businesses are crossing international boundaries and interacting with partners, clients, and consumers who come from a variety of language origins. It is essential to get through language barriers and guarantee clarity in all business contacts in order to promote successful communication and cooperation. This is where Localized Deal Documents' pioneering functionality shines. 
                         </p>
+                        <h3>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business </h3>
+                        <p>Regional CPQ automated quote generation is an advanced solution designed to support multilingual communication in a global business environment. This feature enables businesses to create and share deal documents, such as quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By offering support for a wide range of languages, including English, Chinese (Mandarin and Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French, Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses can now engage with stakeholders worldwide with ease.</p>
                     </div>
                 </div>
             </div>
