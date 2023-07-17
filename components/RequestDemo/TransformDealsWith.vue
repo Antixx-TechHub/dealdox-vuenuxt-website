@@ -29,6 +29,9 @@
                                     <p>Close Deals Faster</p>
                                 </li>
                             </ul>
+                            <div class="btn-box">
+                                <router-link to="/integration" class="default-btn">Know more</router-link>
+                            </div>
                         </div>
                     </div>
 
@@ -55,13 +58,13 @@
                                                         placeholder="Eg: Taylor">
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: Software Developer">
                                                 </div>
-                                            </div> -->
+                                            </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Company</p>
@@ -69,7 +72,7 @@
                                                         placeholder="Eg: Lorem Ipsum">
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Employees</p>
                                                     <select required name="experience" class="form-select">
@@ -79,15 +82,15 @@
                                                         <option>10,001 +</option>
                                                     </select>
                                                 </div>
-                                            </div> -->
-                                            <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
-                                                    <p>Country Region</p>
+                                                    <p>Country/Region</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
                                                         placeholder="Eg: India">
                                                 </div>
-                                            </div> -->
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
                                                     <input type="number" name="name" required class="form-control" id="name"
@@ -101,18 +104,32 @@
                                                         id="email" placeholder="hello@sarah.com">
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
-                                                    <textarea name="message" id="message" required class="form-control"
+                                                    <!-- <textarea name="message" id="message" required class="form-control"
                                                         cols="30" rows="6"
-                                                        placeholder="This just a dummy message! please dont mind"></textarea>
+                                                        placeholder="This just a dummy message! please dont mind"></textarea> -->
+                                                    <input type="text" name="name" class="form-control" required id="name"
+                                                        placeholder="This just a dummy message">
                                                 </div>
-                                            </div> -->
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="form-group">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    I agree to the <router-link to="/terms-conditions"> Terms of Use</router-link> 
+                                                </label>
+                                            </div>
+                                            
+                                            </div>
+                                            <p>By registering, you confirm that you agree to the storing and processing of your personal data by DealDox as described in the<router-link to="/privacy-policy">
+                                                Privacy <Statement class=""></Statement></router-link> </p>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Submit</button>
+                                                        Request for a Demo </button>
                                             </div>
                                         </div>
                                     </form>
