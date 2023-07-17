@@ -4,7 +4,8 @@
             <div class="features-content-improve-sales">
                 <div class="section-title">
                     <h1>Frequently asked questions</h1>
-                    <p>Can’t find your query listed? <span class="sub-title-faq">Write us</span> your query</p>
+                    <p>Can’t find your query listed? <span class="sub-title-faq"><router-link to="/contactus">
+                            Write us</router-link></span> your query</p>
                 </div>
             </div>
             <div class="row align-items-center">
