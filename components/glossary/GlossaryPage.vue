@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-area ptb-100 bg-FAFAFA">
+    <div class="blog-area ptb-100">
         <div class="container">
             <div class="pagination-area">
                 <div class="nav-links">
@@ -16,15 +16,14 @@
             </div>
             <div class="row justify-content-center" v-if="glossaries !== []">
                 <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
-                    <div class="single-blog-post">
+                    <div class="single-blog-post bg-FAFAFA">
                         <div class="content">
                             <h3>
                                 {{ glossary.value }}
-                                <!-- <router-link :to="'/glossary-details/' + glossary.attributes.slug">
-                                    {{ glossary.attributes.title }}
-                                </router-link> -->
                                 <div class="col-lg-3 col-md-6" v-for="glossData in glossary.data" :key="glossData.id">
-                                    {{ glossData.attributes.title }}
+                                    <router-link :to="'/glossary-details/' + glossData.attributes.slug">
+                                        {{ glossData.attributes.title }}
+                                    </router-link>
                                 </div>
                             </h3>
                         </div>
