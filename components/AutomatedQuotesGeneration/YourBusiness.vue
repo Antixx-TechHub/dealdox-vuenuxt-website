@@ -5,8 +5,11 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-mid-content-senction bg-white with-border">
                         <h3>Your Business, Your Way: Our CPQ Software Focuses on Customization</h3>
-                        <p>Our CPQ (Configure Price Quote) software is designed to help businesses address the unique needs of their customers. We understand that no two companies are the same, and that's why our software is highly customizable, offering a wide range of configuration options to tailor services and products to the specific needs of each customer.</p>
-                        <p>Our software streamlines the process of configuring complex services and solutions, making it easier and faster for users to create quotes and proposals that accurately reflect the customer's requirements. With intuitive interfaces and advanced features, our CPQ software provides a seamless user experience, allowing users to quickly and easily configure a variety of services and solutions with precision.</p>
+                        <p>We know that every company is different and that customers have different needs. As a result, our powerful CPQ software to automate their sales processes makes it easier for users to configure a wide range of services to meet all their requirements.</p>
+                        <p>Automate contract and renewal processes, reducing time-consuming manual processes and saving money and resources.</p>
+                        <p>Automate your sales process with pricing and quote generator software, assuring quick and accurate quotes. Bring on efficient and effective operations and eliminate errors and delays. </p>
+                        <p>Effortlessly adapt to global pricing requirements with DealDox CPQ: Switch between price listings based on country of delivery and contract currency. For example - If your price listing is in USD for the country of delivery, and the contract country uses Euro, you have the flexibility to switch and select your preferred currency with ease.</p>
+                        <p>Empower your sales process by easily generating custom quotes in any desired language with DD quotation software. </p>
                     </div>
                 </div>
             </div>

@@ -4,8 +4,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Revolutionising Quote Generation with <span class="sub-title">Automation</span></h1>
-                        <p>Automation streamlines quote generation, saving time and boosting efficiency for businesses dealing with high volumes of requests. </p>
+                        <h1>Quote Smarter, Sell Faster with <span class="sub-title">Quote Automation Software</span></h1>
+                        <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p>
                          <p> </p> 
                          <p></p>
                     </div>
