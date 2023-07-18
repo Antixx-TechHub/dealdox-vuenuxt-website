@@ -44,7 +44,7 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                    <router-link to="/" class="default-btn-home">SIGN UP NOW</router-link>
+                                    <router-link to="/" class="default-btn-home">Start My Free Trial</router-link>
                                 </div>
                             </div>
                         </div>

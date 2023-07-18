@@ -28,34 +28,60 @@
                                         <span id="email-notes">Your email address will not be published.</span>
                                         Required fields are marked <span class="required">*</span>
                                     </p>
-                                    <p class="comment-form-author">
-                                        <label>Name <span class="required">*</span></label>
-                                        <input type="text" id="author" placeholder="Your Name*" name="author"
+                                    
+                                    <p class="comment-form-email">
+                                        <label>First Name <span class="required">*</span></label>
+                                        <input type="text" id="author" placeholder="First Name*" name="author"
+                                            required="required">
+                                    </p>
+                                    <p class="comment-form-email">
+                                        <label>Last Name <span class="required">*</span></label>
+                                        <input type="text" id="author" placeholder="Last Name*" name="author"
                                             required="required">
                                     </p>
                                     <p class="comment-form-email">
                                         <label>Email <span class="required">*</span></label>
-                                        <input type="email" id="email" placeholder="Your Email*" name="email"
+                                        <input type="email" id="email" placeholder="Email*" name="email"
+                                            required="required">
+                                    </p>
+                                    <p class="comment-form-email">
+                                        <label>Company <span class="required">*</span></label>
+                                        <input type="text" id="email" placeholder="Company*" name="email"
+                                            required="required">
+                                    </p>
+                                    <p class="comment-form-email">
+                                        <label>Phone Number <span class="required">*</span></label>
+                                        <input type="email" id="email" placeholder="Phone Number*" name="phonenumber"
+                                            required="required">
+                                    </p>
+                                    <p class="comment-form-email">
+                                        <label>Job Title <span class="required">*</span></label>
+                                        <input type="text" id="email" placeholder="Job Title*" name="jobtitle"
                                             required="required">
                                     </p>
                                     <p class="comment-form-url">
-                                        <label>Website</label>
-                                        <input type="url" id="url" placeholder="Website" name="url">
+                                        <select class="form-select">
+                                            <option selected>Country</option>
+                                            <option value="1">India</option>
+                                            <option value="2">Saudi Arabia</option>
+                                            <option value="3">Japan</option>
+                                        </select>
                                     </p>
-                                    <p class="comment-form-comment">
+                                    <!-- <p class="comment-form-comment">
                                         <label>Comment</label>
                                         <textarea name="comment" id="comment" cols="45" placeholder="Your Comment..."
                                             rows="5" maxlength="65525" required="required"></textarea>
-                                    </p>
+                                    </p> -->
                                     <p class="comment-form-cookies-consent">
                                         <input type="checkbox" value="yes" name="wp-comment-cookies-consent"
                                             id="wp-comment-cookies-consent">
                                         <label for="wp-comment-cookies-consent">Save my name, email, and website in this
                                             browser for the next time I comment.</label>
                                     </p>
+
+                                     
                                     <p class="form-submit">
-                                        <input type="submit" name="submit" id="submit" class="submit"
-                                            value="Download Now">
+                                        <input type="submit" name="submit" id="submit" class="submit" value="Download Now">
                                     </p>
                                 </form>
                             </div>

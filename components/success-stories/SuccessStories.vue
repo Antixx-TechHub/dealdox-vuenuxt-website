@@ -39,17 +39,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
-                        <div class="nav-links">
+                        <!-- <div class="nav-links">
                             <span class="page-numbers current">1</span>
                             <router-link to="/blog-grid" class="page-numbers">2</router-link>
                             <router-link to="/blog-grid" class="page-numbers">3</router-link>
                             <router-link to="/blog-grid" class="next page-numbers" title="Next Page"><i
                                     class="ri-arrow-right-line"></i></router-link>
-                        </div>
+                        </div> -->
+                        <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
+                            align="center"></b-pagination>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -63,12 +65,16 @@ export default {
     name: 'successstories',
     data() {
         return {
-            successstories: []
+            successstories: [],
+            rows: 0,
+            currentPage: 1,
+            perPage: 9,
         }
     },
     created: async function () {
         const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/successstories?populate=*')
         this.successstories = response.data.data
+        this.rows = this.successstories?.length;
     },
 }
 </script>
