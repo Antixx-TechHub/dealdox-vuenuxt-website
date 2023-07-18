@@ -29,12 +29,12 @@
                                         Required fields are marked <span class="required">*</span>
                                     </p>
                                     
-                                    <p class="comment-form-author">
+                                    <p class="comment-form-email">
                                         <label>First Name <span class="required">*</span></label>
                                         <input type="text" id="author" placeholder="First Name*" name="author"
                                             required="required">
                                     </p>
-                                    <p class="comment-form-author">
+                                    <p class="comment-form-email">
                                         <label>Last Name <span class="required">*</span></label>
                                         <input type="text" id="author" placeholder="Last Name*" name="author"
                                             required="required">
@@ -78,6 +78,8 @@
                                         <label for="wp-comment-cookies-consent">Save my name, email, and website in this
                                             browser for the next time I comment.</label>
                                     </p>
+
+                                     
                                     <p class="form-submit">
                                         <input type="submit" name="submit" id="submit" class="submit" value="Download Now">
                                     </p>
