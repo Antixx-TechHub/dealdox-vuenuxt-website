@@ -206,10 +206,11 @@ Features Area CSS
 .single-features-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: #F4F8FC;
+  background-color: #ddeaf9;
   margin-bottom: 25px;
   text-align: center;
-  padding: 30px 20px;
+  border-radius: 20px;
+  padding: 40px 12px 41px 10px;
 }
 
 .single-features-box .icon {
