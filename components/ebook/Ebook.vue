@@ -57,7 +57,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('http://localhost:1338/api/ebooks?populate=*')
+        const response = await axios.get('dealdoxstrapi.pbwebvision.com/api/ebooks?populate=*')
         this.ebooks = response.data.data;
         this.rows = this.blogs?.length;
     },
