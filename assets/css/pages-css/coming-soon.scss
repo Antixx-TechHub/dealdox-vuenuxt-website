@@ -13,7 +13,8 @@ Coming Soon Area CSS
         size: cover;
     };
     img {
-        display: none;
+        max-width: 50%;
+        height: auto;
     }
 }
 .coming-soon-content {

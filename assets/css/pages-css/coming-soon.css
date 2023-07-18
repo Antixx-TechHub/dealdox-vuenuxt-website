@@ -13,8 +13,9 @@ Coming Soon Area CSS
   background-size: cover;
 }
 
-.coming-soon-image img {
-  display: none;
+.coming-soon img {
+    max-width: 50%;
+    height: auto;
 }
 
 .coming-soon-content {
