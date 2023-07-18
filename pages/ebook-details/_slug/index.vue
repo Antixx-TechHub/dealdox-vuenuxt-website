@@ -26,7 +26,9 @@ export default {
 
     data() {
         return {
-            details: null
+            details: null,
+            seoData: null,
+
         }
     },
 
@@ -34,6 +36,22 @@ export default {
         const { slug } = this.$route.params
         const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/ebooks?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data;
-    }
+        const pageData = this.details.length > 0 ? this.details[0] : {};
+        if (pageData?.attributes?.seo) {
+            this.seoData = pageData.attributes.seo;
+            // console.log( this.seoData ,' this.seoData ');
+        }
+        // console.log("this.details....", this.details);
+    },
+    head({ $seo }) {
+
+        return $seo({
+            title: this.seoData?.metaTitle,
+            description: this.seoData?.metaDescription,
+            keywords: this.seoData?.keywords,
+            // image: this.post.image || '',
+        });
+    },
+
 };
 </script>
