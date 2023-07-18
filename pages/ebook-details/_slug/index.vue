@@ -1,9 +1,9 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
+        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.name" pageDesc="News and Insights" />
         <div v-if="details !== null">
-            <GlossaryDetails v-bind:detailsContent="details" />
+            <EbookDetails v-bind:detailsContent="details" />
         </div>
         <DealDoxFooter />
     </div>
@@ -12,7 +12,7 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
-import GlossaryDetails from '../../../components/glossary/GlossaryDetails'
+import EbookDetails from '../../../components/ebook/EbookDetails'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -20,7 +20,7 @@ export default {
     components: {
         Navbar,
         PageTitle,
-        GlossaryDetails,
+        EbookDetails,
         DealDoxFooter,
     },
 
@@ -29,10 +29,11 @@ export default {
             details: null
         }
     },
+
     created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/glossaries?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
-        this.details = reaponse.data.data
+        const reaponse = await axios.get(`http://localhost:1338/api/ebooks?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        this.details = reaponse.data.data;
     }
 };
 </script>

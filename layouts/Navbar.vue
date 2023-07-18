@@ -71,6 +71,9 @@
                                     <li class="nav-item">
                                         <router-link to="/glossary" class="nav-link">Glossary</router-link>
                                     </li>
+                                    <li class="nav-item">
+                                        <router-link to="/ebook" class="nav-link">Ebook</router-link>
+                                    </li>
                                 </ul>
                             </li>
 
