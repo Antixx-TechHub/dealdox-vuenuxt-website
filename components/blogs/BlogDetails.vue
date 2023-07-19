@@ -209,7 +209,8 @@
                                     </ol>
                                 </li>
                             </ol> -->
-                            <div class="comment-respond">
+                            <!-- <div class="comment-respond">
+
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
                                 <form class="comment-form">
                                     <p class="comment-notes">
@@ -246,9 +247,8 @@
                                             value="Post A Comment">
                                     </p>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
-
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">

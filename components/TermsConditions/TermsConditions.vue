@@ -3,7 +3,7 @@
         <div class="container">
             <div class="privacy-policy-content">
                 <h6>Terms of Use</h6>
-                <p class="text-left">Welcome to the DealDox website (referred to as the "Site"). By accessing the Site, you
+                <p class="text-justify">Welcome to the DealDox website (referred to as the "Site"). By accessing the Site, you
                     gain access to
                     various resources and content, including software, web pages, data, messages, images, audio, video, and
                     documents (collectively referred to as "Materials"). You can also utilize community services such as
@@ -18,7 +18,7 @@
                     and the at <a href="https://dealdox.io/privacy-policy ">Privacy Policy </a></p>
 
                 <h6>Terms and Conditions for Specific Content and Site Areas </h6>
-                <p class="text-left">Certain sections of the Site or specific Content offered through the Site may be
+                <p class="text-justify">Certain sections of the Site or specific Content offered through the Site may be
                     subject to additional
                     regulations, guidelines, license agreements, user agreements, or other terms and conditions that govern
                     your access and usage of those sections or Content. These additional terms and conditions may pertain to
@@ -29,7 +29,7 @@
 
 
                 <h6>Software Usage Terms </h6>
-                <p class="text-left"> The use of Software is governed by various agreements, such as license agreements or
+                <p class="text-justify"> The use of Software is governed by various agreements, such as license agreements or
                     user agreements,
                     which are provided with or included in the Software, as well as other applicable terms and conditions
                     outlined in ordering documents, exhibits, or other related materials ("License Terms"). If Software is
@@ -39,7 +39,7 @@
                     Software must not be redistributed. </p>
 
                 <h6>Usage of Materials</h6>
-                <p class="text-left">You are permitted to download, store, display, view, listen to, play, and print
+                <p class="text-justify">You are permitted to download, store, display, view, listen to, play, and print
                     Materials published or
                     broadcasted by DealDox on the Site, or made available for download through the Site, under the following
                     conditions: (a) the Materials are to be used exclusively for personal, informational, non-commercial
@@ -47,14 +47,14 @@
                     be redistributed. </p>
 
                 <h6>Usage of Community Services</h6>
-                <p class="text-left">Community Services are provided as a convenience and do not entail any obligation for
+                <p class="text-justify">Community Services are provided as a convenience and do not entail any obligation for
                     DealDox to offer
                     technical support or actively participate. Community Services are provided as a convenience and do not
                     entail any obligation for DealDox to offer technical support or actively participate. While Community
                     Services may contain information about DealDox products and services, including contributions from
                     DealDox employees, they should be considered something other than an official customer support platform
                     for DealDox. </p>
-                <p class="text-left">You may utilize Community Services provided that you adhere to the following
+                <p class="text-justify">You may utilize Community Services provided that you adhere to the following
                     guidelines: (a) Community
                     Services should be used solely for personal, informational, and non-commercial purposes; (b) Content
                     obtained from or shared through Community Services must not be redistributed; and (c) you are not
@@ -62,7 +62,7 @@
                 </p>
 
                 <h6>Reservation of Rights </h6>
-                <p class="text-left">The Site and the Content offered through it are intellectual property and copyrighted
+                <p class="text-justify">The Site and the Content offered through it are intellectual property and copyrighted
                     works either
                     belonging to DealDox or provided by a third-party provider. All rights, titles, and interests not
                     explicitly granted in relation to the Site and the Content provided through the Site are reserved. The
@@ -71,7 +71,7 @@
 
 
                 <h6>Your Uploaded Content </h6>
-                <p class="text-left">By using the Site, you agree to only upload, share, post, publish, transmit, or make
+                <p class="text-justify">By using the Site, you agree to only upload, share, post, publish, transmit, or make
                     available ("Share")
                     Content for which you have the necessary rights and authority to do so, granting DealDox all the
                     licenses and rights as described here. When you Share Content, you grant DealDox a worldwide, perpetual,
@@ -86,7 +86,7 @@
 
 
                 <h6> Usage Restrictions for the Site and Content</h6>
-                <p class="text-left"> You agree not to use the Site in a manner that violates these terms, and you will not
+                <p class="text-justify"> You agree not to use the Site in a manner that violates these terms, and you will not
                     Share any Content
                     that: (a) is false or misleading; (b) is defamatory, derogatory, degrading, or harassing towards others
                     or constitutes a personal attack; (c) invades someone's privacy or includes, copies, or transmits their
@@ -100,7 +100,7 @@
                     and take appropriate legal action as permitted by law. </p>
 
                 <h6>Confidentiality and Privacy</h6>
-                <p class="text-left"> DealDox does not want to receive confidential information from you through or in
+                <p class="text-justify"> DealDox does not want to receive confidential information from you through or in
                     connection with the
                     Site. Regardless of any notes or statements you may include while Sharing Content, it will not be
                     considered confidential information, and DealDox will receive and treat it as non-confidential and
@@ -110,7 +110,7 @@
                 <h5>Security, Access, and Compliance </h5>
 
                 <h6>Site Access and Usage </h6>
-                <p class="text-left">You agree not to engage in any activities that could damage, disable, overburden, or
+                <p class="text-justify">You agree not to engage in any activities that could damage, disable, overburden, or
                     impair DealDox
                     accounts, computer systems, or networks through accessing or using the Site. Unauthorized attempts to
                     access parts of the Site or DealDox accounts, computer systems, or networks are strictly prohibited.
@@ -121,7 +121,7 @@
 
 
                 <h6>Account Registration and Security</h6>
-                <p class="text-left">If certain Services require you to create an account, you must complete the
+                <p class="text-justify">If certain Services require you to create an account, you must complete the
                     registration process by
                     providing accurate and up-to-date information as required on the registration form. As part of your
                     usage of the Site, you may be required to select a username and password. Please note that access to
@@ -134,14 +134,14 @@
 
 
                 <h6>Prohibited Use</h6>
-                <p class="text-left"> You agree not to utilize the Site or Content provided on or through the Site for any
+                <p class="text-justify"> You agree not to utilize the Site or Content provided on or through the Site for any
                     unlawful or
                     prohibited purposes, as outlined by these Terms of Use or specific rules, guidelines, or terms of use
                     posted for particular areas of the Site or Content. </p>
 
 
                 <h6> Indemnification</h6>
-                <p class="text-left">You agree to indemnify and hold DealDox, its officers, directors, employees, and agents
+                <p class="text-justify">You agree to indemnify and hold DealDox, its officers, directors, employees, and agents
                     harmless from any
                     claims, liabilities, damages, losses, or expenses, including reasonable attorney's fees and costs,
                     resulting from or arising out of the Content you Share, violation of these Terms of Use, violation of
@@ -150,7 +150,7 @@
 
 
                 <h6>Monitoring </h6>
-                <p class="text-left">DealDox is not obligated to monitor the Site or screen all Shared Content. However,
+                <p class="text-justify">DealDox is not obligated to monitor the Site or screen all Shared Content. However,
                     DealDox reserves the
                     right to review the Site, Content, and monitor all activities and use of the Site. DealDox may exercise
                     its discretion to remove or withhold the availability of any Content on the Site. Additionally, DealDox
@@ -159,7 +159,7 @@
                 <h5>Termination of Access </h5>
 
                 <h6>DealDox's Discretion</h6>
-                <p class="text-left">DealDox reserves the right, at its sole discretion, to discontinue providing or
+                <p class="text-justify">DealDox reserves the right, at its sole discretion, to discontinue providing or
                     restrict access to the
                     Site, specific areas of the Site, or Content provided on or through the Site. You acknowledge and agree
                     that DealDox may, at its sole discretion, terminate or restrict your access to or use of the Site or any
@@ -171,7 +171,7 @@
 
 
                 <h6>Third-Party Websites, Content, Products, and Services </h6>
-                <p class="text-left">The Site may contain links to websites and provide access to Content, products, and
+                <p class="text-justify">The Site may contain links to websites and provide access to Content, products, and
                     services offered by
                     third parties, including users, advertisers, affiliates, and sponsors of the Site. DealDox assumes no
                     responsibility for the third-party Content provided on or through the Site or for any modifications or
@@ -181,7 +181,7 @@
                 <h6>Disclaimer and Limitation of Liability </h6>
 
                 <h6>Disclaimer </h6>
-                <p class="text-left">The Site, including all Content made available on or through the Site, is provided to
+                <p class="text-justify">The Site, including all Content made available on or through the Site, is provided to
                     you "as is" and "as
                     available," unless expressly stated otherwise. DealDox explicitly disclaims all warranties of any kind,
                     whether expressed or implied, including but not limited to the implied warranties of merchantability,
@@ -191,16 +191,16 @@
                     information collected from using the website or other content made available on or via the website will
                     be accurate or trustworthy; or (d) any Content purchased or accessed by you on or via the Site will
                     satisfy your expectations in terms of quality. </p>
-                <p class="text-left">The access, download, or acquisition of any Content through the utilization of the Site
+                <p class="text-justify">The access, download, or acquisition of any Content through the utilization of the Site
                     is entirely and
                     exclusively at your individual discretion and risk. DealDox assumes no responsibility for any damage to
                     your computer system or loss of data resulting from the download or use of Content. </p>
-                <p class="text-left"> DealDox reserves the right to make changes or updates to the Site and Content provided
+                <p class="text-justify"> DealDox reserves the right to make changes or updates to the Site and Content provided
                     on or through the
                     Site at any time without notice. </p>
 
                 <h6>Limitation of Liability </h6>
-                <p class="text-left">Under no circumstances shall DealDox be held liable for any direct, indirect,
+                <p class="text-justify">Under no circumstances shall DealDox be held liable for any direct, indirect,
                     incidental, special, or
                     consequential damages, including but not limited to damages for loss of profits, revenue, data, or data
                     usage, incurred by you or any third party. This includes damages arising from your access to or use of
@@ -208,14 +208,14 @@
                     claim in tort. </p>
 
                 <h6>Exclusions and Limitations </h6>
-                <p class="text-left">Please note that certain jurisdictions may have regulations that restrict the inclusion
+                <p class="text-justify">Please note that certain jurisdictions may have regulations that restrict the inclusion
                     of disclaimers or
                     the exclusion of warranties and liabilities. In such cases where these terms may be considered legally
                     invalid, the disclaimers, exclusions, and limitations outlined in these Terms of Use shall not apply.
                     However, all other terms and conditions stated herein shall continue to be fully enforceable. </p>
 
                 <h6>Privacy Policy </h6>
-                <p class="text-left"> DealDox values your privacy and has implemented a policy to address privacy concerns.
+                <p class="text-justify"> DealDox values your privacy and has implemented a policy to address privacy concerns.
                     For more
                     information, please refer to DealDox's Privacy Policy. Any personal information collected on this Site
                     may be accessed, stored globally, and treated in accordance with DealDox's Privacy Policy. By using the
@@ -225,32 +225,32 @@
 
 
                 <h6>Restrictions for Minors</h6>
-                <p class="text-left"> Minors are not permitted to use the Site, and we kindly request that no information
+                <p class="text-justify"> Minors are not permitted to use the Site, and we kindly request that no information
                     regarding
                     individuals who are not of the age of majority be provided to us. </p>
 
                 <h6>Product Availability</h6>
-                <p>The information provided on the Site may mention DealDox products, programs, or services that may not be
+                <p class="text-justify">The information provided on the Site may mention DealDox products, programs, or services that may not be
                     available in your specific location. These references are not indicative of DealDox's intention to offer
                     such products, programs, or services in your location. For more information, we recommend contacting
                     your local DealDox representative. </p>
 
                 <h6>Waiver and Severability</h6>
-                <p> DealDox's omission to execute or enforce any rights or provisions contained in these Terms of Use shall
+                <p class="text-justify"> DealDox's omission to execute or enforce any rights or provisions contained in these Terms of Use shall
                     not be construed as a waiver of such rights or provisions. If any section or term of these Terms of Use
                     is declared unenforceable, it may be amended to guarantee its validity and enforceability while
                     retaining the overall integrity of the Terms of Use. The remaining Terms of Use clauses shall not be
                 altered. </p>
 
             <h6>Applicable Laws</h6>
-            <p> All matters concerning your access to and use of the Site, as well as the Content provided on or through
+            <p class="text-justify"> All matters concerning your access to and use of the Site, as well as the Content provided on or through
                 the Site, are governed by the applicable laws of India. Any legal action or proceeding arising from your
                 access to or use of the Site or Content shall be brought in the courts of competent jurisdiction in
                 India. By using the Site, you consent to the jurisdiction and venue of these courts in any legal action
                 or proceeding. </p>
 
             <h6>Contact Information</h6>
-            <p> If you have any inquiries or concerns regarding these Terms of Use, please reach out to Oracle at
+            <p class="text-justify"> If you have any inquiries or concerns regarding these Terms of Use, please reach out to Oracle at
                 info@dealdox.io. For general inquiries or other questions, you can find contact information on the Get
                 in Touch page on the Site. </p>
         </div>
