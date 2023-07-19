@@ -6,7 +6,7 @@
             </div>
 
             <div class="row justify-content-center pt-60">
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
@@ -15,7 +15,7 @@
                         <p>Comprehensive security awareness and training programs for all employees.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
@@ -24,7 +24,7 @@
                         <p>Coding guidelines and procedures to promote secure development practices.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/About-US/predictiona.png" alt="image">
@@ -33,7 +33,7 @@
                         <p>Regular penetration testing helps identify and address vulnerabilities.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
@@ -42,7 +42,7 @@
                         <p>We continuously assess and address security gaps.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/About-US/synca.png" alt="image">
@@ -51,7 +51,7 @@
                         <p>A robust DRP ensures business continuity in unforeseen events.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/About-US/income.png" alt="image">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/About-US/income.png" alt="image">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
                             <img src="../../assets/images/About-US/income.png" alt="image">

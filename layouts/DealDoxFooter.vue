@@ -103,7 +103,7 @@
                                 <router-link to="/contactus">Get in Touch</router-link>
                             </li>
                             <li>
-                                <router-link to="/signuppage">Sign Up</router-link>
+                                <router-link to="/sign-up-free-trial">Sign Up</router-link>
                             </li>
                         </ul>
 
