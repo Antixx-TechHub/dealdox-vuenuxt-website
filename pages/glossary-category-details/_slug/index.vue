@@ -30,7 +30,6 @@ export default {
   },
   mounted() {
     this.fetchCategories();
-    console.log("I am don")
   },
   methods: {
     async fetchCategories() {
