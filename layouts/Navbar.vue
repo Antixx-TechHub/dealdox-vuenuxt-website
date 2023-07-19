@@ -31,7 +31,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/quotations" class="nav-link">Automated Quotations
-                                            </router-link>
+                                        </router-link>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/approvals" class="nav-link">Quick
@@ -40,7 +40,7 @@
                                     <li class="nav-item">
                                         <router-link to="/localizeddealdocuments" class="nav-link">
                                             Localized Deal Documents
-                                            </router-link>
+                                        </router-link>
                                     </li>
                                 </ul>
                             </li>
@@ -80,6 +80,9 @@
                             <li class="nav-item">
                                 <router-link to="/requestdemo" class="nav-link">Request a demo</router-link>
                             </li>
+                            <!-- <div class="others-option">
+                                <router-link to="/sign-in" class="default-btn">Login</router-link>
+                            </div> -->
                         </ul>
                     </div>
 
