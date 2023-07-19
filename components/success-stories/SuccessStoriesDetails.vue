@@ -115,7 +115,6 @@ export default {
         axios.get('https://dealdoxstrapi.pbwebvision.com/api/successcategories')
             .then(response => {
                 this.successcategories = response.data.data;
-                // console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);

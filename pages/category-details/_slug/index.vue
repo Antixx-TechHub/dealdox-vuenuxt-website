@@ -30,15 +30,13 @@ export default {
   },
   mounted() {
     this.fetchCategories();
-    console.log("I am don")
   },
   methods: {
     async fetchCategories() {
       try {
         const { slug } = this.$route.params
         const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/blog-categories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
-        this.category = reaponse.data.data
-        console.log("this.categories....", this.category);
+        this.category = reaponse.data.data;
       } catch (error) {
         console.error(error);
       }

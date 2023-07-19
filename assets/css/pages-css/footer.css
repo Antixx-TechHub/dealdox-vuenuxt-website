@@ -221,16 +221,16 @@
 }
 
 .single-footer-widget .social-links li a {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   background: var(--blackColor);
   border: 1px solid #ced4da;
   color: var(--paragraphColor);
   position: relative;
   border-radius: 50%;
-  line-height: 35px;
+  line-height: 30px;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   z-index: 1;
   text-decoration: none;
 }
