@@ -62,7 +62,7 @@
 
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
-                            <article class="item" v-for="glossary in glossaries" :key="glossary.id">
+                            <article class="item" v-for="glossary in glossaries.slice(0, 3)" :key="glossary.id">
                                 <router-link :to="'/glossary-details/' + glossary.attributes.slug" class="thumb">
                                     <img :src="glossary?.attributes?.image?.data?.attributes?.url" alt="blog">
                                 </router-link>

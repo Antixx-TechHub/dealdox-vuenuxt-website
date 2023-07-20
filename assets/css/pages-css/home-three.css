@@ -66,6 +66,19 @@ Partner Area CSS
   line-height: 120.7%;
 }
 
+.glossary-category {
+  border-radius: 9px 9px 0px 0px;
+  background: var(--gradient, linear-gradient(153deg, #715CF3 0%, #5C99F3 100%));
+  width: 3%;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: auto;
+  font-weight: 500;
+  padding: 8px 0px 5px 0px;
+}
+
 /*================================================
 Overview Area CSS
 =================================================*/
@@ -1753,6 +1766,11 @@ Blog Area CSS
 
 .single-blog-post .content {
   margin-top: 20px;
+}
+
+.single-blog-post .contents {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .single-blog-post .content ul {

@@ -16,16 +16,15 @@
             </div>
             <div class="row justify-content-center" v-if="glossaries !== []">
                 <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
-                    <div class="single-blog-post bg-FAFAFA">
-                        <div class="content">
-                            <h3>
-                                {{ glossary.value }}
-                                <div class="col-lg-3 col-md-6" v-for="glossData in glossary.data" :key="glossData.id">
-                                    <router-link :to="'/glossary-details/' + glossData.attributes.slug">
-                                        {{ glossData.attributes.title }}
-                                    </router-link>
-                                </div>
-                            </h3>
+                    <h3 class="glossary-category ml-5"> {{ glossary.value }} </h3>
+                    <div class="single-blog-post bg-FAFAFA pt-1">
+                        <div class="row contents">
+                            <div class="col-sm-3" v-for="glossData in glossary.data" :key="glossData.id">
+                                <router-link class="text-decoration-underline"
+                                    :to="'/glossary-details/' + glossData.attributes.slug">
+                                    {{ glossData.attributes.title }}
+                                </router-link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,8 +49,9 @@ export default {
         }
     },
     created: async function () {
-        const response1 = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories')
-        this.categories = response1.data.data;
+        const response1 = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories');
+        const sortCat = response1?.data?.data.sort((a, b) => a.id - b.id);
+        this.categories = sortCat;
         const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossaries?populate=*')
         this.glossaries = response.data.data;
         let groupby = {};
@@ -60,7 +60,6 @@ export default {
                 v.attributes.glossary_categories.data.map(e => e.id).includes(x.id)
             )
             groupby = { ...groupby, [x.attributes.name]: r };
-
         })
         const dd = []
         Object.keys(groupby).map(key => {
@@ -68,7 +67,6 @@ export default {
         });
         this.groupby = dd;
         console.log(this.groupby, 'groupby');
-
     },
 }
 </script>

@@ -121,13 +121,13 @@
                         <h3>Get in Touch </h3>
                         <ul class="links-list">
                             <li>
-                                <p> <a href="https://www.google.com/maps/place/SPM+Global+Technologies/@12.9462681,77.5959474,15z/data=!4m6!3m5!1s0x3bae15879e1271c9:0xad95b2477702b703!8m2!3d12.9293575!4d77.5741309!16s%2Fg%2F11qnz929z6?entry=ttu ">Locate us on map </a></p>
+                                <p>Locate us on map</p>
                             </li>
                             <li>
                                 <p>Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a></p>
                             </li>
                             <li>
-                                <p>Call us - <a href="call:+91 9999999999">+91 97393 80513</a></p>
+                                <p>Call us - +91 97393 80513</p>
                             </li>
                         </ul>
                     </div>

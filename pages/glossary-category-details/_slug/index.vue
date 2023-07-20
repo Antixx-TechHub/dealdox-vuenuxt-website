@@ -36,8 +36,7 @@ export default {
       try {
         const { slug } = this.$route.params
         const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/glossary-categories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
-        this.successcategory = reaponse.data.data
-        console.log("this.successcategories....", this.successcategory);
+        this.successcategory = reaponse.data.data;
       } catch (error) {
         console.error(error);
       }
