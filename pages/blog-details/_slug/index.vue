@@ -51,6 +51,5 @@ export default {
             // image: this.post.image || '',
         });
     },
-
 };
 </script>
