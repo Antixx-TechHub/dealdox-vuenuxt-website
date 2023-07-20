@@ -12,7 +12,7 @@
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
                         </div>
                         <h5>Trust</h5>
-                        <p>Trust is the cornerstone of our team. We nurture it through honest communication, transparency, and fulfilling our commitments.</p>
+                        <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining transparency, and consistently fulfilling our commitments to each other.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -57,7 +57,7 @@
                             <img src="../../assets/images/About-US/income.png" alt="image">
                         </div>
                         <h5>Excellence </h5>
-                        <p>Striving for excellence and upholding high standards is paramount in our work, encompassing every facet and extending to all team members. </p>
+                        <p>Excellence is our relentless pursuit. We set and maintain high standards, driving each team member to excel in their role, fostering growth, and achieving exceptional outcomes across all aspects of our work.</p>
                     </div>
                 </div>
             </div>
