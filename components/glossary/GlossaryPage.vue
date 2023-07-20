@@ -48,15 +48,6 @@ export default {
             groupby: {}
         }
     },
-    methods: {
-        sortedAsc() {
-            return this.items.sort((a, b) => {
-                if (a.id < b.id) return -1;
-                if (a.id > b.id) return 1;
-                return 0;
-            });
-        },
-    },
     created: async function () {
         const response1 = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories');
         const sortCat = response1?.data?.data.sort((a, b) => a.id - b.id);
