@@ -127,7 +127,7 @@
                                 <p>Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a></p>
                             </li>
                             <li>
-                                <p>Call us - +91 97393 80513</p>
+                                <p>Call us - +91 9999999999</p>
                             </li>
                         </ul>
                     </div>
