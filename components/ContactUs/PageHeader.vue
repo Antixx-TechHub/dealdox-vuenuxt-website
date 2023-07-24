@@ -89,7 +89,7 @@
                                                         placeholder="Eg: Taylor">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
@@ -134,18 +134,18 @@
                                                     <input type="email" name="email" required class="form-control"
                                                         id="email" placeholder="hello@sarah.com">
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            </div> -->
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
-                                                    <!-- <textarea name="message" id="message" required class="form-control"
+                                                    <textarea name="message" id="message" required class="form-control"
                                                             cols="30" rows="6"
-                                                            placeholder="This just a dummy message! please dont mind"></textarea> -->
+                                                            placeholder="This just a dummy message! please dont mind"></textarea>
                                                     <input type="text" name="name" class="form-control" required id="name"
                                                         placeholder="This just a dummy message">
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            </div> -->
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" type="checkbox" value=""
                                                         id="flexCheckDefault">
@@ -155,11 +155,11 @@
                                                     </label>
                                                 </div>
 
-                                            </div>
-                                            <p>By registering, you confirm that you agree to the storing and processing of
+                                            </div> -->
+                                            <!-- <p>By registering, you confirm that you agree to the storing and processing of
                                                 your personal data by DealDox as described in the<router-link
                                                     to="/privacy-policy">
-                                                    Privacy <Statement class=""></Statement></router-link> </p>
+                                                    Privacy <Statement class=""></Statement></router-link> </p> -->
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
