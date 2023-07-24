@@ -28,7 +28,6 @@ export default {
         return {
             details: null,
             seoData: null,
-
         }
     },
     created: async function () {
