@@ -66,15 +66,9 @@
                         <div class="contact-area pt-70">
                             <div class="container">
                                 <div class="contact-form">
-                                    <iframe
-      width="600"
-      height="800"
-      :src="url"
-      frameborder="0"
-      allowfullscreen
-      referrerpolicy="origin-when-cross-origin"
-    ></iframe>
-      
+                                    <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                                        referrerpolicy="origin-when-cross-origin"></iframe>
+
 
                                     <!-- <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         method="POST">
@@ -193,7 +187,7 @@ export default {
             //     email: '',
             //     message: '',
             // },
-           url:"https://spmglobaltech.my.salesforce-sites.com/ddcontactus"
+            url: "https://spmglobaltech.my.salesforce-sites.com/ddcontactus"
         };
     },
     methods: {
