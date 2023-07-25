@@ -66,9 +66,19 @@
                         <div class="contact-area pt-70">
                             <div class="container">
                                 <div class="contact-form">
+                                    <iframe
+      width="600"
+      height="400"
+      :src="url"
+      frameborder="0"
+      allowfullscreen
+      referrerpolicy="origin-when-cross-origin"
+    ></iframe>
+      
 
-
-                                    <!-- <form id="contactForm">
+                                    <!-- <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                                        method="POST">
+                                        <input name="oid" type="hidden" defaultValue="00D5g00000I1Lrk" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -160,7 +170,6 @@
                                             </div>
                                         </div>
                                     </form> -->
-
                                 </div>
                             </div>
                         </div>
@@ -173,7 +182,40 @@
 
 <script>
 
+import axios from 'axios';
+
 export default {
     name: 'AppDownload',
+    data() {
+        return {
+            // formData: {
+            //     name: '',
+            //     email: '',
+            //     message: '',
+            // },
+           url:"https://spmglobaltech.my.salesforce-sites.com/ddcontactus"
+        };
+    },
+    methods: {
+        // async submitForm() {
+        //     try {
+        //         // Make a POST request to the Strapi API endpoint for contact form submissions
+        //         const response = await axios.post('http://localhost:1338/api/contacts', this.formData);
+
+        //         // Handle the response as needed (e.g., show a success message)
+        //         console.log('Form submitted successfully', response.data);
+
+        //         // Clear the form after submission
+        //         this.formData = {
+        //             name: '',
+        //             email: '',
+        //             message: '',
+        //         };
+        //     } catch (error) {
+        //         // Handle any errors that occur during form submission
+        //         console.error('Error submitting form', error);
+        //     }
+        // },
+    },
 }
 </script>
