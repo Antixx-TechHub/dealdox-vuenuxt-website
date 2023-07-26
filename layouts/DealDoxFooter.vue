@@ -32,19 +32,19 @@
                         <h3>Features</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/quotations">Automated Quotations</router-link>
+                                <router-link to="/quoting-software">Automated Quotations</router-link>
                             </li>
                             <li>
-                                <router-link to="/approvals">Quick Approvals</router-link>
+                                <router-link to="/approval-software">Quick Approvals</router-link>
                             </li>
                             <li>
-                                <router-link to="/cpq">CPQ</router-link>
+                                <router-link to="/services-cpq">CPQ</router-link>
                             </li>
                             <li>
-                                <router-link to="/integration">Integration</router-link>
+                                <router-link to="/cpq-integrations">Integration</router-link>
                             </li>
                             <li>
-                                <router-link to="/localizeddealdocuments">Localized Deal Documents</router-link>
+                                <router-link to="/localized-deal-documents">Localized Deal Documents</router-link>
                             </li>
                         </ul>
                     </div>
@@ -54,24 +54,24 @@
                         <h3>Integrations</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/salesforce">Salesforce
+                                <router-link to="/salesforce-cpq-integration">Salesforce
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/microsoft-dynamics">Microsoft Dynamics
+                                <router-link to="/microsoft-dynamics-365-cpq-integration">Microsoft Dynamics
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/freshworks">Freshworks
+                                <router-link to="/freshworks-cpq-integration">Freshworks
                                 </router-link>
                             </li>
 
                             <li>
-                                <router-link to="/hubspot">HubSpot
+                                <router-link to="/hubspot-cpq-integration">HubSpot
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/sugar-crm">SugarCRM</router-link>
+                                <router-link to="/sugarcrm-cpq-integration">SugarCRM</router-link>
                             </li>
                         </ul>
                     </div>
@@ -97,10 +97,10 @@
                         <h3>Company </h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/team">Our Team</router-link>
+                                <router-link to="/our-team">Our Team</router-link>
                             </li>
                             <li>
-                                <router-link to="/contactus">Get in Touch</router-link>
+                                <router-link to="/contact-us">Get in Touch</router-link>
                             </li>
                             <li>
                                 <router-link to="/sign-up-free-trial">Sign Up</router-link>
@@ -140,12 +140,12 @@
                         </router-link>
                     <div class="col-lg-6 col-sm-6">
                         <p class="text-left"><router-link to="/security">Security</router-link> |
-                            <router-link to="/terms-conditions">Terms of Use</router-link>
+                            <router-link to="/terms-of-use">Terms of Use</router-link>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <p class="text-right"><router-link to="/privacy-policy">Privacy Policy</router-link> |
-                            <router-link to="/cookiepreference">Cookie Preference</router-link>
+                            <router-link to="/cookie-preference">Cookie Preference</router-link>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-6">

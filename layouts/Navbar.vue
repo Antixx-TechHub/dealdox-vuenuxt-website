@@ -24,21 +24,21 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Features</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/cpq" class="nav-link">CPQ</router-link>
+                                        <router-link to="/services-cpq" class="nav-link">CPQ</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/integration" class="nav-link">Integration</router-link>
+                                        <router-link to="/cpq-integrations" class="nav-link">Integration</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/quotations" class="nav-link">Automated Quotations
+                                        <router-link to="/quoting-software" class="nav-link">Automated Quotations
                                         </router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/approvals" class="nav-link">Quick
+                                        <router-link to="/approval-software" class="nav-link">Quick
                                             Approvals</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/localizeddealdocuments" class="nav-link">
+                                        <router-link to="/localized-deal-documents" class="nav-link">
                                             Localized Deal Documents
                                         </router-link>
                                     </li>
@@ -52,10 +52,10 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/team" class="nav-link">Our Team</router-link>
+                                        <router-link to="/our-team" class="nav-link">Our Team</router-link>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/contactus" class="nav-link">Get In Touch</router-link>
+                                        <router-link to="/contact-us" class="nav-link">Get In Touch</router-link>
                                     </li>
                                 </ul>
                             </li>
@@ -78,7 +78,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <router-link to="/requestdemo" class="nav-link">Request a demo</router-link>
+                                <router-link to="/demo" class="nav-link">Request a demo</router-link>
                             </li>
                             <!-- <div class="others-option">
                                 <router-link to="/sign-in" class="default-btn">Login</router-link>
