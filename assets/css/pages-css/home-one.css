@@ -334,6 +334,7 @@ Features Area CSS
 .features-content .features-list li {
   position: relative;
   margin-top: 20px;
+  margin-left: 2px;
   padding-left: 50px;
 }
 
