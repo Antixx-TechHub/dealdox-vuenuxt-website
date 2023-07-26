@@ -35,7 +35,7 @@
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
                                         </div>
-                                        <h4>Adaptaions to meet your needs and so much more</h4>
+                                        <h4>Adaptations to meet your needs and so much more</h4>
                                     </li>
                                     <li>
                                         <div class="features-content-home">
