@@ -37,7 +37,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/MicrosoftDynamic/Utilize the Power.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/MicrosoftDynamic/Utilize the Power of a User-Friendly CPQ Solution.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up"
+                                <img src="../../assets/images/MicrosoftDynamic/Deliver Timely Experiences with Precision.png" data-aos="fade-up"
                                     alt="about">
                             </div>
                         </div>
