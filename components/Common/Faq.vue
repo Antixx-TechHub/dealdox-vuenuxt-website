@@ -118,7 +118,7 @@
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">
-                                        As a non-IT business owner, can my team easily implement and adapt DealDox CPQ?
+                                        As a non-IT business owner, can my team easily implement and Adaptation DealDox CPQ?
                                     </button>
                                 </template>
                                 <template v-slot:accordion-content>
