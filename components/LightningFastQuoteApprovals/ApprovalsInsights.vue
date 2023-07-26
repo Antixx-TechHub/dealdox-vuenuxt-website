@@ -13,7 +13,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Approvals Insights</h3>
-                        <p>Dealdox makes it possible to have a delegation dashboard with all quotes accessible from a
+                        <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a
                             single, simple insight. CPQ instant quote approval process includes examining quote details approval,
                             commenting on the quotation, and advising changes. DealDox automatically synchronizes data with
                             CRM and ERP applications following approval.

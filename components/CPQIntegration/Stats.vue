@@ -10,7 +10,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-6 col-sm-6 col-md-6">
                     <div class="stats-map text-center">
-                        <img src="../../assets/images/cpq-integration/BridgeGapBetween.png" alt="cpq">
+                        <img src="../../assets/images/cpq-integration/BridgeGapBetween.svg" alt="cpq">
+                        <h4>DealDox: The ultimate bridge connecting CRM and ERP systems, enabling efficient<br>collaboration and synchronized data for seamless business operations.</h4>
                     </div>
                 </div>
             </div>
