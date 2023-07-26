@@ -208,8 +208,8 @@
 .single-footer-widget .social-links li {
   display: inline-block;
   text-align: center;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .single-footer-widget .social-links li:last-child {
