@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Simplify Deal Closing with Guided Selling and DealDox.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Quick and Professional Quote Generation with DealDox.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Streamline Sales Processes for Swift Deal Closures.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Empower Your Sales Success with Actionable Data for Optimal Conversions.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up"
+                                <img src="../../assets/images/Hubspot/Simplify CPQ Implementation and Maintenance Efforts.png" data-aos="fade-up"
                                     alt="about">
                             </div>
                         </div>

@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/MicrosoftDynamic/Close Deals Faster with DealDox.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/MicrosoftDynamic/Generate Lightning-fast Professional Quotes.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/MicrosoftDynamic/Utilize the Power.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/MicrosoftDynamic/Close Deals Faster with DealDox.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>

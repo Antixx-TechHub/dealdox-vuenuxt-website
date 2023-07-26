@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/SugarCRM/Accelerate Deal Closures with Guided Selling.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/SugarCRM/Quick and Professional Quote Generation with DealDox.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/SugarCRM/Optimize sales procedures to get rid of bottlenecks.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/SugarCRM/Cut Costs and Simplify Your Sales Stack with DealDox Integration.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up"
+                                <img src="../../assets/images/SugarCRM/Accelerate Revenue Growth with Automated Quoting Software's Expert Services.png" data-aos="fade-up"
                                     alt="about">
                             </div>
                         </div>
