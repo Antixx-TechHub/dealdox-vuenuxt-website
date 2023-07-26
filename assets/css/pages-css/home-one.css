@@ -17,7 +17,7 @@ Main Banner Area CSS
   z-index: -1;
   background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.96%, #FF9F5A 99.95%);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .main-banner-area .shape-overlay {
@@ -59,11 +59,11 @@ Main Banner Area CSS
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .main-banner-content .content {
@@ -126,7 +126,7 @@ Main Banner Area CSS
 .main-banner-image {
   text-align: center;
   -webkit-filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
-          filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+  filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
 }
 
 .banner-shape1 {
@@ -138,7 +138,7 @@ Main Banner Area CSS
 
 .banner-shape1 img {
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .banner-shape2 {
@@ -150,13 +150,13 @@ Main Banner Area CSS
 
 .banner-shape2 img {
   -webkit-animation-name: rotateme;
-          animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  animation-duration: 40s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .banner-shape3 {
@@ -168,7 +168,7 @@ Main Banner Area CSS
 
 .banner-shape3 img {
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .banner-shape4 {
@@ -180,7 +180,7 @@ Main Banner Area CSS
 
 .banner-shape4 img {
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 .banner-shape5 {
@@ -192,7 +192,7 @@ Main Banner Area CSS
 
 .banner-shape5 img {
   -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
 }
 
 /*================================================
@@ -234,7 +234,7 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* .single-features-box .icon.bg2 {
@@ -257,7 +257,7 @@ Features Area CSS
 .single-features-box:hover {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
-          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-box:hover .icon {
@@ -288,7 +288,7 @@ Features Area CSS
   line-height: 1.1;
   /* margin-bottom: 10px; */
   font-weight: 700;
-} 
+}
 
 .features-content h2 {
   font-size: 36px;
@@ -301,7 +301,7 @@ Features Area CSS
 .features-content h4 {
   font-size: 25px;
   color: var(--whiteColor);
-    font-weight: 500;
+  font-weight: 500;
   line-height: 1.2;
   margin-bottom: 15px;
   /* css changed 2 */
@@ -311,7 +311,7 @@ Features Area CSS
 .features-content h5 {
   font-size: 20px;
   color: var(--blackColor);
-    font-weight: 600;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 15px;
   /* css changed 2 */
@@ -334,6 +334,7 @@ Features Area CSS
 .features-content .features-list li {
   position: relative;
   margin-top: 20px;
+  margin-left: 2px;
   padding-left: 50px;
 }
 
@@ -372,7 +373,7 @@ Features Area CSS
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .features-content .features-list li .icon.bg2 {
@@ -428,7 +429,7 @@ Features Area CSS
 
 .features-image {
   -webkit-filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
-          filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+  filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
   padding-left: 15px;
   position: relative;
   z-index: 1;
@@ -463,8 +464,8 @@ Features Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          background: linear-gradient(45.24deg, #ffffff 5.99%, #ffffff 91.87%);
+  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+  background: linear-gradient(45.24deg, #ffffff 5.99%, #ffffff 91.87%);
   /* background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%); */
 }
 
@@ -474,7 +475,7 @@ Features Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .single-features-item .icon.bg2 {
@@ -512,7 +513,7 @@ Features Area CSS
   font-weight: 400;
   line-height: 125%;
 
-color: #393939;
+  color: #393939;
 }
 
 .single-features-items {
@@ -526,17 +527,17 @@ color: #393939;
   z-index: 1;
   border-style: solid;
   border-color: rgba(228, 233, 250, 1);
-  
+
 
 }
 
 /*    */
 
 .single-features-items h6 {
-  
+
   color: rgb(14, 14, 237);
   text-align: center;
-  
+
 
 }
 
@@ -558,14 +559,15 @@ color: #393939;
 
 .single-features-item:hover {
   -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
-          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-item:hover .icon {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
-.single-features-item:hover h3, .single-features-item:hover p {
+.single-features-item:hover h3,
+.single-features-item:hover p {
   color: var(--whiteColor);
 }
 
@@ -617,7 +619,7 @@ Features Home Improve Sales Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* .single-features-box .icon.bg2 {
@@ -640,7 +642,7 @@ Features Home Improve Sales Area CSS
 .single-features-box:hover {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
-          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-box:hover .icon {
@@ -671,7 +673,7 @@ Features Home Improve Sales Area CSS
   line-height: 1.1;
   /* margin-bottom: 10px; */
   font-weight: 700;
-} 
+}
 
 .features-content-improve-sales title-faq {
   line-height: 1.4;
@@ -686,10 +688,12 @@ Features Home Improve Sales Area CSS
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.1;
-  /* margin-bottom: 10px; */
   font-weight: 700;
   text-decoration: underline;
-} 
+  text-underline-offset: 5px;
+  text-decoration-color: #715CF3;
+  text-decoration-thickness: 1.5px;
+}
 
 .features-content-improve-sales h2 {
   font-size: 36px;
@@ -759,7 +763,7 @@ Features Home Improve Sales Area CSS
   right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .features-content-improve-sales .features-list li .icon.bg2 {
@@ -815,7 +819,7 @@ Features Home Improve Sales Area CSS
 
 .features-image-improve-sales {
   -webkit-filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
-          filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
+  filter: drop-shadow(25px 50px 70px rgba(42, 50, 61, 0.15));
   padding-left: 15px;
   position: relative;
   z-index: 1;
@@ -848,8 +852,8 @@ Features Home Improve Sales Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          background: linear-gradient(45.24deg, #ffffff 5.99%, #ffffff 91.87%);
+  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+  background: linear-gradient(45.24deg, #ffffff 5.99%, #ffffff 91.87%);
   /* background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%); */
 }
 
@@ -859,7 +863,7 @@ Features Home Improve Sales Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .single-features-item-improve-sales .icon.bg2 {
@@ -896,7 +900,7 @@ Features Home Improve Sales Area CSS
   font-weight: 500;
   line-height: 125%;
 
-color: #393939;
+  color: #393939;
 }
 
 .single-features-item::before {
@@ -917,14 +921,15 @@ color: #393939;
 
 .single-features-item:hover {
   -webkit-box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
-          box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 
 .single-features-item:hover .icon {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
-.single-features-item:hover h3, .single-features-item:hover p {
+.single-features-item:hover h3,
+.single-features-item:hover p {
   color: var(--whiteColor);
 }
 
@@ -980,15 +985,16 @@ Video Area CSS
   top: 50%;
   z-index: 1;
   -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   -webkit-box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-          box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
+  box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
 }
 
-.video-box .video-btn::after, .video-box .video-btn::before {
+.video-box .video-btn::after,
+.video-box .video-btn::before {
   content: '';
   display: block;
   position: absolute;
@@ -1003,12 +1009,12 @@ Video Area CSS
 
 .video-box .video-btn::before {
   -webkit-animation: ripple 2s linear infinite;
-          animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
 }
 
 .video-box .video-btn::after {
   -webkit-animation: ripple 2s linear 1s infinite;
-          animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
 }
 
 .video-box:hover::before {
@@ -1070,7 +1076,7 @@ App Download Area CSS
   border-radius: 40px;
   background: linear-gradient(99.01deg, #715CF3 100%, #5C99F3 100%);
   z-index: -1;
-  border: 30px solid #FAFAFA ;
+  border: 30px solid #FAFAFA;
   margin: 0px 50px 0px 50px
 }
 
@@ -1111,7 +1117,7 @@ App Download Area CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -1132,7 +1138,7 @@ App Download Area CSS
 
 .app-download-content .btn-box .playstore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -1141,7 +1147,7 @@ App Download Area CSS
 .app-download-content .btn-box .playstore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1156,7 +1162,7 @@ App Download Area CSS
   color: var(--paragraphColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
-          box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+  box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
   font-size: 14px;
   font-weight: 500;
   padding-top: 12px;
@@ -1177,7 +1183,7 @@ App Download Area CSS
 
 .app-download-content .btn-box .applestore-btn img {
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   left: 20px;
   top: 50%;
@@ -1186,7 +1192,7 @@ App Download Area CSS
 .app-download-content .btn-box .applestore-btn:hover {
   background-color: var(--blackColor);
   -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
   color: var(--whiteColor);
 }
 
@@ -1234,7 +1240,8 @@ Screenshots Area CSS
   margin-right: 10px;
 }
 
-.screenshots-slides .carousel .carousel__prev, .screenshots-slides .carousel .carousel__next {
+.screenshots-slides .carousel .carousel__prev,
+.screenshots-slides .carousel .carousel__next {
   position: absolute;
   top: -40px;
   left: 10px;
@@ -1253,7 +1260,8 @@ Screenshots Area CSS
   visibility: hidden;
 }
 
-.screenshots-slides .carousel .carousel__prev::before, .screenshots-slides .carousel .carousel__next::before {
+.screenshots-slides .carousel .carousel__prev::before,
+.screenshots-slides .carousel .carousel__next::before {
   content: '';
   position: absolute;
   left: 0;
@@ -1269,24 +1277,28 @@ Screenshots Area CSS
   visibility: hidden;
 }
 
-.screenshots-slides .carousel .carousel__prev.carousel__next, .screenshots-slides .carousel .carousel__next.carousel__next {
+.screenshots-slides .carousel .carousel__prev.carousel__next,
+.screenshots-slides .carousel .carousel__next.carousel__next {
   left: auto;
   right: 10px;
 }
 
-.screenshots-slides .carousel .carousel__prev:hover, .screenshots-slides .carousel .carousel__next:hover {
+.screenshots-slides .carousel .carousel__prev:hover,
+.screenshots-slides .carousel .carousel__next:hover {
   background-color: #f9f9f9;
   color: var(--whiteColor);
   border-radius: 50%;
 }
 
-.screenshots-slides .carousel .carousel__prev:hover::before, .screenshots-slides .carousel .carousel__next:hover::before {
+.screenshots-slides .carousel .carousel__prev:hover::before,
+.screenshots-slides .carousel .carousel__next:hover::before {
   opacity: 1;
   border-radius: 50%;
   visibility: visible;
 }
 
-.screenshots-slides .carousel:hover .carousel__prev, .screenshots-slides .carousel:hover .carousel__next {
+.screenshots-slides .carousel:hover .carousel__prev,
+.screenshots-slides .carousel:hover .carousel__next {
   opacity: 1;
   visibility: visible;
 }
@@ -1350,7 +1362,7 @@ Software Integrations Area CSS
   transition: var(--transition);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-          box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+  box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
 }
 
 .software-integrations-list ul li img {
@@ -1359,7 +1371,7 @@ Software Integrations Area CSS
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
 }
@@ -1405,19 +1417,19 @@ Software Integrations Area CSS
   width: 140px;
   height: 140px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin-left: auto;
   margin-right: auto;
 }
 
 .software-integrations-list ul:hover li {
   -webkit-filter: blur(4px);
-          filter: blur(4px);
+  filter: blur(4px);
 }
 
 .software-integrations-list ul:hover li:hover {
   -webkit-filter: blur(0);
-          filter: blur(0);
+  filter: blur(0);
 }
 
 /*================================================
@@ -1443,7 +1455,7 @@ Pricing Area CSS
   z-index: -1;
   position: absolute;
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
   background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
@@ -1477,7 +1489,7 @@ Pricing Area CSS
   list-style-type: none;
   display: inline-block;
   -ms-flex-wrap: unset;
-      flex-wrap: unset;
+  flex-wrap: unset;
   padding: 5px;
   border-radius: 30px;
   background-color: var(--whiteColor);
@@ -1516,11 +1528,13 @@ Pricing Area CSS
   background: var(--gradientColor);
 }
 
-.pricing-tabs .nav-tabs .nav-link:hover, .pricing-tabs .nav-tabs .nav-link.active {
+.pricing-tabs .nav-tabs .nav-link:hover,
+.pricing-tabs .nav-tabs .nav-link.active {
   color: var(--whiteColor);
 }
 
-.pricing-tabs .nav-tabs .nav-link:hover::before, .pricing-tabs .nav-tabs .nav-link.active::before {
+.pricing-tabs .nav-tabs .nav-link:hover::before,
+.pricing-tabs .nav-tabs .nav-link.active::before {
   opacity: 1;
   visibility: visible;
 }
@@ -1532,7 +1546,7 @@ Pricing Area CSS
 .pricing-tabs .tabs .tabs__header {
   padding-left: 0;
   -ms-flex-wrap: unset;
-      flex-wrap: unset;
+  flex-wrap: unset;
   padding: 5px;
   border-radius: 30px;
   background-color: var(--whiteColor);
@@ -1574,11 +1588,13 @@ Pricing Area CSS
   background: var(--gradientColor);
 }
 
-.pricing-tabs .tabs .tabs__header .tabs__header-item:hover, .pricing-tabs .tabs .tabs__header .tabs__header-item.active {
+.pricing-tabs .tabs .tabs__header .tabs__header-item:hover,
+.pricing-tabs .tabs .tabs__header .tabs__header-item.active {
   color: var(--whiteColor);
 }
 
-.pricing-tabs .tabs .tabs__header .tabs__header-item:hover::before, .pricing-tabs .tabs .tabs__header .tabs__header-item.active::before {
+.pricing-tabs .tabs .tabs__header .tabs__header-item:hover::before,
+.pricing-tabs .tabs .tabs__header .tabs__header-item.active::before {
   opacity: 1;
   visibility: visible;
 }
@@ -1597,8 +1613,8 @@ Pricing Area CSS
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -1781,13 +1797,13 @@ Feedback Area CSS
 .single-feedback-box:hover {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
-          box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
+  box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
 }
 
 .carousel__track.carousel__slide.carousel__slide--active .single-feedback-box {
   background-color: var(--whiteColor);
   -webkit-box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
-          box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
+  box-shadow: 5px 15px 20px rgba(38, 42, 55, 0.05);
 }
 
 .feedback-slides .single-feedback-box {
@@ -1838,16 +1854,18 @@ Feedback Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
   background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
 }
 
-.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before, .feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
+.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::before,
+.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after, .feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
+.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover::after,
+.feedback-slides .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active::after {
   opacity: 1;
   visibility: visible;
 }
@@ -1876,7 +1894,7 @@ Free Trial Area CSS
   background: linear-gradient(#715CF3 100%, #5C99F3 100%);
   /* background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%); */
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .free-trial-content .sub-title {
@@ -1982,18 +2000,20 @@ Free Trial Area CSS
   .main-banner-area {
     padding-top: 140px;
   }
+
   .main-banner-content {
     height: auto;
     display: block;
     text-align: center;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
-        -ms-flex-direction: unset;
-            flex-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
     -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
   }
+
   .free-trial-content::before {
     content: '';
     position: absolute;
@@ -2008,22 +2028,27 @@ Free Trial Area CSS
     /* background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%); */
     background: linear-gradient(90.01deg, rgb(189, 208, 241), rgb(116, 160, 235) 20.98% 94.62%);
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-            transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
   }
+
   .main-banner-content .content {
     max-width: 100%;
     top: 0;
   }
+
   .main-banner-content .sub-title {
     margin-bottom: 15px;
     padding: 5px 15px;
   }
+
   .main-banner-content h1 {
     font-size: 24px;
   }
+
   .main-banner-content .default-btn {
     margin-top: 10px;
   }
+
   .main-banner-content .trusted-by {
     top: 0;
     padding: 15px;
@@ -2031,17 +2056,23 @@ Free Trial Area CSS
     border-radius: 3px;
     background-color: var(--whiteColor);
   }
+
   .main-banner-content .trusted-by .title {
     margin-bottom: 15px;
   }
+
   .main-banner-image {
     margin-top: 35px;
     -webkit-filter: unset;
-            filter: unset;
+    filter: unset;
   }
-  .banner-shape2, .banner-shape4, .banner-shape3 {
+
+  .banner-shape2,
+  .banner-shape4,
+  .banner-shape3 {
     display: none;
   }
+
   .banner-shape5 {
     text-align: center;
     right: 0;
@@ -2049,32 +2080,39 @@ Free Trial Area CSS
     margin-left: auto;
     margin-right: auto;
   }
+
   .video-box {
     max-width: 100%;
   }
+
   .video-box .video-btn {
     width: 70px;
     height: 70px;
     font-size: 45px;
     line-height: 70px;
   }
+
   .single-features-box {
     padding: 20px 15px;
   }
+
   .single-features-box .icon {
     width: 75px;
     height: 75px;
     font-size: 35px;
     margin-bottom: 20px;
   }
+
   .single-features-box h3 {
     font-size: 16px;
   }
+
   .features-content {
     text-align: center;
     padding-right: 0;
     margin: 20px 10px 60px 10px;
   }
+
   .features-content h2 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -2082,6 +2120,7 @@ Free Trial Area CSS
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .features-content-home p {
     font-size: 15px !important;
     color: var(--whiteColor);
@@ -2089,7 +2128,8 @@ Free Trial Area CSS
     line-height: 1.2;
     text-align: left;
     margin-left: 5px;
-}
+  }
+
   .features-content .sub-title {
     font-size: 20px;
     display: inline-block;
@@ -2099,29 +2139,35 @@ Free Trial Area CSS
     line-height: 1.1;
     /* margin-bottom: 10px; */
     font-weight: 700;
-}
+  }
+
   .features-content .features-list {
     margin-top: 25px;
   }
+
   .features-content .features-list li {
     margin-bottom: 0px;
     padding-left: 35px;
     padding-bottom: 15px;
   }
+
   .features-content .features-list li h3 {
     font-size: 15px;
   }
+
   .features-content p {
     font-size: 15px;
     text-align: left;
     padding-left: 5px;
     margin-bottom: 25px !important;
   }
+
   .features-content-easy {
     font-size: 15px;
     text-align: left;
     padding-left: 50px;
   }
+
   .features-content .features-list li .icon {
     width: 25px;
     height: 25px;
@@ -2131,61 +2177,75 @@ Free Trial Area CSS
     margin-right: auto;
     margin-bottom: 16px;
   }
+
   .features-content .btn-box {
     margin-top: 0px;
     position: absolute;
   }
+
   .features-image {
     padding-left: 0;
     margin-top: 35px;
   }
+
   .single-features-item {
     padding: 50px 0px 50px 30px;
     margin-bottom: 55px;
   }
+
   .single-features-item .icon {
     margin: 4px 0px 0px -50px;
     width: 65px;
     height: 65px;
     font-size: 20px;
   }
+
   .single-features-item h3 {
     font-size: 16px;
   }
+
   .view-more-box {
     margin-top: 10px;
   }
+
   .app-progress-image {
     padding-right: 0;
     margin-bottom: 35px;
   }
+
   .app-progress-content {
     padding-left: 0;
     text-align: center;
   }
+
   .app-progress-content .sub-title {
     font-size: 12px;
   }
+
   .app-progress-content h2 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .app-progress-content .default-btn {
     margin-top: 5px;
   }
+
   .app-download-inner {
     padding-top: 0px;
     padding-bottom: 70px;
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .features-content-improve-sales h6 {
     font-size: 12px;
     font-weight: 500;
     line-height: 1.4;
     text-align: left;
     padding-bottom: 10px;
-}
+  }
+
   .features-content-improve-sales .sub-title-faq {
     font-size: 13px;
     display: inline-block;
@@ -2194,47 +2254,53 @@ Free Trial Area CSS
     -webkit-text-fill-color: transparent;
     line-height: 1.1;
     font-weight: 700;
-}
+  }
+
   .app-download-images {
     text-align: center;
     padding: 20px 20px 20px 20px;
-}
-.features-content h4 {
-  font-size: 16px;
-  color: var(--whiteColor);
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  text-align: left;
-  margin-left: 20px;
-}
-.features-content p {
-  font-size: 15px !important;
-  color: var(--blackColor);
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
-  /* margin-left: 5px; */
-}
-.features-content .features-list li .icon-home {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: linear-gradient(99.01deg, #ffffff 20.98%, #ffffff 94.62%);
-  position: absolute;
-  text-align: center;
-  color: #715CF3;
-  font-size: 22px;
-  font-weight: 700;
-  left: 10px;
-  top: 0;
-}
+  }
+
+  .features-content h4 {
+    font-size: 16px;
+    color: var(--whiteColor);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .features-content p {
+    font-size: 15px !important;
+    color: var(--blackColor);
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    /* margin-left: 5px; */
+  }
+
+  .features-content .features-list li .icon-home {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(99.01deg, #ffffff 20.98%, #ffffff 94.62%);
+    position: absolute;
+    text-align: center;
+    color: #715CF3;
+    font-size: 22px;
+    font-weight: 700;
+    left: 10px;
+    top: 0;
+  }
+
   .app-download-inner::before {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
+
   .app-download-inner::before {
     content: "";
     position: absolute;
@@ -2247,22 +2313,27 @@ Free Trial Area CSS
     z-index: -1;
     border: 10px solid #FAFAFA;
     margin: 0px 0px 0px 0px;
-}
+  }
+
   .app-download-content {
     text-align: center;
     padding-right: 0;
     top: 0;
   }
+
   .app-download-content .sub-title {
     font-size: 12px;
   }
+
   .app-download-content h2 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .app-download-content .btn-box {
     margin-top: 5px;
   }
+
   .app-download-content .btn-box .playstore-btn {
     text-align: start;
     font-size: 12px;
@@ -2273,13 +2344,16 @@ Free Trial Area CSS
     padding-top: 11px;
     padding-bottom: 11px;
   }
+
   .app-download-content .btn-box .playstore-btn span {
     font-size: 13px;
   }
+
   .app-download-content .btn-box .playstore-btn img {
     left: 10px;
     width: 25px;
   }
+
   .app-download-content .btn-box .applestore-btn {
     text-align: start;
     font-size: 12px;
@@ -2290,24 +2364,29 @@ Free Trial Area CSS
     padding-top: 11px;
     padding-bottom: 11px;
   }
+
   .app-download-content .btn-box .applestore-btn span {
     font-size: 13px;
   }
+
   .app-download-content .btn-box .applestore-btn img {
     left: 10px;
     width: 25px;
   }
+
   .app-download-image {
     padding-left: 0;
     margin-top: 35px;
     -webkit-transform: unset !important;
-            transform: unset !important;
+    transform: unset !important;
   }
+
   .screenshots-slides.owl-theme .owl-nav {
     opacity: 1;
     margin-top: 25px;
     visibility: visible;
   }
+
   .screenshots-slides.owl-theme .owl-nav [class*=owl-] {
     top: 0;
     width: 40px;
@@ -2317,36 +2396,45 @@ Free Trial Area CSS
     margin-left: 5px;
     margin-right: 5px;
   }
+
   .screenshots-slides.owl-theme .owl-nav [class*=owl-].owl-next {
     left: 0;
   }
+
   .software-integrations-content {
     padding-right: 0;
     text-align: center;
   }
+
   .software-integrations-content .sub-title {
     font-size: 12px;
   }
+
   .software-integrations-content h2 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .software-integrations-content .default-btn {
     margin-top: 5px;
   }
+
   .software-integrations-list {
     text-align: center;
     margin-left: 0;
     margin-top: 25px;
   }
+
   .software-integrations-list img {
     display: none;
   }
+
   .software-integrations-list ul {
     position: relative;
     width: auto;
     height: auto;
   }
+
   .software-integrations-list ul li {
     position: relative;
     display: inline-block;
@@ -2355,135 +2443,167 @@ Free Trial Area CSS
     left: 0 !important;
     top: 0 !important;
     -webkit-transform: unset !important;
-            transform: unset !important;
+    transform: unset !important;
     width: 80px !important;
     height: 80px !important;
     margin-top: 15px;
     margin-left: 8px;
     margin-right: 8px;
   }
+
   .software-integrations-list ul li img {
     display: inline-block;
     width: 40px;
   }
+
   .pricing-section-title {
     top: 0;
     padding-right: 0;
     text-align: center;
     margin-bottom: 40px;
   }
+
   .pricing-section-title .sub-title {
     font-size: 12px;
   }
+
   .pricing-section-title h2 {
     font-size: 20px;
     margin-bottom: 12px;
   }
+
   .pricing-tabs .nav-tabs .nav-link {
     padding: 10px 25px;
     font-size: 13px;
   }
+
   .single-pricing-table {
     padding: 20px;
   }
+
   .single-pricing-table .title {
     margin-bottom: 20px;
   }
+
   .single-pricing-table .title h3 {
     font-size: 16px;
   }
+
   .single-pricing-table .popular {
     top: 22px;
     right: 15px;
     font-size: 12px;
   }
+
   .single-pricing-table .popular span {
     margin-left: -4px;
     font-size: 13px;
   }
+
   .single-pricing-table .price {
     margin-bottom: 25px;
     font-size: 30px;
   }
+
   .single-pricing-table .price span {
     margin-left: -5px;
     font-size: 13px;
   }
+
   .single-pricing-table .features-list {
     margin-top: 30px;
   }
+
   .single-pricing-table .features-list li {
     font-size: 13px;
     padding-left: 23px;
   }
+
   .single-pricing-table .features-list li i {
     font-size: 19px;
   }
+
   .see-more-pricing {
     margin-top: 5px;
   }
+
   .single-feedback-box {
     padding: 20px 15px;
     text-align: center;
   }
+
   .single-feedback-box .client-info {
     margin-bottom: 15px;
   }
+
   .single-feedback-box .client-info .d-flex {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .single-feedback-box .client-info .title {
     text-align: start;
     margin-left: 12px;
   }
+
   .single-feedback-box .client-info .title h3 {
     font-size: 15px;
   }
+
   .single-feedback-box .client-info .title span {
     font-size: 13px;
   }
+
   .single-feedback-box p {
     font-size: 13px;
   }
+
   .single-feedback-box .rating {
     margin-top: 18px;
     display: block !important;
   }
+
   .single-feedback-box .rating h5 {
     font-size: 14px;
     margin-bottom: 15px;
   }
+
   .owl-item.active.center .single-feedback-box {
     background: #F4F8FC;
     -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
   }
+
   .free-trial-content {
     padding-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 60px;
   }
+
   .free-trial-content .sub-title {
     font-size: 12px;
   }
+
   .free-trial-content h2 {
     font-size: 20px;
     max-width: 100%;
     margin-bottom: 12px;
   }
+
   .free-trial-content form {
     max-width: 100%;
     margin-top: 30px;
   }
+
   .free-trial-content form .input-newsletter {
     height: 40px;
     padding-left: 15px;
     font-size: 10px;
     border-radius: 20px;
   }
+
   .free-trial-content form .default-btn {
     position: absolute;
     margin-top: 0px;
@@ -2502,25 +2622,28 @@ Free Trial Area CSS
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
   }
+
   .features-content .features-list li {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     width: 50%;
     padding-left: 100px;
     padding-right: 10px;
   }
+
   .single-features-item {
     padding-left: 15px;
     text-align: center;
   }
+
   .single-features-item .icon {
     top: 0;
     left: 0;
@@ -2529,6 +2652,7 @@ Free Trial Area CSS
     margin-right: auto;
     margin-bottom: 15px;
   }
+
   .free-trial-content form .default-btn {
     position: absolute;
     margin-top: 0;
@@ -2536,11 +2660,12 @@ Free Trial Area CSS
     right: 2.5px;
     top: 2.5px;
   }
+
   .app-download-images {
     text-align: center;
     /* padding: 35px 20px 75px 150px; */
     /* margin-bottom: 100px; */
-}
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -2548,29 +2673,34 @@ Free Trial Area CSS
   .main-banner-area {
     padding-top: 155px;
   }
+
   .main-banner-content {
     height: auto;
     display: block;
     text-align: center;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
-        -ms-flex-direction: unset;
-            flex-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .main-banner-content .content {
     top: 0;
     max-width: 100%;
   }
+
   .main-banner-content h1 {
     font-size: 32px;
   }
+
   .main-banner-content .sub-title {
     font-size: 13px;
     padding: 6px 20px;
   }
+
   .main-banner-content .trusted-by {
     top: 0;
     background-color: var(--whiteColor);
@@ -2578,15 +2708,21 @@ Free Trial Area CSS
     border-radius: 5px;
     padding: 20px;
   }
+
   .main-banner-content .trusted-by .title {
     margin-bottom: 20px;
   }
+
   .main-banner-image {
     margin-top: 35px;
   }
-  .banner-shape2, .banner-shape4, .banner-shape3 {
+
+  .banner-shape2,
+  .banner-shape4,
+  .banner-shape3 {
     display: none;
   }
+
   .banner-shape5 {
     left: 0;
     right: 0;
@@ -2594,216 +2730,273 @@ Free Trial Area CSS
     margin-left: auto;
     margin-right: auto;
   }
+
   .video-box {
     max-width: 100%;
   }
+
   .video-box .video-btn {
     width: 90px;
     height: 90px;
     font-size: 60px;
     line-height: 90px;
   }
+
   .single-features-box h3 {
     font-size: 18px;
   }
+
   .features-content {
     padding-right: 0;
     text-align: center;
   }
+
   .features-content h2 {
     font-size: 28px;
     margin-bottom: 12px;
   }
+
   .features-content .features-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-left: -15px;
     margin-right: -15px;
   }
+
   .features-content .features-list li {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     width: 50%;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .features-content .features-list li h3 {
     margin-bottom: 12px;
   }
+
   .features-content .features-list li .icon {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 17px;
   }
+
   .features-content .btn-box {
     margin-top: 25px;
   }
+
   .features-image {
     padding-left: 0;
     margin-top: 40px;
   }
+
   .single-features-item {
     padding: 25px 20px 25px 100px;
   }
+
   .single-features-item h3 {
     font-size: 18px;
   }
+
   .single-features-item .icon {
     top: 25px;
     left: 20px;
   }
+
   .app-progress-image {
     padding-right: 0;
     margin-bottom: 40px;
   }
+
   .app-progress-content {
     padding-left: 0;
     text-align: center;
   }
+
   .app-progress-content .sub-title {
     font-size: 13px;
   }
+
   .app-progress-content h2 {
     font-size: 30px;
   }
+
   .app-download-inner {
     padding-top: 80px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 80px;
   }
+
   .app-download-inner::before {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
+
   .app-download-content {
     top: 0;
     padding-right: 0;
     text-align: center;
   }
+
   .app-download-content .sub-title {
     font-size: 13px;
   }
+
   .app-download-content h2 {
     font-size: 30px;
   }
-  .app-download-content .btn-box .playstore-btn, .app-download-content .btn-box .applestore-btn {
+
+  .app-download-content .btn-box .playstore-btn,
+  .app-download-content .btn-box .applestore-btn {
     text-align: start;
   }
-  .app-download-content .btn-box .playstore-btn span, .app-download-content .btn-box .applestore-btn span {
+
+  .app-download-content .btn-box .playstore-btn span,
+  .app-download-content .btn-box .applestore-btn span {
     font-size: 15px;
   }
+
   .app-download-image {
     padding-left: 0;
     margin-top: 30px;
     -webkit-transform: unset !important;
-            transform: unset !important;
+    transform: unset !important;
   }
+
   .screenshots-slides.owl-theme .owl-nav {
     opacity: 1;
     margin-top: 30px;
     visibility: visible;
   }
+
   .screenshots-slides.owl-theme .owl-nav [class*=owl-] {
     position: relative;
     top: 0;
     margin-left: 5px;
     margin-right: 5px;
   }
+
   .screenshots-slides.owl-theme .owl-nav [class*=owl-].owl-next {
     left: 0;
   }
+
   .software-integrations-content {
     padding-right: 0;
     text-align: center;
   }
+
   .software-integrations-content .sub-title {
     font-size: 13px;
   }
+
   .software-integrations-content h2 {
     font-size: 30px;
   }
+
   .software-integrations-list {
     margin-left: 0;
     margin-top: 30px;
   }
+
   .pricing-section-title {
     top: 0;
     padding-right: 0;
     text-align: center;
     margin-bottom: 50px;
   }
+
   .pricing-section-title .sub-title {
     font-size: 13px;
   }
+
   .pricing-section-title h2 {
     font-size: 30px;
   }
+
   .pricing-tabs .nav-tabs .nav-link {
     font-size: 13px;
   }
+
   .single-pricing-table {
     padding: 30px;
   }
+
   .single-pricing-table .title {
     margin-bottom: 20px;
   }
+
   .single-pricing-table .title h3 {
     font-size: 18px;
   }
+
   .single-pricing-table .price {
     margin-bottom: 25px;
     font-size: 35px;
   }
+
   .single-pricing-table .price span {
     margin-left: -5px;
   }
+
   .single-pricing-table .features-list li {
     font-size: 14px;
   }
+
   .single-pricing-table .features-list li i {
     font-size: 20px;
   }
+
   .single-feedback-box {
     padding: 25px;
   }
+
   .single-feedback-box .client-info .title h3 {
     font-size: 16px;
   }
+
   .single-feedback-box .client-info .title span {
     font-size: 13px;
   }
+
   .single-feedback-box p {
     font-size: 14px;
   }
+
   .single-feedback-box .rating {
     margin-top: 20px;
   }
+
   .single-feedback-box .rating h5 {
     font-size: 13px;
   }
+
   .free-trial-content {
     padding: 80px 50px;
   }
+
   .free-trial-content .sub-title {
     font-size: 13px;
   }
+
   .free-trial-content h2 {
     font-size: 30px;
     max-width: 100%;
   }
+
   .free-trial-content form {
     max-width: 100%;
   }
+
   .footer-area {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -2815,109 +3008,143 @@ Free Trial Area CSS
   .main-banner-area {
     padding-top: 170px;
   }
+
   .main-banner-area .content {
     top: 40px;
   }
+
   .main-banner-area .shape-overlay::before {
     bottom: 150px;
   }
+
   .main-banner-area .shape-overlay::after {
     height: 152px;
   }
+
   .main-banner-content h1 {
     font-size: 45px;
   }
+
   .main-banner-content .trusted-by {
     top: -40px;
   }
+
   .main-banner-content .trusted-by .title {
     letter-spacing: 0;
   }
-  .banner-shape3, .banner-shape4 {
+
+  .banner-shape3,
+  .banner-shape4 {
     display: none;
   }
+
   .video-box {
     max-width: 840px;
   }
+
   .features-content {
     padding-right: 0;
   }
+
   .features-image {
     padding-left: 0;
   }
+
   .app-progress-content {
     padding-left: 0;
   }
+
   .app-progress-image {
     padding-right: 0;
   }
+
   .app-download-inner {
     padding: 50px 30px;
   }
+
   .app-download-inner::before {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
+
   .app-download-content {
     padding-right: 0;
   }
+
   .app-download-image {
     padding-left: 0;
   }
+
   .software-integrations-content {
     padding-right: 0;
   }
+
   .software-integrations-content h2 {
     font-size: 32px;
   }
+
   .software-integrations-list {
     margin-left: 0;
   }
+
   .software-integrations-list ul li:nth-child(1) {
     top: 30px;
     left: 75px;
   }
+
   .software-integrations-list ul li:nth-child(6) {
     width: 110px;
     height: 110px;
   }
+
   .software-integrations-list ul li:nth-child(6) img {
     width: 55px;
   }
+
   .software-integrations-list ul li:nth-child(4) {
     right: 30px;
     width: 100px;
     height: 100px;
   }
+
   .software-integrations-list ul li:nth-child(4) img {
     width: 55px;
   }
+
   .pricing-section-title {
     padding-right: 0;
   }
+
   .pricing-section-title h2 {
     font-size: 34px;
   }
+
   .single-pricing-table {
     padding: 35px;
   }
+
   .single-pricing-table .features-list li {
     padding-left: 25px;
     font-size: 14px;
   }
+
   .single-pricing-table .features-list li i {
     font-size: 20px;
   }
+
   .single-feedback-box {
     padding: 25px;
   }
+
   .single-feedback-box .client-info .title h3 {
     font-size: 17px;
   }
+
   .single-feedback-box p {
     font-size: 15px;
   }
+
   .single-feedback-box .rating h5 {
     font-size: 13px;
   }
@@ -2928,6 +3155,7 @@ Free Trial Area CSS
   .video-box {
     max-width: 1000px;
   }
+
   .app-download-inner {
     padding-left: 60px;
   }
@@ -2939,12 +3167,15 @@ Free Trial Area CSS
     bottom: 33%;
     left: 55%;
   }
+
   .banner-shape4 {
     bottom: 50%;
     right: 14%;
   }
+
   .banner-shape5 {
     right: 15%;
   }
 }
+
 /*# sourceMappingURL=home-one.css.map */
