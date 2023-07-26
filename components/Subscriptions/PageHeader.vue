@@ -10,7 +10,7 @@
                                 <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p> -->
                                 <h4> Start Your Free Onboarding Now! </h4>
                                 <p>No credit card or software installation is required. </p>
-                                <h6> With Advanced Quoting Solution, Beyond Invoicing you benefit from:</h6>
+                                <h6> With Advanced Quoting Solution, Beyond Invoicing you can benefit from:</h6>
 
                                 <div class="features-content">
                                     <ul class="features-list">
