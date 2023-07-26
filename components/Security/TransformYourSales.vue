@@ -9,7 +9,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
+                            <img src="../../assets/images/security/SecurityAwarenessandTraining.png" alt="image">
                         </div>
                         <h5>Security Awareness and Training</h5>
                         <p>Comprehensive security awareness and training programs for all employees.</p>
@@ -18,7 +18,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
+                            <img src="../../assets/images/security/SourceCodeReview.png" alt="image">
                         </div>
                         <h5>Secure Coding Guidelines</h5>
                         <p>Coding guidelines and procedures to promote secure development practices.</p>
@@ -27,7 +27,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/predictiona.png" alt="image">
+                            <img src="../../assets/images/security/PenetrationTesting.png" alt="image">
                         </div>
                         <h5>Penetration Testing</h5>
                         <p>Regular penetration testing helps identify and address vulnerabilities.</p>
@@ -36,7 +36,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
+                            <img src="../../assets/images/security/OngoingVulnerabilityAssessments.png" alt="image">
                         </div>
                         <h5>Ongoing Vulnerability Assessments</h5>
                         <p>We continuously assess and address security gaps.</p>
@@ -45,7 +45,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/synca.png" alt="image">
+                            <img src="../../assets/images/security/DisasterRecover(DRP).png" alt="image">
                         </div>
                         <h5>Disaster Recovery Plan (DRP)</h5>
                         <p>A robust DRP ensures business continuity in unforeseen events.</p>
@@ -54,7 +54,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/income.png" alt="image">
+                            <img src="../../assets/images/security/GlobalInformationSecurityPolicy(GISP).png" alt="image">
                         </div>
                         <h5>Global Information Security Policy (GISP)</h5>
                         <p>We adhere to a comprehensive security policy. </p>
@@ -64,7 +64,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/income.png" alt="image">
+                            <img src="../../assets/images/security/SourceCodeReview.png" alt="image">
                         </div>
                         <h5>Source Code Reviews</h5>
                         <p>Thorough reviews help identify and address code vulnerabilities</p>
@@ -74,7 +74,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/income.png" alt="image">
+                            <img src="../../assets/images/security/RegulatoryCompliance.png" alt="image">
                         </div>
                         <h5>Regulatory Compliance</h5>
                         <p>We conduct regular reviews to ensure compliance with regulations.</p>
