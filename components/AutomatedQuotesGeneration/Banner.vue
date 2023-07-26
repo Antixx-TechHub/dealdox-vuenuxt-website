@@ -6,8 +6,10 @@
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Quote Smarter, Sell Faster with <span class="sub-title">Quote Automation Software</span></h1>
                         <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p>
-                         <p> </p> 
-                         <p></p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

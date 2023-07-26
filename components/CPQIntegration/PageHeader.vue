@@ -6,6 +6,10 @@
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Simple <span class="sub-title">CPQ integration</span> for businesses</h1>
                         <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience </p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div> 
                 <div class="col-lg-6 col-md-12">

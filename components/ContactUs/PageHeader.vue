@@ -26,7 +26,7 @@
                                                 <i class="ri-check-line"></i>
                                             </div>
                                             <h6 class="with-top-border-subscription">Generate Accurate and Comprehensive
-                                                Quotes in Record Time at 10x speed</h6>
+                                                Quotes in Record Time at 10x speed.</h6>
                                         </li>
 
                                         <li>
@@ -43,7 +43,7 @@
                                                 <i class="ri-check-line"></i>
                                             </div>
                                             <h6 class="with-top-border-subscription">Streamline single or multi-level
-                                                approvals faster</h6>
+                                                approvals faster.</h6>
                                         </li>
 
                                         <li>
@@ -52,7 +52,7 @@
                                             </div>
                                             <h6 class="with-top-border-subscription">Get your deal documents in your
                                                 local language, regardless of your
-                                                country
+                                                country.
                                             </h6>
                                         </li>
                                         <h5>Question? Talk to an expert: <span class="sub-title-faq">8482642864</span></h5>
@@ -173,8 +173,6 @@
 </template>
 
 <script>
-
-import axios from 'axios';
 
 export default {
     name: 'AppDownload',

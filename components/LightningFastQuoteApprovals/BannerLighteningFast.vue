@@ -6,6 +6,10 @@
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Lightening Fast <span class="sub-title">Quote Approvals</span></h1>
                         <p>Unleash the Power of CPQ Quick Approval Process for Rapid Sales, Delighted Customers, and Maximum Revenue </p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

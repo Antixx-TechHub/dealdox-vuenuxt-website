@@ -10,7 +10,7 @@
                                 <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p> -->
                                 <h4> Start Your Free Onboarding Now! </h4>
                                 <p>No credit card or software installation is required. </p>
-                                <h6> With Advanced Quoting Solution, Beyond Invoicing you benefit from: </h6>
+                                <h6> With Advanced Quoting Solution, Beyond Invoicing you benefit from:</h6>
 
                                 <div class="features-content">
                                     <ul class="features-list">
@@ -19,14 +19,14 @@
                                                 <i class="ri-check-line"></i>
                                             </div>
                                             <p>Guided selling approach to empower sales reps, leaders, and other teams for
-                                                efficient sales processes and optimized decision-making. </p>
+                                                efficient sales processes and optimized decision-making.</p>
                                         </li>
 
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed </p>
+                                            <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed.</p>
                                         </li>
 
                                         <li>
@@ -41,14 +41,14 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Streamline single or multi-level approvals faster</p>
+                                            <p>Streamline single or multi-level approvals faster.</p>
                                         </li>
 
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Get your deal documents in your local language, regardless of your country
+                                            <p>Get your deal documents in your local language, regardless of your country.
                                             </p>
                                         </li>
                                     </ul>

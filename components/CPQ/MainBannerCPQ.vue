@@ -8,6 +8,10 @@
                         </h1>
                         <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal delivery
                         </p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

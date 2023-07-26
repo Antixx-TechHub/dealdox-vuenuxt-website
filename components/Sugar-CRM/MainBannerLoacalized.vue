@@ -5,7 +5,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>DealDox and <br><span class="sub-title">SugarCRM</span></h1>
-                        <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly CPQ Solution</p>
+                        <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly CPQ Solution
+                        </p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

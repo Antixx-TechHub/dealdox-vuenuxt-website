@@ -6,8 +6,10 @@
                     <div class="new-app-main-banner-wrap-content pt-100 ">
                         <h1>Simplify the Quote-to-Cash process with  <span class="sub-title">DealDox</span></h1>
                         <p>Unleash the full potential of collaborative deals with our subscription plan. Streamline workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a centralized hub for policies, customizable workflows, and real-time alerts.</p>
-                           <!-- <p>faster and more accurate quotes</p> 
-                            <p>for timely deal delivery</p>  -->
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 pt-100">

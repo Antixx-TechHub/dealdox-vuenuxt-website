@@ -22,89 +22,13 @@
                     <div class="blog-details-desc">
                         <div class="comments-area">
                             <div class="comment-respond">
-                                <h3 class="comment-reply-title">Leave A Reply</h3>
                                 <form class="comment-form">
-                                    <p class="comment-notes">
-                                        <span id="email-notes">Your email address will not be published.</span>
-                                        Required fields are marked <span class="required">*</span>
-                                    </p>
-                                    
-                                    <p class="comment-form-email">
-                                        <label>First Name <span class="required">*</span></label>
-                                        <input type="text" id="author" placeholder="First Name*" name="author"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-email">
-                                        <label>Last Name <span class="required">*</span></label>
-                                        <input type="text" id="author" placeholder="Last Name*" name="author"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-email">
-                                        <label>Email <span class="required">*</span></label>
-                                        <input type="email" id="email" placeholder="Email*" name="email"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-email">
-                                        <label>Company <span class="required">*</span></label>
-                                        <input type="text" id="email" placeholder="Company*" name="email"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-email">
-                                        <label>Phone Number <span class="required">*</span></label>
-                                        <input type="email" id="email" placeholder="Phone Number*" name="phonenumber"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-email">
-                                        <label>Job Title <span class="required">*</span></label>
-                                        <input type="text" id="email" placeholder="Job Title*" name="jobtitle"
-                                            required="required">
-                                    </p>
-                                    <p class="comment-form-url">
-                                        <select class="form-select">
-                                            <option selected>Country</option>
-                                            <option value="1">India</option>
-                                            <option value="2">Saudi Arabia</option>
-                                            <option value="3">Japan</option>
-                                        </select>
-                                    </p>
-                                    <!-- <p class="comment-form-comment">
-                                        <label>Comment</label>
-                                        <textarea name="comment" id="comment" cols="45" placeholder="Your Comment..."
-                                            rows="5" maxlength="65525" required="required"></textarea>
-                                    </p> -->
-                                    <p class="comment-form-cookies-consent">
-                                        <input type="checkbox" value="yes" name="wp-comment-cookies-consent"
-                                            id="wp-comment-cookies-consent">
-                                        <label for="wp-comment-cookies-consent">Save my name, email, and website in this
-                                            browser for the next time I comment.</label>
-                                    </p>
-
-                                     
-                                    <p class="form-submit">
-                                        <input type="submit" name="submit" id="submit" class="submit" value="Download Now">
-                                    </p>
+                                    <iframe width="600" height="600" :src="url" frameborder="0" allowfullscreen
+                                        referrerpolicy="origin-when-cross-origin"></iframe>
                                 </form>
                             </div>
                         </div>
-
                     </div>
-                    <!-- <aside class="widget-area">
-                        <div class="widget widget_jexa_posts_thumb">
-                            <h3 class="widget-title">Popular Posts</h3>
-                            <article class="item" v-for="ebook in ebooks" :key="ebook.id">
-                                <router-link :to="'/ebook-details/' + ebook.attributes.slug" class="thumb">
-                                    <img :src="ebook.attributes.image.data.attributes.url" alt="blog">
-                                </router-link>
-                                <div class="info">
-                                    <h4 class="title usmall"><router-link :to="'/blog-details/' + ebook.attributes.slug">
-                                            {{ ebook.attributes.name }}
-                                        </router-link></h4>
-                                    <span class="date"><i class="ri-calendar-2-fill"></i> {{ ebook.attributes.date
-                                    }}</span>
-                                </div>
-                            </article>
-                        </div>
-                    </aside> -->
                 </div>
             </div>
         </div>
@@ -123,6 +47,7 @@ export default {
             details: this.detailsContent,
             blogs: [],
             ebooks: [],
+            url: "https://spmglobaltech.my.salesforce-sites.com/eBook",
         }
     },
     created: async function () {

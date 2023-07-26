@@ -7,7 +7,7 @@
                         <router-link to="/" class="logo">
                             <img src="../assets/images/footer-logo.svg" alt="logo">
                         </router-link>
-                        <p>DealDox CPQ: the all-in-one solution that streamlines quoting, closes deals faster, and boosts sales efficiency.</p>
+                        <p>The all-in-one solution that streamlines quoting, closes deals faster, and boosts sales efficiency.</p>
                         <ul class="social-links">
                             <li>
                                 <a href="https://www.facebook.com/dealdox.io" target="_blank"><i class="ri-facebook-fill"></i></a>

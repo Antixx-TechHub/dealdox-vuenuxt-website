@@ -2,17 +2,6 @@
     <div class="app-download-area pt-70">
         <div class="container">
             <div class="app-download-inner bg-gray">
-                <!-- <div class="row align-items-center"> -->
-                <!-- <div class="col-lg-6 col-md-12"> -->
-                <!-- <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content">
-                                <h2>Get in Touch</h2>
-                                <p>Have an query or some feedback for us? Write to our team, and will get back ASAP.</p>
-                            </div>
-                            <div class="software-integrations-list" data-aos="fade-up">
-                                <img src="../../assets/images/HomePage/get-in-touch.png" alt="image">
-                            </div>
-                        </div> -->
                 <div class="contact-page-header-form-app-download-inner">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12">
@@ -38,7 +27,7 @@
                                                     <i class="ri-check-line"></i>
                                                 </div>
                                                 <h6 class="with-top-border-subscription">Generate Accurate and Comprehensive
-                                                    Quotes in Record Time at 10x speed</h6>
+                                                    Quotes in Record Time at 10x speed.</h6>
                                             </li>
 
                                             <li>
@@ -55,7 +44,7 @@
                                                     <i class="ri-check-line"></i>
                                                 </div>
                                                 <h6 class="with-top-border-subscription">Streamline single or multi-level
-                                                    approvals faster</h6>
+                                                    approvals faster.</h6>
                                             </li>
 
                                             <li>
@@ -64,7 +53,7 @@
                                                 </div>
                                                 <h6 class="with-top-border-subscription">Get your deal documents in your
                                                     local language, regardless of your
-                                                    country
+                                                    country.
                                                 </h6>
                                             </li>
                                             <h5>Question? Talk to an expert: <span class="sub-title-faq">8482642864</span>
@@ -72,13 +61,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <!-- <div class="contact-limited-offer">
-                                    <div class="signup-button">
-                                        <div class="btn-box">
-                                            <router-link to="/SignUp" class="default-btn">Sign Up</router-link>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
 
@@ -86,7 +68,10 @@
                             <div class="contact-area pt-70">
                                 <div class="container">
                                     <div class="contact-form">
-                                        <form id="contactForm">
+                                        <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                                            referrerpolicy="origin-when-cross-origin"></iframe>
+
+                                        <!-- <form id="contactForm">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                                     <div class="form-group">
@@ -151,14 +136,13 @@
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <p>Leave your message</p>
-                                                        <!-- <textarea name="message" id="message" required class="form-control"
+                                                        <textarea name="message" id="message" required class="form-control"
                                                             cols="30" rows="6"
-                                                            placeholder="This just a dummy message! please dont mind"></textarea> -->
+                                                            placeholder="This just a dummy message! please dont mind"></textarea>
                                                         <input type="text" name="name" class="form-control" required
                                                             id="name" placeholder="This just a dummy message">
                                                     </div>
                                                 </div>
-
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <input class="form-check-input" type="checkbox" value=""
@@ -179,17 +163,13 @@
                                                         Request for a Demo </button>
                                                 </div>
                                             </div>
-                                        </form>
+                                        </form> -->
 
                                     </div>
                                 </div>
-                                <!-- </div> -->
-                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -198,6 +178,11 @@
 
 <script>
 export default {
-    name: 'AppDownload'
+    name: 'AppDownload',
+    data() {
+        return {
+            url: "https://spmglobaltech.my.salesforce-sites.com/requestdemo"
+        };
+    },
 }
 </script>

@@ -4,8 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>DealDox and <br><span class="sub-title">Microsoft Dynamics</span>CRM</h1>
+                        <h1>DealDox and <br><span class="sub-title">Microsoft Dynamics</span><br>CRM</h1>
                         <p>Maximize Your CRM Potential with DealDox CPQ</p>
+                        <div class="tb-30">
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

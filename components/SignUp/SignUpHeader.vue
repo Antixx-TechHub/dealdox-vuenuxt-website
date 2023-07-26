@@ -20,7 +20,6 @@
                                             <h6 class="with-top-border-subscription">Streamlined Quotation Process
                                             </h6>
                                         </li>
-
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
@@ -28,7 +27,6 @@
                                             <h6 class="with-top-border-subscription">
                                                 Faster Deal Closures </h6>
                                         </li>
-
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
@@ -36,7 +34,6 @@
                                             <h6 class="with-top-border-subscription">
                                                 Dynamic Pricing and Product Bundling</h6>
                                         </li>
-
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
@@ -44,7 +41,6 @@
                                             <h6 class="with-top-border-subscription">Real-time Pricing and Availability
                                             </h6>
                                         </li>
-
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
@@ -69,20 +65,10 @@
                                                 Multi-lingual Deal Document Capabilities
                                             </h6>
                                         </li>
-
-
-
                                         <h5>Sign up Now and Boost Your Sales Process with DealDox CPQ!</h5>
                                     </ul>
                                 </div>
                             </div>
-                            <!-- <div class="contact-limited-offer">
-                                    <div class="signup-button">
-                                        <div class="btn-box">
-                                            <router-link to="/SignUp" class="default-btn">Sign Up</router-link>
-                                        </div>
-                                    </div>
-                                </div> -->
                         </div>
                     </div>
 
@@ -92,101 +78,15 @@
                                 <div class="contact-form">
                                     <form id="contactForm">
                                         <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>First Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Sarah">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Last Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Taylor">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Job Title</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Software Developer">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Company</p>
-                                                    <input type="text" name="name" class="form-control" required id="name"
-                                                        placeholder="Eg: Lorem Ipsum">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Employees</p>
-                                                    <select required name="experience" class="form-select">
-                                                        <option>1 – 20</option>
-                                                        <option>21 – 200</option>
-                                                        <option>201 – 10,000</option>
-                                                        <option>10,001 +</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Country/Region</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: India">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Phone Number</p>
-                                                    <input type="number" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: 91 9878454345">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Business Email</p>
-                                                    <input type="email" name="email" required class="form-control"
-                                                        id="email" placeholder="hello@sarah.com">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="form-group">
-                                                <input class="form-check-input" required type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    I agree to the <a href="https://dealdox.pbwebvision.com/terms-conditions">Terms of Use</a>
-                                                </label>
-                                            </div>
-                                            </div>
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <p>Leave your message</p>
-                                                        <textarea name="message" id="message" required class="form-control"
-                                                            cols="30" rows="6"
-                                                            placeholder="This just a dummy message! please dont mind"></textarea>
-                                                            <input type="text" name="name" class="form-control" required
-                                                            id="name" placeholder="This just a dummy message">
-                                                    </div>
-                                                </div> -->
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <button type="submit" required class="default-btn"><i
-                                                        class='bx bx-paper-plane'></i>
-                                                        Start My Free Trail</button>
-                                            </div>
+                                            <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                                                referrerpolicy="origin-when-cross-origin"></iframe>
                                         </div>
                                     </form>
                                 </div>
                             </div>
-                            <!-- </div> -->
-                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -194,6 +94,11 @@
 
 <script>
 export default {
-    name: 'AppDownload'
+    name: 'AppDownload',
+    data() {
+        return {
+            url: "https://spmglobaltech.my.salesforce-sites.com/signup"
+        };
+    },
 }
 </script>
