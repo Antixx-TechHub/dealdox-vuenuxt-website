@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/AccelerateDeals.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/Drive Operational Excellence.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/Deep Dive into Customer Insights.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/Empower Your Business Collaborations and Maximize Deal Success.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up"
+                                <img src="../../assets/images/Salesforce/Achieve Results Faster Than Ever.png" data-aos="fade-up"
                                     alt="about">
                             </div>
                         </div>

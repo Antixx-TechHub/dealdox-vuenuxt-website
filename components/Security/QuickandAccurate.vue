@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/security/robustsecuritydataprotection.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/security/criticalsecuritymeasures.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Documentwithphone.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/security/CertificationsandCompliance.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
