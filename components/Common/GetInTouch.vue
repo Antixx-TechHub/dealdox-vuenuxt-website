@@ -9,7 +9,7 @@
                                 <div class="features-content-improve-sales">
                                     <h2>Start Your Free Onboarding Now!</h2>
                                     <h6>No credit card or software installation is required.</h6>
-                                    <h5>With <strong>Advanced Quoting Solution, Beyond Invoicing</strong> you benefit from:
+                                    <h5>With <strong>Advanced Quoting Solution, Beyond Invoicing</strong> you can benefit from:
                                     </h5>
                                     <div class="features-content">
                                         <ul class="features-list">

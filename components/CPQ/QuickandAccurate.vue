@@ -205,7 +205,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Sales and operational teams can completely install and manage the syste.</p>
+                                    <p>Sales and operational teams can completely install and manage the system.</p>
                                 </li>
 
                                 <li>
