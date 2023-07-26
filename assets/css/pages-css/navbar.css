@@ -41,6 +41,11 @@
 background: linear-gradient(99.01deg, #715CF3 20.98%, #5C99F3 94.62%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-color: #715CF3;
+text-decoration-thickness: 2px;
+border-radius: 25px;
 }
 
 .navbar-area.navbar-style-two .jexa-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.navbar-style-two .jexa-nav .navbar .navbar-nav .nav-item.active a {
