@@ -39,7 +39,7 @@
                             <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
                         </div>
                         <h5>Adaptability </h5>
-                        <p>We embrace change and vulnerability with an adaptable mentality, enabling us to change our course and approach faster. We actively look for new opportunities and solutions in the face of changing circumstances</p>
+                        <p>We embrace change and vulnerability with an adaptable mentality, enabling us to change our course and approach faster. We actively look for new opportunities and solutions in the face of changing circumstances.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">

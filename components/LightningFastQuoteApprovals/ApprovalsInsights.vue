@@ -29,7 +29,7 @@
                         <p>DealDox provides a flexible and streamlined approach CPQ approval process. Even after approval, if
                             any modifications are require, they can be made easily can be re-approved without any delay.
                             This feature ensures that deals are always up-to-date and all parties involved are on the same
-                            plate
+                            plate.
                         </p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Boost Sales with Smart Approval in CPQ for Quick Deal Closures!"</h3>
+                        <h3>Boost Sales with Smart Approval in CPQ for Quick Deal Closures!</h3>
                         <p>CPQ advanced approvals enable sales excellence by simplifying the transaction endorsement process and considerably shortening the time it takes to close agreements. With quick CPQ quote approvals - </p>
                         <p>
                             <div class="features-content">

@@ -48,7 +48,7 @@
                             conversion rates. When potential customers receive quotes that are specifically tailored to
                             their region, they are more likely to perceive the offering as relevant, competitive, and
                             suitable for their specific needs. This personalized approach can boost customer confidence and
-                            drive higher conversion rates
+                            drive higher conversion rates.
                         </p>
                     </div>
                 </div>

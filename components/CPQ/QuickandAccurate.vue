@@ -58,7 +58,7 @@
                         <p>Create quotes for a wide range of managed services, including help desk support, hosting,
                             security monitoring, data storage, network operations, IoT services, analytics, and more.
                             Experience the flexibility to customize pricing ramps and include essential details such as
-                            contract duration, target margin, discounts, setup and exit fees, user counts, and beyond
+                            contract duration, target margin, discounts, setup and exit fees, user counts, and beyond.
                         </p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>It saves time, ensures accuracy, and accelerates sales cycles</p>
+                                    <p>It saves time, ensures accuracy, and accelerates sales cycles.</p>
                                 </li>
 
                                 <li>
@@ -166,28 +166,28 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Maintain pricing and discounts consistency</p>
+                                    <p>Maintain pricing and discounts consistency.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Automate approval processes</p>
+                                    <p>Automate approval processes.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Easily update products and pricing</p>
+                                    <p>Easily update products and pricing.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Enhance CRM with accurate sales data</p>
+                                    <p>Enhance CRM with accurate sales data.</p>
                                 </li>
                             </ul>
                         </div>
@@ -205,7 +205,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Sales and operational teams can completely install and manage the syste</p>
+                                    <p>Sales and operational teams can completely install and manage the syste.</p>
                                 </li>
 
                                 <li>
@@ -219,7 +219,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Capability for changing goods, configurations, and price</p>
+                                    <p>Capability for changing goods, configurations, and price.</p>
                                 </li>
 
                                 <li>
@@ -227,7 +227,7 @@
                                         <i class="ri-check-line"></i>
                                     </div>
                                     <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs -
-                                        can be easily integrated</p>
+                                        can be easily integrated.</p>
                                 </li>
 
                                 <li>
@@ -235,7 +235,7 @@
                                         <i class="ri-check-line"></i>
                                     </div>
                                     <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs -
-                                        can be easily integrated</p>
+                                        can be easily integrated.</p>
                                 </li>
 
                                 <li>
@@ -243,14 +243,14 @@
                                         <i class="ri-check-line"></i>
                                     </div>
                                     <p>Easily integrates with ERP systems, enabling real-time data synchronization and
-                                        smooth communication between the platforms</p>
+                                        smooth communication between the platforms.</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>There is no additional coding or reliance on internal IT resources</p>
+                                    <p>There is no additional coding or reliance on internal IT resources.</p>
                                 </li>
                             </ul>
                         </div>

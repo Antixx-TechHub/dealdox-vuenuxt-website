@@ -98,7 +98,8 @@ Team Area CSS
   text-align: center;
   position: relative;
   padding: 60px 30px;
-  overflow: hidden;
+  overflow: scroll;
+  height: 500px;
   border-radius: 15px;
 }
 

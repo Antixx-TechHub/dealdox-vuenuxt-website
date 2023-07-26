@@ -8,7 +8,7 @@
                 <div class="col-lg-6 col-sm-6 col-md-6">
                     <div class="features-item with-border-one">
                         <h3><span class="sub-title-key-features">AutomateDoc:</span><br>Easy & Efficient</h3>
-                        <p>With each new service you add, DealDox’s cpq process automation feature instantly generates all the vital documents, such as the scope of work, terms and conditions, licensing agreements, and more, to complete your proposal.</p>
+                        <p>With each new service you add, DealDox’s CPQ process automation feature instantly generates all the vital documents, such as the scope of work, terms and conditions, licensing agreements, and more, to complete your proposal.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-md-6">
