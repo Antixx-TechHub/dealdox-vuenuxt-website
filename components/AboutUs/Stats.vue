@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="stats-map text-center">
-            <img src="../../assets/images/About-US/meet-the-stellar.png" alt="cpq">
+            <img src="../../assets/images/Our Team/Our Team.png" alt="cpq">
         </div>
     </div>
 </template>
