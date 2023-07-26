@@ -707,6 +707,7 @@ textarea.form-control {
     ol,
     ul,
     li {
+        align-items: center;
         padding-left: 0rem;
         margin-right: 8px;
     }
@@ -4706,6 +4707,10 @@ New Demo CSS
             color: var(--whiteColor);
         }
 
+        h1 {
+            color: var(--whiteColor);
+        }
+
         .links-list {
             li {
                 margin-bottom: 15px;
@@ -4777,6 +4782,15 @@ New Demo CSS
 
         h3 {
             color: var(--whiteColor);
+        }
+
+        h1 {
+            color: var(--whiteColor);
+            font-size: 28px;
+            margin-top: 5px;
+            margin-bottom: 100px;
+            font-weight: 500;
+            vertical-align: middle;
         }
 
         .links-list {

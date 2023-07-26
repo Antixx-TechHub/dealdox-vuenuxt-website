@@ -688,6 +688,7 @@ Features Home Improve Sales Area CSS
   line-height: 1.1;
   /* margin-bottom: 10px; */
   font-weight: 700;
+  text-decoration: underline;
 } 
 
 .features-content-improve-sales h2 {

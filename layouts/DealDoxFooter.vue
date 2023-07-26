@@ -2,27 +2,48 @@
     <div class="footer-wrap-area pt-100">
         <div class="container">
             <div class="row">
+                <div class="col-lg-9 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h1>Ready to transform your sales strategy and crush the competition?</h1>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div>
+                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a demo</router-link>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <router-link to="/" class="logo">
                             <img src="../assets/images/footer-logo.svg" alt="logo">
                         </router-link>
-                        <p>The all-in-one solution that streamlines quoting, closes deals faster, and boosts sales efficiency.</p>
+                        <p>The all-in-one solution that streamlines quoting, closes deals faster, and boosts sales
+                            efficiency.</p>
                         <ul class="social-links">
                             <li>
-                                <a href="https://www.facebook.com/dealdox.io" target="_blank"><i class="ri-facebook-fill"></i></a>
+                                <a href="https://www.facebook.com/dealdox.io" target="_blank"><i
+                                        class="ri-facebook-fill"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dealdox.io/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                <a href="https://www.instagram.com/dealdox.io/" target="_blank"><i
+                                        class="ri-instagram-fill"></i></a>
                             </li>
                             <li>
                                 <a href="/" target="_blank"><i class="ri-linkedin-fill"></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
+                                    target="_blank"><i class="ri-twitter-fill"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank"><i class="ri-youtube-fill"></i></a>
+                                <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank"><i
+                                        class="ri-youtube-fill"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -133,11 +154,12 @@
                     </div>
                 </div>
             </div>
+
             <div class="copyright-area">
                 <div class="row">
                     <router-link to="/" class="logo">
-                            <img src="../assets/images/footer-logo.svg" alt="logo">
-                        </router-link>
+                        <img src="../assets/images/footer-logo.svg" alt="logo">
+                    </router-link>
                     <div class="col-lg-6 col-sm-6">
                         <p class="text-left"><router-link to="/security">Security</router-link> |
                             <router-link to="/terms-of-use">Terms of Use</router-link>
@@ -153,12 +175,12 @@
                 </div>
                 <br>
                 <div class="about-content">
-                <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
+                    <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
                 </div>
             </div>
+
         </div>
-    </div>
-</template>
+</div></template>
 
 <script>
 export default {
