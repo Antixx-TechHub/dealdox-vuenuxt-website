@@ -715,7 +715,7 @@ Features Item Free Quotes Area CSS
 }
 
 .features-item-free-quotes.with-border {
-  padding: 150px 150px 135px 150px;
+  padding: 170px 150px 100px 150px;
   /* border: 1px solid #eeeeee; */
   /* -webkit-transition: var(--transition); */
   /* transition: var(--transition); */
@@ -914,7 +914,7 @@ Features Item Free Quotes Two Area CSS
 }
 
 .features-item-free-quotes-two.with-border {
-  padding: 110px 70px 72px 135px;
+  padding: 170px 70px 100px 90px;
   /* border: 1px solid #eeeeee; */
   /* -webkit-transition: var(--transition); */
   /* transition: var(--transition); */
