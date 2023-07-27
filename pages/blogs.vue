@@ -1,8 +1,8 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two" pageTitle="Blogs"
-            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" />
+        <PageTitle class="page-title-style-two" pageTitle=""
+            pageDesc="" />
         <Blog />
         <LatestBlog />
         <AutomatedQuotes />

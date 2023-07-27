@@ -1,7 +1,9 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.name" pageDesc="News and Insights" />
+        <PageTitle class="page-title-style-two-ebook" pageTitle=""
+            pageDesc="" />
+        <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.name" pageDesc="News and Insights" /> -->
         <div v-if="details !== null">
             <EbookDetails v-bind:detailsContent="details" />
         </div>

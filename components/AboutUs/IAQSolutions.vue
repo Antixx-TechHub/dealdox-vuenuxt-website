@@ -7,7 +7,7 @@
             </div>
             <div class="row justify-content-center pt-60">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
                         </div>
@@ -16,16 +16,16 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
                         </div>
                         <h5>Collaboration</h5>
-                        <p>Open communication and collaboration are the pillars of our team's success. We empower team members to come together, share ideas, solve problems collectively, and make informed <br> decisions.</p>
+                        <p>Open communication and collaboration are the pillars of our team's success. We empower team members to come together, share ideas, solve problems collectively, and make informed decisions.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/About-US/predictiona.png" alt="image">
                         </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
                         </div>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/About-US/synca.png" alt="image">
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="single-features-item">
+                    <div class="single-features-item" style="height:290px">
                         <div class="icon">
                             <img src="../../assets/images/About-US/income.png" alt="image">
                         </div>

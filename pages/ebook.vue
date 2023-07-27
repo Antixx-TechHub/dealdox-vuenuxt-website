@@ -1,8 +1,10 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two" pageTitle="Ebook"
-            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" />
+        <PageTitle class="page-title-style-two-ebook" pageTitle=""
+            pageDesc="" />
+        <!-- <PageTitle class="page-title-style-two-ebook" pageTitle="Ebook"
+            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
         <Ebook />
         <AutomatedQuotes />
         <DealDoxFooter />

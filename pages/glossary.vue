@@ -1,8 +1,10 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two" pageTitle="Glossary"
-            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" />
+        <PageTitle class="page-title-style-two-glossary" pageTitle=""
+            pageDesc="" />
+        <!-- <PageTitle class="page-title-style-two-glossary" pageTitle="Glossary"
+            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
         <GlossaryPage />
         <AutomatedQuotes />
         <DealDoxFooter />
@@ -11,7 +13,7 @@
 
 <script>
 import Navbar from '../layouts/Navbar';
-import PageTitle from '../components/Common/PageTitle';
+import PageTitle from '../components/glossary/PageTitle';
 import GlossaryPage from '../components/glossary/GlossaryPage'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'

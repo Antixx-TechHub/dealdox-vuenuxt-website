@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar class="navbar-style-two" />
-    <PageTitle pageTitle="Glossary Category" pageDesc="" />
+    <PageTitle class="page-title-style-two-glossary" pageTitle=""
+            pageDesc="" />
+    <!-- <PageTitle pageTitle="Glossary Category" pageDesc="" /> -->
     <div v-if="successcategory !== null">
       <CategoryDetails v-bind:detailsContent="successcategory" />
     </div>
