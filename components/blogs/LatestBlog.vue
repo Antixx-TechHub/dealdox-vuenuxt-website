@@ -7,7 +7,7 @@
                         <h2>Latest Blogs</h2>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-6">
+                <!-- <div class="col-lg-8 col-md-6">
                     <div class="widget-area" id="secondary">
                         <div class="widget widget_search">
                             <form class="search-form">
@@ -19,7 +19,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row justify-content-center" v-if="blogs !== []">
                 <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(
