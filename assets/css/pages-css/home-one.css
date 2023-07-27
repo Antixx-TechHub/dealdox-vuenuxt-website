@@ -295,7 +295,7 @@ Features Area CSS
   line-height: 1.2;
   margin-bottom: 15px;
   /* css changed 2 */
-  margin-right: 80px;
+  margin-right: 0px;
 }
 
 .features-content h4 {
@@ -650,8 +650,8 @@ Features Home Improve Sales Area CSS
 }
 
 .features-content-improve-sales {
-  /* padding-right: 15px; */
-  margin: 15px 35px 15px 35px;
+  padding: 50px 0px 50px 0px;
+  margin: 50px 0px 50px 0px;;
 }
 
 /* .features-content .sub-title {

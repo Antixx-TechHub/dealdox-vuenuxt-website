@@ -288,7 +288,7 @@ Software Integrations Area CSS
 =================================================*/
 .software-integrations-inner.bg-gradient-color {
   z-index: 1;
-  padding: 50px 30px 50px 30px;
+  padding: 0px 30px 0px 70px;
   position: relative;
   /* margin-bottom: 25px; */
   /* background: var(--gradientColor); */
@@ -685,7 +685,7 @@ Feedback Area CSS
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .software-integrations-inner.bg-gradient-color {
-    padding: 50px 30px;
+    padding: 20px 60px 20px 60px;
   }
 }
 
