@@ -762,7 +762,7 @@ textarea.form-control {
   padding-top: 150px; */
   height: 475px;
   /* margin-top: 80px; */
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -775,7 +775,7 @@ textarea.form-control {
   padding-top: 150px; */
   height: 475px;
   /* margin-top: 80px; */
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -788,7 +788,7 @@ textarea.form-control {
   padding-top: 150px; */
   height: 475px;
   /* margin-top: 80px; */
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
