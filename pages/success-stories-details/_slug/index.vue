@@ -1,26 +1,38 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
+        <SuccesStoryBanner />
+        <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" /> -->
         <div v-if="details !== null">
             <SuccessStories v-bind:detailsContent="details" />
         </div>
+        <Partner />
+        <Blog />
+        <GetInTouch />
         <DealDoxFooter />
     </div>
 </template>
 
 <script>
 import Navbar from '../../../layouts/Navbar';
-import PageTitle from '../../../components/Common/PageTitle';
+// import PageTitle from '../../../components/Common/PageTitle';
+import SuccesStoryBanner from '../../../components/success-stories/SuccesStoryBanner'
 import SuccessStories from '../../../components/success-stories/SuccessStoriesDetails'
+import Partner from '../../../components/Common/Partner'
+import Blog from '../../../components/Common/Blog';
+import GetInTouch from '../../../components/Common/GetInTouch';
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
 export default {
     components: {
         Navbar,
-        PageTitle,
+        // PageTitle,
+        SuccesStoryBanner,
         SuccessStories,
+        Partner,
+        Blog,
+        GetInTouch,
         DealDoxFooter,
     },
 
