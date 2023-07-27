@@ -5034,17 +5034,16 @@ Preloader CSS
         text-align: center;
     }
 
-    
-
     .features-item-free-quotes.with-border {
-        padding: 50px 10px 18px 0px;
-        border: 1px solid #eeeeee;
-        -webkit-transition: var(--transition);
-        transition: var(--transition);
-        background-image: url(/_nuxt/assets/images/do-you-know.svg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        padding: 40px 20px 40px 20px;
+        background-color: #f9f9f9;
+    }
+    
+    .features-item-free-quotes.with-border .did-you-know {
+        width: 190px;
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 25px;
     }
 
     .features-item-free-quotes h3 {

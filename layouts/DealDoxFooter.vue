@@ -157,25 +157,20 @@
 
             <div class="copyright-area">
                 <div class="row">
-                    <router-link to="/" class="logo">
+                    <div class="col-lg-4 col-sm-3">
+                        <p><router-link to="/security">Security</router-link> |
+                        <router-link to="/terms-of-use">Terms of Use</router-link> |
+                        <router-link to="/privacy-policy">Privacy Policy</router-link> |
+                        <router-link to="/cookie-preference">Cookie Preference</router-link></p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <router-link to="/" class="logo">
                         <img src="../assets/images/footer-logo.svg" alt="logo">
                     </router-link>
-                    <div class="col-lg-6 col-sm-6">
-                        <p class="text-left"><router-link to="/security">Security</router-link> |
-                            <router-link to="/terms-of-use">Terms of Use</router-link>
-                        </p>
                     </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <p class="text-right"><router-link to="/privacy-policy">Privacy Policy</router-link> |
-                            <router-link to="/cookie-preference">Cookie Preference</router-link>
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                    </div>
-                </div>
-                <br>
-                <div class="about-content">
+                    <div class="col-lg-4 col-sm-3">          
                     <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
+                    </div>
                 </div>
             </div>
 
