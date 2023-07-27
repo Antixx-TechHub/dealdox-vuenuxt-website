@@ -27,7 +27,7 @@
                         <div class="icon">
                             <img src="../../assets/images/cpq-integration/predictioncpq.png" alt="image">
                         </div>
-                        <p>Proper prediction of resource demand.</p>
+                        <p>Proper prediction of resource <br> demand.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">

@@ -12,7 +12,7 @@
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
                         </div>
                         <h5>Trust</h5>
-                        <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining transparency, and consistently fulfilling our commitments to each other.</p>
+                        <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining transparency, and consistently fulfilling our commitments to each<br> other.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -30,7 +30,7 @@
                             <img src="../../assets/images/About-US/predictiona.png" alt="image">
                         </div>
                         <h5>Accountability </h5>
-                        <p>By taking ownership of our work and holding ourselves and others accountable for our actions, we ensure to actively contribute to success and work towards achieving our goals. </p>
+                        <p>By taking ownership of our work and holding ourselves and others accountable for our actions, we ensure to actively contribute to success and <br> work towards achieving our goals.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
