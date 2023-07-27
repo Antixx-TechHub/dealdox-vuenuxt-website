@@ -159,7 +159,7 @@ Team Area CSS
   bottom: -35px;
   padding-left: 0;
   margin-bottom: 0;
-  position: absolute;
+  position: relative;
   visibility: hidden;
   list-style-type: none;
   -webkit-transition: var(--transition);

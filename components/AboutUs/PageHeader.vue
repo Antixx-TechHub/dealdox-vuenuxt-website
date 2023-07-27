@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Simple <span class="sub-title">CPQ integration</span> for businesses</h1>
+                        <h1>Simple <span style="color: #715CF3">CPQ integration</span> for businesses</h1>
                         <p>DealDox simplifies the management of cash flow. Its user-friendly platform allows effortless management with just a few clicks.</p>
                     </div>
                 </div> 

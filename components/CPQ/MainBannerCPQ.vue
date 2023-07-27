@@ -3,8 +3,8 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="new-app-main-banner-wrap-content">
-                        <h1>Best <span class="sub-title">CPQ</span> - Deliver timely Sales Quotes Faster and More Accurately</h1>
+                    <div class="new-app-main-banner-wrap-content heading-title">
+                        <h1>Best <span style="color: #715CF3">CPQ</span> - Deliver timely Sales Quotes Faster and More Accurately</h1>
                         <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal delivery.</p>
                     </div>
                 </div> 
