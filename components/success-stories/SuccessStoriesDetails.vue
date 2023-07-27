@@ -2,7 +2,7 @@
     <div class="blog-details-area ptb-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
                             <!-- <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link> -->
@@ -12,7 +12,7 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-                        <!-- <div class="comments-area">
+                        <div class="comments-area">
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
                                 <form class="comment-form">
@@ -51,17 +51,17 @@
                                     </p>
                                 </form>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <aside class="widget-area">
-                        <!-- <div class="widget widget_search">
+                        <div class="widget widget_search">
                             <form class="search-form">
                                 <label><input type="search" class="search-field" placeholder="Search..."></label>
                                 <button type="submit"><i class="ri-search-2-line"></i></button>
                             </form>
-                        </div> -->
+                        </div>
 
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
@@ -91,7 +91,7 @@
                             </ul>
                         </div>
                     </aside>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
