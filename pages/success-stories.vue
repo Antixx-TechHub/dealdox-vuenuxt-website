@@ -3,8 +3,11 @@
         <Navbar class="navbar-style-two" />
         <PageTitle class="page-title-style-two" pageTitle="Success Stories"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" />
+            <SuccesStoryBanner />
         <SuccessStories />
-        <AutomatedQuotes />
+        <!-- <AutomatedQuotes /> -->
+        <Blog />
+        <GetInTouch />
         <DealDoxFooter />
     </div>
 </template>
@@ -12,16 +15,22 @@
 <script>
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
+import SuccesStoryBanner from '../components/success-stories/SuccesStoryBanner'
 import SuccessStories from '../components/success-stories/SuccessStories'
-import AutomatedQuotes from '../components/Common/AutomatedQuotes';
+// import AutomatedQuotes from '../components/Common/AutomatedQuotes';
+import Blog from '../components/Common/Blog';
+import GetInTouch from '../components/Common/GetInTouch';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
 export default {
     components: {
         Navbar,
         PageTitle,
+        SuccesStoryBanner,
         SuccessStories,
-        AutomatedQuotes,
+        // AutomatedQuotes,
+        Blog,
+        GetInTouch,
         DealDoxFooter,
     },
     head: {
