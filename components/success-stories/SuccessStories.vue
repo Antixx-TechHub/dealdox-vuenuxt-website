@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-lg-8 col-md-6">
                     <div class="widget-area" id="secondary">
-                        <div class="widget widget_search">
+                        <!-- <div class="widget widget_search">
                             <form class="search-form">
                                 <label>
                                     <span class="screen-reader-text">Search for:</span>
@@ -17,7 +17,7 @@
                                 </label>
                                 <button type="submit"><i class='ri-search-2-line'></i></button>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

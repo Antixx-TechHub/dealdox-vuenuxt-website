@@ -21,7 +21,7 @@
                             <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
                         </div>
                         <h5>Collaboration</h5>
-                        <p>Open communication and collaboration are the pillars of our team's success. We empower team members to come together, share ideas, solve problems collectively, and make informed decisions.</p>
+                        <p>Open communication and collaboration are the pillars of our team's success. We empower team members to come together, share ideas, solve problems collectively, and make informed <br> decisions.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
