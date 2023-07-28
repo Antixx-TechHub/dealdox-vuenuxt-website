@@ -6,8 +6,11 @@
                     <div class="software-integrations-content white-color">
                         <span class="sub-title">SOFTWARE INTEGRATIONS</span>
                         <h2>Easy & Perfect Solution With Latest Software Integrations</h2>
-                        <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. never missyour chance its just began. backup just log in with your mail account from.</p>
-                        <p>Most provabily best  for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy.</p>
+                        <p>Cloud based storage for your data backup just log in with your mail account from play store and
+                            using whatever you want for your business purpose orem ipsum dummy text. never missyour chance
+                            its just began. backup just log in with your mail account from.</p>
+                        <p>Most provabily best for your data backup just log in with your mail account from play store and
+                            using whatever you want for your business purpose orem ipsum dummy.</p>
                         <router-link to="/contact" class="default-btn">Get Started</router-link>
                     </div>
                 </div>
@@ -16,7 +19,8 @@
                         <img src="../../assets/images/shape/border.png" alt="border">
                         <ul>
                             <li data-aos="fade-down">
-                                <img src="../../assets/images/software-integrations/atlassian.png" class="atlassian" alt="atlassian">
+                                <img src="../../assets/images/software-integrations/atlassian.png" class="atlassian"
+                                    alt="atlassian">
                             </li>
                             <li data-aos="fade-right">
                                 <img src="../../assets/images/software-integrations/skype.png" class="skype" alt="skype">
