@@ -1,7 +1,6 @@
 <template>
     <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
         <div class="container">
-
             <div class="section-title-about">
                 <h1> AI-enabled CPQ for Services - Easy to Use and Quick Implementation</h1>
             </div>
@@ -12,7 +11,11 @@
                     market to fill the void in service pricing and quotes.
                 </p>
 
-                <p> CPQ Services is a sales tool to generate quick quotes accurately. It caters to businesses of all sizes, including small, medium, and large enterprises. CPQ for Services automates the presales process of configuring the pricing of services. With CPQ software solutions, you can generate quick and accurate quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the quote-to-cash process eliminating manual and error-prone procedures. 
+                <p> CPQ Services is a sales tool to generate quick quotes accurately. It caters to businesses of all sizes,
+                    including small, medium, and large enterprises. CPQ for Services automates the presales process of
+                    configuring the pricing of services. With CPQ software solutions, you can generate quick and accurate
+                    quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the quote-to-cash process
+                    eliminating manual and error-prone procedures.
                 </p>
             </div>
 

@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content heading-title">
-                        <h1>Accenture uses <span style="color: #715CF3">Dealdox</span> to close deals faster than ever</h1>
+                        <h1>Accenture uses <span style="color: #715CF3">DealDox</span> to close deals faster than ever</h1>
                         <p>Customer's cloud team used error-prone manual process for quotes with outdated models, switching to digital for efficiency and accuracy.</p>
                     </div>
                 </div> 
