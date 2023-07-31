@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/integration" class="default-btn">Know more</router-link>
+                                <router-link to="/cpq-integrations" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>

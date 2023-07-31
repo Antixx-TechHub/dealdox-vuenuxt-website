@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/quotations" class="default-btn">Know more</router-link>
+                                <router-link to="/quoting-software" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>

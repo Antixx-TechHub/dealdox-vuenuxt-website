@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/approvals" class="default-btn">Know more</router-link>
+                                <router-link to="/approval-software" class="default-btn">Know more</router-link>
                             </div>
                         </div>
                     </div>
