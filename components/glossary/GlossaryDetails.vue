@@ -8,7 +8,7 @@
                             <h4>{{ details[0].attributes.title }}</h4>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
-                        <div class="comments-area">
+                        <!-- <div class="comments-area">
                             <div class="comment-respond">
                                 <h3 class="comment-reply-title">Leave A Reply</h3>
                                 <form class="comment-form">
@@ -47,7 +47,7 @@
                                     </p>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
