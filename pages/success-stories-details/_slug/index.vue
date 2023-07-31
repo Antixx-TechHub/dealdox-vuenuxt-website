@@ -1,7 +1,8 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <SuccesStoryBanner />
+        <!-- <SuccesStoryBannerPage v-if="details !== null" :pageTitle="details[0].attributes.title"
+        :shortDesc="details[0].attributes.shortDesc"/> -->
         <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" /> -->
         <div v-if="details !== null">
             <SuccessStories v-bind:detailsContent="details" />
@@ -16,7 +17,7 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 // import PageTitle from '../../../components/Common/PageTitle';
-import SuccesStoryBanner from '../../../components/success-stories/SuccesStoryBanner'
+// import SuccesStoryBannerPage from '../../../components/success-stories/SuccesStoryBannerPage'
 import SuccessStories from '../../../components/success-stories/SuccessStoriesDetails'
 import Partner from '../../../components/Common/Partner'
 import Blog from '../../../components/Common/Blog';
@@ -28,7 +29,7 @@ export default {
     components: {
         Navbar,
         // PageTitle,
-        SuccesStoryBanner,
+        // SuccesStoryBannerPage,
         SuccessStories,
         Partner,
         Blog,
