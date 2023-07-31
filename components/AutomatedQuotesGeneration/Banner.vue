@@ -8,7 +8,7 @@
                         </h1>
                         <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p>
                         <div class="tb-30">
-                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
                                 Request a demo</router-link>
                         </div>
                     </div>

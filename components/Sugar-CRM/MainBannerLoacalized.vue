@@ -8,7 +8,7 @@
                         <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly CPQ Solution
                         </p>
                         <div class="tb-30">
-                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
                                 Request a demo</router-link>
                         </div>
                     </div>

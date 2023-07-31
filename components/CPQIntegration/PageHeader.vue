@@ -7,7 +7,7 @@
                         <h1>Simple <span style="color: #715CF3">CPQ integration</span> for businesses</h1>
                         <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience </p>
                         <div class="tb-30">
-                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
                                 Request a demo</router-link>
                         </div>
                     </div>
