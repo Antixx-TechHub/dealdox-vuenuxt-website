@@ -10,7 +10,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div>
-                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
                                 Request a demo</router-link>
                         </div>
                     </div>   
