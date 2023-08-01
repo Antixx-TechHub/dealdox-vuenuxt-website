@@ -67,7 +67,7 @@ export default {
     data() {
         return {
             iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Set your initial iframe URL here
-            showThankYouPage: false,
+            // showThankYouPage: false,
         };
     },
     mounted() {
@@ -86,15 +86,5 @@ export default {
             this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo'; // Replace 'https://example.com/reset-url' with your desired URL
         },
     },
-
-
-
-    data() {
-        return {
-            url: "https://spmglobaltech.my.salesforce-sites.com/requestdemo",
-            showThankYouPage: false,
-        };
-    },
-
 }
 </script>
