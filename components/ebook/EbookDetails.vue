@@ -77,16 +77,8 @@
                                                     class="form-control" id="company" placeholder="Eg: Sarah">
                                             </div>
                                         </div>
-
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="form-group">
-                                                <p>Phone Number</p>
-                                                <input type="text" maxlength="40" name="company" required
-                                                    class="form-control" id="company" placeholder="Eg: Sarah">
-                                            </div>
-                                        </div>
                                         
-                                        <div class="col-lg-6 col-md-5 col-sm-6">
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
 
                                             <div class="form-group">
                                                 <p>Country</p>
