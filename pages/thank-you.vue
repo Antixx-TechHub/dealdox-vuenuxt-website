@@ -19,8 +19,15 @@ export default {
     ThankYouPage,
     // DealDoxFooter,
   },
-  created() {
-    setTimeout(() => this.$router.push({ path: '/request-a-demo' }), 5000)
-  }
+  mounted() {
+    // Redirect to the external URL after a short delay (e.g., 3 seconds)
+    setTimeout(() => {
+      window.location.href = 'https://dealdox.pbwebvision.com/request-a-demo';
+    }, 5000); // 3 seconds delay before redirecting
+  },
+
+  // created() {
+  //   setTimeout(() => this.$router.push({ path: '/request-a-demo' }), 5000)
+  // }
 }
 </script>
