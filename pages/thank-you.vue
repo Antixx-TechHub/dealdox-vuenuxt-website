@@ -19,5 +19,8 @@ export default {
         ThankYouPage,
         DealDoxFooter,
     },
+    created() {
+        setTimeout(() => this.$router.push({ path: '/' }), 3000);
+    },
 }
 </script>

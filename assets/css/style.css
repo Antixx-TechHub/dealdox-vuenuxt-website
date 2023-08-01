@@ -738,7 +738,7 @@ textarea.form-control {
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;
-  background-size: cover;
+  background-size: contain;
 }
 
 .page-title-area::before {
@@ -758,11 +758,20 @@ textarea.form-control {
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
   background-image: url(../../assets/images/banner/blogs.jpg);
-  /* padding-bottom: 150px;
-  padding-top: 150px; */
-  height: 475px;
-  /* margin-top: 80px; */
-  background-size: cover;
+  height: 394px;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page-title-area.page-title-style-two-success-stories {
+  /* background: #eef5fc; */
+  position: relative;
+  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background-image: url(../../assets/images/banner/success-stories.png);
+  height: 394px;
+  background-size: contain;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -771,12 +780,10 @@ textarea.form-control {
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
   background-image: url(../../assets/images/banner/glossary.png);
-  /* padding-bottom: 150px;
-  padding-top: 150px; */
-  height: 475px;
-  /* margin-top: 80px; */
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 394px;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;;
 }
 
 .page-title-area.page-title-style-two-ebook {
@@ -784,11 +791,9 @@ textarea.form-control {
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
   background-image: url(../../assets/images/banner/ebook.png);
-  /* padding-bottom: 150px;
-  padding-top: 150px; */
-  height: 475px;
-  /* margin-top: 80px; */
-  background-size: cover;
+  height: 394px;
+  background-size: contain;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
