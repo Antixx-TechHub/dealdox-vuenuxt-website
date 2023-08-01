@@ -43,9 +43,6 @@
                                             <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600"
                                                 height="800"></iframe>
 
-                                            <!-- thank you page section -->
-                                            <div v-if="showThankYouPage">Thank you for your submission!</div>
-
                                             <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
                                                 referrerpolicy="origin-when-cross-origin"></iframe> -->
 
@@ -66,24 +63,39 @@ export default {
     name: 'EasyIntegration',
     data() {
         return {
+            iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Initial URL for the iframe
+        };
+    },
+    mounted() {
+        this.resetIframeUrlAfterDelay();
+    },
+    methods: {
+        resetIframeUrlAfterDelay() {
+            setTimeout(() => {
+                // Replace the URL with a new one after 6 seconds (6000 milliseconds)
+                this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo';
+            }, 6000);
+        },
+    },
+
+
+
+
+    data() {
+        return {
             iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Set your initial iframe URL here
             // showThankYouPage: false,
         };
     },
     mounted() {
-        // Show the thank you page after a delay of 3 seconds
-        setTimeout(() => {
-            this.showThankYouPage = true;
-            // Reset the iframe URL after the thank you page is shown for 3 seconds
-            setTimeout(() => {
-                this.resetIframeUrl();
-            }, 3000);
-        }, 3000);
+        this.resetIframeUrlAfterDelay();
     },
     methods: {
-        resetIframeUrl() {
-            // Set the new URL for the iframe
-            this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo'; // Replace 'https://example.com/reset-url' with your desired URL
+        resetIframeUrlAfterDelay() {
+            setTimeout(() => {
+                // Replace the URL with a new one after 6 seconds (6000 milliseconds)
+                this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo';
+            }, 6000);
         },
     },
 }
