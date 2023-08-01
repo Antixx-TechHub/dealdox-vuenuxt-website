@@ -67,66 +67,199 @@
                             <div class="container">
                                 <div class="contact-form">
                                     <div class="row">
-                                            <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
-                                            referrerpolicy="origin-when-cross-origin"></iframe>
-                                        </div>
+                                        <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                                            referrerpolicy="origin-when-cross-origin"></iframe> -->
+
+
+
+
+                                        <!DOCTYPE HTML
+                                            PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+                                        <html>
+
+                                        <head>
+                                            <script src="/ddcontactus/static/111213/js/perf/stub.js" type="text/javascript">
+                                            </script>
+                                            <script src="/ddcontactus/jslibrary/1679071308244/sfdc/main.js"
+                                                type="text/javascript"></script>
+                                            <script src="/ddcontactus/jslibrary/jslabels/1690663963000/en_US.js"
+                                                type="text/javascript"></script>
+                                            <script src="/ddcontactus/jslibrary/1647410351244/sfdc/NetworkTracking.js"
+                                                type="text/javascript"></script>
+                                            <script>
+                                                try{ NetworkTracking.init('/ddcontactus/_ui/networks/tracking/NetworkTrackingServlet', 'network', '066C500000009H6'); }catch(x){}
+                                            </script>
+                                            <script>
+                                                (function(UITheme) {
+           UITheme.getUITheme = function() { 
+               return UserContext.uiTheme;
+           };
+        }(window.UITheme = window.UITheme || {}));
+                                            </script>
+                                            <meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+                                            <meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+                                        </head>
+
+
+                                        <body>
+                                            <center>
+                                                <table style="background-color:#F7F7FF;" width="50%">
+                                                    <tr>
+                                                        <td style="color:#715CF3;font-size:20px; padding:20px 0px 2px 0px;">
+                                                            <center><b>Let us Connect</b></center>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="color:#067abf;">
+                                                            <center>Speak with a professionals about your move! </center>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <center>
+
+                                                                <form
+                                                                    action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                                                                    method="POST">
+                                                                    <input name="oid" type="hidden"
+                                                                        value="00D2v000003PByK" />
+                                                                    <input name="retURL" type="hidden"
+                                                                        value="https://dealdox.pbwebvision.com/thank-you" />
+
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="first_name">First Name</label>
+                                                                            </td>
+                                                                            <td><input id="first_name" maxlength="40"
+                                                                                    name="first_name" size="20"
+                                                                                    type="text" /></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="last_name">Last Name</label>
+                                                                            </td>
+                                                                            <td><input id="last_name" maxlength="80"
+                                                                                    name="last_name" size="20"
+                                                                                    type="text" /><br />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="phone">Phone</label>
+                                                                            </td>
+                                                                            <td><input id="phone" maxlength="40"
+                                                                                    name="phone" size="20"
+                                                                                    type="text" /><br />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="email">Email</label>
+                                                                            </td>
+                                                                            <td><input id="email" maxlength="80"
+                                                                                    name="email" size="20"
+                                                                                    type="text" /><br />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="company">Company</label>
+                                                                            </td>
+                                                                            <td><input id="company" maxlength="40"
+                                                                                    name="company" size="20"
+                                                                                    type="text" /><br />
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <label for="country">Country</label>
+                                                                            </td>
+                                                                            <td><input id="country" maxlength="40"
+                                                                                    name="country" size="20"
+                                                                                    type="text" /><br />
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                Message</td>
+                                                                            <td><textarea id="00N2v00000XQu8f"
+                                                                                    name="00N2v00000XQu8f" rows="3"
+                                                                                    type="text"
+                                                                                    wrap="soft"></textarea><br />
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr style="display: none;">
+                                                                            <td><label for="Contact_us__c">Contact</label>
+                                                                            </td>
+                                                                            <td><input id="Contact_us__c" maxlength="40"
+                                                                                    name="Contact_us__c" size="20"
+                                                                                    type="text" value="True" /><br /></td>
+                                                                        </tr>
+
+
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>
+                                                                                <center>
+                                                                                    <input name="submit" type="submit" />
+                                                                                </center>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </form>
+                                                            </center>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+
+                                                </table>
+                                            </center>
+                                        </body>
+
+                                        </html>
+                                        <script>
+                                            if (this.SfdcApp && this.SfdcApp.projectOneNavigator) { SfdcApp.projectOneNavigator.sendTitleToParent('Lead'); } 
+                                        </script>
+
+
+                                    </div>
                                     <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
                                         referrerpolicy="origin-when-cross-origin"></iframe> -->
                                     <!-- <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         method="POST">
-                                        <input name="oid" type="hidden" defaultValue="00D5g00000I1Lrk" />
+                                        <input name="oid" type="hidden" defaultValue="00D2v000003PByK" />
+                                        <input type="hidden" name="retURL"
+                                            value="https://dealdox.pbwebvision.com/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>First Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Sarah">
+                                                    <input type="text" name="first_name" required class="form-control"
+                                                        id="first_name" placeholder="Eg: Sarah">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Taylor">
+                                                    <input type="text" name="last_name" required class="form-control"
+                                                        id="last_name" placeholder="Eg: Taylor">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <p>Job Title</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Software Developer">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Company</p>
-                                                    <input type="text" name="name" class="form-control" required id="name"
-                                                        placeholder="Eg: Lorem Ipsum">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Employees</p>
-                                                    <select required name="experience" class="form-select">
-                                                        <option>1 – 20</option>
-                                                        <option>21 – 200</option>
-                                                        <option>201 – 10,000</option>
-                                                        <option>10,001 +</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Country/Region</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: India">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Phone Number</p>
-                                                    <input type="number" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: 91 9878454345">
+                                                    <p>Phone</p>
+                                                    <input type="Phone" name="phone" required class="form-control"
+                                                        id="phone" placeholder="Eg: Software Developer">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -138,31 +271,43 @@
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <p>Leave your message</p>
-                                                    <textarea name="message" id="message" required class="form-control"
-                                                        cols="30" rows="6"
-                                                        placeholder="This just a dummy message! please dont mind"></textarea>
+                                                    <p>Company</p>
+                                                    <input type="text" name="company" class="form-control" required
+                                                        id="company" placeholder="Eg: Lorem Ipsum">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Country/Region</p>
+                                                    <input type="text" name="country" required class="form-control"
+                                                        id="country" placeholder="Eg: India">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="flexCheckDefault">
-                                                    <label class="form-check-label" for="flexCheckDefault">
-                                                        I agree to the <router-link to="/terms-conditions"> Terms of
-                                                            Use</router-link>
-                                                    </label>
+                                                    <p>Leave your message</p>
+                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f" required
+                                                        class="form-control" cols="30" rows="6"
+                                                        placeholder="This just a dummy message! please dont mind"></textarea>
                                                 </div>
-
                                             </div>
-                                            <p>By registering, you confirm that you agree to the storing and processing of
-                                                your personal data by DealDox as described in the<router-link
-                                                    to="/privacy-policy">
-                                                    Privacy <Statement class=""></Statement></router-link> </p>
+
+                                            <div>
+                                                <tr v-if="isVisible">
+                                                    <td><label for="Contact_us__c">Contact</label></td>
+                                                    <td>
+                                                        <input id="Contact_us__c" maxlength="40" name="Contact_us__c"
+                                                            size="20" type="text" :value="inputValue"
+                                                            @input="updateInputValue" />
+                                                        <br />
+                                                    </td>
+                                                </tr>
+                                            </div>
+
                                             <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <button type="submit" required class="default-btn"><i
+                                                <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Request for a Demo </button>
+                                                    Submit </button>
                                             </div>
                                         </div>
                                     </form> -->
@@ -182,8 +327,19 @@ export default {
     name: 'EasyIntegration',
     data() {
         return {
-            url: "https://spmglobaltech.my.salesforce-sites.com/ddcontactus"
+            isVisible: false,
+            inputValue: "True", // Replace this with the initial value you want
         };
     },
+    methods: {
+        updateInputValue(event) {
+            this.inputValue = event.target.value;
+        },
+    },
+    // data() {
+    //     return {
+    //         url: "https://spmglobaltech.my.salesforce-sites.com/ddcontactus"
+    //     };
+    // },
 }
 </script>
