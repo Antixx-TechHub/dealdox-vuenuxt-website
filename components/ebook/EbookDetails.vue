@@ -78,9 +78,6 @@
                                             </div>
                                         </div>
 
-<<<<<<< HEAD
-                                        <div class="col-lg-12 col-md-5 col-sm-6">
-=======
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="form-group">
                                                 <p>Phone Number</p>
@@ -88,8 +85,9 @@
                                                     class="form-control" id="company" placeholder="Eg: Sarah">
                                             </div>
                                         </div>
+                                        
                                         <div class="col-lg-6 col-md-5 col-sm-6">
->>>>>>> 18a9053cca7fb1a41fd35c969f9b9d530e01c440
+
                                             <div class="form-group">
                                                 <p>Country</p>
                                                 <select required name="Country_eBook__c" id="Country_eBook__c"
