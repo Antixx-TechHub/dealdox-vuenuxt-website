@@ -1,34 +1,26 @@
 <template>
-    <div>
-        <Navbar class="navbar-style-two" />
-        <ThankYouPage />
-        <DealDoxFooter />
-    </div>
+  <div>
+    <!-- <Navbar class="navbar-style-two" /> -->
+    <ThankYouPage />
+    <!-- <DealDoxFooter /> -->
+  </div>
 </template>
   
 <script>
 
-import Navbar from '../layouts/Navbar';
+// import Navbar from '../layouts/Navbar';
 import ThankYouPage from '../components/ThankYou/ThankYouPage'
-import DealDoxFooter from '../layouts/DealDoxFooter';
+// import DealDoxFooter from '../layouts/DealDoxFooter';
 
 
 export default {
-    components: {
-        Navbar,
-        ThankYouPage,
-        DealDoxFooter,
-    },
-    mounted() {
-    this.refreshPageAfterDelay();
+  components: {
+    // Navbar,
+    ThankYouPage,
+    // DealDoxFooter,
   },
-  methods: {
-    refreshPageAfterDelay() {
-      setTimeout(() => {
-        // Reload the current page after 5 seconds (5000 milliseconds)
-        window.location.reload();
-      }, 5000);
-    },
-  },
+  created() {
+    setTimeout(() => this.$router.push({ path: '/request-a-demo' }), 5000)
+  }
 }
 </script>

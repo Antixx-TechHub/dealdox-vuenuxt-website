@@ -3,7 +3,7 @@
         <div class="container">
             <div class="software-integrations-inner">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
+                    <!-- <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
                                 <h2>Transform Deals with <br><span class="sub-title">DealDox</span> in Action!</h2>
@@ -33,8 +33,8 @@
                                 <router-link to="/integration" class="default-btn">Know more</router-link>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 pt-70">
+                    </div> -->
+                    <div class="col-lg-12 col-md-12 pt-70">
                         <div class="contact-area pbt-75">
                             <div class="container">
                                 <div class="contact-form pt-70">
