@@ -35,7 +35,7 @@
                                         class="ri-instagram-fill"></i></a>
                             </li>
                             <li>
-                                <a href="/https://www.linkedin.com/in/dealdox/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                                <a href="https://www.linkedin.com/in/dealdox/" target="_blank"><i class="ri-linkedin-fill"></i></a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
