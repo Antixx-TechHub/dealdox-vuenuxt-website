@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-12">
-                        <div class="contact-area pt-70">
+                        <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form">
                                     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
