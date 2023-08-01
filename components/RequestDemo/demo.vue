@@ -34,24 +34,23 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="col-lg-12 col-md-12 pt-70">
-                        <div class="contact-area pbt-75">
+                    <div class="col-lg-12 col-md-12">
+                        <!-- <div class="contact-area">
                             <div class="container">
-                                <div class="contact-form pt-70">
-                                    <form id="contactForm">
-                                        <div class="row">
+                                <div class="contact-form">
+                                    <form id="contactForm"> -->
+                        <div class="row">
 
-                                            <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600"
-                                                height="800"></iframe>
+                            <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600" height="800"></iframe>
 
-                                            <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                            <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
                                                 referrerpolicy="origin-when-cross-origin"></iframe> -->
 
-                                        </div>
-                                    </form>
+                        </div>
+                        <!-- </form>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
