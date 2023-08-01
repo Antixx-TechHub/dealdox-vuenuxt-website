@@ -66,7 +66,7 @@ export default {
     name: 'EasyIntegration',
     data() {
         return {
-            iframeUrl: 'https://example.com', // Set your initial iframe URL here
+            iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Set your initial iframe URL here
             showThankYouPage: false,
         };
     },
