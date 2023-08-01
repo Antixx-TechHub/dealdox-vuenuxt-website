@@ -70,10 +70,11 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <div class="col-lg-6 col-md-5 col-sm-6">
                                             <div class="form-group">
                                                 <p>Country</p>
-                                                <select required name="Country_eBook__c" id="Country_eBook__c" class="form-select">
+                                                <select required name="Country_eBook__c" id="Country_eBook__c"
+                                                    class="form-control">
                                                     <option>--None--</option>
                                                     <option value="Afghanistan">Afghanistan</option>
                                                     <option value="Albania">Albania</option>
