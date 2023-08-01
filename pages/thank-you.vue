@@ -19,8 +19,8 @@ export default {
     ThankYouPage,
     DealDoxFooter,
   },
-  created() {
-    setTimeout(() => this.$router.push({ path: '/' }), 5000)
-  }
+  // created() {
+  //   setTimeout(() => this.$router.push({ path: '/' }), 5000)
+  // }
 }
 </script>

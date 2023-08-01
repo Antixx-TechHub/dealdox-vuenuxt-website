@@ -47,6 +47,14 @@
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Phone</p>
+                                                    <input type="number" maxlength="40" name="phone" required
+                                                        class="form-control" id="phone" placeholder="Eg: Sarah">
+                                                </div>
+                                            </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="form-group">
                                                 <p>e-mail</p>
                                                 <input type="email" maxlength="40" name="email" required
@@ -70,7 +78,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6 col-md-5 col-sm-6">
+                                        <div class="col-lg-12 col-md-5 col-sm-6">
                                             <div class="form-group">
                                                 <p>Country</p>
                                                 <select required name="Country_eBook__c" id="Country_eBook__c"
