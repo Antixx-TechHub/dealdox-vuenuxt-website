@@ -40,8 +40,17 @@
                                 <div class="contact-form pt-70">
                                     <form id="contactForm">
                                         <div class="row">
-                                            <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600"
-                                                height="800"></iframe>
+
+                                            <!-- Your thank you message -->
+                                            <div v-if="showThankYouMessage">Thank you for your submission!</div>
+
+                                            <!-- Your iframe element -->
+                                            <iframe ref="myIframe" :src="iframeUrl" width="600" height="800"></iframe>
+
+
+
+                                            <!-- <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600"
+                                                height="800"></iframe> -->
 
                                             <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
                                                 referrerpolicy="origin-when-cross-origin"></iframe> -->
@@ -63,39 +72,28 @@ export default {
     name: 'EasyIntegration',
     data() {
         return {
+            showThankYouMessage: false,
             iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Initial URL for the iframe
         };
     },
     mounted() {
-        this.resetIframeUrlAfterDelay();
+        // Check if the URL contains the "thankyou" parameter to determine if it's the thank you page
+        const isThankYouPage = this.$route.query.thankyou === 'true';
+        if (isThankYouPage) {
+            // Show the thank you message
+            this.showThankYouMessage = true;
+            // Reload the iframe after 5 seconds (5000 milliseconds)
+            setTimeout(() => {
+                this.reloadIframe();
+            }, 5000);
+        }
     },
     methods: {
-        resetIframeUrlAfterDelay() {
-            setTimeout(() => {
-                // Replace the URL with a new one after 6 seconds (6000 milliseconds)
-                this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo';
-            }, 6000);
-        },
-    },
-
-
-
-
-    data() {
-        return {
-            iframeUrl: 'https://spmglobaltech.my.salesforce-sites.com/requestdemo', // Set your initial iframe URL here
-            // showThankYouPage: false,
-        };
-    },
-    mounted() {
-        this.resetIframeUrlAfterDelay();
-    },
-    methods: {
-        resetIframeUrlAfterDelay() {
-            setTimeout(() => {
-                // Replace the URL with a new one after 6 seconds (6000 milliseconds)
-                this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo';
-            }, 6000);
+        reloadIframe() {
+            // Use the iframe's contentWindow to access the window object of the iframe
+            const iframeWindow = this.$refs.myIframe.contentWindow;
+            // Reload the iframe
+            iframeWindow.location.reload();
         },
     },
 }
