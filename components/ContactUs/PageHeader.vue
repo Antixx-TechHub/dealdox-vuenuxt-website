@@ -76,7 +76,7 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="Eg: Sarah">
+                                                        class="form-control" id="first_name" placeholder="Eg: David">
                                                 </div>
                                             </div>
 
@@ -84,15 +84,15 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name" required
-                                                        class="form-control" id="last_name" placeholder="Eg: Sarah">
+                                                        class="form-control" id="last_name" placeholder="Eg: Jhon">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Phone</p>
-                                                    <input type="number" maxlength="40" name="phone" required
-                                                        class="form-control" id="phone" placeholder="Eg: Sarah">
+                                                    <input type="number" maxlength="15" name="phone" required
+                                                        class="form-control" id="phone" placeholder="Eg: 91 7898764567">
                                                 </div>
                                             </div>
 
@@ -100,7 +100,7 @@
                                                 <div class="form-group">
                                                     <p>e-mail</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="Eg: Sarah">
+                                                        class="form-control" id="email" placeholder="Eg: Sarah@gmail.com">
                                                 </div>
                                             </div>
 
@@ -116,7 +116,7 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="text" maxlength="40" name="country" required
-                                                        class="form-control" id="country" placeholder="Eg: Sarah">
+                                                        class="form-control" id="country" placeholder="Eg: India">
                                                 </div>
                                             </div>
 
