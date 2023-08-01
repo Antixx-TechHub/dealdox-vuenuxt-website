@@ -40,8 +40,15 @@
                                 <div class="contact-form pt-70">
                                     <form id="contactForm">
                                         <div class="row">
-                                            <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
-                                            referrerpolicy="origin-when-cross-origin"></iframe>
+                                            <iframe ref="myIframe" :src="iframeUrl" frameborder="0" width="600"
+                                                height="800"></iframe>
+
+                                            <!-- thank you page section -->
+                                            <div v-if="showThankYouPage">Thank you for your submission!</div>
+
+                                            <!-- <iframe width="600" height="800" :src="url" frameborder="0" allowfullscreen
+                                                referrerpolicy="origin-when-cross-origin"></iframe> -->
+
                                         </div>
                                     </form>
                                 </div>
@@ -59,8 +66,35 @@ export default {
     name: 'EasyIntegration',
     data() {
         return {
-            url: "https://spmglobaltech.my.salesforce-sites.com/requestdemo"
+            iframeUrl: 'https://example.com', // Set your initial iframe URL here
+            showThankYouPage: false,
         };
     },
+    mounted() {
+        // Show the thank you page after a delay of 3 seconds
+        setTimeout(() => {
+            this.showThankYouPage = true;
+            // Reset the iframe URL after the thank you page is shown for 3 seconds
+            setTimeout(() => {
+                this.resetIframeUrl();
+            }, 3000);
+        }, 3000);
+    },
+    methods: {
+        resetIframeUrl() {
+            // Set the new URL for the iframe
+            this.iframeUrl = 'https://spmglobaltech.my.salesforce-sites.com/requestdemo'; // Replace 'https://example.com/reset-url' with your desired URL
+        },
+    },
+
+
+
+    data() {
+        return {
+            url: "https://spmglobaltech.my.salesforce-sites.com/requestdemo",
+            showThankYouPage: false,
+        };
+    },
+
 }
 </script>
