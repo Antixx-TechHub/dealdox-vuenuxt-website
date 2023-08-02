@@ -312,13 +312,19 @@
                                                 to="/privacy-policy"> Privacy Statement.</router-link> </p>
 
 
-                                        <tr style="display: none;">
+                                        <div style="display: none;">
+                                            <label for="eBook__c">Contact</label>
+                                            <input id="eBook__c" maxlength="40" name="eBook__c" size="20" type="text"
+                                                value="True" /><br />
+                                        </div>
+
+                                        <!-- <tr style="display: none;">
                                             <td><label for="eBook__c">Contact</label>
                                             </td>
                                             <td><input id="eBook__c" maxlength="40" name="eBook__c" size="20" type="text"
                                                     value="True" /><br />
                                             </td>
-                                        </tr>
+                                        </tr> -->
 
                                         <div class="col-lg-12 col-md-12 col-sm-12">
                                             <button type="submit" name="submit" required class="default-btn"><i
