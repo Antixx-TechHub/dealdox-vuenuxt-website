@@ -11,7 +11,7 @@
                         <div class="icon">
                             <img src="../../assets/images/security/SecurityAwarenessandTraining.png" alt="image">
                         </div>
-                        <h5>Security Awareness and Training</h5>
+                        <h5>Awareness and Training</h5>
                         <p>Comprehensive security awareness and training programs for all employees.</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                             <img src="../../assets/images/security/PenetrationTesting.png" alt="image">
                         </div>
                         <h5>Penetration Testing</h5>
-                        <p>Regular penetration testing helps identify and address vulnerabilities.</p>
+                        <p>Essential penetration testing identifies and addresses vulnerabilities, ensuring proactive security measures.</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -38,8 +38,8 @@
                         <div class="icon">
                             <img src="../../assets/images/security/OngoingVulnerabilityAssessments.png" alt="image">
                         </div>
-                        <h5>Ongoing Vulnerability Assessments</h5>
-                        <p>We continuously assess and address security gaps.</p>
+                        <h5>Vulnerability Assessments</h5>
+                        <p>Continuous assessments address security gaps, ensuring ongoing protection and risk mitigation.</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -47,8 +47,8 @@
                         <div class="icon">
                             <img src="../../assets/images/security/DisasterRecover(DRP).png" alt="image">
                         </div>
-                        <h5>Disaster Recovery Plan (DRP)</h5>
-                        <p>A robust DRP ensures business continuity in unforeseen events.</p>
+                        <h5>Disaster Recovery Plan</h5>
+                        <p>A robust DRP ensures business continuity in unforeseen events</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -56,8 +56,8 @@
                         <div class="icon">
                             <img src="../../assets/images/security/GlobalInformationSecurityPolicy(GISP).png" alt="image">
                         </div>
-                        <h5>Global Information Security Policy (GISP)</h5>
-                        <p>We adhere to a comprehensive security policy. </p>
+                        <h5>Global Information Security Policy</h5>
+                        <p>Our policy ensures global information security and adherence</p>
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@
                             <img src="../../assets/images/security/SourceCodeReview.png" alt="image">
                         </div>
                         <h5>Source Code Reviews</h5>
-                        <p>Thorough reviews help identify and address code vulnerabilities</p>
+                        <p>Thorough reviews help identify and address code vulnerabilities.</p>
                     </div>
                 </div>
 
