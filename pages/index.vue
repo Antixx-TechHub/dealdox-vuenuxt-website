@@ -11,7 +11,7 @@
   <EasyCPQ />
   <AdditionalFeature />
   <AutomatedQuotes />
-  <!-- <GetInTouch /> -->
+  <GetInTouch />
   <Faq />
   <DealDoxFooter/>
 </div>
@@ -30,7 +30,7 @@ import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
-// import GetInTouch from '../components/Common/GetInTouch';
+import GetInTouch from '../components/IndexPage/GetInTouch';
 import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
@@ -49,7 +49,7 @@ components: {
     EasyCPQ,
     AdditionalFeature,
     AutomatedQuotes,
-    // GetInTouch,
+    GetInTouch,
     Faq,
     DealDoxFooter,
 },

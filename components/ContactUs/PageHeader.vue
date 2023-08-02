@@ -143,7 +143,7 @@
                                             <p> By registering, you confirm that you agree to the storing and processing of
                                                 your personal data by DealDox as described in the<router-link
                                                     to="/privacy-policy">
-                                                    Privacy Statement.</router-link>  </p>
+                                                    Privacy Statement.</router-link> </p>
 
                                             <tr style="display: none;">
                                                 <td><label for="Contact_us__c">Contact</label>

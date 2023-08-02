@@ -79,13 +79,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
-<<<<<<< HEAD
-                                                    <input type="text" maxlength="40" name="Title" required
-                                                        class="form-control" id="Title"
-=======
                                                     <input type="text" maxlength="40" name="title" required
                                                         class="form-control" id="title"
->>>>>>> 74c9e2ab6c6daf026010032dc9c908e918d1e46f
                                                         placeholder="Eg: Associate Consultant">
                                                 </div>
                                             </div>
@@ -360,7 +355,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Submit </button>
+                                                    Request Demo </button>
                                             </div>
 
                                         </div>
