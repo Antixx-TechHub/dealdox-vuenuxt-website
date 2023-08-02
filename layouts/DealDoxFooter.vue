@@ -27,23 +27,24 @@
                             efficiency.</p>
                         <ul class="social-links">
                             <li>
-                                <a href="https://www.facebook.com/dealdox.io" target="_blank"><i
-                                        class="ri-facebook-fill"></i></a>
+                                <a href="https://www.facebook.com/dealdox.io" target="_blank">
+                                    <i class="ri-facebook-circle-fill" style="background: #3b5998"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dealdox.io/" target="_blank"><i
-                                        class="ri-instagram-fill"></i></a>
+                                <a href="https://www.instagram.com/dealdox.io/" target="_blank">
+                                    <i class="ri-instagram-fill" style="background: rgb(228, 64, 95)" ></i> </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/dealdox/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                                <a href="https://www.linkedin.com/in/dealdox/" target="_blank">
+                                    <i class="ri-linkedin-fill" style="background: #0A66C2"></i></a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
-                                    target="_blank"><i class="ri-twitter-fill"></i></a>
+                                    target="_blank"><i class="ri-twitter-fill" style="background: #00acee"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank"><i
-                                        class="ri-youtube-fill"></i></a>
+                                <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
+                                    <i class="ri-youtube-fill" style="background: #CD201F"></i></a>
                             </li>
                         </ul>
                     </div>
