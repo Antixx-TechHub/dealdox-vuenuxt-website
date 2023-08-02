@@ -368,18 +368,6 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- <tr style="display: none;">
-                                                <td><label for="Request_demo__c">Request a Demo</label></td>
-                                                <td><input id="Request_demo__c" maxlength="40" name="Request_demo__c"
-                                                        size="20" type="text" value="True" /><br /></td>
-                                            </tr> -->
-
-                                                <div style="display: none;">
-                                                    <label for="Request_demo__c">Request a Demo</label>
-                                                    <input id="Request_demo__c" maxlength="40" name="Request_demo__c"
-                                                        size="20" type="text" value="True" /><br />
-                                                </div>
-
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <input class="form-check-input" type="checkbox" value=""
@@ -395,12 +383,24 @@
                                                     of
                                                     your personal data by DealDox as described in the<router-link
                                                         to="/privacy-policy">
-                                                        Privacy Statement.</router-link> </p>
+                                                        Privacy </router-link> Statement. </p>
+
+                                                <div style="display: none;">
+                                                    <label for="Sign_Up__c">Start My Free Trial</label>
+                                                    <input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
+                                                        type="text" value="True" /><br />
+                                                </div>
+
+                                                <!-- <tr style="display: none;">
+                                                <td><label for="Sign_Up__c">Sign Up</label></td>
+                                                <td><input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
+                                                        type="text" value="True" /><br /></td>
+                                            </tr> -->
 
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <button type="submit" name="submit" required class="default-btn"><i
                                                             class='bx bx-paper-plane'></i>
-                                                        Request Demo </button>
+                                                        Start My Free Trial </button>
                                                 </div>
 
                                             </div>
@@ -409,10 +409,11 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 </div></template>
 
 <script>
