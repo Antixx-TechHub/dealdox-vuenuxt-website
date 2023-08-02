@@ -79,8 +79,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
-                                                    <input type="text" maxlength="40" name="Title" required
-                                                        class="form-control" id="Title"
+                                                    <input type="text" maxlength="40" name="title" required
+                                                        class="form-control" id="title"
                                                         placeholder="Eg: Associate Consultant">
                                                 </div>
                                             </div>
