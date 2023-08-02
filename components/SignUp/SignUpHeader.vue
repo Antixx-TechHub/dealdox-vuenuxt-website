@@ -117,8 +117,18 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
+<<<<<<< HEAD
+                                                    <input type="text" maxlength="40" name="title" required
+                                                        class="form-control" id="title" placeholder="Eg: Associate Consultant">
+=======
                                                     <input type="text" maxlength="40" name="Title" required
+<<<<<<< HEAD
                                                         class="form-control" id="Title" placeholder="Eg: Associate Consultant">
+=======
+                                                        class="form-control" id="Title"
+                                                        placeholder="Eg: Associate Consultant">
+>>>>>>> 4dd45c3e12f60296601701c05f5315819dd7894f
+>>>>>>> 74c9e2ab6c6daf026010032dc9c908e918d1e46f
                                                 </div>
                                             </div>
 
@@ -367,6 +377,21 @@
                                                 </div>
                                             </div>
 
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        I agree to the <router-link to="/terms-of-use"> Terms of
+                                                            Use</router-link>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <p> By registering, you confirm that you agree to the storing and processing of
+                                                your personal data by DealDox as described in the<router-link
+                                                    to="/privacy-policy">
+                                                    Privacy </router-link> Statement. </p>
 
                                             <tr style="display: none;">
                                                 <td><label for="Sign_Up__c">Sign Up</label></td>
