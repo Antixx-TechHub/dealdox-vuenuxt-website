@@ -47,10 +47,18 @@
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Phone</p>
+                                                    <input type="number" maxlength="40" name="phone" required
+                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890">
+                                                </div>
+                                            </div>
+
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="form-group">
                                                 <p>e-mail</p>
                                                 <input type="email" maxlength="40" name="email" required
-                                                    class="form-control" id="email" placeholder="Eg: Sarah@gmail.com">
+                                                    class="form-control" id="email" placeholder="Eg: abc@gmail.com">
                                             </div>
                                         </div>
 
@@ -66,20 +74,12 @@
                                             <div class="form-group">
                                                 <p>Company</p>
                                                 <input type="text" maxlength="40" name="company" required
-                                                    class="form-control" id="company" placeholder="Eg: Sarah">
+                                                    class="form-control" id="company" placeholder="Eg: ABC">
                                             </div>
                                         </div>
-
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="form-group">
-                                                <p>Phone Number</p>
-                                                <input type="text" maxlength="15" name="phonenumber" required
-                                                    class="form-control" id="company" placeholder="Eg: 91 7898764567">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-5 col-sm-6">
-                                            <div class="form-group">
+                                        
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <div class="form-group">
                                                 <p>Country</p>
                                                 <select required name="Country_eBook__c" id="Country_eBook__c"
                                                     class="form-control">
