@@ -78,7 +78,7 @@
                             </li>
 
                             <!-- <li class="nav-item">
-                                <router-link to="/demo" class="nav-link">Request a demo</router-link>
+                                <router-link to="/demo" class="nav-link">Request a Demo</router-link>
                             </li> -->
                             <!-- <div class="others-option">
                                 <router-link to="/sign-in" class="default-btn">Login</router-link>
@@ -87,7 +87,7 @@
                     </div>
 
                     <div class="others-option">
-                        <router-link to="/demo" class="default-btn">Request a demo</router-link>
+                        <router-link to="/demo" class="default-btn">Request a Demo</router-link>
                     </div>
                     <!-- <div class="others-option">
                         <router-link to="/SignIn" class="default-btn">Login</router-link>

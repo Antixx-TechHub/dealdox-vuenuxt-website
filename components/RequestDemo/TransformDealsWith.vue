@@ -361,7 +361,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Request Demo </button>
+                                                    Request a Demo </button>
                                             </div>
 
                                         </div>
