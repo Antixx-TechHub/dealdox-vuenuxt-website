@@ -281,7 +281,7 @@
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">
-                                        How can I request a demo of DealDox?                              
+                                        How can I Request a Demo of DealDox?                              
                                      </button>
                                 </template>
                                 <template v-slot:accordion-content>

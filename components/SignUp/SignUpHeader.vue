@@ -117,8 +117,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
-                                                    <input type="text" maxlength="40" name="Title" required
-                                                        class="form-control" id="Title"
+                                                    <input type="text" maxlength="40" name="title" required
+                                                        class="form-control" id="title"
                                                         placeholder="Eg: Associate Consultant">
                                                 </div>
                                             </div>
@@ -384,16 +384,22 @@
                                                     to="/privacy-policy">
                                                     Privacy </router-link> Statement. </p>
 
-                                            <tr style="display: none;">
+                                            <div style="display: none;">
+                                                <label for="Sign_Up__c">Start My Free Trial</label>
+                                                <input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
+                                                    type="text" value="True" /><br />
+                                            </div>
+
+                                            <!-- <tr style="display: none;">
                                                 <td><label for="Sign_Up__c">Sign Up</label></td>
                                                 <td><input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
                                                         type="text" value="True" /><br /></td>
-                                            </tr>
+                                            </tr> -->
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Submit </button>
+                                                    Start My Free Trial </button>
                                             </div>
 
                                         </div>

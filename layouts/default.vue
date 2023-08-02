@@ -1,18 +1,18 @@
 <template>
     <div>
-        <Preloader v-if="isLoading" />
+        <!-- <Preloader v-if="isLoading" /> -->
         <Nuxt />
         <GoTop />
     </div>
 </template>
 
 <script>
-import Preloader from './Preloader'
+// import Preloader from './Preloader'
 import GoTop from './GoTop'
 
 export default {
     components: {
-        Preloader,
+        // Preloader,
         GoTop,
     },
     data() {

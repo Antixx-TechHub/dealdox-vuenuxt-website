@@ -79,8 +79,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
-                                                    <input type="text" maxlength="40" name="Title" required
-                                                        class="form-control" id="Title"
+                                                    <input type="text" maxlength="40" name="title" required
+                                                        class="form-control" id="title"
                                                         placeholder="Eg: Associate Consultant">
                                                 </div>
                                             </div>
@@ -330,11 +330,17 @@
                                                 </div>
                                             </div>
 
-                                            <tr style="display: none;">
+                                            <div style="display: none;">
+                                                <label for="Request_demo__c">Request a Demo</label>
+                                                <input id="Request_demo__c" maxlength="40" name="Request_demo__c" size="20"
+                                                    type="text" value="True" /><br />
+                                            </div>
+
+                                            <!-- <tr style="display: none;">
                                                 <td><label for="Request_demo__c">Request a Demo</label></td>
                                                 <td><input id="Request_demo__c" maxlength="40" name="Request_demo__c"
                                                         size="20" type="text" value="True" /><br /></td>
-                                            </tr>
+                                            </tr> -->
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
@@ -355,7 +361,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Submit </button>
+                                                    Request a Demo </button>
                                             </div>
 
                                         </div>

@@ -8,7 +8,7 @@
                         <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience </p>
                         <div class="tb-30">
                             <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a demo</router-link>
+                                Request a Demo</router-link>
                         </div>
                     </div>
                 </div>

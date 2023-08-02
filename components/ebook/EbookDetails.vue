@@ -47,12 +47,12 @@
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Phone</p>
-                                                    <input type="number" maxlength="40" name="phone" required
-                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890">
-                                                </div>
+                                            <div class="form-group">
+                                                <p>Phone</p>
+                                                <input type="number" maxlength="40" name="phone" required
+                                                    class="form-control" id="phone" placeholder="Eg: +91 12345 67890">
                                             </div>
+                                        </div>
 
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="form-group">
@@ -65,8 +65,8 @@
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="form-group">
                                                 <p>Job Title</p>
-                                                <input type="text" maxlength="40" name="Title" required class="form-control"
-                                                    id="Title" placeholder="Eg: Associate Consultant">
+                                                <input type="text" maxlength="40" name="title" required class="form-control"
+                                                    id="title" placeholder="Eg: Associate Consultant">
                                             </div>
                                         </div>
 
@@ -77,9 +77,9 @@
                                                     class="form-control" id="company" placeholder="Eg: ABC">
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <div class="form-group">
+                                            <div class="form-group">
                                                 <p>Country</p>
                                                 <select required name="Country_eBook__c" id="Country_eBook__c"
                                                     class="form-control">
@@ -297,33 +297,39 @@
                                         </div>
 
                                         <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="flexCheckDefault">
-                                                    <label class="form-check-label" for="flexCheckDefault">
-                                                        I agree to the <router-link to="/terms-of-use"> Terms of
-                                                            Use</router-link>
-                                                    </label>
-                                                </div>
+                                            <div class="form-group">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    I agree to the <router-link to="/terms-of-use"> Terms of
+                                                        Use</router-link>
+                                                </label>
                                             </div>
+                                        </div>
 
-                                            <p> By registering, you confirm that you agree to the storing and processing of
-                                                your personal data by DealDox as described in the<router-link
-                                                    to="/privacy-policy"> Privacy Statement.</router-link>  </p>
-                                                    
+                                        <p> By registering, you confirm that you agree to the storing and processing of
+                                            your personal data by DealDox as described in the<router-link
+                                                to="/privacy-policy"> Privacy Statement.</router-link> </p>
 
-                                        <tr style="display: none;">
+
+                                        <div style="display: none;">
+                                            <label for="eBook__c">Contact</label>
+                                            <input id="eBook__c" maxlength="40" name="eBook__c" size="20" type="text"
+                                                value="True" /><br />
+                                        </div>
+
+                                        <!-- <tr style="display: none;">
                                             <td><label for="eBook__c">Contact</label>
                                             </td>
                                             <td><input id="eBook__c" maxlength="40" name="eBook__c" size="20" type="text"
                                                     value="True" /><br />
                                             </td>
-                                        </tr>
+                                        </tr> -->
 
                                         <div class="col-lg-12 col-md-12 col-sm-12">
                                             <button type="submit" name="submit" required class="default-btn"><i
                                                     class='bx bx-paper-plane'></i>
-                                                Submit </button>
+                                                Download </button>
                                         </div>
 
                                     </div>
