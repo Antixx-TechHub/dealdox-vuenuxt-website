@@ -75,7 +75,7 @@
                     we use the information we collect. The specific purposes for which we utilize the data we gather about
                     you are recorded underneath. </p>
 
-                <h6>To customize your experience and provide the Services: </h6>
+                <h6>To customize your experience and provide the Services </h6>
                 <p class="text-justify"> We use information about you to operate, improve, and maintain the Services, provide customer support,
                     process transactions with you, verify your identity when you log in, and provide the Services to you.
                     For instance, we use your account name and picture to identify you to other Service users. By

@@ -15,7 +15,7 @@
                     DealDox may modify the Terms of Use and Privacy Policy without prior notice. Any revisions will become
                     effective upon posting. To stay updated, you can refer to the current version of the at <a
                         href="https://www.dealdox.io/terms-of-use ">Terms of Use </a>
-                    and the at <a href="https://dealdox.io/privacy-policy ">Privacy Policy </a></p>
+                    and the at <a href="https://dealdox.io/privacy-policy ">Privacy Policy</a>.</p>
 
                 <h6>Terms and Conditions for Specific Content and Site Areas </h6>
                 <p class="text-justify">Certain sections of the Site or specific Content offered through the Site may be
@@ -250,7 +250,7 @@
                 or proceeding. </p>
 
             <h6>Contact Information</h6>
-            <p class="text-justify"> If you have any inquiries or concerns regarding these Terms of Use, please reach out to Oracle at
+            <p class="text-justify"> If you have any inquiries or concerns regarding these Terms of Use, please reach out to Dealdox at
                 info@dealdox.io. For general inquiries or other questions, you can find contact information on the Get
                 in Touch page on the Site. </p>
         </div>
