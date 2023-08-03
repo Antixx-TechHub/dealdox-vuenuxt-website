@@ -336,12 +336,6 @@
                                                     type="text" value="True" /><br />
                                             </div>
 
-                                            <!-- <tr style="display: none;">
-                                                <td><label for="Request_demo__c">Request a Demo</label></td>
-                                                <td><input id="Request_demo__c" maxlength="40" name="Request_demo__c"
-                                                        size="20" type="text" value="True" /><br /></td>
-                                            </tr> -->
-
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" type="checkbox" value=""
