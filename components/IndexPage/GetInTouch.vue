@@ -391,12 +391,6 @@
                                                         type="text" value="True" /><br />
                                                 </div>
 
-                                                <!-- <tr style="display: none;">
-                                                <td><label for="Sign_Up__c">Sign Up</label></td>
-                                                <td><input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
-                                                        type="text" value="True" /><br /></td>
-                                            </tr> -->
-
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <button type="submit" name="submit" required class="default-btn"><i
                                                             class='bx bx-paper-plane'></i>
@@ -414,23 +408,24 @@
                 </div>
             </div>
         </div>
-</div></template>
+    </div>
+</template>
 
 <script>
 new Vue({
     el: '#contact-form',
     data: {
-      formData: {
-        first_name: '',
-        last_name: '',
-        phone: '',
-        email: '',
-        company: '',
-        country: '',
-        message: '',
-        agree_terms: true
-      },
-      errors: {}
+        formData: {
+            first_name: '',
+            last_name: '',
+            phone: '',
+            email: '',
+            company: '',
+            country: '',
+            message: '',
+            agree_terms: true
+        },
+        errors: {}
     },
 });
 
@@ -439,59 +434,59 @@ import Vue from 'vue'
 export default {
 
     methods: {
-      validateForm() {
-        this.errors = {};
+        validateForm() {
+            this.errors = {};
 
-        if (!this.formData.first_name) {
-          this.errors.first_name = 'First Name is required.';
-        }
+            if (!this.formData.first_name) {
+                this.errors.first_name = 'First Name is required.';
+            }
 
-        if (!this.formData.last_name) {
-          this.errors.last_name = 'Last Name is required.';
-        }
+            if (!this.formData.last_name) {
+                this.errors.last_name = 'Last Name is required.';
+            }
 
-        if (!this.formData.phone) {
-          this.errors.phone = 'Phone is required.';
-        }
+            if (!this.formData.phone) {
+                this.errors.phone = 'Phone is required.';
+            }
 
-        if (!this.formData.email) {
-          this.errors.email = 'Email is required.';
-        } else if (!this.isValidEmail(this.formData.email)) {
-          this.errors.email = 'Please enter a valid email address.';
-        }
+            if (!this.formData.email) {
+                this.errors.email = 'Email is required.';
+            } else if (!this.isValidEmail(this.formData.email)) {
+                this.errors.email = 'Please enter a valid email address.';
+            }
 
-        if (!this.formData.company) {
-          this.errors.company = 'Company is required.';
-        }
+            if (!this.formData.company) {
+                this.errors.company = 'Company is required.';
+            }
 
-        if (!this.formData.country) {
-          this.errors.country = 'Country is required.';
-        }
+            if (!this.formData.country) {
+                this.errors.country = 'Country is required.';
+            }
 
-        if (!this.formData.message) {
-          this.errors.message = 'Message is required.';
-        }
+            if (!this.formData.message) {
+                this.errors.message = 'Message is required.';
+            }
 
-        if (!this.formData.agree_terms) {
-          this.errors.agree_terms = 'You must agree to the Terms of Use.';
-        }
+            if (!this.formData.agree_terms) {
+                this.errors.agree_terms = 'You must agree to the Terms of Use.';
+            }
 
-        return Object.keys(this.errors).length === 0;
-      },
-      isValidEmail(email) {
-        // You can implement your own email validation logic here.
-        // For a simple example, let's check if the email contains '@'.
-        return email.includes('@');
-      },
-      onSubmit() {
-        if (this.validateForm()) {
-          // Submit the form
-          // For example, you can use axios or fetch to submit the form data to the server.
-          // You can also redirect to the 'thank-you' page after successful submission.
-        //   alert('Form submitted successfully!');
-          // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+            return Object.keys(this.errors).length === 0;
+        },
+        isValidEmail(email) {
+            // You can implement your own email validation logic here.
+            // For a simple example, let's check if the email contains '@'.
+            return email.includes('@');
+        },
+        onSubmit() {
+            if (this.validateForm()) {
+                // Submit the form
+                // For example, you can use axios or fetch to submit the form data to the server.
+                // You can also redirect to the 'thank-you' page after successful submission.
+                //   alert('Form submitted successfully!');
+                // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+            }
         }
-      }
     },
 
     name: 'AppDownload',
