@@ -117,8 +117,10 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
-                                                    <input type="number"  name="name" required
-                                                        class="form-control" id="name" placeholder="Eg: 91 9878454345">
+                                                    <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
+                                                        @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                        name="phone" required class="form-control" id="phone" maxlength="15"
+                                                        placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -183,7 +185,10 @@ new Vue({
         company: '',
         country: '',
         message: '',
-        agree_terms: true
+        agree_terms: true,
+        phoneNumber: '',
+      maxPhoneNumberLength: 15,
+      phoneValidationMessage: 'Please enter exactly 15 numeric digits',
       },
       errors: {}
     },
@@ -193,6 +198,18 @@ import Vue from 'vue'
 
 export default {
     methods: {
+
+        validatePhoneNumber() {
+      // Remove any non-numeric characters from the phone number
+      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+    },
+    allowOnlyNumbers(event) {
+      // Allow only numeric digits (0-9) in the input field
+      const charCode = event.which ? event.which : event.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        event.preventDefault();
+      }
+    },
       validateForm() {
         this.errors = {};
 
@@ -204,8 +221,8 @@ export default {
           this.errors.last_name = 'Last Name is required.';
         }
 
-        if (!this.formData.phone) {
-          this.errors.phone = 'Phone is required.';
+        if (!this.formData.phoneNumber) {
+          this.errors.phoneNumber = 'Phone is required.';
         }
 
         if (!this.formData.email) {

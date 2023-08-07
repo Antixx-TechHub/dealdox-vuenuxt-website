@@ -62,9 +62,16 @@
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
-                                                    <p>Phone</p>
-                                                    <input type="number" maxlength="40" name="phone" required
-                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890">
+                                                    <p>Phone Number</p>
+                                                    <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
+                                                        @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                        name="phone" required class="form-control" id="phone" maxlength="15"
+                                                        placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
+
+
+                                                    <!-- <p>Phone</p>
+                                                    <input type="number"  pattern="[0-9]{15}" maxlength="15" name="phone" required
+                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890"> -->
                                                 </div>
                                             </div>
 
@@ -373,17 +380,20 @@
 new Vue({
     el: '#contact-form',
     data: {
-      formData: {
-        first_name: '',
-        last_name: '',
-        phone: '',
-        email: '',
-        company: '',
-        country: '',
-        message: '',
-        agree_terms: true
-      },
-      errors: {}
+        formData: {
+            first_name: '',
+            last_name: '',
+            phone: '',
+            email: '',
+            company: '',
+            country: '',
+            message: '',
+            agree_terms: true,
+            phoneNumber: '',
+      maxPhoneNumberLength: 15,
+      phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+        },
+        errors: {}
     },
 });
 
@@ -392,59 +402,70 @@ import Vue from 'vue'
 export default {
 
     methods: {
-      validateForm() {
-        this.errors = {};
-
-        if (!this.formData.first_name) {
-          this.errors.first_name = 'First Name is required.';
-        }
-
-        if (!this.formData.last_name) {
-          this.errors.last_name = 'Last Name is required.';
-        }
-
-        if (!this.formData.phone) {
-          this.errors.phone = 'Phone is required.';
-        }
-
-        if (!this.formData.email) {
-          this.errors.email = 'Email is required.';
-        } else if (!this.isValidEmail(this.formData.email)) {
-          this.errors.email = 'Please enter a valid email address.';
-        }
-
-        if (!this.formData.company) {
-          this.errors.company = 'Company is required.';
-        }
-
-        if (!this.formData.country) {
-          this.errors.country = 'Country is required.';
-        }
-
-        if (!this.formData.message) {
-          this.errors.message = 'Message is required.';
-        }
-
-        if (!this.formData.agree_terms) {
-          this.errors.agree_terms = 'You must agree to the Terms of Use.';
-        }
-
-        return Object.keys(this.errors).length === 0;
-      },
-      isValidEmail(email) {
-        // You can implement your own email validation logic here.
-        // For a simple example, let's check if the email contains '@'.
-        return email.includes('@');
-      },
-      onSubmit() {
-        if (this.validateForm()) {
-          // Submit the form
-          // For example, you can use axios or fetch to submit the form data to the server.
-          // You can also redirect to the 'thank-you' page after successful submission.
-        //   alert('Form submitted successfully!');
-          // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
-        }
+        validatePhoneNumber() {
+      // Remove any non-numeric characters from the phone number
+      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+    },
+    allowOnlyNumbers(event) {
+      // Allow only numeric digits (0-9) in the input field
+      const charCode = event.which ? event.which : event.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        event.preventDefault();
       }
+    },
+        validateForm() {
+            this.errors = {};
+
+            if (!this.formData.first_name) {
+                this.errors.first_name = 'First Name is required.';
+            }
+
+            if (!this.formData.last_name) {
+                this.errors.last_name = 'Last Name is required.';
+            }
+
+            if (!this.formData.phoneNumber) {
+                this.errors.phoneNumber = 'Phone is required.';
+            }
+
+            if (!this.formData.email) {
+                this.errors.email = 'Email is required.';
+            } else if (!this.isValidEmail(this.formData.email)) {
+                this.errors.email = 'Please enter a valid email address.';
+            }
+
+            if (!this.formData.company) {
+                this.errors.company = 'Company is required.';
+            }
+
+            if (!this.formData.country) {
+                this.errors.country = 'Country is required.';
+            }
+
+            if (!this.formData.message) {
+                this.errors.message = 'Message is required.';
+            }
+
+            if (!this.formData.agree_terms) {
+                this.errors.agree_terms = 'You must agree to the Terms of Use.';
+            }
+
+            return Object.keys(this.errors).length === 0;
+        },
+        isValidEmail(email) {
+            // You can implement your own email validation logic here.
+            // For a simple example, let's check if the email contains '@'.
+            return email.includes('@');
+        },
+        onSubmit() {
+            if (this.validateForm()) {
+                // Submit the form
+                // For example, you can use axios or fetch to submit the form data to the server.
+                // You can also redirect to the 'thank-you' page after successful submission.
+                //   alert('Form submitted successfully!');
+                // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+            }
+        }
     },
     name: 'EasyIntegration',
 }

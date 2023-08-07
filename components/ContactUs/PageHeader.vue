@@ -89,11 +89,11 @@
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Phone</p>
-                                                    <input type="number" maxlength="15" name="phone" required
-                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890">
-                                                </div>
+                                                <p>Phone Number</p>
+                                                <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
+                                                    @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                    name="phone" required class="form-control" id="phone" maxlength="15"
+                                                    placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -186,11 +186,26 @@ export default {
                 country: '',
                 message: '',
                 agree: false,
+                phoneNumber: '',
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
             },
             formErrors: {},
         };
     },
     methods: {
+
+        validatePhoneNumber() {
+      // Remove any non-numeric characters from the phone number
+      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+    },
+    allowOnlyNumbers(event) {
+      // Allow only numeric digits (0-9) in the input field
+      const charCode = event.which ? event.which : event.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        event.preventDefault();
+      }
+    },
         submitForm() {
             const response = grecaptcha.getResponse();
 
@@ -219,8 +234,8 @@ export default {
                 this.formErrors.last_name = 'Last Name must contain only letters.';
             }
 
-            if (!phoneRegex.test(this.formData.phone)) {
-                this.formErrors.phone = 'Please enter a valid phone number.';
+            if (!phoneRegex.test(this.formData.phoneNumber)) {
+                this.formErrors.phoneNumber = 'Please enter a valid phone number.';
             }
 
             if (!emailRegex.test(this.formData.email)) {
