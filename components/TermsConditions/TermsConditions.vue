@@ -250,7 +250,7 @@
                 or proceeding. </p>
 
             <h6>Contact Information</h6>
-            <p class="text-justify"> If you have any inquiries or concerns regarding these Terms of Use, please reach out to Dealdox at
+            <p class="text-justify"> If you have any inquiries or concerns regarding these Terms of Use, please reach out to DealDox at
                 info@dealdox.io. For general inquiries or other questions, you can find contact information on the Get
                 in Touch page on the Site. </p>
         </div>
