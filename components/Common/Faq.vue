@@ -287,7 +287,7 @@
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
                                         <p>
-                                            Requesting a demo of DealDox is easy and convenient.<router-link to="/requestdemo"> Click here</router-link> to know more.
+                                            Requesting a demo of DealDox is easy and convenient.<router-link to="/demo"> Click here</router-link> to know more.
                                          </p>
                                     </div>
                                 </template>
