@@ -100,7 +100,7 @@ Team Area CSS
   padding: 60px 30px;
   overflow: scroll;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   height: 700px;
   border-radius: 15px;
 }
