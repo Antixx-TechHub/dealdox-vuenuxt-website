@@ -334,7 +334,6 @@ export default {
         axios.get('https://dealdoxstrapi.pbwebvision.com/api/blog-categories')
             .then(response => {
                 this.categories = response.data.data;
-                // console.log("categories....", this.categories)
             })
             .catch(error => {
                 console.error(error);
