@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle pageTitle="Cookie Preference" />
+        <PageTitle pageTitle="" />
         <Cookie />
         <DealDoxFooter />
     </div>

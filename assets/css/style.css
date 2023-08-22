@@ -734,7 +734,29 @@ textarea.form-control {
   /* z-index: 1; */
   position: relative;
   background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
-  background-image: url(../../assets/images/more-home/banner/blog-header2.png);
+  background-image: url(../../assets/images/more-home/banner/Cookie-Preference.png);
+  padding-bottom: 150px;
+  padding-top: 150px;
+  margin-top: 80px;
+  background-size: contain;
+}
+
+.page-title-area.page-title-style-privacy {
+  /* z-index: 1; */
+  position: relative;
+  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background-image: url(../../assets/images/more-home/banner/PrivacyPolicy.png);
+  padding-bottom: 150px;
+  padding-top: 150px;
+  margin-top: 80px;
+  background-size: contain;
+}
+
+.page-title-area.page-title-style-termsofuse {
+  /* z-index: 1; */
+  position: relative;
+  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background-image: url(../../assets/images/more-home/banner/Termsofuse.png);
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;

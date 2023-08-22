@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle pageTitle="Privacy Policy" />
+        <PageTitle class="page-title-style-privacy" pageTitle="" />
         <PrivacyPolicy />
         <DealDoxFooter />
     </div>
