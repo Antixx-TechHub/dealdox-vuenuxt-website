@@ -45,6 +45,5 @@ export default {
         const { data: { attributes } } = response.data
         this.teams = attributes
     },
-
 }
 </script>
